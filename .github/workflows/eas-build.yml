@@ -1,0 +1,43 @@
+name: EAS iOS build + TestFlight
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      auto_submit:
+        description: Auto-submit to App Store Connect / TestFlight
+        type: boolean
+        default: true
+
+jobs:
+  build:
+    name: Trigger EAS cloud build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Setup Expo / EAS
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build iOS on EAS (cloud) + submit
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.auto_submit }}" != "true" ]; then
+            eas build --platform ios --profile production --non-interactive --no-wait
+          else
+            eas build --platform ios --profile production --non-interactive --no-wait --auto-submit
+          fi
