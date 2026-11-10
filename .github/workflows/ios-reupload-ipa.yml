@@ -1,0 +1,46 @@
+name: Re-upload IPA to TestFlight
+
+# Fallback: take the latest BlindBoxCloset-ipa artifact from a successful native
+# build and push it again with altool (no EAS, no recompile).
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: GitHub Actions run id that produced BlindBoxCloset-ipa
+        required: true
+        type: string
+
+jobs:
+  reupload:
+    runs-on: macos-26
+    timeout-minutes: 30
+    env:
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+    steps:
+      - name: Install ASC API key
+        env:
+          ASC_API_KEY_P8: ${{ secrets.ASC_API_KEY_P8 }}
+        run: |
+          mkdir -p "$HOME/.appstoreconnect/private_keys"
+          printf '%s\n' "$ASC_API_KEY_P8" > "$HOME/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8"
+          chmod 600 "$HOME/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8"
+
+      - name: Download IPA artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p ipa
+          gh run download "${{ inputs.run_id }}" -n BlindBoxCloset-ipa -D ipa -R "${{ github.repository }}"
+          ls -la ipa
+          test -f ipa/BlindBoxCloset.ipa
+
+      - name: Upload to TestFlight (altool)
+        run: |
+          xcrun altool --upload-app \
+            --type ios \
+            --file ipa/BlindBoxCloset.ipa \
+            --apiKey "$ASC_KEY_ID" \
+            --apiIssuer "$ASC_ISSUER_ID" \
+            --verbose
