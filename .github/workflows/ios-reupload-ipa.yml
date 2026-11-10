@@ -11,6 +11,10 @@ on:
         required: true
         type: string
 
+permissions:
+  actions: read
+  contents: read
+
 jobs:
   reupload:
     runs-on: macos-26
