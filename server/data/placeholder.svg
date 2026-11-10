@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="Smiski placeholder">
+  <rect width="120" height="140" fill="#E8F6EF"/>
+  <g fill="#7BC9A6">
+    <!-- head -->
+    <ellipse cx="60" cy="42" rx="22" ry="20"/>
+    <!-- body -->
+    <ellipse cx="60" cy="78" rx="20" ry="24"/>
+    <!-- arms hugging knees -->
+    <ellipse cx="38" cy="78" rx="8" ry="16" transform="rotate(-18 38 78)"/>
+    <ellipse cx="82" cy="78" rx="8" ry="16" transform="rotate(18 82 78)"/>
+    <!-- legs tucked -->
+    <ellipse cx="48" cy="108" rx="10" ry="14"/>
+    <ellipse cx="72" cy="108" rx="10" ry="14"/>
+  </g>
+  <!-- simple face -->
+  <g fill="#3A6B55">
+    <circle cx="52" cy="40" r="2.2"/>
+    <circle cx="68" cy="40" r="2.2"/>
+    <ellipse cx="60" cy="48" rx="3" ry="1.6"/>
+  </g>
+</svg>

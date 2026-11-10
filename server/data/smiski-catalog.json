@@ -1,0 +1,3140 @@
+{
+  "brand": {
+    "slug": "smiski",
+    "name": "Smiski",
+    "name_ja": "スミスキー"
+  },
+  "series": [
+    {
+      "slug": "series-1",
+      "name_en": "Series 1",
+      "name_ja": "シリーズ1",
+      "product_form": "blind_box_mini",
+      "sort_order": 1,
+      "release_year": 2015,
+      "official_url": "https://smiski.com/e/products/series-1/",
+      "figures": [
+        {
+          "name_en": "Hugging Knees",
+          "name_ja": "ヒザカカエスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_01.png"
+        },
+        {
+          "name_en": "Sitting",
+          "name_ja": "スワルスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_02.png"
+        },
+        {
+          "name_en": "Looking Back",
+          "name_ja": "フリムキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_03.png"
+        },
+        {
+          "name_en": "Lounging",
+          "name_ja": "ゴロネスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_04.png"
+        },
+        {
+          "name_en": "Hiding",
+          "name_ja": "カクレスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_05.png"
+        },
+        {
+          "name_en": "Peeking",
+          "name_ja": "ノゾキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_06.png"
+        },
+        {
+          "name_en": "The Scream",
+          "name_ja": "サケビスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Smiski Lifting",
+          "name_ja": "チビモチアゲスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": true,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_secret.png"
+        },
+        {
+          "name_en": "Little Smiski Peeking",
+          "name_ja": "チビノゾキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": true,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_blindbox.png"
+        },
+        {
+          "name_en": "Little Smiski Hugging",
+          "name_ja": "チビハグスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": true,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/series1_img.png"
+        },
+        {
+          "name_en": "Rudolph",
+          "name_ja": "ルドルフスキー",
+          "is_secret": false,
+          "is_limited": true,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/series1_img.png"
+        }
+      ]
+    },
+    {
+      "slug": "series-2",
+      "name_en": "Series 2",
+      "name_ja": "シリーズ2",
+      "product_form": "blind_box_mini",
+      "sort_order": 2,
+      "release_year": 2016,
+      "official_url": "https://smiski.com/e/products/series-2/",
+      "figures": [
+        {
+          "name_en": "Kneeling",
+          "name_ja": "セイザスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_01.png"
+        },
+        {
+          "name_en": "Climbing",
+          "name_ja": "ノボリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_02.png"
+        },
+        {
+          "name_en": "Daydreaming",
+          "name_ja": "ボーットスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_03.png"
+        },
+        {
+          "name_en": "Pushing",
+          "name_ja": "オススキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_04.png"
+        },
+        {
+          "name_en": "Peeking",
+          "name_ja": "マタノゾキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_05.png"
+        },
+        {
+          "name_en": "Listening",
+          "name_ja": "キキミミスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_06.png"
+        },
+        {
+          "name_en": "Birth of Venus",
+          "name_ja": "ビーナススキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        },
+        {
+          "name_en": "Snowman",
+          "name_ja": "ユキダルマスキー",
+          "is_secret": false,
+          "is_limited": true,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_secret.png"
+        }
+      ]
+    },
+    {
+      "slug": "series-3",
+      "name_en": "Series 3",
+      "name_ja": "シリーズ3",
+      "product_form": "blind_box_mini",
+      "sort_order": 3,
+      "release_year": 2016,
+      "official_url": "https://smiski.com/e/products/series-3/",
+      "figures": [
+        {
+          "name_en": "Bridge",
+          "name_ja": "ブリッジスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Peeking",
+          "name_ja": "シタノゾキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Climbing",
+          "name_ja": "ヒモノボリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Little",
+          "name_ja": "チビドンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Hiding",
+          "name_ja": "モグルスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Handstand",
+          "name_ja": "サカダチスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "The Thinker",
+          "name_ja": "シンカースキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "series-4",
+      "name_en": "Series 4",
+      "name_ja": "シリーズ4",
+      "product_form": "blind_box_mini",
+      "sort_order": 4,
+      "release_year": 2017,
+      "official_url": "https://smiski.com/e/products/series-4/",
+      "figures": [
+        {
+          "name_en": "Sneaking",
+          "name_ja": "コソコソスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Scared",
+          "name_ja": "ビクッスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Relaxing",
+          "name_ja": "リラックススキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Lazy",
+          "name_ja": "ダラダラスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Stuck",
+          "name_ja": "ハマリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Defeated",
+          "name_ja": "ショゲスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Twin Angels",
+          "name_ja": "ツインエンジェルスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": true,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "bath",
+      "name_en": "Bath Series",
+      "name_ja": "バスシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 5,
+      "release_year": 2016,
+      "official_url": "https://smiski.com/e/products/bath-series/",
+      "figures": [
+        {
+          "name_en": "Shampooing",
+          "name_ja": "アワダテスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Not Looking",
+          "name_ja": "ミテナイスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Scrubbing",
+          "name_ja": "アライッコスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "With Duck",
+          "name_ja": "アヒルダキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Dazed",
+          "name_ja": "ノボセスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Looking",
+          "name_ja": "ミツケタスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Water Droplet",
+          "name_ja": "ミズタマスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "toilet",
+      "name_en": "Toilet Series",
+      "name_ja": "トイレシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 6,
+      "release_year": 2015,
+      "official_url": "https://smiski.com/e/products/toilet-series/",
+      "figures": [
+        {
+          "name_en": "Peek-A-Boo",
+          "name_ja": "ヒョッコリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Little (Smelly)",
+          "name_ja": "チビクサスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Squatting",
+          "name_ja": "シャガミスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Helping Out",
+          "name_ja": "サシダシスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Resting",
+          "name_ja": "コシカケスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Holding In",
+          "name_ja": "ガマンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Water Fountain",
+          "name_ja": "フンセンスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "living",
+      "name_en": "Living Series",
+      "name_ja": "リビングシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 7,
+      "release_year": 2015,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Daydreaming",
+          "name_ja": "ボーリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Playing",
+          "name_ja": "アソビスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Hiding",
+          "name_ja": "カクレスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Nap Time",
+          "name_ja": "ネムリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Thinking",
+          "name_ja": "カンガエリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Lifting",
+          "name_ja": "モチアゲスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Sunflower",
+          "name_ja": "ヒマワリスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "bed",
+      "name_en": "Bed Series",
+      "name_ja": "ベッドシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 8,
+      "release_year": 2016,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Before Rest",
+          "name_ja": "ホットスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Sleepy",
+          "name_ja": "ネムイスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Co-Sleeping",
+          "name_ja": "ソイネスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Reading",
+          "name_ja": "ヨミキカセスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "At Sleep",
+          "name_ja": "オヤスミスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Fussing",
+          "name_ja": "ヨナキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Crescent Moon",
+          "name_ja": "ミカヅキスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "yoga",
+      "name_en": "Yoga Series",
+      "name_ja": "ヨガシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 9,
+      "release_year": 2018,
+      "official_url": "https://smiski.com/e/products/yoga-series/",
+      "figures": [
+        {
+          "name_en": "Lotus Pose",
+          "name_ja": "ハススキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Twist Pose",
+          "name_ja": "ネジリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Shoulderstand Pose",
+          "name_ja": "カタダチスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Triangle Pose",
+          "name_ja": "サンカクスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Tree Pose",
+          "name_ja": "タチキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Ship Pose",
+          "name_ja": "フネスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Twin Hearts",
+          "name_ja": "ツインハーツスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": true,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "cheer",
+      "name_en": "Cheer Series",
+      "name_ja": "チアシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 10,
+      "release_year": 2023,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Marching",
+          "name_ja": "マーチングスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "On Drums",
+          "name_ja": "ドラムスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "On Your Side",
+          "name_ja": "ミカタスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Dancing",
+          "name_ja": "ダンススキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Smiski Cheerleading",
+          "name_ja": "チビチアスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Cheering",
+          "name_ja": "チアスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Trophy Angel",
+          "name_ja": "トロフィーエンジェルスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "museum",
+      "name_en": "Museum Series",
+      "name_ja": "ミュージアムシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 11,
+      "release_year": 2020,
+      "official_url": "https://smiski.com/e/products/museumseries/",
+      "figures": [
+        {
+          "name_en": "The Source",
+          "name_ja": "イズミスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Fuzin & Raijin",
+          "name_ja": "フウジンスキー・ライジンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": true,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Bacchus",
+          "name_ja": "バッカスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Velázquez",
+          "name_ja": "ベラスケスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Dali",
+          "name_ja": "キオクスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Pearl Earring",
+          "name_ja": "シンジュスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "King Tut",
+          "name_ja": "ツタンカーメンスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "work",
+      "name_en": "@Work Series",
+      "name_ja": "アットワークシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 12,
+      "release_year": 2017,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Approving",
+          "name_ja": "ショウニンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_01.png"
+        },
+        {
+          "name_en": "Researching",
+          "name_ja": "リサーチスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_02.png"
+        },
+        {
+          "name_en": "Presenting",
+          "name_ja": "プレゼンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_03.png"
+        },
+        {
+          "name_en": "Good Idea",
+          "name_ja": "アイデアスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_04.png"
+        },
+        {
+          "name_en": "On the Road",
+          "name_ja": "シュッチョウスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_05.png"
+        },
+        {
+          "name_en": "Little SMISKI Group Think",
+          "name_ja": "チビカイギスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_06.png"
+        },
+        {
+          "name_en": "Lucky Cat",
+          "name_ja": "マネキスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "dressing",
+      "name_en": "Dressing Series",
+      "name_ja": "ドレッシングシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 13,
+      "release_year": 2018,
+      "official_url": "https://smiski.com/e/products/dressing-series/",
+      "figures": [
+        {
+          "name_en": "Underpants",
+          "name_ja": "パンツスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Struggling",
+          "name_ja": "アタマデナイスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Loose Pants",
+          "name_ja": "ブカブカスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Putting On Socks",
+          "name_ja": "クツシタスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Sweater",
+          "name_ja": "セータースキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Tight Pants",
+          "name_ja": "キツズボンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Costume Bunny",
+          "name_ja": "ウサギーズスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "exercising",
+      "name_en": "Exercising Series",
+      "name_ja": "エクササイズシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 14,
+      "release_year": 2019,
+      "official_url": "https://smiski.com/e/products/exercising-series/",
+      "figures": [
+        {
+          "name_en": "Doing Crunches",
+          "name_ja": "フッキンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Aerobics",
+          "name_ja": "エアロビスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Little SMISKI Balance",
+          "name_ja": "チビバランススキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Dumbbell",
+          "name_ja": "ダンベルスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Hoop",
+          "name_ja": "フープスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Stretch",
+          "name_ja": "ストレッチスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Flexing",
+          "name_ja": "ポージングスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "moving",
+      "name_en": "Moving Series",
+      "name_ja": "ムービングシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 15,
+      "release_year": 2024,
+      "official_url": "https://smiski.com/e/products/moving-series/",
+      "figures": [
+        {
+          "name_en": "Carrying Ladder",
+          "name_ja": "ハシゴスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Balancing Boxes",
+          "name_ja": "ハコスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Decorating",
+          "name_ja": "ランプスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Little SMISKI Teamwork",
+          "name_ja": "チビハコスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Green Thumb SMISKI",
+          "name_ja": "サボテンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Falling Down",
+          "name_ja": "コロブスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Teddy",
+          "name_ja": "テディスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "hippers",
+      "name_en": "HIPPERS Series",
+      "name_ja": "ヒッパーズシリーズ",
+      "product_form": "hippers",
+      "sort_order": 16,
+      "release_year": 2024,
+      "official_url": "https://smiski.com/e/products/hippers-series/",
+      "figures": [
+        {
+          "name_en": "On His Smartphone",
+          "name_ja": "スマホスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Trying to Climb",
+          "name_ja": "ノボリヒッパーズスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Looking Out",
+          "name_ja": "ミハラスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Sticking",
+          "name_ja": "ペタッスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Dozing",
+          "name_ja": "ウトウトスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Upside Down",
+          "name_ja": "サカサマスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Headphones",
+          "name_ja": "ヘッドホンスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "sunday",
+      "name_en": "Sunday Series",
+      "name_ja": "サンデーシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 17,
+      "release_year": 2025,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Blowing Bubbles",
+          "name_ja": "シャボンダマスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Paper Airplane",
+          "name_ja": "カミヒコーキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Sunbathing",
+          "name_ja": "ヒナタボッコスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Sing-Along",
+          "name_ja": "ウタスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Skateboarding",
+          "name_ja": "スケボースキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Gardening",
+          "name_ja": "ニワシスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Dog Walk",
+          "name_ja": "ドッグウォークスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "birthday",
+      "name_en": "Birthday Series",
+      "name_ja": "バースデーシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 18,
+      "release_year": 2025,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Giving a Bouquet",
+          "name_ja": "ハナタバスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Wrapped Up",
+          "name_ja": "ホウタイスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Popping Confetti",
+          "name_ja": "クラッカースキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Birthday Message",
+          "name_ja": "メッセースキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Little SMISKI Decorating",
+          "name_ja": "チビデコスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Tasting",
+          "name_ja": "アジワイスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Candle",
+          "name_ja": "キャンドルスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "construction",
+      "name_en": "Construction Series",
+      "name_ja": "コンストラクションシリーズ",
+      "product_form": "blind_box_mini",
+      "sort_order": 19,
+      "release_year": 2026,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Digging a Hole",
+          "name_ja": "ホッスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+        },
+        {
+          "name_en": "Crushing Rock",
+          "name_ja": "ツブスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Tightening Bolt",
+          "name_ja": "シメスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Measuring",
+          "name_ja": "ハカルスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Directing Traffic",
+          "name_ja": "ユウドースキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Loosening Bolt",
+          "name_ja": "ユルスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Traffic Cones",
+          "name_ja": "カラーコーンスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": true,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "strap-accessory-1",
+      "name_en": "Strap Accessory Series 1",
+      "name_ja": "ストラップアクセサリーシリーズ1",
+      "product_form": "strap",
+      "sort_order": 20,
+      "release_year": 2025,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Hugging Knees",
+          "name_ja": "ヒザカカエスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Sitting",
+          "name_ja": "スワルスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Looking Back",
+          "name_ja": "フリムキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Lounging",
+          "name_ja": "ゴロネスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Hiding",
+          "name_ja": "カクレスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking",
+          "name_ja": "ノゾキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Mini The Scream",
+          "name_ja": "ミニサケビスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "strap-accessory-2",
+      "name_en": "Strap Accessory Series 2",
+      "name_ja": "ストラップアクセサリーシリーズ2",
+      "product_form": "strap",
+      "sort_order": 21,
+      "release_year": 2025,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Kneeling",
+          "name_ja": "セイザスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Climbing",
+          "name_ja": "ノボリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Daydreaming",
+          "name_ja": "ボーットスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Pushing",
+          "name_ja": "オススキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking",
+          "name_ja": "マタノゾキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Listening",
+          "name_ja": "キキミミスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Mini Birth of Venus",
+          "name_ja": "ミニビーナススキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "strap-accessory-3",
+      "name_en": "Strap Accessory Series 3",
+      "name_ja": "ストラップアクセサリーシリーズ3",
+      "product_form": "strap",
+      "sort_order": 22,
+      "release_year": 2026,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Bridge",
+          "name_ja": "ブリッジスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking",
+          "name_ja": "シタノゾキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Climbing",
+          "name_ja": "ヒモノボリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Little",
+          "name_ja": "チビドンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Hiding",
+          "name_ja": "モグルスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Handstand",
+          "name_ja": "サカダチスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Mini The Thinker",
+          "name_ja": "ミニカンガエリスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "strap-accessory-4",
+      "name_en": "Strap Accessory Series 4",
+      "name_ja": "ストラップアクセサリーシリーズ4",
+      "product_form": "strap",
+      "sort_order": 23,
+      "release_year": 2026,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Sneaking",
+          "name_ja": "コソコソスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Scared",
+          "name_ja": "ビクッスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Relaxing",
+          "name_ja": "リラックススキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Lazy",
+          "name_ja": "ダラダラスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Stuck",
+          "name_ja": "ハマリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Defeated",
+          "name_ja": "ショゲスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Mini Twin Angels",
+          "name_ja": "ミニツインエンジェルスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": true,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "bath-ball",
+      "name_en": "Bath Ball Series",
+      "name_ja": "バスボールシリーズ",
+      "product_form": "bath_ball",
+      "sort_order": 24,
+      "release_year": 2020,
+      "official_url": "https://smiski.com/e/products/bath-ball/",
+      "figures": [
+        {
+          "name_en": "Little Smiski Afraid of Water",
+          "name_ja": "ミズギラリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Smiski Like Sea Otter",
+          "name_ja": "ラッコスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Smiski Hesitating",
+          "name_ja": "タメライスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Smiski Swimming",
+          "name_ja": "オヨギスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Smiski Having Swim Ring",
+          "name_ja": "ウキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Smiski Curled Up",
+          "name_ja": "マルマリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Mermaid",
+          "name_ja": "マーメイドスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "bath-ball-2",
+      "name_en": "Bath Ball Series 2",
+      "name_ja": "バスボールシリーズ2",
+      "product_form": "bath_ball",
+      "sort_order": 25,
+      "release_year": 2021,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Diving from Tub Edge",
+          "name_ja": "ダイブスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Rubber Duck Ride",
+          "name_ja": "アヒルノリスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Big Pool",
+          "name_ja": "プールスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Washing Body",
+          "name_ja": "カラダアライスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Banzai",
+          "name_ja": "バンザイスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Towel on Head",
+          "name_ja": "タオルマキスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Mermaid",
+          "name_ja": "マーメイドスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "hanging-christmas",
+      "name_en": "Hanging Figure Christmas Style",
+      "name_ja": "ハンギングフィギュア クリスマススタイル",
+      "product_form": "hanging",
+      "sort_order": 26,
+      "release_year": 2026,
+      "official_url": "https://smiski.com/e/products/smiski-hangingfigure-christmas/",
+      "figures": [
+        {
+          "name_en": "Santa Claus",
+          "name_ja": "サンタクローススキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Present",
+          "name_ja": "プレゼントスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Snowman",
+          "name_ja": "ユキダルマスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Candy Cane",
+          "name_ja": "キャンディケーンスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Stocking",
+          "name_ja": "クツシタデコスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Star",
+          "name_ja": "ホシスキー",
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Reindeer",
+          "name_ja": "トナカイスキー",
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "key-chain",
+      "name_en": "Key Chain Series",
+      "name_ja": "キーチェーンシリーズ",
+      "product_form": "keychain",
+      "sort_order": 27,
+      "release_year": 2018,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Holding Key",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Sitting Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Hanging Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Lounging Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "toothbrush-stand",
+      "name_en": "Toothbrush Stand Series",
+      "name_ja": "歯ブラシスタンドシリーズ",
+      "product_form": "accessory",
+      "sort_order": 28,
+      "release_year": 2018,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Standing Hold",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Leaning Hold",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Sitting Hold",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking Hold",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Hugging Hold",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Hold",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "zipperbite",
+      "name_en": "ZIPPERBITE Series",
+      "name_ja": "ジッパーバイトシリーズ",
+      "product_form": "accessory",
+      "sort_order": 29,
+      "release_year": 2023,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Biting Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Hanging Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Climbing Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Sitting Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "zipperbite-2",
+      "name_en": "ZIPPERBITE Vol. 2",
+      "name_ja": "ジッパーバイト Vol.2",
+      "product_form": "accessory",
+      "sort_order": 30,
+      "release_year": 2024,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Pulling Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Stuck on Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Riding Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Watching Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Holding Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Duo Zipper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": true,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "touch-light",
+      "name_en": "Touch Light Series",
+      "name_ja": "タッチライトシリーズ",
+      "product_form": "light",
+      "sort_order": 31,
+      "release_year": 2024,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Sitting Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Hugging Knees Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Lounging Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Hiding Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Looking Back Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "touch-light-2",
+      "name_en": "Touch Light Vol. 2",
+      "name_ja": "タッチライト Vol.2",
+      "product_form": "light",
+      "sort_order": 32,
+      "release_year": 2025,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Kneeling Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Climbing Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Daydreaming Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Pushing Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Listening Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Handstand Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "sensor-light",
+      "name_en": "Sensor Light Series",
+      "name_ja": "センサーライトシリーズ",
+      "product_form": "light",
+      "sort_order": 33,
+      "release_year": 2016,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Corner Sensor",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Wall Sensor",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Shelf Sensor",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Sensor",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "plush",
+      "name_en": "Plush Series",
+      "name_ja": "ぬいぐるみシリーズ",
+      "product_form": "plush",
+      "sort_order": 34,
+      "release_year": 2025,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Sitting Plush",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Hugging Knees Plush",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking Plush",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Lounging Plush",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "plush-key-chain",
+      "name_en": "Plush Key Chain Series",
+      "name_ja": "ぬいぐるみキーチェーンシリーズ",
+      "product_form": "keychain",
+      "sort_order": 35,
+      "release_year": 2025,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Sitting Plush Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Hugging Plush Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking Plush Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Plush Keychain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "embroidery-sticker",
+      "name_en": "Embroidery Sticker Series",
+      "name_ja": "刺繍ステッカーシリーズ",
+      "product_form": "accessory",
+      "sort_order": 36,
+      "release_year": 2023,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Hugging Knees Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Sitting Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Hiding Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Lounging Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Looking Back Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "embroidery-sticker-2",
+      "name_en": "Embroidery Sticker Vol. 2",
+      "name_ja": "刺繍ステッカー Vol.2",
+      "product_form": "accessory",
+      "sort_order": 37,
+      "release_year": 2024,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Kneeling Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Climbing Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Daydreaming Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Pushing Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Listening Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Handstand Sticker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "rainbomb",
+      "name_en": "Rainbomb Series",
+      "name_ja": "レインボムシリーズ",
+      "product_form": "other",
+      "sort_order": 38,
+      "release_year": 2022,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Umbrella",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Splashing",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Puddle Jump",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Rain Coat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Holding Boots",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Rain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "bobbing-head",
+      "name_en": "Bobbing Head Series",
+      "name_ja": "ボビングヘッドシリーズ",
+      "product_form": "other",
+      "sort_order": 39,
+      "release_year": 2022,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Bobbing Sitting",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Bobbing Peeking",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Bobbing Hugging Knees",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Bobbing Looking Back",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Bobbing Lounging",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Bobbing Hiding",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "ringcolle",
+      "name_en": "Ringcolle Smiski Ring",
+      "name_ja": "リングコレ スミスキーリング",
+      "product_form": "accessory",
+      "sort_order": 40,
+      "release_year": 2026,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Sitting Ring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Peeking Ring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Hugging Knees Ring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Lounging Ring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Hiding Ring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Looking Back Ring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "cushion-pouch",
+      "name_en": "Cushion Pouch Series",
+      "name_ja": "クッションポーチシリーズ",
+      "product_form": "accessory",
+      "sort_order": 41,
+      "release_year": 2024,
+      "official_url": "https://smiski.com/e/products/",
+      "figures": [
+        {
+          "name_en": "Round Pouch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Square Pouch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Little Pouch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        }
+      ]
+    }
+  ]
+}

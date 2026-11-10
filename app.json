@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Blind Box Closet",
+    "slug": "blind-box-closet",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "blindboxcloset",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6F1E8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.blindboxcloset.app",
+      "buildNumber": "7",
+      "appleTeamId": "2QKC854C2J",
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "CFBundleDevelopmentRegion": "fr",
+        "NSPhotoLibraryUsageDescription": "Blind Box Closet utilise ta photothèque pour ajouter des images de figurines (admin).",
+        "CFBundleDisplayName": "Blind Box Closet",
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true,
+          "NSExceptionDomains": {
+            "85.17.145.134": {
+              "NSExceptionAllowsInsecureHTTPLoads": true,
+              "NSIncludesSubdomains": true
+            }
+          }
+        }
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.blindboxcloset.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#F6F1E8"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font",
+      "expo-web-browser",
+      "expo-apple-authentication",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Autoriser Blind Box Closet à accéder aux photos pour uploader des images de figurines."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "16.4"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "apiUrl": "http://85.17.145.134:8787",
+      "eas": {
+        "projectId": "5d07c67d-ecf3-49d1-9081-d91e72c296d0"
+      }
+    },
+    "owner": "dorian172"
+  }
+}

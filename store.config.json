@@ -1,0 +1,36 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "info": {
+      "fr-FR": {
+        "title": "Blind Box Closet",
+        "subtitle": "Suivi collection Smiski",
+        "description": "Blind Box Closet t’aide à suivre ta collection de figurines Smiski et blind boxes.\n\n• Catalogue complet des séries Smiski (blind boxes, straps, bath balls, accessoires)\n• Marque possédé, doublons et wishlist\n• Progression par série\n• Sign in with Apple pour synchroniser ta collection\n\nApplication indépendante, non affiliée à Dreams Inc.",
+        "keywords": "smiski,blind box,collection,figurine,tracker,checklist",
+        "marketingUrl": "https://appigeek.github.io/blind-box-closet/privacy.html",
+        "supportUrl": "https://appigeek.github.io/blind-box-closet/privacy.html",
+        "privacyPolicyUrl": "https://appigeek.github.io/blind-box-closet/privacy.html"
+      },
+      "en-US": {
+        "title": "Blind Box Closet",
+        "subtitle": "Smiski collection tracker",
+        "description": "Blind Box Closet helps you track your Smiski and blind box collection.\n\n• Full Smiski series catalog\n• Owned, duplicates and wishlist\n• Series progress\n• Sign in with Apple sync\n\nIndependent fan app, not affiliated with Dreams Inc.",
+        "keywords": "smiski,blind box,collection,tracker,checklist,figures",
+        "marketingUrl": "https://appigeek.github.io/blind-box-closet/privacy.html",
+        "supportUrl": "https://appigeek.github.io/blind-box-closet/privacy.html",
+        "privacyPolicyUrl": "https://appigeek.github.io/blind-box-closet/privacy.html"
+      }
+    },
+    "categories": {
+      "primary": "ENTERTAINMENT",
+      "secondary": "UTILITIES"
+    },
+    "review": {
+      "firstName": "Dorian",
+      "lastName": "David",
+      "email": "dorian172@outlook.com",
+      "phone": "+33600000000",
+      "notes": "Sign in with Apple. Dev login available in simulator builds. Catalog seeded with Smiski figures. Not affiliated with Dreams Inc."
+    }
+  }
+}

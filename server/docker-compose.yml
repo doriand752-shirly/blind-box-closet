@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: bbc-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: bbc
+      POSTGRES_PASSWORD: bbc
+      POSTGRES_DB: blindboxcloset
+    ports:
+      - "5433:5432"
+    volumes:
+      - bbc_pgdata:/var/lib/postgresql/data
+
+volumes:
+  bbc_pgdata:
