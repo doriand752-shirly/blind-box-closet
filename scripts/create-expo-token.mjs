@@ -49,8 +49,8 @@ if (mode === "introspect") {
   const data = await gql(
     `mutation($input: CreateAccessTokenInput!) {
       accessToken {
-        createAccessToken(createAccessTokenInput: $input) {
-          tokenPayload
+        createAccessToken(createAccessTokenData: $input) {
+          token
           accessToken { id note createdAt }
         }
       }
@@ -63,7 +63,7 @@ if (mode === "introspect") {
     },
   );
   const created = data.accessToken?.createAccessToken;
-  const token = created?.tokenPayload;
+  const token = created?.token;
   if (!token) {
     console.error("No tokenPayload", JSON.stringify(data, null, 2));
     process.exit(1);
