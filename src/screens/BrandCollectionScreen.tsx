@@ -1,22 +1,29 @@
-import React, { useCallback, useMemo, useState } from "react";
+import React, { useCallback, useMemo, useRef, useState } from "react";
 import {
   ActivityIndicator,
   LayoutAnimation,
   Platform,
-  Pressable,
-  ScrollView,
+  SectionList,
   StyleSheet,
   Text,
-  TextInput,
   UIManager,
   View,
+  type SectionListData,
 } from "react-native";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
+import { Ionicons } from "@expo/vector-icons";
+import * as Haptics from "expo-haptics";
 import { ChecklistFigureCard } from "../components/ChecklistFigureCard";
 import { FigureEditSheet } from "../components/FigureEditSheet";
+import { EmptyState } from "../components/ui/EmptyState";
+import { ProgressBar } from "../components/ui/ProgressBar";
+import { Screen } from "../components/ui/Screen";
+import { SearchField } from "../components/ui/SearchField";
+import { SegmentedControl } from "../components/ui/SegmentedControl";
+import { SoftPressable } from "../components/ui/SoftPressable";
 import { useCollectionApi } from "../hooks/useCollectionApi";
 import { api } from "../services/api";
-import { colors } from "../theme/colors";
+import { colors, fonts, radius, space, type } from "../theme";
 import type { Figure, Series } from "../types/models";
 import type { LocalEntry } from "../services/localCollection";
 
@@ -31,6 +38,28 @@ type SeriesBlock = {
   figures: Figure[];
 };
 
+type FigureRow = {
+  key: string;
+  figures: Figure[];
+};
+
+type SeriesSection = {
+  series: Series;
+  fullOwned: number;
+  fullTotal: number;
+  collapsed: boolean;
+  data: FigureRow[];
+};
+
+function chunkFigures(figures: Figure[], size = 3): FigureRow[] {
+  const rows: FigureRow[] = [];
+  for (let i = 0; i < figures.length; i += size) {
+    const slice = figures.slice(i, i + size);
+    rows.push({ key: slice.map((f) => f.id).join("-"), figures: slice });
+  }
+  return rows;
+}
+
 export function BrandCollectionScreen() {
   const navigation = useNavigation<any>();
   const { loadCollection, upsert, getLocalMap } = useCollectionApi();
@@ -41,9 +70,10 @@ export function BrandCollectionScreen() {
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
   const [loading, setLoading] = useState(true);
   const [selected, setSelected] = useState<Figure | null>(null);
+  const hydrated = useRef(false);
 
   const load = useCallback(async () => {
-    setLoading(true);
+    if (!hydrated.current) setLoading(true);
     try {
       const seriesList = await api.series({ brandSlug: "smiski" });
       const details = await Promise.all(
@@ -58,6 +88,15 @@ export function BrandCollectionScreen() {
         }),
       );
       setBlocks(details);
+
+      if (!hydrated.current) {
+        const initial: Record<string, boolean> = {};
+        details.forEach((b, i) => {
+          initial[b.series.id] = i > 0;
+        });
+        setCollapsed(initial);
+        hydrated.current = true;
+      }
 
       const col = await loadCollection();
       const local = await getLocalMap();
@@ -93,26 +132,37 @@ export function BrandCollectionScreen() {
     return { owned, total };
   }, [blocks, entryMap]);
 
-  const filteredBlocks = useMemo(() => {
+  const sections = useMemo(() => {
     const query = q.trim().toLowerCase();
-    return blocks
-      .map((b) => {
-        let figs = b.figures;
-        if (filter === "owned") figs = figs.filter((f) => (entryMap[f.id]?.owned_qty || 0) > 0);
-        if (filter === "wishlist") figs = figs.filter((f) => entryMap[f.id]?.wishlist);
-        if (filter === "trade") figs = figs.filter((f) => (entryMap[f.id]?.trade_qty || 0) > 0);
-        if (query) {
-          figs = figs.filter(
-            (f) =>
-              f.name_en.toLowerCase().includes(query) ||
-              (f.name_ja || "").toLowerCase().includes(query) ||
-              b.series.name_en.toLowerCase().includes(query),
-          );
-        }
-        return { ...b, figures: figs };
-      })
-      .filter((b) => filter === "all" || b.figures.length > 0);
-  }, [blocks, entryMap, filter, q]);
+    const result: SeriesSection[] = [];
+
+    for (const b of blocks) {
+      let figs = b.figures;
+      if (filter === "owned") figs = figs.filter((f) => (entryMap[f.id]?.owned_qty || 0) > 0);
+      if (filter === "wishlist") figs = figs.filter((f) => entryMap[f.id]?.wishlist);
+      if (filter === "trade") figs = figs.filter((f) => (entryMap[f.id]?.trade_qty || 0) > 0);
+      if (query) {
+        figs = figs.filter(
+          (f) =>
+            f.name_en.toLowerCase().includes(query) ||
+            (f.name_ja || "").toLowerCase().includes(query) ||
+            b.series.name_en.toLowerCase().includes(query),
+        );
+      }
+      if (filter !== "all" && figs.length === 0) continue;
+
+      const fullOwned = b.figures.filter((f) => (entryMap[f.id]?.owned_qty || 0) > 0).length;
+      const isCollapsed = !!collapsed[b.series.id];
+      result.push({
+        series: b.series,
+        fullOwned,
+        fullTotal: b.figures.length,
+        collapsed: isCollapsed,
+        data: isCollapsed ? [] : chunkFigures(figs),
+      });
+    }
+    return result;
+  }, [blocks, entryMap, filter, q, collapsed]);
 
   const toggleOwnedQuick = async (figure: Figure) => {
     const prev = entryMap[figure.id];
@@ -159,102 +209,122 @@ export function BrandCollectionScreen() {
 
   if (loading && !blocks.length) {
     return (
-      <View style={styles.center}>
-        <ActivityIndicator color={colors.mintDeep} />
-      </View>
+      <Screen>
+        <View style={styles.center}>
+          <ActivityIndicator color={colors.mintDeep} />
+        </View>
+      </Screen>
     );
   }
 
   return (
-    <View style={styles.root}>
+    <Screen>
       <View style={styles.topBar}>
-        <Pressable onPress={() => navigation.goBack()} hitSlop={10}>
-          <Text style={styles.back}>‹</Text>
-        </Pressable>
-        <Text style={styles.title}>Smiskis</Text>
-        <Text style={styles.progressTop}>
-          {totals.owned} / {totals.total}
-        </Text>
+        <SoftPressable
+          onPress={() => navigation.goBack()}
+          hitSlop={12}
+          style={styles.backBtn}
+          scaleTo={0.92}
+        >
+          <Ionicons name="chevron-back" size={22} color={colors.text} />
+        </SoftPressable>
+        <View style={{ flex: 1 }}>
+          <Text style={styles.title}>Smiskis</Text>
+          <Text style={styles.progressTop}>
+            {totals.owned} / {totals.total} ·{" "}
+            {totals.total ? Math.round((totals.owned / totals.total) * 100) : 0}%
+          </Text>
+        </View>
       </View>
 
-      <View style={styles.tabs}>
-        {([
-          ["all", "All"],
-          ["owned", "Owned"],
-          ["trade", "Trade"],
-          ["wishlist", "Wishlist"],
-        ] as const).map(([key, label]) => (
-          <Pressable
-            key={key}
-            style={[styles.tab, filter === key && styles.tabOn]}
-            onPress={() => setFilter(key)}
-          >
-            <Text style={[styles.tabText, filter === key && styles.tabTextOn]}>{label}</Text>
-          </Pressable>
-        ))}
+      <View style={styles.controls}>
+        <SegmentedControl
+          value={filter}
+          onChange={setFilter}
+          options={[
+            { key: "all", label: "Tous" },
+            { key: "owned", label: "Possédés" },
+            { key: "trade", label: "Échange" },
+            { key: "wishlist", label: "Wishlist" },
+          ]}
+        />
+        <SearchField
+          value={q}
+          onChangeText={setQ}
+          placeholder="Rechercher une figurine…"
+        />
       </View>
 
-      <TextInput
-        value={q}
-        onChangeText={setQ}
-        placeholder="Search collection..."
-        placeholderTextColor={colors.textDim}
-        style={styles.search}
-      />
-
-      <ScrollView contentContainerStyle={{ paddingBottom: 40 }}>
-        {filteredBlocks.map((block) => {
-          // For progress use all figures of series from original blocks
-          const full = blocks.find((b) => b.series.id === block.series.id);
-          const fullOwned = (full?.figures || []).filter(
-            (f) => (entryMap[f.id]?.owned_qty || 0) > 0,
-          ).length;
-          const fullTotal = full?.figures.length || block.figures.length;
-          const isCollapsed = !!collapsed[block.series.id];
-          const pct = fullTotal ? Math.round((fullOwned / fullTotal) * 100) : 0;
-
+      <SectionList
+        sections={sections as SectionListData<FigureRow, SeriesSection>[]}
+        keyExtractor={(item) => item.key}
+        stickySectionHeadersEnabled={false}
+        contentContainerStyle={styles.listContent}
+        showsVerticalScrollIndicator={false}
+        ListEmptyComponent={
+          <EmptyState
+            icon="search-outline"
+            title="Rien ici"
+            subtitle="Essaie un autre filtre ou une autre recherche."
+          />
+        }
+        renderSectionHeader={({ section }) => {
+          const pct = section.fullTotal
+            ? Math.round((section.fullOwned / section.fullTotal) * 100)
+            : 0;
           return (
-            <View key={block.series.id} style={styles.seriesCard}>
-              <Pressable
-                style={styles.seriesHeader}
-                onPress={() => {
-                  LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
-                  setCollapsed((c) => ({ ...c, [block.series.id]: !c[block.series.id] }));
-                }}
-              >
-                <View style={{ flex: 1 }}>
-                  <Text style={styles.seriesName}>{block.series.name_en}</Text>
-                  <Text style={styles.seriesLabel}>Series</Text>
-                  <View style={styles.barTrack}>
-                    <View style={[styles.barFill, { width: `${pct}%` }]} />
-                  </View>
-                </View>
-                <Text style={styles.seriesCount}>
-                  {fullOwned}/{fullTotal}
-                </Text>
-                <Text style={styles.chevron}>{isCollapsed ? "›" : "˄"}</Text>
-              </Pressable>
-
-              {!isCollapsed ? (
-                <View style={styles.grid}>
-                  {block.figures.map((fig) => (
-                    <ChecklistFigureCard
-                      key={fig.id}
-                      figure={fig}
-                      ownedQty={entryMap[fig.id]?.owned_qty || 0}
-                      selected={selected?.id === fig.id}
-                      onToggleOwned={() => toggleOwnedQuick(fig)}
-                      onPress={() => setSelected(fig)}
-                    />
-                  ))}
-                  {/* spacer for incomplete rows */}
-                  {block.figures.length % 3 === 2 ? <View style={{ width: "31%" }} /> : null}
-                </View>
-              ) : null}
-            </View>
+            <SoftPressable
+              style={styles.seriesCard}
+              scaleTo={0.99}
+              onPress={() => {
+                LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+                Haptics.selectionAsync().catch(() => undefined);
+                setCollapsed((c) => ({
+                  ...c,
+                  [section.series.id]: !c[section.series.id],
+                }));
+              }}
+            >
+              <View style={{ flex: 1 }}>
+                <Text style={styles.seriesName}>{section.series.name_en}</Text>
+                <Text style={styles.seriesLabel}>Série</Text>
+                <ProgressBar progress={pct} height={7} style={{ marginTop: 2 }} />
+              </View>
+              <Text style={styles.seriesCount}>
+                {section.fullOwned}/{section.fullTotal}
+              </Text>
+              <Ionicons
+                name={section.collapsed ? "chevron-forward" : "chevron-up"}
+                size={18}
+                color={colors.textMuted}
+              />
+            </SoftPressable>
           );
-        })}
-      </ScrollView>
+        }}
+        renderItem={({ item }) => (
+          <View style={styles.gridRow}>
+            {item.figures.map((fig) => (
+              <ChecklistFigureCard
+                key={fig.id}
+                figure={fig}
+                ownedQty={entryMap[fig.id]?.owned_qty || 0}
+                wishlist={!!entryMap[fig.id]?.wishlist}
+                tradeQty={entryMap[fig.id]?.trade_qty || 0}
+                selected={selected?.id === fig.id}
+                onToggleOwned={() => toggleOwnedQuick(fig)}
+                onPress={() => setSelected(fig)}
+              />
+            ))}
+            {item.figures.length === 2 ? <View style={{ width: "31.5%" }} /> : null}
+            {item.figures.length === 1 ? (
+              <>
+                <View style={{ width: "31.5%" }} />
+                <View style={{ width: "31.5%" }} />
+              </>
+            ) : null}
+          </View>
+        )}
+      />
 
       <FigureEditSheet
         visible={!!selected}
@@ -270,71 +340,58 @@ export function BrandCollectionScreen() {
         onClose={() => setSelected(null)}
         onSave={saveSheet}
       />
-    </View>
+    </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  root: { flex: 1, backgroundColor: colors.bg, paddingTop: 8 },
-  center: { flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: colors.bg },
+  center: { flex: 1, alignItems: "center", justifyContent: "center" },
   topBar: {
     flexDirection: "row",
     alignItems: "center",
-    paddingHorizontal: 16,
-    marginBottom: 10,
-    gap: 10,
+    paddingHorizontal: space.lg,
+    marginBottom: space.md,
+    gap: space.sm,
   },
-  back: { color: colors.text, fontSize: 34, fontWeight: "300", marginTop: -4 },
-  title: { flex: 1, color: colors.text, fontSize: 28, fontWeight: "800" },
-  progressTop: { color: colors.textMuted, fontWeight: "700" },
-  tabs: {
-    flexDirection: "row",
-    marginHorizontal: 16,
-    backgroundColor: "rgba(58,42,31,0.06)",
-    borderRadius: 16,
-    padding: 4,
-    marginBottom: 10,
-  },
-  tab: { flex: 1, paddingVertical: 10, borderItems: "center", borderRadius: 12 },
-  tabOn: { backgroundColor: colors.tabActive },
-  tabText: { color: colors.textMuted, fontWeight: "700", fontSize: 13 },
-  tabTextOn: { color: colors.text },
-  search: {
-    marginHorizontal: 16,
-    marginBottom: 12,
-    backgroundColor: colors.bgCard,
+  backBtn: {
+    width: 40,
+    height: 40,
     borderRadius: 14,
+    backgroundColor: colors.bgCard,
     borderWidth: 1,
     borderColor: colors.border,
-    paddingHorizontal: 14,
-    paddingVertical: 12,
-    color: colors.text,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  title: { ...type.title, color: colors.text, fontSize: 26, lineHeight: 30 },
+  progressTop: { ...type.caption, color: colors.textMuted, marginTop: 2 },
+  controls: {
+    paddingHorizontal: space.lg,
+    gap: space.md,
+    marginBottom: space.md,
+  },
+  listContent: {
+    paddingHorizontal: space.lg,
+    paddingBottom: 48,
   },
   seriesCard: {
-    marginHorizontal: 16,
-    marginBottom: 14,
+    marginTop: space.sm,
+    marginBottom: space.sm,
     backgroundColor: colors.bgCard,
-    borderRadius: 22,
-    padding: 14,
+    borderRadius: radius.xl,
+    padding: space.lg,
     borderWidth: 1,
     borderColor: colors.border,
-  },
-  seriesHeader: { flexDirection: "row", alignItems: "center", gap: 10, marginBottom: 10 },
-  seriesName: { color: colors.text, fontSize: 18, fontWeight: "800" },
-  seriesLabel: { color: colors.textDim, fontSize: 12, marginTop: 2, marginBottom: 8 },
-  barTrack: {
-    height: 8,
-    borderRadius: 999,
-    backgroundColor: colors.smiskiBarTrack,
-    overflow: "hidden",
-  },
-  barFill: { height: "100%", backgroundColor: colors.smiskiBar },
-  seriesCount: { color: colors.text, fontWeight: "800", fontSize: 16 },
-  chevron: { color: colors.textMuted, fontSize: 18, width: 18, textAlign: "center" },
-  grid: {
     flexDirection: "row",
-    flexWrap: "wrap",
+    alignItems: "center",
+    gap: 10,
+  },
+  seriesName: { ...type.subtitle, fontSize: 18, color: colors.text },
+  seriesLabel: { ...type.micro, color: colors.textDim, marginTop: 2, marginBottom: 8 },
+  seriesCount: { fontFamily: fonts.extrabold, color: colors.text, fontSize: 16 },
+  gridRow: {
+    flexDirection: "row",
     justifyContent: "space-between",
-    paddingTop: 4,
+    paddingHorizontal: 2,
   },
 });

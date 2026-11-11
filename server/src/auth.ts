@@ -60,7 +60,7 @@ export async function verifyAppToken(token: string) {
 
 const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || "dorian172@outlook.com")
   .split(",")
-  .map((e) => e.trim().toLowerCase())
+  .map((e: string) => e.trim().toLowerCase())
   .filter(Boolean);
 
 export async function upsertAppleUser(input: {

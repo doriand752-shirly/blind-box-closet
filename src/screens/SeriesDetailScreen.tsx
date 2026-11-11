@@ -140,7 +140,7 @@ export function SeriesDetailScreen() {
         </View>
       }
       ListEmptyComponent={
-        loading ? <ActivityIndicator color={colors.mint} style={{ marginTop: 24 }} /> : null
+        loading ? <ActivityIndicator color={colors.mint} style={{ marginTop: 24 }} /> : undefined
       }
       renderItem={({ item }) => (
         <View style={{ flex: 1, marginBottom: 10 }}>

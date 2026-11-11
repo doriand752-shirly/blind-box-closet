@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#F6F1E8"
+      "backgroundColor": "#F3F7F4"
     },
     "ios": {
       "supportsTablet": true,
@@ -40,7 +40,7 @@
       "package": "com.blindboxcloset.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundColor": "#F6F1E8"
+        "backgroundColor": "#F3F7F4"
       }
     },
     "web": {
