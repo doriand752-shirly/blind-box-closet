@@ -27,7 +27,8 @@ on:
 
 concurrency:
   group: ios-native-${{ github.ref }}
-  cancel-in-progress: true
+  # Do not cancel a live macOS job — runners are scarce and restarts often fail to re-acquire.
+  cancel-in-progress: false
 
 jobs:
   build:
