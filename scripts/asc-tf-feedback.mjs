@@ -63,13 +63,32 @@ async function get(url) {
 
 const endpoints = [
   `https://api.appstoreconnect.apple.com/v1/apps/${APP_ID}/customerReviews?sort=-createdDate&limit=50`,
-  `https://api.appstoreconnect.apple.com/v1/betaFeedbackCrashSubmissions?filter[build.app]=${APP_ID}&limit=50`,
-  `https://api.appstoreconnect.apple.com/v1/betaFeedbackScreenshotSubmissions?filter[build.app]=${APP_ID}&limit=50`,
+  `https://api.appstoreconnect.apple.com/v1/apps/${APP_ID}/betaFeedbackCrashSubmissions?limit=50&include=build,tester`,
+  `https://api.appstoreconnect.apple.com/v1/apps/${APP_ID}/betaFeedbackScreenshotSubmissions?limit=50&include=build,tester`,
 ];
 
 for (const url of endpoints) {
   const { status, j } = await get(url);
   console.log("\n===", url.split("/v1/")[1].split("?")[0], status, "===");
   if (j.errors) console.log(JSON.stringify(j.errors, null, 2));
-  else console.log(JSON.stringify(j.data?.slice?.(0, 20) ?? j, null, 2).slice(0, 8000));
+  else {
+    const items = j.data ?? [];
+    console.log("count:", items.length);
+    for (const item of items.slice(0, 30)) {
+      const a = item.attributes || {};
+      console.log("---");
+      console.log({
+        id: item.id,
+        type: item.type,
+        createdDate: a.createdDate,
+        email: a.email,
+        comment: a.comment,
+        deviceModel: a.deviceModel,
+        osVersion: a.osVersion,
+        screenshots: a.screenshots?.length ?? a.screenshots,
+      });
+      if (a.comment) console.log("COMMENT:", a.comment);
+    }
+    if (!items.length) console.log(JSON.stringify(j, null, 2).slice(0, 2000));
+  }
 }

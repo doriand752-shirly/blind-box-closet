@@ -2,7 +2,7 @@
   "expo": {
     "name": "Blind Box Closet",
     "slug": "blind-box-closet",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.blindboxcloset.app",
-      "buildNumber": "16",
+      "buildNumber": "17",
       "appleTeamId": "2QKC854C2J",
       "usesAppleSignIn": true,
       "infoPlist": {

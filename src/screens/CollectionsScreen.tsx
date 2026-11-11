@@ -33,7 +33,7 @@ type BrandProgress = {
 export function CollectionsScreen() {
   const navigation = useNavigation<any>();
   const { t } = useLocale();
-  const { loadCollection } = useCollectionApi();
+  const { loadCollection, getLocalMap } = useCollectionApi();
   const [rows, setRows] = useState<BrandProgress[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -45,13 +45,27 @@ export function CollectionsScreen() {
       else setLoading(true);
       setError(null);
       try {
-        const [brandsRes, col, favorites] = await Promise.all([
+        const [brandsRes, col, favorites, local] = await Promise.all([
           api.brands(),
           loadCollection(),
           getFavoriteBrands(),
+          getLocalMap(),
         ]);
+        // Same merge as BrandCollectionScreen so home progress matches the checklist.
+        const ownedByFigure: Record<string, number> = {};
+        for (const [id, entry] of Object.entries(local)) {
+          if ((entry.owned_qty || 0) > 0) ownedByFigure[id] = entry.owned_qty;
+        }
+        for (const item of col.items) {
+          ownedByFigure[item.figure_id] = Math.max(
+            ownedByFigure[item.figure_id] || 0,
+            item.owned_qty || 0,
+          );
+        }
         const ownedIds = new Set(
-          col.items.filter((i) => i.owned_qty > 0).map((i) => i.figure_id),
+          Object.entries(ownedByFigure)
+            .filter(([, qty]) => qty > 0)
+            .map(([id]) => id),
         );
 
         const live = brandsRes.brands.filter(
@@ -109,7 +123,7 @@ export function CollectionsScreen() {
         setRefreshing(false);
       }
     },
-    [loadCollection, t],
+    [loadCollection, getLocalMap, t],
   );
 
   useFocusEffect(

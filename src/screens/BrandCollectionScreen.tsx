@@ -127,10 +127,9 @@ export function BrandCollectionScreen() {
       setBlocks(details);
 
       if (hydrated.current !== brandSlug + bucket) {
+        // All series start collapsed — testers asked not to auto-open Series 1.
         const initial: Record<string, boolean> = {};
-        details.forEach((b, i) => {
-          initial[b.series.id] = i > 0;
-        });
+        for (const b of details) initial[b.series.id] = true;
         setCollapsed(initial);
         hydrated.current = brandSlug + bucket;
       }
@@ -139,12 +138,13 @@ export function BrandCollectionScreen() {
       const local = await getLocalMap();
       const map: Record<string, LocalEntry> = { ...local };
       for (const item of col.items) {
+        const prev = map[item.figure_id];
         map[item.figure_id] = {
           figure_id: item.figure_id,
-          owned_qty: item.owned_qty,
-          wishlist: item.wishlist,
-          trade_qty: local[item.figure_id]?.trade_qty || 0,
-          notes: item.notes,
+          owned_qty: Math.max(item.owned_qty || 0, prev?.owned_qty || 0),
+          wishlist: item.wishlist || !!prev?.wishlist,
+          trade_qty: prev?.trade_qty || 0,
+          notes: item.notes ?? prev?.notes ?? null,
         };
       }
       setEntryMap(map);
@@ -189,7 +189,7 @@ export function BrandCollectionScreen() {
       if (filter !== "all" && figs.length === 0) continue;
 
       const fullOwned = b.figures.filter((f) => (entryMap[f.id]?.owned_qty || 0) > 0).length;
-      const isCollapsed = !!collapsed[b.series.id];
+      const isCollapsed = collapsed[b.series.id] !== false;
       result.push({
         series: b.series,
         fullOwned,
