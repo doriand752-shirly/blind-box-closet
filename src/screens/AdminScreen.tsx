@@ -44,6 +44,8 @@ export function AdminScreen() {
   const [mediaQuery, setMediaQuery] = useState("");
   const [newSeriesName, setNewSeriesName] = useState("");
   const [newFigureName, setNewFigureName] = useState("");
+  const [pickTarget, setPickTarget] = useState<"figure" | "series">("figure");
+  const [seriesName, setSeriesName] = useState("");
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
 
@@ -101,14 +103,24 @@ export function AdminScreen() {
     }
   };
 
-  const openMediaPicker = async (figure: Figure) => {
+  const openMediaPicker = async (figure: Figure | null) => {
     if (!token) return;
-    setSelectedFigure(figure);
-    setEditName(figure.name_en);
+    if (figure) {
+      setPickTarget("figure");
+      setSelectedFigure(figure);
+      setEditName(figure.name_en);
+    } else {
+      setPickTarget("series");
+    }
     setBusy(true);
     try {
       const res = await api.adminMedia(token, { kind: "figures", q: mediaQuery });
-      setMedia(res.media);
+      let list = res.media;
+      if (!figure) {
+        const covers = await api.adminMedia(token, { kind: "series", q: mediaQuery });
+        list = [...covers.media, ...list];
+      }
+      setMedia(list);
       setMediaOpen(true);
     } catch (e: any) {
       Alert.alert(t("adminServerMedia"), e.message || t("adminMediaError"));
@@ -118,10 +130,26 @@ export function AdminScreen() {
   };
 
   const applyImage = async (url: string) => {
-    if (!token || !selectedFigure) return;
+    if (!token) return;
+    if (pickTarget === "series") {
+      if (!selectedSeriesId) return;
+      await run(async () => {
+        await api.updateSeries(token, selectedSeriesId, { cover_image_url: url });
+        setMediaOpen(false);
+      });
+      return;
+    }
+    if (!selectedFigure) return;
     await run(async () => {
       await api.updateFigure(token, selectedFigure.id, { image_url: url });
       setMediaOpen(false);
+    });
+  };
+
+  const saveSeriesName = async () => {
+    if (!token || !selectedSeriesId || !seriesName.trim()) return;
+    await run(async () => {
+      await api.updateSeries(token, selectedSeriesId, { name_en: seriesName.trim() });
     });
   };
 
@@ -187,7 +215,10 @@ export function AdminScreen() {
         <SoftPressable
           key={s.id}
           style={[styles.seriesRow, selectedSeriesId === s.id && styles.seriesOn]}
-          onPress={() => setSelectedSeriesId(s.id)}
+          onPress={() => {
+            setSelectedSeriesId(s.id);
+            setSeriesName(s.name_en);
+          }}
         >
           <Text style={styles.seriesName}>{s.name_en}</Text>
           <Text style={styles.meta}>{s.product_form}</Text>
@@ -196,6 +227,22 @@ export function AdminScreen() {
 
       {selectedSeriesId ? (
         <>
+          <View style={styles.editBox}>
+            <TextInput
+              style={styles.input}
+              value={seriesName}
+              onChangeText={setSeriesName}
+              placeholder={t("adminSeriesName")}
+              placeholderTextColor={colors.textDim}
+            />
+            <SoftPressable style={styles.btn} onPress={saveSeriesName}>
+              <Text style={styles.btnText}>{t("adminSaveText")}</Text>
+            </SoftPressable>
+            <Pressable onPress={() => openMediaPicker(null)}>
+              <Text style={styles.link}>{t("adminSeriesCover")}</Text>
+            </Pressable>
+          </View>
+
           <Text style={styles.section}>{t("adminFigures")}</Text>
           <TextInput
             style={styles.input}
@@ -269,7 +316,9 @@ export function AdminScreen() {
             placeholderTextColor={colors.textDim}
             value={mediaQuery}
             onChangeText={setMediaQuery}
-            onSubmitEditing={() => selectedFigure && openMediaPicker(selectedFigure)}
+            onSubmitEditing={() =>
+              openMediaPicker(pickTarget === "figure" ? selectedFigure : null)
+            }
           />
           <FlatList
             data={media.filter((m) =>

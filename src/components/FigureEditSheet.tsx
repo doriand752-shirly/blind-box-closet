@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import * as Haptics from "expo-haptics";
 import { SoftPressable } from "./ui/SoftPressable";
 import { FigureImage } from "./FigureImage";
+import { useLocale } from "../i18n/LocaleContext";
 import { colors, fonts, radius, space, type } from "../theme";
 import type { Figure } from "../types/models";
 
@@ -38,6 +39,7 @@ function FigureEditSheetInner({
   onSave,
 }: InnerProps) {
   const insets = useSafeAreaInsets();
+  const { t } = useLocale();
   const [owned, setOwned] = useState(initialOwned);
   const [wishlist, setWishlist] = useState(initialWishlist);
   const [trade, setTrade] = useState(initialTrade);
@@ -71,7 +73,7 @@ function FigureEditSheetInner({
             setOwned((q) => (q > 0 ? 0 : 1));
           }}
         >
-          <Text style={[styles.chipText, owned > 0 && styles.chipTextOn]}>Possédé</Text>
+          <Text style={[styles.chipText, owned > 0 && styles.chipTextOn]}>{t("figureOwned")}</Text>
           {owned > 0 ? (
             <View style={styles.badge}>
               <Text style={styles.badgeText}>{owned}</Text>
@@ -85,7 +87,7 @@ function FigureEditSheetInner({
             setWishlist((w) => !w);
           }}
         >
-          <Text style={[styles.chipText, wishlist && styles.chipTextOn]}>Wishlist</Text>
+          <Text style={[styles.chipText, wishlist && styles.chipTextOn]}>{t("wishlist")}</Text>
         </SoftPressable>
         <SoftPressable
           style={[styles.chip, trade > 0 && styles.chipTrade]}
@@ -94,7 +96,7 @@ function FigureEditSheetInner({
             setTrade((q) => (q > 0 ? 0 : 1));
           }}
         >
-          <Text style={[styles.chipText, trade > 0 && styles.chipTextOn]}>Échange</Text>
+          <Text style={[styles.chipText, trade > 0 && styles.chipTextOn]}>{t("trade")}</Text>
           {trade > 0 ? (
             <View style={[styles.badge, styles.badgeTrade]}>
               <Text style={styles.badgeText}>{trade}</Text>
@@ -103,7 +105,7 @@ function FigureEditSheetInner({
         </SoftPressable>
       </View>
 
-      <Text style={styles.label}>Quantité possédée</Text>
+      <Text style={styles.label}>{t("ownedQty")}</Text>
       <View style={styles.stepper}>
         <SoftPressable style={styles.stepBtn} onPress={() => bump("owned", -1)}>
           <Text style={styles.stepText}>−</Text>
@@ -114,7 +116,7 @@ function FigureEditSheetInner({
         </SoftPressable>
       </View>
 
-      <Text style={styles.label}>Quantité à échanger</Text>
+      <Text style={styles.label}>{t("tradeQty")}</Text>
       <View style={styles.stepper}>
         <SoftPressable style={styles.stepBtn} onPress={() => bump("trade", -1)}>
           <Text style={styles.stepText}>−</Text>
@@ -135,7 +137,7 @@ function FigureEditSheetInner({
           onClose();
         }}
       >
-        <Text style={styles.doneText}>Enregistrer</Text>
+        <Text style={styles.doneText}>{t("save")}</Text>
       </SoftPressable>
     </View>
   );

@@ -75,6 +75,7 @@ export type TranslationKey =
   | "adminNewFigure"
   | "adminAddFigure"
   | "adminServerImage"
+  | "adminSeriesCover"
   | "adminRename"
   | "adminEdit"
   | "adminSaveText"
@@ -83,6 +84,20 @@ export type TranslationKey =
   | "adminClose"
   | "adminNameRequired"
   | "adminMediaError"
-  | "error";
+  | "error"
+  | "figureOwned"
+  | "ownedQty"
+  | "tradeQty"
+  | "save"
+  | "formCore"
+  | "formHippers"
+  | "formHanging"
+  | "formStrap"
+  | "formBathBall"
+  | "formKeychain"
+  | "formAccessory"
+  | "formLight"
+  | "formPlush"
+  | "formOther";
 
 export type Dictionary = Record<TranslationKey, string>;

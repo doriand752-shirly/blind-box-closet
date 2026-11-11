@@ -58,9 +58,17 @@ export async function verifyAppToken(token: string) {
   };
 }
 
-const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || "dorian172@outlook.com")
+const ADMIN_EMAILS = (
+  process.env.ADMIN_EMAILS || "dorian172@outlook.com,doriand752@outlook.com"
+)
   .split(",")
   .map((e: string) => e.trim().toLowerCase())
+  .filter(Boolean);
+
+/** Optional extra allow-list by Apple subject (stable even with a private relay email). */
+const ADMIN_APPLE_SUBS = (process.env.ADMIN_APPLE_SUBS || "")
+  .split(",")
+  .map((e: string) => e.trim())
   .filter(Boolean);
 
 export async function upsertAppleUser(input: {
@@ -69,10 +77,10 @@ export async function upsertAppleUser(input: {
   displayName?: string | null;
 }) {
   const email = input.email?.toLowerCase() || null;
-  const name = (input.displayName || "").toLowerCase();
+  // Admin = Dorian only, matched on the verified Apple email / subject (never on a spoofable display name).
   const shouldAdmin =
     (email ? ADMIN_EMAILS.includes(email) : false) ||
-    name.includes("dorian");
+    ADMIN_APPLE_SUBS.includes(input.appleSub);
 
   const existing = await query<AuthUser>(
     `SELECT id, apple_sub, email, display_name, is_admin FROM users WHERE apple_sub = $1`,

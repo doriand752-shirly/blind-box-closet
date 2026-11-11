@@ -6,7 +6,7 @@ App Expo iOS pour suivre une collection Smiski / blind boxes.
 
 - **App :** Expo SDK 58 · Sign in with Apple · React Navigation
 - **API :** Fastify + PostgreSQL sur VPS `85.17.145.134:8787`
-- **Catalogue seed :** 41 séries / 268 figurines Smiski
+- **Catalogue seed :** Smiski (41 séries / 220 figurines), Sonny Angel (133 séries / 1022 figurines), Labubu (15 séries / 154 figurines)
 - **Admin :** rôle `is_admin` (emails dans `ADMIN_EMAILS`)
 
 ## Démarrer l’app

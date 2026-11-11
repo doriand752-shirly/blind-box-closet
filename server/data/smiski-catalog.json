@@ -18,114 +18,114 @@
       "official_url": "https://smiski.com/e/products/series-1/",
       "figures": [
         {
-          "name_en": "Hugging Knees",
-          "name_ja": "ヒザカカエスキー",
+          "name_en": "Little Smiski Hugging",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-hugging-knees.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-hugging.webp"
         },
         {
-          "name_en": "Sitting",
-          "name_ja": "スワルスキー",
+          "name_en": "Little Smiski Lifting",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-sitting.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-lifting.webp"
         },
         {
-          "name_en": "Looking Back",
-          "name_ja": "フリムキスキー",
+          "name_en": "Little Smiski Peeking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-looking-back.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-peeking.webp"
         },
         {
-          "name_en": "Lounging",
-          "name_ja": "ゴロネスキー",
+          "name_en": "Hiding",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-lounging.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-hiding.webp"
         },
         {
-          "name_en": "Hiding",
-          "name_ja": "カクレスキー",
+          "name_en": "Hugging Knees",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-hiding.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-hugging-knees.webp"
         },
         {
-          "name_en": "Peeking",
-          "name_ja": "ノゾキスキー",
+          "name_en": "Looking Back",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-peeking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-looking-back.webp"
         },
         {
-          "name_en": "The Scream",
-          "name_ja": "サケビスキー",
-          "is_secret": true,
+          "name_en": "Lounging",
+          "name_ja": null,
+          "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-the-scream.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-lounging.webp"
         },
         {
-          "name_en": "Little Smiski Lifting",
-          "name_ja": "チビモチアゲスキー",
+          "name_en": "Peeking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
-          "is_bonus": true,
+          "is_bonus": false,
           "is_duo": false,
           "sort_order": 8,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-lifting.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-peeking.webp"
         },
         {
-          "name_en": "Little Smiski Peeking",
-          "name_ja": "チビノゾキスキー",
+          "name_en": "Sitting",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
-          "is_bonus": true,
+          "is_bonus": false,
           "is_duo": false,
           "sort_order": 9,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-peeking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-sitting.webp"
         },
         {
-          "name_en": "Little Smiski Hugging",
-          "name_ja": "チビハグスキー",
-          "is_secret": false,
+          "name_en": "Reindeer",
+          "name_ja": null,
+          "is_secret": true,
           "is_limited": false,
-          "is_bonus": true,
+          "is_bonus": false,
           "is_duo": false,
           "sort_order": 10,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-hugging.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-reindeer.webp"
         },
         {
-          "name_en": "Rudolph",
-          "name_ja": "ルドルフスキー",
-          "is_secret": false,
-          "is_limited": true,
+          "name_en": "The Scream",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 11,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-rudolph.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-the-scream.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-1.png"
@@ -140,84 +140,84 @@
       "official_url": "https://smiski.com/e/products/series-2/",
       "figures": [
         {
-          "name_en": "Kneeling",
-          "name_ja": "セイザスキー",
+          "name_en": "Climbing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-kneeling.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-climbing.webp"
         },
         {
-          "name_en": "Climbing",
-          "name_ja": "ノボリスキー",
+          "name_en": "Daydreaming",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-climbing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-daydreaming.webp"
         },
         {
-          "name_en": "Daydreaming",
-          "name_ja": "ボーットスキー",
+          "name_en": "Kneeling",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-daydreaming.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-kneeling.webp"
         },
         {
-          "name_en": "Pushing",
-          "name_ja": "オススキー",
+          "name_en": "Listening",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-pushing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-listening.webp"
         },
         {
           "name_en": "Peeking",
-          "name_ja": "マタノゾキスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-peeking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-peeking.webp"
         },
         {
-          "name_en": "Listening",
-          "name_ja": "キキミミスキー",
+          "name_en": "Pushing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-listening.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-pushing.webp"
         },
         {
           "name_en": "Birth of Venus",
-          "name_ja": "ビーナススキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-birth-of-venus.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-birth-of-venus.webp"
         },
         {
           "name_en": "Snowman",
-          "name_ja": "ユキダルマスキー",
-          "is_secret": false,
-          "is_limited": true,
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 8,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-snowman.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-snowman.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-2.png"
@@ -233,73 +233,73 @@
       "figures": [
         {
           "name_en": "Bridge",
-          "name_ja": "ブリッジスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-bridge.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-bridge.webp"
         },
         {
-          "name_en": "Peeking",
-          "name_ja": "シタノゾキスキー",
+          "name_en": "Climbing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-peeking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-climbing.webp"
         },
         {
-          "name_en": "Climbing",
-          "name_ja": "ヒモノボリスキー",
+          "name_en": "Handstand",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-climbing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-handstand.webp"
         },
         {
-          "name_en": "Little",
-          "name_ja": "チビドンスキー",
+          "name_en": "Hiding",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-little.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-hiding.webp"
         },
         {
-          "name_en": "Hiding",
-          "name_ja": "モグルスキー",
+          "name_en": "Little",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-hiding.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-little.webp"
         },
         {
-          "name_en": "Handstand",
-          "name_ja": "サカダチスキー",
+          "name_en": "Peeking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-handstand.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-peeking.webp"
         },
         {
-          "name_en": "The Thinker",
-          "name_ja": "シンカースキー",
+          "name_en": "Thinker",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-the-thinker.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-thinker.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-3.png"
@@ -314,74 +314,74 @@
       "official_url": "https://smiski.com/e/products/series-4/",
       "figures": [
         {
-          "name_en": "Sneaking",
-          "name_ja": "コソコソスキー",
+          "name_en": "Defeated",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-sneaking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-defeated.webp"
         },
         {
-          "name_en": "Scared",
-          "name_ja": "ビクッスキー",
+          "name_en": "Lazy",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-scared.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-lazy.webp"
         },
         {
           "name_en": "Relaxing",
-          "name_ja": "リラックススキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-relaxing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-relaxing.webp"
         },
         {
-          "name_en": "Lazy",
-          "name_ja": "ダラダラスキー",
+          "name_en": "Scared",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-lazy.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-scared.webp"
         },
         {
-          "name_en": "Stuck",
-          "name_ja": "ハマリスキー",
+          "name_en": "Sneaking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-stuck.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-sneaking.webp"
         },
         {
-          "name_en": "Defeated",
-          "name_ja": "ショゲスキー",
+          "name_en": "Stuck",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-defeated.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-stuck.webp"
         },
         {
           "name_en": "Twin Angels",
-          "name_ja": "ツインエンジェルスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
-          "is_duo": true,
+          "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-twin-angels.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-twin-angels.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-4.png"
@@ -396,74 +396,74 @@
       "official_url": "https://smiski.com/e/products/bath-series/",
       "figures": [
         {
-          "name_en": "Shampooing",
-          "name_ja": "アワダテスキー",
+          "name_en": "Dazed",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-shampooing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-dazed.webp"
         },
         {
-          "name_en": "Not Looking",
-          "name_ja": "ミテナイスキー",
+          "name_en": "Looking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-not-looking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-looking.webp"
         },
         {
-          "name_en": "Scrubbing",
-          "name_ja": "アライッコスキー",
+          "name_en": "Not Looking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-scrubbing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-not-looking.webp"
         },
         {
-          "name_en": "With Duck",
-          "name_ja": "アヒルダキスキー",
+          "name_en": "Scrubbing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-with-duck.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-scrubbing.webp"
         },
         {
-          "name_en": "Dazed",
-          "name_ja": "ノボセスキー",
+          "name_en": "Shampooing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-dazed.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-shampooing.webp"
         },
         {
-          "name_en": "Looking",
-          "name_ja": "ミツケタスキー",
+          "name_en": "With Duck",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-looking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-with-duck.webp"
         },
         {
           "name_en": "Water Droplet",
-          "name_ja": "ミズタマスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-water-droplet.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-water-droplet.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bath.png"
@@ -478,74 +478,74 @@
       "official_url": "https://smiski.com/e/products/toilet-series/",
       "figures": [
         {
-          "name_en": "Peek-A-Boo",
-          "name_ja": "ヒョッコリスキー",
+          "name_en": "Helping Out",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-peek-a-boo.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-helping-out.webp"
         },
         {
-          "name_en": "Little (Smelly)",
-          "name_ja": "チビクサスキー",
+          "name_en": "Holding In",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-little-smelly.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-holding-in.webp"
         },
         {
-          "name_en": "Squatting",
-          "name_ja": "シャガミスキー",
+          "name_en": "Little (Smelly)",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-squatting.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-little-smelly.webp"
         },
         {
-          "name_en": "Helping Out",
-          "name_ja": "サシダシスキー",
+          "name_en": "Peek-A-Boo",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-helping-out.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-peek-a-boo.webp"
         },
         {
           "name_en": "Resting",
-          "name_ja": "コシカケスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-resting.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-resting.webp"
         },
         {
-          "name_en": "Holding In",
-          "name_ja": "ガマンスキー",
+          "name_en": "Squatting",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-holding-in.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-squatting.webp"
         },
         {
           "name_en": "Water Fountain",
-          "name_ja": "フンセンスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-water-fountain.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-water-fountain.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-toilet.png"
@@ -561,67 +561,67 @@
       "figures": [
         {
           "name_en": "Daydreaming",
-          "name_ja": "ボーリスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-daydreaming.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-daydreaming.webp"
         },
         {
-          "name_en": "Playing",
-          "name_ja": "アソビスキー",
+          "name_en": "Hiding",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-playing.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-hiding.webp"
         },
         {
-          "name_en": "Hiding",
-          "name_ja": "カクレスキー",
+          "name_en": "Lifting",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-hiding.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-lifting.webp"
         },
         {
           "name_en": "Nap Time",
-          "name_ja": "ネムリスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-naptime.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-nap-time.webp"
         },
         {
-          "name_en": "Thinking",
-          "name_ja": "カンガエリスキー",
+          "name_en": "Playing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-thinking.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-playing.webp"
         },
         {
-          "name_en": "Lifting",
-          "name_ja": "モチアゲスキー",
+          "name_en": "Thinking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-lifting.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-thinking.webp"
         },
         {
           "name_en": "Sunflower",
-          "name_ja": "ヒマワリスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
@@ -642,74 +642,74 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Before Rest",
-          "name_ja": "ホットスキー",
+          "name_en": "At Sleep",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-before-rest.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-at-sleep.webp"
         },
         {
-          "name_en": "Sleepy",
-          "name_ja": "ネムイスキー",
+          "name_en": "Before Rest",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-sleepy.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-before-rest.webp"
         },
         {
-          "name_en": "Co-Sleeping",
-          "name_ja": "ソイネスキー",
+          "name_en": "Co-sleeping",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-co-sleeping.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-co-sleeping.webp"
         },
         {
-          "name_en": "Reading",
-          "name_ja": "ヨミキカセスキー",
+          "name_en": "Fussing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-reading.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-fussing.webp"
         },
         {
-          "name_en": "At Sleep",
-          "name_ja": "オヤスミスキー",
+          "name_en": "Reading",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-at-sleep.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-reading.webp"
         },
         {
-          "name_en": "Fussing",
-          "name_ja": "ヨナキスキー",
+          "name_en": "Sleepy",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-fussing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-sleepy.webp"
         },
         {
           "name_en": "Crescent Moon",
-          "name_ja": "ミカヅキスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-crescent-moon.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-crescent-moon.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bed.png"
@@ -725,73 +725,73 @@
       "figures": [
         {
           "name_en": "Lotus Pose",
-          "name_ja": "ハススキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-lotus-pose.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-lotus-pose.webp"
         },
         {
-          "name_en": "Twist Pose",
-          "name_ja": "ネジリスキー",
+          "name_en": "Ship Pose",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-twist-pose.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-ship-pose.webp"
         },
         {
-          "name_en": "Shoulderstand Pose",
-          "name_ja": "カタダチスキー",
+          "name_en": "Shoulder Stand Pose",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-shoulderstand-pose.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-shoulder-stand-pose.webp"
         },
         {
-          "name_en": "Triangle Pose",
-          "name_ja": "サンカクスキー",
+          "name_en": "Tree Pose",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-triangle-pose.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-tree-pose.webp"
         },
         {
-          "name_en": "Tree Pose",
-          "name_ja": "タチキスキー",
+          "name_en": "Triangle Pose",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-tree-pose.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-triangle-pose.webp"
         },
         {
-          "name_en": "Ship Pose",
-          "name_ja": "フネスキー",
+          "name_en": "Twist Pose",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-ship-pose.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-twist-pose.webp"
         },
         {
           "name_en": "Twin Hearts",
-          "name_ja": "ツインハーツスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
-          "is_duo": true,
+          "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-twin-hearts.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-twin-hearts.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-yoga.png"
@@ -806,74 +806,74 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Marching",
-          "name_ja": "マーチングスキー",
+          "name_en": "Little Smiski Cheerleading",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-marching.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-little-smiski-cheerleading.webp"
         },
         {
-          "name_en": "On Drums",
-          "name_ja": "ドラムスキー",
+          "name_en": "Cheering",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-on-drums.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-cheering.webp"
         },
         {
-          "name_en": "On Your Side",
-          "name_ja": "ミカタスキー",
+          "name_en": "Dancing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-on-your-side.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-dancing.webp"
         },
         {
-          "name_en": "Dancing",
-          "name_ja": "ダンススキー",
+          "name_en": "Marching",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-dancing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-marching.webp"
         },
         {
-          "name_en": "Little Smiski Cheerleading",
-          "name_ja": "チビチアスキー",
+          "name_en": "On Drums",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-little-smiski-cheerleading.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-on-drums.webp"
         },
         {
-          "name_en": "Cheering",
-          "name_ja": "チアスキー",
+          "name_en": "On Your Side",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-cheering.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-on-your-side.webp"
         },
         {
           "name_en": "Trophy Angel",
-          "name_ja": "トロフィーエンジェルスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-trophy-angel.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-trophy-angel.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-cheer.png"
@@ -888,74 +888,74 @@
       "official_url": "https://smiski.com/e/products/museumseries/",
       "figures": [
         {
-          "name_en": "The Source",
-          "name_ja": "イズミスキー",
+          "name_en": "Dali",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-the-source.png"
-        },
-        {
-          "name_en": "Fuzin & Raijin",
-          "name_ja": "フウジンスキー・ライジンスキー",
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": true,
-          "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-fuzin-raijin.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-dali.webp"
         },
         {
           "name_en": "Bacchus",
-          "name_ja": "バッカスキー",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-bacchus.webp"
+        },
+        {
+          "name_en": "Fuzin & Raijin",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-bacchus.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-fuzin-raijin.webp"
         },
         {
-          "name_en": "Velázquez",
-          "name_ja": "ベラスケスキー",
+          "name_en": "Pearl Earring",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-vel-zquez.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-pearl-earring.webp"
         },
         {
-          "name_en": "Dali",
-          "name_ja": "キオクスキー",
+          "name_en": "The Source",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-dali.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-the-source.webp"
         },
         {
-          "name_en": "Pearl Earring",
-          "name_ja": "シンジュスキー",
+          "name_en": "Velázquez",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-pearl-earring.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-velazquez.webp"
         },
         {
           "name_en": "King Tut",
-          "name_ja": "ツタンカーメンスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-king-tut.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-king-tut.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-museum.png"
@@ -970,74 +970,74 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Approving",
-          "name_ja": "ショウニンスキー",
+          "name_en": "Little Smiski Group Think",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-approving.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-little-smiski-group-think.webp"
         },
         {
-          "name_en": "Researching",
-          "name_ja": "リサーチスキー",
+          "name_en": "Approving",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-researching.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-approving.webp"
         },
         {
-          "name_en": "Presenting",
-          "name_ja": "プレゼンスキー",
+          "name_en": "Good Idea",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-presenting.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-good-idea.webp"
         },
         {
-          "name_en": "Good Idea",
-          "name_ja": "アイデアスキー",
+          "name_en": "On The Road",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-good-idea.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-on-the-road.webp"
         },
         {
-          "name_en": "On the Road",
-          "name_ja": "シュッチョウスキー",
+          "name_en": "Presenting",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-on-the-road.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-presenting.webp"
         },
         {
-          "name_en": "Little SMISKI Group Think",
-          "name_ja": "チビカイギスキー",
+          "name_en": "Researching",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-little-smiski-group-think.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-researching.webp"
         },
         {
           "name_en": "Lucky Cat",
-          "name_ja": "マネキスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-lucky-cat.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-lucky-cat.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-work.png"
@@ -1052,74 +1052,74 @@
       "official_url": "https://smiski.com/e/products/dressing-series/",
       "figures": [
         {
-          "name_en": "Underpants",
-          "name_ja": "パンツスキー",
+          "name_en": "Loose Pants",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-underpants.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-loose-pants.webp"
         },
         {
-          "name_en": "Struggling",
-          "name_ja": "アタマデナイスキー",
+          "name_en": "Putting On Socks",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-struggling.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-putting-on-socks.webp"
         },
         {
-          "name_en": "Loose Pants",
-          "name_ja": "ブカブカスキー",
+          "name_en": "Struggling",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-loose-pants.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-struggling.webp"
         },
         {
-          "name_en": "Putting On Socks",
-          "name_ja": "クツシタスキー",
+          "name_en": "Sweater",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-putting-on-socks.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-sweater.webp"
         },
         {
-          "name_en": "Sweater",
-          "name_ja": "セータースキー",
+          "name_en": "Tight Pants",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-sweater.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-tight-pants.webp"
         },
         {
-          "name_en": "Tight Pants",
-          "name_ja": "キツズボンスキー",
+          "name_en": "Underpants",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-tight-pants.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-underpants.webp"
         },
         {
           "name_en": "Costume Bunny",
-          "name_ja": "ウサギーズスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-costume-bunny.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-costume-bunny.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-dressing.png"
@@ -1134,74 +1134,74 @@
       "official_url": "https://smiski.com/e/products/exercising-series/",
       "figures": [
         {
-          "name_en": "Doing Crunches",
-          "name_ja": "フッキンスキー",
+          "name_en": "Little Smiski Balance",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-doing-crunches.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-little-smiski-balance.webp"
         },
         {
           "name_en": "Aerobics",
-          "name_ja": "エアロビスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-aerobics.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-aerobics.webp"
         },
         {
-          "name_en": "Little SMISKI Balance",
-          "name_ja": "チビバランススキー",
+          "name_en": "Doing Crunches",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-little-smiski-balance.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-doing-crunches.webp"
         },
         {
           "name_en": "Dumbbell",
-          "name_ja": "ダンベルスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-dumbbell.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-dumbbell.webp"
         },
         {
           "name_en": "Hoop",
-          "name_ja": "フープスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-hoop.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-hoop.webp"
         },
         {
           "name_en": "Stretch",
-          "name_ja": "ストレッチスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-stretch.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-stretch.webp"
         },
         {
           "name_en": "Flexing",
-          "name_ja": "ポージングスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-flexing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-flexing.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-exercising.png"
@@ -1216,74 +1216,74 @@
       "official_url": "https://smiski.com/e/products/moving-series/",
       "figures": [
         {
-          "name_en": "Carrying Ladder",
-          "name_ja": "ハシゴスキー",
+          "name_en": "Green Thumb",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-carrying-ladder.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-green-thumb.webp"
         },
         {
-          "name_en": "Balancing Boxes",
-          "name_ja": "ハコスキー",
+          "name_en": "Little Smiski Teamwork",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-balancing-boxes.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-little-smiski-teamwork.webp"
         },
         {
-          "name_en": "Decorating",
-          "name_ja": "ランプスキー",
+          "name_en": "Balancing Boxes",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-decorating.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-balancing-boxes.webp"
         },
         {
-          "name_en": "Little SMISKI Teamwork",
-          "name_ja": "チビハコスキー",
+          "name_en": "Carrying Ladder",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-little-smiski-teamwork.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-carrying-ladder.webp"
         },
         {
-          "name_en": "Green Thumb SMISKI",
-          "name_ja": "サボテンスキー",
+          "name_en": "Decorating",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-green-thumb-smiski.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-decorating.webp"
         },
         {
           "name_en": "Falling Down",
-          "name_ja": "コロブスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-falling-down.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-falling-down.webp"
         },
         {
           "name_en": "Teddy",
-          "name_ja": "テディスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-teddy.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-teddy.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-moving.png"
@@ -1298,74 +1298,74 @@
       "official_url": "https://smiski.com/e/products/hippers-series/",
       "figures": [
         {
-          "name_en": "On His Smartphone",
-          "name_ja": "スマホスキー",
+          "name_en": "Dozing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-on-his-smartphone.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-dozing.webp"
         },
         {
-          "name_en": "Trying to Climb",
-          "name_ja": "ノボリヒッパーズスキー",
+          "name_en": "Looking Out",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-trying-to-climb.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-looking-out.webp"
         },
         {
-          "name_en": "Looking Out",
-          "name_ja": "ミハラスキー",
+          "name_en": "On His Phone",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-looking-out.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-on-his-phone.webp"
         },
         {
           "name_en": "Sticking",
-          "name_ja": "ペタッスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-sticking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-sticking.webp"
         },
         {
-          "name_en": "Dozing",
-          "name_ja": "ウトウトスキー",
+          "name_en": "Trying To Climb",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-dozing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-trying-to-climb.webp"
         },
         {
           "name_en": "Upside Down",
-          "name_ja": "サカサマスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-upside-down.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-upside-down.webp"
         },
         {
-          "name_en": "Headphones",
-          "name_ja": "ヘッドホンスキー",
+          "name_en": "Headphone",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-headphones.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-headphone.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-hippers.png"
@@ -1381,73 +1381,73 @@
       "figures": [
         {
           "name_en": "Blowing Bubbles",
-          "name_ja": "シャボンダマスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-blowing-bubbles.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-blowing-bubbles.webp"
         },
         {
-          "name_en": "Paper Airplane",
-          "name_ja": "カミヒコーキスキー",
+          "name_en": "Gardening",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-paper-airplane.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-gardening.webp"
         },
         {
-          "name_en": "Sunbathing",
-          "name_ja": "ヒナタボッコスキー",
+          "name_en": "Paper Airplane",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-sunbathing.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-paper-airplane.webp"
         },
         {
           "name_en": "Sing-Along",
-          "name_ja": "ウタスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-sing-along.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-sing-along.webp"
         },
         {
           "name_en": "Skateboarding",
-          "name_ja": "スケボースキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-skateboarding.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-skateboarding.webp"
         },
         {
-          "name_en": "Gardening",
-          "name_ja": "ニワシスキー",
+          "name_en": "Sunbathing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-gardening.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-sunbathing.webp"
         },
         {
-          "name_en": "Dog Walk",
-          "name_ja": "ドッグウォークスキー",
+          "name_en": "Walking Dog",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-dog-walk.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-walking-dog.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-sunday.png"
@@ -1462,74 +1462,74 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Giving a Bouquet",
-          "name_ja": "ハナタバスキー",
+          "name_en": "Birthday Message",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-giving-a-bouquet.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-birthday-message.webp"
         },
         {
-          "name_en": "Wrapped Up",
-          "name_ja": "ホウタイスキー",
+          "name_en": "Popping Confetti",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-wrapped-up.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-popping-confetti.webp"
         },
         {
-          "name_en": "Popping Confetti",
-          "name_ja": "クラッカースキー",
+          "name_en": "Little Smiski Decorating",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-popping-confetti.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-little-smiski-decorating.webp"
         },
         {
-          "name_en": "Birthday Message",
-          "name_ja": "メッセースキー",
+          "name_en": "Tasting",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-birthday-message.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-tasting.webp"
         },
         {
-          "name_en": "Little SMISKI Decorating",
-          "name_ja": "チビデコスキー",
+          "name_en": "Giving a Bouquet",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-little-smiski-decorating.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-giving-a-bouquet.webp"
         },
         {
-          "name_en": "Tasting",
-          "name_ja": "アジワイスキー",
+          "name_en": "Wrapped Up",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-tasting.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-wrapped-up.webp"
         },
         {
           "name_en": "Candle",
-          "name_ja": "キャンドルスキー",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-candle.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-candle.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-birthday.png"
@@ -1545,73 +1545,73 @@
       "figures": [
         {
           "name_en": "Digging a Hole",
-          "name_ja": "ホッスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-digging-a-hole.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-digging-a-hole.webp"
         },
         {
           "name_en": "Crushing Rock",
-          "name_ja": "ツブスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-crushing-rock.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-crushing-rock.webp"
         },
         {
           "name_en": "Tightening Bolt",
-          "name_ja": "シメスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-tightening-bolt.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-tightening-bolt.webp"
         },
         {
           "name_en": "Measuring",
-          "name_ja": "ハカルスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-measuring.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-measuring.webp"
         },
         {
           "name_en": "Directing Traffic",
-          "name_ja": "ユウドースキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-directing-traffic.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-directing-traffic.webp"
         },
         {
           "name_en": "Loosening Bolt",
-          "name_ja": "ユルスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-loosening-bolt.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-loosening-bolt.webp"
         },
         {
-          "name_en": "Traffic Cones",
-          "name_ja": "カラーコーンスキー",
+          "name_en": "Secret",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
-          "is_duo": true,
+          "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-traffic-cones.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-secret.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-construction.png"
@@ -1626,38 +1626,38 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Hugging Knees",
-          "name_ja": "ヒザカカエスキー",
+          "name_en": "Hiding",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-huggingknees.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-hiding.webp"
         },
         {
-          "name_en": "Sitting",
-          "name_ja": "スワルスキー",
+          "name_en": "Hugging Knees",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-sitting.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-hugging-knees.webp"
         },
         {
           "name_en": "Looking Back",
-          "name_ja": "フリムキスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-lookingback.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-looking-back.webp"
         },
         {
           "name_en": "Lounging",
-          "name_ja": "ゴロネスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
@@ -1666,34 +1666,34 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-lounging.webp"
         },
         {
-          "name_en": "Hiding",
-          "name_ja": "カクレスキー",
+          "name_en": "Peeking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-hiding.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-peeking.webp"
         },
         {
-          "name_en": "Peeking",
-          "name_ja": "ノゾキスキー",
+          "name_en": "Sitting",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-peeking.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-sitting.webp"
         },
         {
-          "name_en": "Mini The Scream",
-          "name_ja": "ミニサケビスキー",
+          "name_en": "Scream",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-minithescream.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-scream.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-1.png"
@@ -1709,7 +1709,7 @@
       "figures": [
         {
           "name_en": "Kneeling",
-          "name_ja": "セイザスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
@@ -1718,38 +1718,38 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-kneeling.webp"
         },
         {
-          "name_en": "Climbing",
-          "name_ja": "ノボリスキー",
+          "name_en": "Pushing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-climbing.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-pushing.webp"
         },
         {
-          "name_en": "Daydreaming",
-          "name_ja": "ボーットスキー",
+          "name_en": "Listening",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-daydreaming.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-listening.webp"
         },
         {
-          "name_en": "Pushing",
-          "name_ja": "オススキー",
+          "name_en": "Climbing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-pushing.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-climbing.webp"
         },
         {
           "name_en": "Peeking",
-          "name_ja": "マタノゾキスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
@@ -1758,24 +1758,24 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-peeking.webp"
         },
         {
-          "name_en": "Listening",
-          "name_ja": "キキミミスキー",
+          "name_en": "Daydreaming",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-listening.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-daydreaming.webp"
         },
         {
-          "name_en": "Mini Birth of Venus",
-          "name_ja": "ミニビーナススキー",
+          "name_en": "Secret",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-minibirthofvenus.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-secret.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-2.png"
@@ -1791,7 +1791,7 @@
       "figures": [
         {
           "name_en": "Bridge",
-          "name_ja": "ブリッジスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
@@ -1801,7 +1801,7 @@
         },
         {
           "name_en": "Peeking",
-          "name_ja": "シタノゾキスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
@@ -1810,54 +1810,54 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-peeking.webp"
         },
         {
-          "name_en": "Climbing",
-          "name_ja": "ヒモノボリスキー",
+          "name_en": "Handstand",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-climbing.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-handstand.webp"
         },
         {
-          "name_en": "Little",
-          "name_ja": "チビドンスキー",
+          "name_en": "Climbing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-little.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-climbing.webp"
         },
         {
-          "name_en": "Hiding",
-          "name_ja": "モグルスキー",
+          "name_en": "Little",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-hiding.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-little.webp"
         },
         {
-          "name_en": "Handstand",
-          "name_ja": "サカダチスキー",
+          "name_en": "Hiding",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-handstand.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-hiding.webp"
         },
         {
-          "name_en": "Mini The Thinker",
-          "name_ja": "ミニカンガエリスキー",
+          "name_en": "Secret",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-minithethinker.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-secret.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-3.png"
@@ -1872,28 +1872,28 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Sneaking",
-          "name_ja": "コソコソスキー",
+          "name_en": "Defeated",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-sneaking.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-defeated.webp"
         },
         {
-          "name_en": "Scared",
-          "name_ja": "ビクッスキー",
+          "name_en": "Lazy",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-scared.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-lazy.webp"
         },
         {
           "name_en": "Relaxing",
-          "name_ja": "リラックススキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
@@ -1902,44 +1902,44 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-relaxing.webp"
         },
         {
-          "name_en": "Lazy",
-          "name_ja": "ダラダラスキー",
+          "name_en": "Scared",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-lazy.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-scared.webp"
         },
         {
-          "name_en": "Stuck",
-          "name_ja": "ハマリスキー",
+          "name_en": "Sneaking",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-stuck.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-sneaking.webp"
         },
         {
-          "name_en": "Defeated",
-          "name_ja": "ショゲスキー",
+          "name_en": "Stuck",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-defeated.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-stuck.webp"
         },
         {
-          "name_en": "Mini Twin Angels",
-          "name_ja": "ミニツインエンジェルスキー",
+          "name_en": "Twin Angels",
+          "name_ja": null,
           "is_secret": true,
           "is_limited": false,
           "is_bonus": false,
-          "is_duo": true,
+          "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-minitwinangels.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-twin-angels.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-4.png"
@@ -1955,73 +1955,63 @@
       "figures": [
         {
           "name_en": "Little Smiski Afraid of Water",
-          "name_ja": "ミズギラリスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-afraid-of-water.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-afraid-of-water.webp"
         },
         {
           "name_en": "Little Smiski Like Sea Otter",
-          "name_ja": "ラッコスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-like-sea-otter.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-like-sea-otter.webp"
         },
         {
           "name_en": "Little Smiski Hesitating",
-          "name_ja": "タメライスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-hesitating.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-hesitating.webp"
         },
         {
           "name_en": "Little Smiski Swimming",
-          "name_ja": "オヨギスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-swimming.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-swimming.webp"
         },
         {
           "name_en": "Little Smiski Having Swim Ring",
-          "name_ja": "ウキスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-having-swim-ring.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-having-swim-ring.webp"
         },
         {
           "name_en": "Little Smiski Curled Up",
-          "name_ja": "マルマリスキー",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-curled-up.png"
-        },
-        {
-          "name_en": "Mermaid",
-          "name_ja": "マーメイドスキー",
-          "is_secret": true,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-mermaid.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-curled-up.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bath-ball.png"
@@ -2036,74 +2026,64 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Diving from Tub Edge",
-          "name_ja": "ダイブスキー",
+          "name_en": "Little Smiski Diving",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-diving-from-tub-edge.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-little-smiski-diving.webp"
         },
         {
-          "name_en": "Rubber Duck Ride",
-          "name_ja": "アヒルノリスキー",
+          "name_en": "Little Smiski Duck-ing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-rubber-duck-ride.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-little-smiski-duck-ing.webp"
         },
         {
-          "name_en": "Big Pool",
-          "name_ja": "プールスキー",
+          "name_en": "Little Smiski Floating",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-big-pool.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-little-smiski-floating.webp"
         },
         {
-          "name_en": "Washing Body",
-          "name_ja": "カラダアライスキー",
+          "name_en": "Little Smiski Washing",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-washing-body.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-little-smiski-washing.webp"
         },
         {
-          "name_en": "Banzai",
-          "name_ja": "バンザイスキー",
+          "name_en": "Little Smiski Stretching",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-banzai.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-little-smiski-stretching.webp"
         },
         {
-          "name_en": "Towel on Head",
-          "name_ja": "タオルマキスキー",
+          "name_en": "Little Smiski Laid Back",
+          "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-towel-on-head.png"
-        },
-        {
-          "name_en": "Mermaid",
-          "name_ja": "マーメイドスキー",
-          "is_secret": true,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-mermaid.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-little-smiski-laid-back.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bath-ball-2.png"
@@ -2125,7 +2105,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-santa-claus.jpg"
+          "image_source": null
         },
         {
           "name_en": "Present",
@@ -2135,7 +2115,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-present.jpg"
+          "image_source": null
         },
         {
           "name_en": "Snowman",
@@ -2145,7 +2125,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-snowman.jpg"
+          "image_source": null
         },
         {
           "name_en": "Candy Cane",
@@ -2155,7 +2135,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-candy-cane.jpg"
+          "image_source": null
         },
         {
           "name_en": "Stocking",
@@ -2165,7 +2145,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-stocking.jpg"
+          "image_source": null
         },
         {
           "name_en": "Star",
@@ -2175,7 +2155,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-star.jpg"
+          "image_source": null
         },
         {
           "name_en": "Reindeer",
@@ -2185,7 +2165,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-reindeer.jpg"
+          "image_source": null
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-hanging-christmas.png"
@@ -2200,64 +2180,34 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Holding Key",
+          "name_en": "Pulling Key",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-holding-key.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-pulling-key.webp"
         },
         {
-          "name_en": "Sitting Keychain",
+          "name_en": "Walking Key",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-sitting-keychain.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-walking-key.webp"
         },
         {
-          "name_en": "Hanging Keychain",
+          "name_en": "Grabbing Key",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-hanging-keychain.jpg"
-        },
-        {
-          "name_en": "Peeking Keychain",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-peeking-keychain.jpg"
-        },
-        {
-          "name_en": "Lounging Keychain",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-lounging-keychain.jpg"
-        },
-        {
-          "name_en": "Little Keychain",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-little-keychain.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-grabbing-key.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-key-chain.png"
@@ -2272,64 +2222,44 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Standing Hold",
+          "name_en": "Protecting",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-standing-hold.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-protecting.webp"
         },
         {
-          "name_en": "Leaning Hold",
+          "name_en": "Holding",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-leaning-hold.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-holding.webp"
         },
         {
-          "name_en": "Sitting Hold",
+          "name_en": "Hugging",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-sitting-hold.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-hugging.webp"
         },
         {
-          "name_en": "Peeking Hold",
+          "name_en": "Carrying",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-peeking-hold.png"
-        },
-        {
-          "name_en": "Hugging Hold",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-hugging-hold.png"
-        },
-        {
-          "name_en": "Little Hold",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-little-hold.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-carrying.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-toothbrush-stand.png"
@@ -2344,64 +2274,24 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Biting Zipper",
+          "name_en": "Hanging On!",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-biting-zipper.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-hanging-on.webp"
         },
         {
-          "name_en": "Peeking Zipper",
+          "name_en": "Hugging Knees",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-peeking-zipper.jpg"
-        },
-        {
-          "name_en": "Hanging Zipper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-hanging-zipper.jpg"
-        },
-        {
-          "name_en": "Climbing Zipper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-climbing-zipper.jpg"
-        },
-        {
-          "name_en": "Sitting Zipper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-sitting-zipper.jpg"
-        },
-        {
-          "name_en": "Little Zipper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-little-zipper.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-hugging-knees.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-zipperbite.png"
@@ -2423,7 +2313,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-2-lotuspose.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-2-lotus-pose.webp"
         },
         {
           "name_en": "Falling Down",
@@ -2433,47 +2323,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-2-fallingdown.webp"
-        },
-        {
-          "name_en": "Riding Zipper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": null
-        },
-        {
-          "name_en": "Watching Zipper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": null
-        },
-        {
-          "name_en": "Holding Zipper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": null
-        },
-        {
-          "name_en": "Duo Zipper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": true,
-          "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-2-falling-down.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-zipperbite-2.png"
@@ -2488,64 +2338,14 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Sitting Light",
+          "name_en": "Daydreaming Light",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-sitting-light.png"
-        },
-        {
-          "name_en": "Peeking Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-peeking-light.png"
-        },
-        {
-          "name_en": "Hugging Knees Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-hugging-knees-light.png"
-        },
-        {
-          "name_en": "Lounging Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-lounging-light.png"
-        },
-        {
-          "name_en": "Hiding Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-hiding-light.png"
-        },
-        {
-          "name_en": "Looking Back Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-looking-back-light.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-daydreaming-light.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-touch-light.png"
@@ -2567,57 +2367,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-2-loungingtouchlight.webp"
-        },
-        {
-          "name_en": "Climbing Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 2,
-          "image_source": null
-        },
-        {
-          "name_en": "Daydreaming Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": null
-        },
-        {
-          "name_en": "Pushing Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": null
-        },
-        {
-          "name_en": "Listening Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": null
-        },
-        {
-          "name_en": "Handstand Light",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-2-lounging-light.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-touch-light-2.png"
@@ -2632,44 +2382,14 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Corner Sensor",
+          "name_en": "Sensor Light",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-corner-sensor.png"
-        },
-        {
-          "name_en": "Wall Sensor",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-wall-sensor.jpg"
-        },
-        {
-          "name_en": "Shelf Sensor",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-shelf-sensor.png"
-        },
-        {
-          "name_en": "Little Sensor",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-little-sensor.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-sensor-light.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-sensor-light.jpg"
@@ -2684,44 +2404,24 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Sitting Plush",
+          "name_en": "Hugging Knees",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-sitting-plush.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-hugging-knees.webp"
         },
         {
-          "name_en": "Hugging Knees Plush",
+          "name_en": "Lounging",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-hugging-knees-plush.png"
-        },
-        {
-          "name_en": "Peeking Plush",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-peeking-plush.png"
-        },
-        {
-          "name_en": "Lounging Plush",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-lounging-plush.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-lounging.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-plush.png"
@@ -2736,44 +2436,24 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Sitting Plush Keychain",
+          "name_en": "Hugging Knees",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-sitting-plush-keychain.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-hugging-knees.webp"
         },
         {
-          "name_en": "Hugging Plush Keychain",
+          "name_en": "Hanging On!",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-hugging-plush-keychain.jpg"
-        },
-        {
-          "name_en": "Peeking Plush Keychain",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-peeking-plush-keychain.jpg"
-        },
-        {
-          "name_en": "Little Plush Keychain",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-little-plush-keychain.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-hanging-on.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-plush-key-chain.png"
@@ -2788,64 +2468,34 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Hugging Knees Sticker",
+          "name_en": "Hugging Knees",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-hugging-knees-sticker.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-hugging-knees.webp"
         },
         {
-          "name_en": "Sitting Sticker",
+          "name_en": "Lounging",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-sitting-sticker.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-lounging.webp"
         },
         {
-          "name_en": "Peeking Sticker",
+          "name_en": "Peeking",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-peeking-sticker.png"
-        },
-        {
-          "name_en": "Hiding Sticker",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-hiding-sticker.png"
-        },
-        {
-          "name_en": "Lounging Sticker",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-lounging-sticker.png"
-        },
-        {
-          "name_en": "Looking Back Sticker",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-looking-back-sticker.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-peeking.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-embroidery-sticker.png"
@@ -2860,7 +2510,7 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Peeking Sticker",
+          "name_en": "Peeking",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
@@ -2870,7 +2520,7 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-2-peeking.webp"
         },
         {
-          "name_en": "Pushing Sticker",
+          "name_en": "Pushing",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
@@ -2880,7 +2530,7 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-2-pushing.webp"
         },
         {
-          "name_en": "Little Sticker",
+          "name_en": "Little",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
@@ -2888,36 +2538,6 @@
           "is_duo": false,
           "sort_order": 3,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-2-little.webp"
-        },
-        {
-          "name_en": "Daydreaming Sticker",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": null
-        },
-        {
-          "name_en": "Listening Sticker",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": null
-        },
-        {
-          "name_en": "Handstand Sticker",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": null
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-embroidery-sticker-2.png"
@@ -2932,64 +2552,24 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Umbrella",
+          "name_en": "Lounging",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-umbrella.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-lounging.webp"
         },
         {
-          "name_en": "Splashing",
+          "name_en": "Having Swim Ring",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-splashing.png"
-        },
-        {
-          "name_en": "Puddle Jump",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-puddle-jump.png"
-        },
-        {
-          "name_en": "Rain Coat",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-rain-coat.png"
-        },
-        {
-          "name_en": "Holding Boots",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-holding-boots.png"
-        },
-        {
-          "name_en": "Little Rain",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-little-rain.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-having-swim-ring.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-rainbomb.png"
@@ -3004,64 +2584,34 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Bobbing Sitting",
+          "name_en": "Hugging Knees",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-sitting.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-hugging-knees.webp"
         },
         {
-          "name_en": "Bobbing Peeking",
+          "name_en": "Looking Back",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-peeking.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-looking-back.webp"
         },
         {
-          "name_en": "Bobbing Hugging Knees",
+          "name_en": "Lotus Pose",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-hugging-knees.png"
-        },
-        {
-          "name_en": "Bobbing Looking Back",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-looking-back.png"
-        },
-        {
-          "name_en": "Bobbing Lounging",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-lounging.png"
-        },
-        {
-          "name_en": "Bobbing Hiding",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-hiding.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-lotus-pose.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bobbing-head.png"
@@ -3076,7 +2626,7 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Relaxing Ring",
+          "name_en": "Relaxing",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
@@ -3086,54 +2636,44 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-relaxing.webp"
         },
         {
-          "name_en": "Peeking Ring",
+          "name_en": "Little",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-peekingring.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-little.webp"
         },
         {
-          "name_en": "Hugging Knees Ring",
+          "name_en": "Peeking",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-huggingkneesring.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-peeking.webp"
         },
         {
-          "name_en": "Lounging Ring",
+          "name_en": "Lounging",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-loungingring.webp"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-lounging.webp"
         },
         {
-          "name_en": "Little Ring",
+          "name_en": "Hugging Knees",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-little.webp"
-        },
-        {
-          "name_en": "Looking Back Ring",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-hugging-knees.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-ringcolle.png"
@@ -3148,34 +2688,14 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Round Pouch",
+          "name_en": "Cushion Pouch",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cushion-pouch-round-pouch.png"
-        },
-        {
-          "name_en": "Square Pouch",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cushion-pouch-square-pouch.png"
-        },
-        {
-          "name_en": "Little Pouch",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cushion-pouch-little-pouch.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cushion-pouch-cushion-pouch.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-cushion-pouch.png"

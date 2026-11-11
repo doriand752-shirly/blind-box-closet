@@ -31,7 +31,6 @@ import { useCollectionApi } from "../hooks/useCollectionApi";
 import { useLocale } from "../i18n/LocaleContext";
 import { api } from "../services/api";
 import { colors, fonts, getBrandTheme, radius, space, type } from "../theme";
-import { seriesCategoryLabel } from "../utils/productForm";
 import type { Figure, Series } from "../types/models";
 import type { LocalEntry } from "../services/localCollection";
 
@@ -75,6 +74,31 @@ export function BrandCollectionScreen() {
   const route = useRoute<RouteProp<Record<string, { brandSlug?: string }>, string>>();
   const brandSlug = route.params?.brandSlug || "smiski";
   const theme = getBrandTheme(brandSlug);
+
+  const formLabel = (form: string | null | undefined) => {
+    switch ((form || "blind_box_mini").toLowerCase()) {
+      case "blind_box_mini":
+        return t("formCore");
+      case "hippers":
+        return t("formHippers");
+      case "hanging":
+        return t("formHanging");
+      case "strap":
+        return t("formStrap");
+      case "bath_ball":
+        return t("formBathBall");
+      case "keychain":
+        return t("formKeychain");
+      case "accessory":
+        return t("formAccessory");
+      case "light":
+        return t("formLight");
+      case "plush":
+        return t("formPlush");
+      default:
+        return t("formOther");
+    }
+  };
 
   const { loadCollection, upsert, getLocalMap } = useCollectionApi();
   const [blocks, setBlocks] = useState<SeriesBlock[]>([]);
@@ -320,7 +344,7 @@ export function BrandCollectionScreen() {
               <View style={{ flex: 1 }}>
                 <Text style={styles.seriesName}>{section.series.name_en}</Text>
                 <Text style={styles.seriesLabel}>
-                  {seriesCategoryLabel(section.series.product_form)}
+                  {formLabel(section.series.product_form)}
                 </Text>
                 <ProgressBar
                   progress={pct}

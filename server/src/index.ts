@@ -1,4 +1,4 @@
-import "dotenv/config";
+﻿import "dotenv/config";
 import Fastify from "fastify";
 import cors from "@fastify/cors";
 import multipart from "@fastify/multipart";
@@ -561,7 +561,7 @@ async function main() {
         .filter((f) => /\.(png|jpe?g|webp|gif)$/i.test(f))
         .filter((f) => !q || f.toLowerCase().includes(q))
         .sort()
-        .slice(0, 400)
+        .slice(0, 2000)
         .map((name) => ({
           name,
           url: mediaUrl(`${kind}/${name}`),
@@ -572,12 +572,12 @@ async function main() {
           .readdirSync(MEDIA_ROOT)
           .filter((f) => /\.(png|jpe?g|webp|gif)$/i.test(f))
           .filter((f) => !q || f.toLowerCase().includes(q))
-          .slice(0, 400)
+          .slice(0, 2000)
           .map((name) => ({ name, url: mediaUrl(name) }));
         const seen = new Set(files.map((f) => f.url));
         for (const f of rootFiles) if (!seen.has(f.url)) files.push(f);
       }
-      return { media: files.slice(0, 500) };
+      return { media: files.slice(0, 2500) };
     } catch (e: any) {
       return reply.code(e.statusCode || 400).send({ error: e.message });
     }

@@ -5,262 +5,16 @@
     "name_ja": "ラブブ",
     "accent_color": "#E4D8F2",
     "status": "live",
-    "hero_image_url": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-chestnut-cocoa.jpg"
+    "hero_image_url": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-love.webp"
   },
   "series": [
     {
-      "slug": "exciting-macaron",
-      "name_en": "Exciting Macaron",
+      "slug": "big-into-energy",
+      "name_en": "Big into Energy",
       "name_ja": null,
       "product_form": "blind_box_mini",
       "sort_order": 1,
-      "release_year": 2023,
-      "official_url": null,
-      "figures": [
-        {
-          "name_en": "Soymilk",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-soymilk.jpg"
-        },
-        {
-          "name_en": "Lychee Berry",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-lychee-berry.jpg"
-        },
-        {
-          "name_en": "Green Grape",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-green-grape.jpg"
-        },
-        {
-          "name_en": "Sea Salt Coconut",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-sea-salt-coconut.jpg"
-        },
-        {
-          "name_en": "Sesame Bean",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-sesame-bean.jpg"
-        },
-        {
-          "name_en": "Toffee",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-toffee.jpg"
-        },
-        {
-          "name_en": "Chestnut Cocoa",
-          "name_ja": null,
-          "is_secret": true,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-chestnut-cocoa.jpg"
-        }
-      ],
-      "cover_image_url": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-chestnut-cocoa.jpg"
-    },
-    {
-      "slug": "have-a-seat",
-      "name_en": "Have a Seat",
-      "name_ja": null,
-      "product_form": "blind_box_mini",
-      "sort_order": 2,
-      "release_year": 2024,
-      "official_url": null,
-      "figures": [
-        {
-          "name_en": "Sisi",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-sisi.jpg"
-        },
-        {
-          "name_en": "Dada",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-dada.jpg"
-        },
-        {
-          "name_en": "Ququ",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-ququ.jpg"
-        },
-        {
-          "name_en": "Zizi",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-zizi.jpg"
-        },
-        {
-          "name_en": "Baba",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-baba.jpg"
-        },
-        {
-          "name_en": "Hehe",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-hehe.jpg"
-        },
-        {
-          "name_en": "Duoduo",
-          "name_ja": null,
-          "is_secret": true,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-duoduo.jpg"
-        }
-      ],
-      "cover_image_url": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-baba.jpg"
-    },
-    {
-      "slug": "fall-in-wild",
-      "name_en": "Fall in Wild",
-      "name_ja": null,
-      "product_form": "blind_box_mini",
-      "sort_order": 3,
-      "release_year": 2024,
-      "official_url": null,
-      "figures": [
-        {
-          "name_en": "Trailblazer",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-trailblazer.jpg"
-        },
-        {
-          "name_en": "Camper",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-camper.jpg"
-        },
-        {
-          "name_en": "Daisy",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-daisy.jpg"
-        },
-        {
-          "name_en": "Overalls",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-overalls.jpg"
-        },
-        {
-          "name_en": "Bucket Hat",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-bucket-hat.jpg"
-        },
-        {
-          "name_en": "Wildflower",
-          "name_ja": null,
-          "is_secret": false,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-wildflower.jpg"
-        },
-        {
-          "name_en": "Secret Camper",
-          "name_ja": null,
-          "is_secret": true,
-          "is_limited": false,
-          "is_bonus": false,
-          "is_duo": false,
-          "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-secret-camper.jpg"
-        }
-      ],
-      "cover_image_url": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-bucket-hat.jpg"
-    },
-    {
-      "slug": "big-into-energy",
-      "name_en": "Big Into Energy",
-      "name_ja": null,
-      "product_form": "blind_box_mini",
-      "sort_order": 4,
-      "release_year": 2025,
+      "release_year": null,
       "official_url": null,
       "figures": [
         {
@@ -271,7 +25,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-love.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-love.webp"
         },
         {
           "name_en": "Happiness",
@@ -281,7 +35,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-happiness.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-happiness.webp"
         },
         {
           "name_en": "Loyalty",
@@ -291,7 +45,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-loyalty.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-loyalty.webp"
         },
         {
           "name_en": "Serenity",
@@ -301,7 +55,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-serenity.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-serenity.webp"
         },
         {
           "name_en": "Hope",
@@ -311,7 +65,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-hope.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-hope.webp"
         },
         {
           "name_en": "Luck",
@@ -321,7 +75,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-luck.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-luck.webp"
         },
         {
           "name_en": "ID",
@@ -331,10 +85,1633 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-id.jpg"
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-id.webp"
         }
-      ],
-      "cover_image_url": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-happiness.jpg"
+      ]
+    },
+    {
+      "slug": "have-a-seat",
+      "name_en": "Have a Seat",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 2,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Sisi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-sisi.webp"
+        },
+        {
+          "name_en": "Hehe",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-hehe.webp"
+        },
+        {
+          "name_en": "Baba",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-baba.webp"
+        },
+        {
+          "name_en": "Zizi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-zizi.webp"
+        },
+        {
+          "name_en": "Ququ",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-ququ.webp"
+        },
+        {
+          "name_en": "Dada",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-dada.webp"
+        },
+        {
+          "name_en": "Duoduo",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-duoduo.webp"
+        }
+      ]
+    },
+    {
+      "slug": "exciting-macaron",
+      "name_en": "Exciting Macaron",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 3,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Soymilk",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-soymilk.webp"
+        },
+        {
+          "name_en": "Lychee Berry",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-lychee-berry.webp"
+        },
+        {
+          "name_en": "Green Grape",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-green-grape.webp"
+        },
+        {
+          "name_en": "Sea Salt Coconut",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-sea-salt-coconut.webp"
+        },
+        {
+          "name_en": "Toffee",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-toffee.webp"
+        },
+        {
+          "name_en": "Sesame Bean",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-sesame-bean.webp"
+        },
+        {
+          "name_en": "Chestnut Cocoa",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-chestnut-cocoa.webp"
+        }
+      ]
+    },
+    {
+      "slug": "classic-series-sparkly-plush-pendant",
+      "name_en": "Classic Sparkly Plush",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 4,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Labubu",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-classic-series-sparkly-plush-pendant-labubu.webp"
+        },
+        {
+          "name_en": "Tycoco",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-classic-series-sparkly-plush-pendant-tycoco.webp"
+        },
+        {
+          "name_en": "Pato",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-classic-series-sparkly-plush-pendant-pato.webp"
+        },
+        {
+          "name_en": "Yaya",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-classic-series-sparkly-plush-pendant-yaya.webp"
+        },
+        {
+          "name_en": "Pippo",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-classic-series-sparkly-plush-pendant-pippo.webp"
+        },
+        {
+          "name_en": "Spooky",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-classic-series-sparkly-plush-pendant-spooky.webp"
+        },
+        {
+          "name_en": "Labubu Secret",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-classic-series-sparkly-plush-pendant-labubu-secret.webp"
+        }
+      ]
+    },
+    {
+      "slug": "pin-for-love",
+      "name_en": "Pin for Love",
+      "name_ja": null,
+      "product_form": "accessory",
+      "sort_order": 5,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "heart",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-heart.webp"
+        },
+        {
+          "name_en": "!",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-2.webp"
+        },
+        {
+          "name_en": "A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-a.webp"
+        },
+        {
+          "name_en": "B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-b.webp"
+        },
+        {
+          "name_en": "C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-c.webp"
+        },
+        {
+          "name_en": "D",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-d.webp"
+        },
+        {
+          "name_en": "E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-e.webp"
+        },
+        {
+          "name_en": "F",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-f.webp"
+        },
+        {
+          "name_en": "G",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-g.webp"
+        },
+        {
+          "name_en": "H",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-h.webp"
+        },
+        {
+          "name_en": "I",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-i.webp"
+        },
+        {
+          "name_en": "J",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-j.webp"
+        },
+        {
+          "name_en": "K",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-k.webp"
+        },
+        {
+          "name_en": "L",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 14,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-l.webp"
+        },
+        {
+          "name_en": "M",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 15,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-m.webp"
+        },
+        {
+          "name_en": "N",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 16,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-n.webp"
+        },
+        {
+          "name_en": "O",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 17,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-o.webp"
+        },
+        {
+          "name_en": "P",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 18,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-p.webp"
+        },
+        {
+          "name_en": "Q",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 19,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-q.webp"
+        },
+        {
+          "name_en": "R",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 20,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-r.webp"
+        },
+        {
+          "name_en": "S",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 21,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-s.webp"
+        },
+        {
+          "name_en": "T",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 22,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-t.webp"
+        },
+        {
+          "name_en": "U",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 23,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-u.webp"
+        },
+        {
+          "name_en": "V",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 24,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-v.webp"
+        },
+        {
+          "name_en": "W",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 25,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-w.webp"
+        },
+        {
+          "name_en": "X",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 26,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-x.webp"
+        },
+        {
+          "name_en": "Y",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 27,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-y.webp"
+        },
+        {
+          "name_en": "Z",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 28,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-z.webp"
+        },
+        {
+          "name_en": "&",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 29,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-29.webp"
+        },
+        {
+          "name_en": "?",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 30,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-pin-for-love-30.webp"
+        }
+      ]
+    },
+    {
+      "slug": "lazy-yoga",
+      "name_en": "Lazy Yoga",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 6,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Confident",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-confident.webp"
+        },
+        {
+          "name_en": "My 'American Style'",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-my-american-style.webp"
+        },
+        {
+          "name_en": "Show Off",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-show-off.webp"
+        },
+        {
+          "name_en": "Stretch Out",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-stretch-out.webp"
+        },
+        {
+          "name_en": "Little Bird",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-little-bird.webp"
+        },
+        {
+          "name_en": "Sleeping",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-sleeping.webp"
+        },
+        {
+          "name_en": "Lay Down",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-lay-down.webp"
+        },
+        {
+          "name_en": "Zone Out",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-zone-out.webp"
+        },
+        {
+          "name_en": "Ab Roller",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-ab-roller.webp"
+        },
+        {
+          "name_en": "Sweating",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-sweating.webp"
+        },
+        {
+          "name_en": "Yoga Coach",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-lazy-yoga-yoga-coach.webp"
+        }
+      ]
+    },
+    {
+      "slug": "wacky-mart",
+      "name_en": "Wacky Mart",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 7,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Microwave",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-microwave.webp"
+        },
+        {
+          "name_en": "Corn",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-corn.webp"
+        },
+        {
+          "name_en": "Instant Noodles",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-instant-noodles.webp"
+        },
+        {
+          "name_en": "Fried Noodles",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-fried-noodles.webp"
+        },
+        {
+          "name_en": "Rice Ball",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-rice-ball.webp"
+        },
+        {
+          "name_en": "Grilled Sausage",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-grilled-sausage.webp"
+        },
+        {
+          "name_en": "Milk",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-milk.webp"
+        },
+        {
+          "name_en": "Sandwich",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-sandwich.webp"
+        },
+        {
+          "name_en": "Sardine Can",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-sardine-can.webp"
+        },
+        {
+          "name_en": "Salad",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-salad.webp"
+        },
+        {
+          "name_en": "Teriyaki Skewer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-teriyaki-skewer.webp"
+        },
+        {
+          "name_en": "Potato Chips",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-potato-chips.webp"
+        },
+        {
+          "name_en": "Fried Shrimp",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-wacky-mart-fried-shrimp.webp"
+        }
+      ]
+    },
+    {
+      "slug": "large-vinyl-plush-dolls",
+      "name_en": "Large Vinyl Plush Dolls",
+      "name_ja": null,
+      "product_form": "plush",
+      "sort_order": 8,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Naughty Cashier",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-naughty-cashier.webp"
+        },
+        {
+          "name_en": "Angel in Clouds",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-angel-in-clouds.webp"
+        },
+        {
+          "name_en": "Let's Checkmate",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-lets-checkmate.webp"
+        },
+        {
+          "name_en": "Catch the Win",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-catch-the-win.webp"
+        },
+        {
+          "name_en": "Flip With Me",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-flip-with-me.webp"
+        },
+        {
+          "name_en": "I Found You",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-i-found-you.webp"
+        },
+        {
+          "name_en": "Hello Kitty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-hello-kitty.webp"
+        },
+        {
+          "name_en": "Rock the Universe",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-rock-the-universe.webp"
+        },
+        {
+          "name_en": "Time to Chill",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-time-to-chill.webp"
+        },
+        {
+          "name_en": "Fall in Wild",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-large-vinyl-plush-dolls-fall-in-wild.webp"
+        }
+      ]
+    },
+    {
+      "slug": "vinyl-plush-hanging-cards",
+      "name_en": "Vinyl Plush Hanging Cards",
+      "name_ja": null,
+      "product_form": "plush",
+      "sort_order": 9,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Let's Checkmate",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-vinyl-plush-hanging-cards-lets-checkmate.webp"
+        }
+      ]
+    },
+    {
+      "slug": "finding-mokoko",
+      "name_en": "Finding Mokoko",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 10,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Heart's Maze",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-hearts-maze.webp"
+        },
+        {
+          "name_en": "Guidance of the Wind",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-guidance-of-the-wind.webp"
+        },
+        {
+          "name_en": "Found it!",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-found-it.webp"
+        },
+        {
+          "name_en": "Careless Hunter",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-careless-hunter.webp"
+        },
+        {
+          "name_en": "Bravely Forward",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-bravely-forward.webp"
+        },
+        {
+          "name_en": "Major Discovery",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-major-discovery.webp"
+        },
+        {
+          "name_en": "Goodbye Balloon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-goodbye-balloon.webp"
+        },
+        {
+          "name_en": "Met by Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-met-by-light.webp"
+        },
+        {
+          "name_en": "Hide and Seek in Flowers",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-hide-and-seek-in-flowers.webp"
+        },
+        {
+          "name_en": "Look There",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-look-there.webp"
+        },
+        {
+          "name_en": "Does it Look Like a Painting?",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-finding-mokoko-does-it-look-like-a-painting.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-monsters-coca-cola-1",
+      "name_en": "Coca-Cola Figurines",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 11,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Elf Express",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-elf-express.webp"
+        },
+        {
+          "name_en": "Exclusive Sofa",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-exclusive-sofa.webp"
+        },
+        {
+          "name_en": "Mysterious Snowman",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-mysterious-snowman.webp"
+        },
+        {
+          "name_en": "Gift Delivery in Progress",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-gift-delivery-in-progress.webp"
+        },
+        {
+          "name_en": "Super Surprise",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-super-surprise.webp"
+        },
+        {
+          "name_en": "Unexpected Discovery",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-unexpected-discovery.webp"
+        },
+        {
+          "name_en": "Vacation Outfit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-vacation-outfit.webp"
+        },
+        {
+          "name_en": "Refreshing Moment",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-refreshing-moment.webp"
+        },
+        {
+          "name_en": "Surfing Together",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-surfing-together.webp"
+        },
+        {
+          "name_en": "Crazy Driving",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-crazy-driving.webp"
+        },
+        {
+          "name_en": "Snowy Mountain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-1-snowy-mountain.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-monsters-x-one-piece",
+      "name_en": "One Piece",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 12,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Luffy (Gear Five)",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-luffy-gear-five.webp"
+        },
+        {
+          "name_en": "Trafalgar Law",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-trafalgar-law.webp"
+        },
+        {
+          "name_en": "Sabo",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-sabo.webp"
+        },
+        {
+          "name_en": "Jinbe",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-jinbe.webp"
+        },
+        {
+          "name_en": "Brook",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-brook.webp"
+        },
+        {
+          "name_en": "Franky",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-franky.webp"
+        },
+        {
+          "name_en": "Nico Robin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-nico-robin.webp"
+        },
+        {
+          "name_en": "Tony Tony Chopper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-tony-tony-chopper.webp"
+        },
+        {
+          "name_en": "Sanji",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-sanji.webp"
+        },
+        {
+          "name_en": "Usopp",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-usopp.webp"
+        },
+        {
+          "name_en": "Nami",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-nami.webp"
+        },
+        {
+          "name_en": "Roronoa Zoro",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-roronoa-zoro.webp"
+        },
+        {
+          "name_en": "Monkey D. Luffy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-one-piece-monkey-d-luffy.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-monsters-x-spongebob-squarepants",
+      "name_en": "SpongeBob SquarePants",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 13,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Great Pirate",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-great-pirate.webp"
+        },
+        {
+          "name_en": "Jellyfish Catcher",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-jellyfish-catcher.webp"
+        },
+        {
+          "name_en": "Mr. Krabs X ZIMOMO",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-mr-krabs-x-zimomo.webp"
+        },
+        {
+          "name_en": "Plankton X TYCOCO",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-plankton-x-tycoco.webp"
+        },
+        {
+          "name_en": "Sandy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-sandy.webp"
+        },
+        {
+          "name_en": "Squidward",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-squidward.webp"
+        },
+        {
+          "name_en": "Patrick Star",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-patrick-star.webp"
+        },
+        {
+          "name_en": "Singer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-singer.webp"
+        },
+        {
+          "name_en": "Jack-o'-lantern",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-jack-o-lantern.webp"
+        },
+        {
+          "name_en": "Before Comedy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-before-comedy.webp"
+        },
+        {
+          "name_en": "Nose Flute",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-nose-flute.webp"
+        },
+        {
+          "name_en": "Surfing",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-surfing.webp"
+        },
+        {
+          "name_en": "Ace Chef",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-x-spongebob-squarepants-ace-chef.webp"
+        }
+      ]
+    },
+    {
+      "slug": "why-so-serious",
+      "name_en": "Why So Serious",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 14,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Moonlit Mask (Super Secret)",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-moonlit-mask-super-secret.webp"
+        },
+        {
+          "name_en": "Bubblegum (Secret)",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-bubblegum-secret.webp"
+        },
+        {
+          "name_en": "Juggling Clown",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-juggling-clown.webp"
+        },
+        {
+          "name_en": "Flame Clown",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-flame-clown.webp"
+        },
+        {
+          "name_en": "Silver Mist Clown",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-silver-mist-clown.webp"
+        },
+        {
+          "name_en": "Lumino Feast",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-lumino-feast.webp"
+        },
+        {
+          "name_en": "String Puppet",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-string-puppet.webp"
+        },
+        {
+          "name_en": "Shadow Joker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-shadow-joker.webp"
+        },
+        {
+          "name_en": "Rainbow Jelly Bean",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-rainbow-jelly-bean.webp"
+        },
+        {
+          "name_en": "Crimson Dancer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-why-so-serious-crimson-dancer.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-monsters-coca-cola",
+      "name_en": "Coca-Cola Vinyl Face",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 15,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Mystery Guest",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-mystery-guest.webp"
+        },
+        {
+          "name_en": "Happy Factor",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-happy-factor.webp"
+        },
+        {
+          "name_en": "Surprise Shake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-the-monsters-coca-cola-surprise-shake.webp"
+        }
+      ]
     }
   ]
 }
