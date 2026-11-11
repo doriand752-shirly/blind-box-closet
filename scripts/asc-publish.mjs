@@ -233,6 +233,8 @@ await must(
         parentalControls: false,
         userGeneratedContent: false,
         healthOrWellnessTopics: false,
+        socialMedia: false,
+        socialMediaAgeRestricted: false,
       },
     },
   }),
