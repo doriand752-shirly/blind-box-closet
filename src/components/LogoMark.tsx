@@ -10,7 +10,7 @@ type Props = {
   style?: StyleProp<ViewStyle>;
 };
 
-/** The app logo as a rounded tile: two oak shelves of hexagonal blind boxes. */
+/** The app logo as a rounded tile: flat sage hexagon with a question mark. */
 export function LogoMark({ size = 72, style }: Props) {
   return (
     <View

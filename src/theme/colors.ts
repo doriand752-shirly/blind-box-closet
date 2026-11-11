@@ -1,7 +1,7 @@
 /**
- * Brand palette, taken from the logo: five hexagonal blind boxes on two oak
- * shelves against a cream wall. Each colour has a `deep` variant dark enough
- * for text and icons, and a `wash` for large backgrounds.
+ * Brand palette, anchored by the sage hexagon logo mark, with blush / butter /
+ * sky / lavender accents against a cream wall. Each colour has a `deep`
+ * variant dark enough for text and icons, and a `wash` for large backgrounds.
  */
 export const brand = {
   wall: "#F4E8D8",
