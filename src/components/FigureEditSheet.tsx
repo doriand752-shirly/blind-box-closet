@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Modal, Pressable, StyleSheet, Text, View } from "react-native";
-import { Image } from "expo-image";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import * as Haptics from "expo-haptics";
 import { SoftPressable } from "./ui/SoftPressable";
+import { FigureImage } from "./FigureImage";
 import { colors, fonts, radius, space, type } from "../theme";
 import type { Figure } from "../types/models";
 
@@ -52,11 +52,7 @@ function FigureEditSheetInner({
     <View style={[styles.sheet, { paddingBottom: Math.max(insets.bottom, 20) + 8 }]}>
       <View style={styles.handle} />
       <View style={styles.header}>
-        <Image
-          source={{ uri: figure.image_url || undefined }}
-          style={styles.thumb}
-          contentFit="contain"
-        />
+        <FigureImage uri={figure.image_url} style={styles.thumb} />
         <View style={{ flex: 1 }}>
           <Text style={styles.name}>{figure.name_en}</Text>
           <Text style={styles.series}>{seriesName || figure.series_name}</Text>

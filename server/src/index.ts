@@ -106,11 +106,67 @@ async function main() {
       `SELECT b.*,
         (SELECT COUNT(*)::int FROM series s WHERE s.brand_id = b.id) AS series_count,
         (SELECT COUNT(*)::int FROM figures f
-          JOIN series s ON s.id = f.series_id WHERE s.brand_id = b.id) AS figure_count
+          JOIN series s ON s.id = f.series_id WHERE s.brand_id = b.id) AS figure_count,
+        (SELECT COUNT(*)::int FROM figures f
+          JOIN series s ON s.id = f.series_id
+          WHERE s.brand_id = b.id
+            AND s.product_form IN ('blind_box_mini','hippers','hanging')) AS main_figure_count
        FROM brands b
-       ORDER BY b.name ASC`,
+       ORDER BY
+         CASE WHEN b.status = 'live' THEN 0 ELSE 1 END,
+         b.name ASC`,
     );
     return { brands: result.rows };
+  });
+
+  app.get<{
+    Params: { slug: string };
+    Querystring: { bucket?: string };
+  }>("/catalog/brands/:slug/checklist", async (request, reply) => {
+    try {
+      const { slug } = request.params;
+      const bucket = (request.query.bucket || "all").toLowerCase();
+      const brandRes = await query(`SELECT * FROM brands WHERE slug = $1`, [slug]);
+      if (!brandRes.rows[0]) return reply.code(404).send({ error: "Brand not found" });
+
+      const params: unknown[] = [slug];
+      let formFilter = "";
+      if (bucket === "main") {
+        formFilter = ` AND s.product_form IN ('blind_box_mini','hippers','hanging')`;
+      } else if (bucket === "extras") {
+        formFilter = ` AND s.product_form NOT IN ('blind_box_mini','hippers','hanging')`;
+      }
+
+      const seriesRes = await query(
+        `SELECT s.*, b.slug AS brand_slug, b.name AS brand_name,
+           (SELECT COUNT(*)::int FROM figures f WHERE f.series_id = s.id) AS figure_count
+         FROM series s
+         JOIN brands b ON b.id = s.brand_id
+         WHERE b.slug = $1 ${formFilter}
+         ORDER BY s.sort_order ASC, s.name_en ASC`,
+        params,
+      );
+
+      const figuresRes = await query(
+        `SELECT f.*, s.id AS series_id, s.slug AS series_slug, s.name_en AS series_name,
+                b.slug AS brand_slug, b.name AS brand_name
+         FROM figures f
+         JOIN series s ON s.id = f.series_id
+         JOIN brands b ON b.id = s.brand_id
+         WHERE b.slug = $1 ${formFilter}
+         ORDER BY s.sort_order ASC, f.sort_order ASC, f.name_en ASC`,
+        params,
+      );
+
+      return {
+        brand: brandRes.rows[0],
+        series: seriesRes.rows,
+        figures: figuresRes.rows,
+      };
+    } catch (e: any) {
+      request.log.error(e);
+      return reply.code(500).send({ error: e.message || "Server error" });
+    }
   });
 
   app.get<{

@@ -1,13 +1,15 @@
-import React from "react";
-import { ActivityIndicator, View } from "react-native";
+import React, { useEffect, useState } from "react";
+import { ActivityIndicator, StyleSheet, View } from "react-native";
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useAuth } from "../context/AuthContext";
+import { isOnboardingDone } from "../services/brandPrefs";
 import { colors, fonts } from "../theme";
 import { AuthScreen } from "../screens/AuthScreen";
+import { OnboardingScreen } from "../screens/OnboardingScreen";
 import { CollectionsScreen } from "../screens/CollectionsScreen";
 import { BrandCollectionScreen } from "../screens/BrandCollectionScreen";
 import { SettingsScreen } from "../screens/SettingsScreen";
@@ -25,7 +27,7 @@ const navTheme = {
     card: colors.bgElevated,
     text: colors.text,
     border: colors.border,
-    primary: colors.mintDeep,
+    primary: colors.progressActive,
   },
 };
 
@@ -77,24 +79,33 @@ function SettingsStack() {
 
 function MainTabs() {
   const insets = useSafeAreaInsets();
-  const bottomPad = Math.max(insets.bottom, 8);
 
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarStyle: {
-          backgroundColor: "rgba(250,252,251,0.96)",
-          borderTopColor: colors.border,
-          height: 56 + bottomPad,
-          paddingBottom: bottomPad,
+          position: "absolute",
+          left: 18,
+          right: 18,
+          bottom: Math.max(insets.bottom, 10),
+          backgroundColor: "rgba(251,248,242,0.94)",
+          borderTopWidth: 0,
+          borderRadius: 28,
+          height: 58,
+          paddingBottom: 8,
           paddingTop: 8,
+          shadowColor: "#3A2A1F",
+          shadowOpacity: 0.1,
+          shadowRadius: 16,
+          shadowOffset: { width: 0, height: 6 },
+          elevation: 8,
         },
         tabBarLabelStyle: {
           fontFamily: fonts.semibold,
           fontSize: 11,
         },
-        tabBarActiveTintColor: colors.mintDeep,
+        tabBarActiveTintColor: colors.text,
         tabBarInactiveTintColor: colors.textDim,
         tabBarIcon: ({ color, size, focused }) => {
           const map: Record<string, keyof typeof Ionicons.glyphMap> = {
@@ -108,7 +119,7 @@ function MainTabs() {
       <Tab.Screen
         name="CollectionsTab"
         component={CollectionsStack}
-        options={{ title: "Collection" }}
+        options={{ title: "Home" }}
       />
       <Tab.Screen
         name="SettingsTab"
@@ -121,18 +132,33 @@ function MainTabs() {
 
 export function RootNavigator() {
   const { user, loading } = useAuth();
+  const [onboardingChecked, setOnboardingChecked] = useState(false);
+  const [needsOnboarding, setNeedsOnboarding] = useState(false);
 
-  if (loading) {
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      await Promise.resolve();
+      if (!alive) return;
+      if (!user) {
+        setOnboardingChecked(true);
+        setNeedsOnboarding(false);
+        return;
+      }
+      const done = await isOnboardingDone();
+      if (!alive) return;
+      setNeedsOnboarding(!done);
+      setOnboardingChecked(true);
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [user]);
+
+  if (loading || (user && !onboardingChecked)) {
     return (
-      <View
-        style={{
-          flex: 1,
-          backgroundColor: colors.bg,
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <ActivityIndicator color={colors.mintDeep} />
+      <View style={styles.boot}>
+        <ActivityIndicator color={colors.progressActive} />
       </View>
     );
   }
@@ -140,12 +166,25 @@ export function RootNavigator() {
   return (
     <NavigationContainer theme={navTheme}>
       <RootStack.Navigator screenOptions={{ headerShown: false, animation: "fade" }}>
-        {user ? (
-          <RootStack.Screen name="Main" component={MainTabs} />
-        ) : (
+        {!user ? (
           <RootStack.Screen name="Auth" component={AuthScreen} />
+        ) : needsOnboarding ? (
+          <RootStack.Screen name="Onboarding">
+            {() => <OnboardingScreen onDone={() => setNeedsOnboarding(false)} />}
+          </RootStack.Screen>
+        ) : (
+          <RootStack.Screen name="Main" component={MainTabs} />
         )}
       </RootStack.Navigator>
     </NavigationContainer>
   );
 }
+
+const styles = StyleSheet.create({
+  boot: {
+    flex: 1,
+    backgroundColor: colors.bg,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});

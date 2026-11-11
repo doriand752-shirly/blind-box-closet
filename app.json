@@ -2,7 +2,7 @@
   "expo": {
     "name": "Blind Box Closet",
     "slug": "blind-box-closet",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -10,12 +10,12 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#F3F7F4"
+      "backgroundColor": "#F7F3EC"
     },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.blindboxcloset.app",
-      "buildNumber": "11",
+      "buildNumber": "13",
       "appleTeamId": "2QKC854C2J",
       "usesAppleSignIn": true,
       "infoPlist": {

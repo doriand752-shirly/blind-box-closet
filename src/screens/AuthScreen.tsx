@@ -35,14 +35,14 @@ export function AuthScreen() {
 
   return (
     <LinearGradient
-      colors={["#F3F7F4", "#DFF3E8", "#F7FBF8"]}
+      colors={["#F7F3EC", "#E8F0D8", "#FBF8F2"]}
       locations={[0, 0.55, 1]}
       style={[styles.root, { paddingTop: insets.top + 24, paddingBottom: insets.bottom + 20 }]}
     >
       <View style={styles.hero}>
         <Text style={styles.brand}>Blind Box Closet</Text>
         <Text style={styles.tagline}>
-          Checklist fluide pour ta collection Smiski — possédés, wishlist et échanges.
+          Suis Smiski, Sonny Angel, Labubu et plus — Main, Extras, wishlist et échanges.
         </Text>
       </View>
 

@@ -1,0 +1,25 @@
+{
+  "brands": [
+    {
+      "slug": "chiikawa",
+      "name": "Chiikawa",
+      "name_ja": "ちいかわ",
+      "accent_color": "#D5E8F6",
+      "status": "coming_soon"
+    },
+    {
+      "slug": "hirono",
+      "name": "Hirono",
+      "name_ja": null,
+      "accent_color": "#D5EDEB",
+      "status": "coming_soon"
+    },
+    {
+      "slug": "skullpanda",
+      "name": "Skullpanda",
+      "name_ja": null,
+      "accent_color": "#E2D8F0",
+      "status": "coming_soon"
+    }
+  ]
+}

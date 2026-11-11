@@ -1,0 +1,659 @@
+{
+  "brand": {
+    "slug": "sonny-angel",
+    "name": "Sonny Angel",
+    "name_ja": "ソニーエンジェル",
+    "accent_color": "#F6D5DE",
+    "status": "live"
+  },
+  "series": [
+    {
+      "slug": "animal-series-version-1",
+      "name_en": "Animal Series Version 1",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 1,
+      "release_year": 2019,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Rabbit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Dog",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Elephant",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Panda",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Sloth",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Robby",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "animal-series-version-2",
+      "name_en": "Animal Series Version 2",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 2,
+      "release_year": 2019,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Mouse",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Lesser Panda",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Hedgehog",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Sheep",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Duck",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Skunk",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Kappa",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "vegetable-series",
+      "name_en": "Vegetable Series",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 3,
+      "release_year": 2019,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Carrot",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Tomato",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Garlic",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Zucchini",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Onion",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Radish",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Corn",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "fruit-series",
+      "name_en": "Fruit Series",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 4,
+      "release_year": 2019,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Raspberry",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Peach",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Orange",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Pear",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Strawberry",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Grape",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Dragon Fruit",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "marine-series",
+      "name_en": "Marine Series",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 5,
+      "release_year": 2019,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shark",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Jellyfish",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Dolphin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Seal",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Clownfish",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Seahorse",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Whale",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "flower-series",
+      "name_en": "Flower Series",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 6,
+      "release_year": 2019,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Rose",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Cherry Blossom",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Poppy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Sunflower",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Cactus",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Lily Bell",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Hydrangea",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "birthday-gift-series",
+      "name_en": "Birthday Gift Series",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 7,
+      "release_year": 2017,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Blueberry Cake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Lemon Cake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Mint Cake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Raspberry Cake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Chocolate Cake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Strawberry Shortcake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Secret Cake",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    },
+    {
+      "slug": "sweets-series",
+      "name_en": "Sweets Series",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 8,
+      "release_year": 2018,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Cream Puff",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": null
+        },
+        {
+          "name_en": "Cupcake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": null
+        },
+        {
+          "name_en": "Fruit Tart",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": null
+        },
+        {
+          "name_en": "Ice Cream",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": null
+        },
+        {
+          "name_en": "Jelly Beans",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": null
+        },
+        {
+          "name_en": "Pancake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": null
+        },
+        {
+          "name_en": "Konpeito",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": null
+        }
+      ]
+    }
+  ]
+}

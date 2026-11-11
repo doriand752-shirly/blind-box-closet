@@ -66,6 +66,13 @@ export const api = {
 
   brands: () => request<{ brands: Brand[] }>("/catalog/brands"),
 
+  brandChecklist: (slug: string, bucket: "all" | "main" | "extras" = "all") =>
+    request<{
+      brand: Brand;
+      series: Series[];
+      figures: Figure[];
+    }>(`/catalog/brands/${encodeURIComponent(slug)}/checklist?bucket=${bucket}`),
+
   series: (params?: { brandId?: string; brandSlug?: string }) => {
     const q = new URLSearchParams();
     if (params?.brandId) q.set("brandId", params.brandId);

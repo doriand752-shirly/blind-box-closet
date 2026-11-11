@@ -1,8 +1,8 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { Image } from "expo-image";
 import * as Haptics from "expo-haptics";
 import { SoftPressable } from "./ui/SoftPressable";
+import { FigureImage } from "./FigureImage";
 import { colors, fonts, radius, space, type } from "../theme";
 import type { Figure } from "../types/models";
 
@@ -58,12 +58,7 @@ export function ChecklistFigureCard({
           {owned ? <Text style={styles.checkMark}>✓</Text> : null}
         </SoftPressable>
 
-        <Image
-          source={{ uri: figure.image_url || undefined }}
-          style={styles.image}
-          contentFit="contain"
-          transition={160}
-        />
+        <FigureImage uri={figure.image_url} style={styles.image} />
       </View>
       <Text style={styles.name} numberOfLines={2}>
         {figure.name_en}

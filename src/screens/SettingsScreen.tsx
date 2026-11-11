@@ -7,6 +7,7 @@ import { Screen } from "../components/ui/Screen";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useAuth } from "../context/AuthContext";
 import { API_URL } from "../services/api";
+import { setOnboardingDone } from "../services/brandPrefs";
 import { colors, fonts, radius, space, type } from "../theme";
 
 function SettingsRow({
@@ -75,6 +76,27 @@ export function SettingsScreen() {
               }
             />
           ) : null}
+
+          <SettingsRow
+            label="Refaire le choix des marques"
+            icon="heart-outline"
+            onPress={() => {
+              Alert.alert(
+                "Onboarding",
+                "Au prochain lancement de l’app, tu pourras rechoisir tes collections.",
+                [
+                  { text: "Annuler", style: "cancel" },
+                  {
+                    text: "OK",
+                    onPress: () =>
+                      setOnboardingDone(false).then(() =>
+                        Alert.alert("C’est noté", "Ferme puis rouvre l’app."),
+                      ),
+                  },
+                ],
+              );
+            }}
+          />
 
           <SettingsRow
             label="Politique de confidentialité"

@@ -7,24 +7,32 @@ import {
   Text,
   View,
 } from "react-native";
-import { Image } from "expo-image";
-import { LinearGradient } from "expo-linear-gradient";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
-import { SoftPressable } from "../components/ui/SoftPressable";
-import { ProgressBar } from "../components/ui/ProgressBar";
+import { BrandHeroCard } from "../components/BrandHeroCard";
 import { EmptyState } from "../components/ui/EmptyState";
 import { Screen } from "../components/ui/Screen";
+import { SoftPressable } from "../components/ui/SoftPressable";
 import { useCollectionApi } from "../hooks/useCollectionApi";
 import { api } from "../services/api";
-import { colors, fonts, radius, space, type } from "../theme";
+import {
+  getFavoriteBrands,
+  sortBrandsByFavorites,
+} from "../services/brandPrefs";
+import { getBrandTheme, colors, space, type } from "../theme";
+import type { Brand } from "../types/models";
+
+type BrandProgress = {
+  brand: Brand;
+  owned: number;
+  total: number;
+  cover: string | null;
+};
 
 export function CollectionsScreen() {
   const navigation = useNavigation<any>();
   const { loadCollection } = useCollectionApi();
-  const [owned, setOwned] = useState(0);
-  const [total, setTotal] = useState(0);
-  const [cover, setCover] = useState<string | null>(null);
+  const [rows, setRows] = useState<BrandProgress[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [refreshing, setRefreshing] = useState(false);
@@ -35,15 +43,48 @@ export function CollectionsScreen() {
       else setLoading(true);
       setError(null);
       try {
-        const [brands, col, series] = await Promise.all([
+        const [brandsRes, col, favorites] = await Promise.all([
           api.brands(),
           loadCollection(),
-          api.series({ brandSlug: "smiski" }),
+          getFavoriteBrands(),
         ]);
-        const smiski = brands.brands.find((b) => b.slug === "smiski");
-        setTotal(smiski?.figure_count || col.stats.total_figures || 0);
-        setOwned(col.stats.owned_figures || 0);
-        setCover(series.series[0]?.cover_image_url || null);
+        const ownedIds = new Set(
+          col.items.filter((i) => i.owned_qty > 0).map((i) => i.figure_id),
+        );
+
+        const live = brandsRes.brands.filter(
+          (b) => (b.status || "live") === "live",
+        );
+        const soon = brandsRes.brands.filter((b) => b.status === "coming_soon");
+        const orderedLive = sortBrandsByFavorites(live, favorites);
+
+        const progress: BrandProgress[] = [];
+        for (const brand of orderedLive) {
+          const checklist = await api.brandChecklist(brand.slug, "main");
+          const total =
+            brand.main_figure_count ||
+            checklist.figures.length ||
+            brand.figure_count ||
+            0;
+          const owned = checklist.figures.filter((f) => ownedIds.has(f.id)).length;
+          const cover =
+            brand.hero_image_url ||
+            checklist.series[0]?.cover_image_url ||
+            checklist.figures.find((f) => f.image_url)?.image_url ||
+            null;
+          progress.push({ brand, owned, total, cover });
+        }
+
+        for (const brand of soon) {
+          progress.push({
+            brand,
+            owned: 0,
+            total: 0,
+            cover: brand.hero_image_url || null,
+          });
+        }
+
+        setRows(progress);
       } catch (e: any) {
         setError(e?.message || "Impossible de charger la collection");
       } finally {
@@ -60,8 +101,6 @@ export function CollectionsScreen() {
     }, [load]),
   );
 
-  const pct = total ? Math.round((owned / total) * 100) : 0;
-
   return (
     <Screen>
       <ScrollView
@@ -72,58 +111,51 @@ export function CollectionsScreen() {
           <RefreshControl
             refreshing={refreshing}
             onRefresh={() => load(true)}
-            tintColor={colors.mintDeep}
+            tintColor={colors.progressActive}
           />
         }
       >
-        <Text style={styles.kicker}>Blind Box Closet</Text>
-        <Text style={styles.title}>Collections</Text>
-        <Text style={styles.subtitle}>Suis tes Smiski, wishlist et doublons.</Text>
+        <View style={styles.headerRow}>
+          <Text style={styles.title}>Collections</Text>
+          <SoftPressable
+            onPress={() => navigation.getParent()?.navigate("SettingsTab")}
+            hitSlop={10}
+            style={styles.iconBtn}
+            scaleTo={0.92}
+          >
+            <Ionicons name="settings-outline" size={20} color={colors.text} />
+          </SoftPressable>
+        </View>
+        <Text style={styles.subtitle}>
+          Tes marques en un coup d’œil — Main only, Extras à l’intérieur.
+        </Text>
 
-        {loading && !total ? (
-          <ActivityIndicator color={colors.mintDeep} style={{ marginTop: 48 }} />
-        ) : error && !total ? (
+        {loading && !rows.length ? (
+          <ActivityIndicator color={colors.progressActive} style={{ marginTop: 48 }} />
+        ) : error && !rows.length ? (
           <EmptyState
             icon="cloud-offline-outline"
             title="Chargement impossible"
             subtitle={error}
           />
         ) : (
-          <SoftPressable
-            style={styles.cardWrap}
-            onPress={() => navigation.navigate("BrandCollection")}
-            scaleTo={0.985}
-          >
-            <LinearGradient
-              colors={["#D8F3E4", "#EAF8F0", "#F7FBF8"]}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
-              style={styles.card}
-            >
-              <View style={styles.cardLeft}>
-                <View style={styles.badge}>
-                  <Ionicons name="leaf" size={12} color={colors.mintDeep} />
-                  <Text style={styles.badgeText}>Smiski</Text>
-                </View>
-                <Text style={styles.brand}>Smiskis</Text>
-                <ProgressBar progress={pct} height={10} style={{ marginBottom: 10 }} />
-                <Text style={styles.count}>
-                  {owned} / {total}
-                  <Text style={styles.pct}> · {pct}%</Text>
-                </Text>
-                <View style={styles.ctaRow}>
-                  <Text style={styles.cta}>Ouvrir</Text>
-                  <Ionicons name="arrow-forward" size={16} color={colors.mintDeep} />
-                </View>
-              </View>
-              <Image
-                source={{ uri: cover || undefined }}
-                style={styles.hero}
-                contentFit="contain"
-                transition={200}
+          rows.map(({ brand, owned, total, cover }) => {
+            const soon = brand.status === "coming_soon";
+            return (
+              <BrandHeroCard
+                key={brand.id}
+                slug={brand.slug}
+                name={getBrandTheme(brand.slug).label || brand.name}
+                owned={owned}
+                total={total}
+                coverUrl={cover}
+                comingSoon={soon}
+                onPress={() =>
+                  navigation.navigate("BrandCollection", { brandSlug: brand.slug })
+                }
               />
-            </LinearGradient>
-          </SoftPressable>
+            );
+          })
         )}
       </ScrollView>
     </Screen>
@@ -132,63 +164,27 @@ export function CollectionsScreen() {
 
 const styles = StyleSheet.create({
   root: { flex: 1 },
-  content: { paddingHorizontal: space.xl, paddingBottom: 48, paddingTop: space.sm },
-  kicker: {
-    ...type.caption,
-    color: colors.mintDeep,
-    textTransform: "uppercase",
-    letterSpacing: 1.2,
+  content: { paddingHorizontal: space.xl, paddingBottom: 110, paddingTop: space.sm },
+  headerRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     marginBottom: 6,
   },
-  title: { ...type.hero, color: colors.text },
+  title: { ...type.hero, color: colors.text, fontSize: 34 },
+  iconBtn: {
+    width: 40,
+    height: 40,
+    borderRadius: 14,
+    backgroundColor: colors.bgCard,
+    borderWidth: 1,
+    borderColor: colors.border,
+    alignItems: "center",
+    justifyContent: "center",
+  },
   subtitle: {
     ...type.body,
     color: colors.textMuted,
-    marginTop: 6,
     marginBottom: space.xxl,
-  },
-  cardWrap: {
-    borderRadius: radius.xxl,
-    overflow: "hidden",
-    shadowColor: "#1F2A24",
-    shadowOpacity: 0.08,
-    shadowRadius: 18,
-    shadowOffset: { width: 0, height: 8 },
-    elevation: 3,
-  },
-  card: {
-    minHeight: 148,
-    padding: space.xl,
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  cardLeft: { flex: 1, paddingRight: 8 },
-  badge: {
-    alignSelf: "flex-start",
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 4,
-    backgroundColor: "rgba(255,255,255,0.72)",
-    borderRadius: radius.full,
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    marginBottom: 10,
-  },
-  badgeText: { ...type.micro, color: colors.mintDeep },
-  brand: { ...type.title, color: colors.text, marginBottom: 14 },
-  count: { ...type.bodyStrong, color: colors.textMuted },
-  pct: { fontFamily: fonts.semibold, color: colors.textDim },
-  ctaRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 6,
-    marginTop: 14,
-  },
-  cta: { ...type.caption, color: colors.mintDeep },
-  hero: {
-    width: 112,
-    height: 128,
-    marginRight: -6,
-    marginBottom: -8,
   },
 });

@@ -13,7 +13,9 @@
     "deploy:vps": "python scripts/deploy_vps.py",
     "eas:build:ios": "npx eas-cli build --platform ios --profile production",
     "eas:submit:ios": "npx eas-cli submit --platform ios --profile production --latest",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "test": "npx --yes tsx src/utils/productForm.test.ts",
+    "typecheck": "npx tsc --noEmit"
   },
   "dependencies": {
     "@expo-google-fonts/nunito": "^0.4.2",

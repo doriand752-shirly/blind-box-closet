@@ -12,8 +12,12 @@ export type Brand = {
   name: string;
   name_ja: string | null;
   logo_url: string | null;
+  accent_color?: string | null;
+  hero_image_url?: string | null;
+  status?: "live" | "coming_soon" | string;
   series_count?: number;
   figure_count?: number;
+  main_figure_count?: number;
 };
 
 export type Series = {

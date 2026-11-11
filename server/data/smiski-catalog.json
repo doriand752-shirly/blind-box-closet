@@ -2,7 +2,9 @@
   "brand": {
     "slug": "smiski",
     "name": "Smiski",
-    "name_ja": "スミスキー"
+    "name_ja": "スミスキー",
+    "accent_color": "#D8F0C8",
+    "status": "live"
   },
   "series": [
     {

@@ -6,8 +6,15 @@ CREATE TABLE IF NOT EXISTS brands (
   name TEXT NOT NULL,
   name_ja TEXT,
   logo_url TEXT,
+  accent_color TEXT,
+  hero_image_url TEXT,
+  status TEXT NOT NULL DEFAULT 'live',
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
+ALTER TABLE brands ADD COLUMN IF NOT EXISTS accent_color TEXT;
+ALTER TABLE brands ADD COLUMN IF NOT EXISTS hero_image_url TEXT;
+ALTER TABLE brands ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'live';
 
 CREATE TABLE IF NOT EXISTS series (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

@@ -10,7 +10,12 @@ import {
   View,
   type SectionListData,
 } from "react-native";
-import { useFocusEffect, useNavigation } from "@react-navigation/native";
+import {
+  useFocusEffect,
+  useNavigation,
+  useRoute,
+  type RouteProp,
+} from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
 import * as Haptics from "expo-haptics";
 import { ChecklistFigureCard } from "../components/ChecklistFigureCard";
@@ -23,7 +28,8 @@ import { SegmentedControl } from "../components/ui/SegmentedControl";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useCollectionApi } from "../hooks/useCollectionApi";
 import { api } from "../services/api";
-import { colors, fonts, radius, space, type } from "../theme";
+import { colors, fonts, getBrandTheme, radius, space, type } from "../theme";
+import { seriesCategoryLabel } from "../utils/productForm";
 import type { Figure, Series } from "../types/models";
 import type { LocalEntry } from "../services/localCollection";
 
@@ -32,6 +38,7 @@ if (Platform.OS === "android" && UIManager.setLayoutAnimationEnabledExperimental
 }
 
 type Filter = "all" | "owned" | "trade" | "wishlist";
+type Bucket = "main" | "extras";
 
 type SeriesBlock = {
   series: Series;
@@ -54,7 +61,7 @@ type SeriesSection = {
 function chunkFigures(figures: Figure[], size = 3): FigureRow[] {
   const rows: FigureRow[] = [];
   for (let i = 0; i < figures.length; i += size) {
-    const slice = figures.slice(i, i + size);
+    const slice = figures.slice(i, size + i);
     rows.push({ key: slice.map((f) => f.id).join("-"), figures: slice });
   }
   return rows;
@@ -62,40 +69,43 @@ function chunkFigures(figures: Figure[], size = 3): FigureRow[] {
 
 export function BrandCollectionScreen() {
   const navigation = useNavigation<any>();
+  const route = useRoute<RouteProp<Record<string, { brandSlug?: string }>, string>>();
+  const brandSlug = route.params?.brandSlug || "smiski";
+  const theme = getBrandTheme(brandSlug);
+
   const { loadCollection, upsert, getLocalMap } = useCollectionApi();
   const [blocks, setBlocks] = useState<SeriesBlock[]>([]);
   const [entryMap, setEntryMap] = useState<Record<string, LocalEntry>>({});
   const [filter, setFilter] = useState<Filter>("all");
+  const [bucket, setBucket] = useState<Bucket>("main");
   const [q, setQ] = useState("");
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
   const [loading, setLoading] = useState(true);
   const [selected, setSelected] = useState<Figure | null>(null);
-  const hydrated = useRef(false);
+  const hydrated = useRef<string | null>(null);
 
   const load = useCallback(async () => {
-    if (!hydrated.current) setLoading(true);
+    if (hydrated.current !== brandSlug + bucket) setLoading(true);
     try {
-      const seriesList = await api.series({ brandSlug: "smiski" });
-      const details = await Promise.all(
-        seriesList.series.map(async (s) => {
-          try {
-            const d = await api.seriesDetail(s.id);
-            return { series: d.series, figures: d.figures };
-          } catch {
-            const figs = await api.figures({ seriesId: s.id });
-            return { series: s, figures: figs.figures };
-          }
-        }),
-      );
+      const data = await api.brandChecklist(brandSlug, bucket);
+      const bySeries = new Map<string, SeriesBlock>();
+      for (const s of data.series) {
+        bySeries.set(s.id, { series: s, figures: [] });
+      }
+      for (const f of data.figures) {
+        const block = bySeries.get(f.series_id);
+        if (block) block.figures.push(f);
+      }
+      const details = [...bySeries.values()];
       setBlocks(details);
 
-      if (!hydrated.current) {
+      if (hydrated.current !== brandSlug + bucket) {
         const initial: Record<string, boolean> = {};
         details.forEach((b, i) => {
           initial[b.series.id] = i > 0;
         });
         setCollapsed(initial);
-        hydrated.current = true;
+        hydrated.current = brandSlug + bucket;
       }
 
       const col = await loadCollection();
@@ -114,7 +124,7 @@ export function BrandCollectionScreen() {
     } finally {
       setLoading(false);
     }
-  }, [loadCollection, getLocalMap]);
+  }, [brandSlug, bucket, loadCollection, getLocalMap]);
 
   useFocusEffect(
     useCallback(() => {
@@ -211,7 +221,7 @@ export function BrandCollectionScreen() {
     return (
       <Screen>
         <View style={styles.center}>
-          <ActivityIndicator color={colors.mintDeep} />
+          <ActivityIndicator color={colors.progressActive} />
         </View>
       </Screen>
     );
@@ -229,7 +239,7 @@ export function BrandCollectionScreen() {
           <Ionicons name="chevron-back" size={22} color={colors.text} />
         </SoftPressable>
         <View style={{ flex: 1 }}>
-          <Text style={styles.title}>Smiskis</Text>
+          <Text style={styles.title}>{theme.label}</Text>
           <Text style={styles.progressTop}>
             {totals.owned} / {totals.total} ·{" "}
             {totals.total ? Math.round((totals.owned / totals.total) * 100) : 0}%
@@ -238,6 +248,14 @@ export function BrandCollectionScreen() {
       </View>
 
       <View style={styles.controls}>
+        <SegmentedControl
+          value={bucket}
+          onChange={setBucket}
+          options={[
+            { key: "main", label: "Main" },
+            { key: "extras", label: "Extras" },
+          ]}
+        />
         <SegmentedControl
           value={filter}
           onChange={setFilter}
@@ -251,7 +269,7 @@ export function BrandCollectionScreen() {
         <SearchField
           value={q}
           onChangeText={setQ}
-          placeholder="Rechercher une figurine…"
+          placeholder="Search collection…"
         />
       </View>
 
@@ -264,8 +282,12 @@ export function BrandCollectionScreen() {
         ListEmptyComponent={
           <EmptyState
             icon="search-outline"
-            title="Rien ici"
-            subtitle="Essaie un autre filtre ou une autre recherche."
+            title={bucket === "extras" ? "Pas d’extras" : "Rien ici"}
+            subtitle={
+              bucket === "extras"
+                ? "Cette marque n’a pas encore d’accessoires listés."
+                : "Essaie un autre filtre ou une autre recherche."
+            }
           />
         }
         renderSectionHeader={({ section }) => {
@@ -285,16 +307,24 @@ export function BrandCollectionScreen() {
                 }));
               }}
             >
+              <View style={[styles.accent, { backgroundColor: theme.bar }]} />
               <View style={{ flex: 1 }}>
                 <Text style={styles.seriesName}>{section.series.name_en}</Text>
-                <Text style={styles.seriesLabel}>Série</Text>
-                <ProgressBar progress={pct} height={7} style={{ marginTop: 2 }} />
+                <Text style={styles.seriesLabel}>
+                  {seriesCategoryLabel(section.series.product_form)}
+                </Text>
+                <ProgressBar
+                  progress={pct}
+                  height={7}
+                  fillColor={theme.bar}
+                  style={{ marginTop: 2 }}
+                />
               </View>
               <Text style={styles.seriesCount}>
                 {section.fullOwned}/{section.fullTotal}
               </Text>
               <Ionicons
-                name={section.collapsed ? "chevron-forward" : "chevron-up"}
+                name={section.collapsed ? "chevron-down" : "chevron-up"}
                 size={18}
                 color={colors.textMuted}
               />
@@ -372,7 +402,7 @@ const styles = StyleSheet.create({
   },
   listContent: {
     paddingHorizontal: space.lg,
-    paddingBottom: 48,
+    paddingBottom: 110,
   },
   seriesCard: {
     marginTop: space.sm,
@@ -380,11 +410,20 @@ const styles = StyleSheet.create({
     backgroundColor: colors.bgCard,
     borderRadius: radius.xl,
     padding: space.lg,
+    paddingLeft: space.lg + 6,
     borderWidth: 1,
     borderColor: colors.border,
     flexDirection: "row",
     alignItems: "center",
     gap: 10,
+    overflow: "hidden",
+  },
+  accent: {
+    position: "absolute",
+    left: 0,
+    top: 0,
+    bottom: 0,
+    width: 4,
   },
   seriesName: { ...type.subtitle, fontSize: 18, color: colors.text },
   seriesLabel: { ...type.micro, color: colors.textDim, marginTop: 2, marginBottom: 8 },
