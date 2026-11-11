@@ -10,6 +10,9 @@ on:
         description: Upload IPA to App Store Connect / TestFlight
         type: boolean
         default: true
+  # Morning CET: macOS hosted runners are often freer than evening EU peak.
+  schedule:
+    - cron: "15 6 * * *"
   push:
     branches:
       - master
