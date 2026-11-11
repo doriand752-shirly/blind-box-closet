@@ -8,6 +8,8 @@ import path from "node:path";
 import { randomUUID } from "node:crypto";
 import { migrate, query } from "./db";
 import {
+  loginEmailUser,
+  registerEmailUser,
   requireAdmin,
   requireUser,
   signAppToken,
@@ -80,6 +82,46 @@ async function main() {
     });
     const token = await signAppToken(user);
     return { token, user };
+  });
+
+  app.post<{
+    Body: { email?: string; password?: string; displayName?: string | null };
+  }>("/auth/register", async (request, reply) => {
+    const { email, password, displayName } = request.body || {};
+    if (!email || !password) {
+      return reply.code(400).send({ error: "email and password required" });
+    }
+    try {
+      const user = await registerEmailUser({
+        email,
+        password,
+        displayName: displayName || null,
+      });
+      const token = await signAppToken(user);
+      return { token, user };
+    } catch (e: any) {
+      return reply
+        .code(e.statusCode || 500)
+        .send({ error: e.message || "Registration failed" });
+    }
+  });
+
+  app.post<{
+    Body: { email?: string; password?: string };
+  }>("/auth/login", async (request, reply) => {
+    const { email, password } = request.body || {};
+    if (!email || !password) {
+      return reply.code(400).send({ error: "email and password required" });
+    }
+    try {
+      const user = await loginEmailUser({ email, password });
+      const token = await signAppToken(user);
+      return { token, user };
+    } catch (e: any) {
+      return reply
+        .code(e.statusCode || 500)
+        .send({ error: e.message || "Login failed" });
+    }
   });
 
   app.get("/me", async (request, reply) => {

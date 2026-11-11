@@ -59,6 +59,22 @@ export const api = {
       body: payload,
     }),
 
+  register: (payload: {
+    email: string;
+    password: string;
+    displayName?: string | null;
+  }) =>
+    request<{ token: string; user: User }>("/auth/register", {
+      method: "POST",
+      body: payload,
+    }),
+
+  login: (payload: { email: string; password: string }) =>
+    request<{ token: string; user: User }>("/auth/login", {
+      method: "POST",
+      body: payload,
+    }),
+
   me: (token: string) => request<{ user: User }>("/me", { token }),
 
   deleteMe: (token: string) =>

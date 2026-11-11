@@ -1,11 +1,10 @@
+import { randomBytes, scrypt as scryptCb, timingSafeEqual } from "node:crypto";
+import { promisify } from "node:util";
 import { createRemoteJWKSet, jwtVerify, SignJWT } from "jose";
 import type { FastifyRequest } from "fastify";
 import { query } from "./db";
 
-const APPLE_ISSUER = "https://appleid.apple.com";
-const appleJwks = createRemoteJWKSet(
-  new URL("https://appleid.apple.com/auth/keys"),
-);
+const scrypt = promisify(scryptCb);
 
 export type AuthUser = {
   id: string;
@@ -14,6 +13,41 @@ export type AuthUser = {
   display_name: string | null;
   is_admin: boolean;
 };
+
+type AuthUserRow = AuthUser & { password_hash?: string | null };
+
+function emailAppleSub(email: string) {
+  return `email:${email}`;
+}
+
+export async function hashPassword(password: string) {
+  const salt = randomBytes(16);
+  const derived = (await scrypt(password, salt, 64)) as Buffer;
+  return `scrypt$${salt.toString("base64")}$${derived.toString("base64")}`;
+}
+
+export async function verifyPassword(password: string, stored: string) {
+  const [algo, saltB64, hashB64] = stored.split("$");
+  if (algo !== "scrypt" || !saltB64 || !hashB64) return false;
+  const salt = Buffer.from(saltB64, "base64");
+  const expected = Buffer.from(hashB64, "base64");
+  const actual = (await scrypt(password, salt, expected.length)) as Buffer;
+  if (actual.length !== expected.length) return false;
+  return timingSafeEqual(actual, expected);
+}
+
+export function normalizeEmail(raw: string) {
+  return raw.trim().toLowerCase();
+}
+
+export function isValidEmail(email: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+const APPLE_ISSUER = "https://appleid.apple.com";
+const appleJwks = createRemoteJWKSet(
+  new URL("https://appleid.apple.com/auth/keys"),
+);
 
 function getJwtSecret() {
   const secret = process.env.JWT_SECRET || "dev-blind-box-closet-secret-change-me";
@@ -110,6 +144,102 @@ export async function upsertAppleUser(input: {
     [input.appleSub, email, input.displayName || null, shouldAdmin],
   );
   return inserted.rows[0];
+}
+
+export async function registerEmailUser(input: {
+  email: string;
+  password: string;
+  displayName?: string | null;
+}) {
+  const email = normalizeEmail(input.email);
+  if (!isValidEmail(email)) {
+    throw Object.assign(new Error("Invalid email"), { statusCode: 400 });
+  }
+  if (input.password.length < 8) {
+    throw Object.assign(new Error("Password must be at least 8 characters"), {
+      statusCode: 400,
+    });
+  }
+
+  const appleSub = emailAppleSub(email);
+  const existing = await query<AuthUserRow>(
+    `SELECT id, apple_sub, email, display_name, is_admin, password_hash
+     FROM users
+     WHERE apple_sub = $1 OR lower(email) = $2`,
+    [appleSub, email],
+  );
+  if (existing.rows[0]) {
+    throw Object.assign(new Error("Account already exists"), { statusCode: 409 });
+  }
+
+  const passwordHash = await hashPassword(input.password);
+  const shouldAdmin = ADMIN_EMAILS.includes(email);
+  const displayName =
+    input.displayName?.trim() || email.split("@")[0] || "Collector";
+
+  const inserted = await query<AuthUser>(
+    `INSERT INTO users (apple_sub, email, display_name, password_hash, is_admin)
+     VALUES ($1, $2, $3, $4, $5)
+     RETURNING id, apple_sub, email, display_name, is_admin`,
+    [appleSub, email, displayName, passwordHash, shouldAdmin],
+  );
+  return inserted.rows[0];
+}
+
+export async function loginEmailUser(input: {
+  email: string;
+  password: string;
+}) {
+  const email = normalizeEmail(input.email);
+  if (!isValidEmail(email) || !input.password) {
+    throw Object.assign(new Error("Invalid email or password"), {
+      statusCode: 401,
+    });
+  }
+
+  const appleSub = emailAppleSub(email);
+  const found = await query<AuthUserRow>(
+    `SELECT id, apple_sub, email, display_name, is_admin, password_hash
+     FROM users
+     WHERE (apple_sub = $1 OR lower(email) = $2)
+       AND password_hash IS NOT NULL
+     LIMIT 1`,
+    [appleSub, email],
+  );
+  const row = found.rows[0];
+  if (!row?.password_hash) {
+    throw Object.assign(new Error("Invalid email or password"), {
+      statusCode: 401,
+    });
+  }
+
+  const ok = await verifyPassword(input.password, row.password_hash);
+  if (!ok) {
+    throw Object.assign(new Error("Invalid email or password"), {
+      statusCode: 401,
+    });
+  }
+
+  const shouldAdmin =
+    (row.email ? ADMIN_EMAILS.includes(row.email.toLowerCase()) : false) ||
+    ADMIN_APPLE_SUBS.includes(row.apple_sub);
+  if (shouldAdmin && !row.is_admin) {
+    const updated = await query<AuthUser>(
+      `UPDATE users SET is_admin = true, updated_at = now()
+       WHERE id = $1
+       RETURNING id, apple_sub, email, display_name, is_admin`,
+      [row.id],
+    );
+    return updated.rows[0];
+  }
+
+  return {
+    id: row.id,
+    apple_sub: row.apple_sub,
+    email: row.email,
+    display_name: row.display_name,
+    is_admin: row.is_admin,
+  };
 }
 
 export async function requireUser(request: FastifyRequest): Promise<AuthUser> {

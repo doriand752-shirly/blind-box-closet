@@ -15,9 +15,12 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.blindboxcloset.app",
-      "buildNumber": "18",
+      "buildNumber": "19",
       "appleTeamId": "2QKC854C2J",
       "usesAppleSignIn": true,
+      "entitlements": {
+        "com.apple.developer.applesignin": ["Default"]
+      },
       "infoPlist": {
         "CFBundleDevelopmentRegion": "fr",
         "NSPhotoLibraryUsageDescription": "Blind Box Closet utilise ta photothèque pour ajouter des images de figurines (admin).",

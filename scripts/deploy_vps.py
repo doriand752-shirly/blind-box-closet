@@ -77,10 +77,23 @@ def main():
     run(client, f"tar -xzf {remote_tar} -C {REMOTE}")
     run(client, f"cp {REMOTE}/deploy/blind-box-closet.service /etc/systemd/system/")
 
+    # Preserve JWT_SECRET across deploys so existing sessions stay valid.
+    jwt_secret = f"bbc-{os.urandom(16).hex()}"
+    try:
+        with sftp.file(f"{REMOTE}/server/.env", "r") as existing:
+            for line in existing.read().decode("utf-8", "replace").splitlines():
+                if line.startswith("JWT_SECRET="):
+                    value = line.split("=", 1)[1].strip()
+                    if value:
+                        jwt_secret = value
+                    break
+    except OSError:
+        pass
+
     env = f"""PORT=8787
 HOST=0.0.0.0
 DATABASE_URL=postgres://bbc:bbc@127.0.0.1:5433/blindboxcloset
-JWT_SECRET=bbc-{os.urandom(16).hex()}
+JWT_SECRET={jwt_secret}
 APPLE_CLIENT_ID=com.blindboxcloset.app
 APPLE_AUTH_OPTIONAL=1
 ADMIN_EMAILS=doriandood.pro@gmail.com

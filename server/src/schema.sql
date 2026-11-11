@@ -53,10 +53,16 @@ CREATE TABLE IF NOT EXISTS users (
   apple_sub TEXT NOT NULL UNIQUE,
   email TEXT,
   display_name TEXT,
+  password_hash TEXT,
   is_admin BOOLEAN NOT NULL DEFAULT false,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
+ALTER TABLE users ADD COLUMN IF NOT EXISTS password_hash TEXT;
+CREATE UNIQUE INDEX IF NOT EXISTS users_email_password_idx
+  ON users (lower(email))
+  WHERE email IS NOT NULL AND password_hash IS NOT NULL;
 
 CREATE TABLE IF NOT EXISTS user_figures (
   user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,

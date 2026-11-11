@@ -7,7 +7,7 @@ import Constants from "expo-constants";
 import { LogoMark } from "../components/LogoMark";
 import { Screen } from "../components/ui/Screen";
 import { SoftPressable } from "../components/ui/SoftPressable";
-import { useAuth } from "../context/AuthContext";
+import { appleAuthErrorMessage, useAuth } from "../context/AuthContext";
 import { LOCALE_LABELS, LOCALES, type Locale } from "../i18n";
 import { useLocale } from "../i18n/LocaleContext";
 import { setOnboardingDone } from "../services/brandPrefs";
@@ -89,17 +89,25 @@ export function SettingsScreen() {
           ) : null}
 
           {isGuest ? (
-            <SettingsRow
-              label={t("signInApple")}
-              icon="logo-apple"
-              onPress={() =>
-                signInWithApple().catch((e) => {
-                  if (e?.code !== "ERR_REQUEST_CANCELED") {
-                    Alert.alert(t("connectionError"), e?.message || t("connectionError"));
-                  }
-                })
-              }
-            />
+            <>
+              <SettingsRow
+                label={t("createAccount")}
+                icon="mail-outline"
+                onPress={() => {
+                  void signOut();
+                }}
+              />
+              <SettingsRow
+                label={t("signInApple")}
+                icon="logo-apple"
+                onPress={() =>
+                  signInWithApple().catch((e) => {
+                    const msg = appleAuthErrorMessage(e, t("connectionError"));
+                    if (msg) Alert.alert(t("connectionError"), msg);
+                  })
+                }
+              />
+            </>
           ) : null}
 
           <SettingsRow
