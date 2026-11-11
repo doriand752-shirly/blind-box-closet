@@ -50,6 +50,7 @@ export const es: Dictionary = {
   signInApple: "Iniciar sesión con Apple",
   changeLanguage: "Idioma",
   privacyPolicy: "Política de privacidad",
+  support: "Ayuda y contacto",
   signOut: "Cerrar sesión",
   leaveGuest: "Salir del modo invitado",
   deleteAccount: "Eliminar cuenta",
@@ -61,7 +62,7 @@ export const es: Dictionary = {
   redoBrandsBody: "En el próximo inicio podrás elegir tus colecciones otra vez.",
   redoBrandsDone: "Cierra y vuelve a abrir la app.",
   independentFan:
-    "Blind Box Closet es una app de fans independiente, no afiliada a Dreams Inc. / Smiski.",
+    "Blind Box Closet es una app de coleccionistas independiente, no afiliada a Dreams Inc., Pop Mart ni a las demás marcas mencionadas.",
   connectionError: "No se pudo conectar",
   exportCollection: "Exportar mi colección",
   importCollection: "Importar una colección",

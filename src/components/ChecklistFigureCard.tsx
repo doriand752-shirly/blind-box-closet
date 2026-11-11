@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     borderColor: "transparent",
   },
   tileOwned: {
-    borderColor: "rgba(36,107,74,0.18)",
+    borderColor: "rgba(95,107,69,0.22)",
     backgroundColor: colors.mintWash,
   },
   tileSelected: { borderColor: colors.checkbox },

@@ -3,6 +3,8 @@ import { Alert, Linking, ScrollView, StyleSheet, Text, View } from "react-native
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
+import Constants from "expo-constants";
+import { LogoMark } from "../components/LogoMark";
 import { Screen } from "../components/ui/Screen";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useAuth } from "../context/AuthContext";
@@ -13,7 +15,10 @@ import {
   exportCollectionFile,
   importCollectionFile,
 } from "../services/collectionTransfer";
+import { PRIVACY_URL, SUPPORT_URL } from "../services/links";
 import { colors, fonts, radius, space, type } from "../theme";
+
+const APP_VERSION = Constants.expoConfig?.version ?? null;
 
 function SettingsRow({
   label,
@@ -145,9 +150,13 @@ export function SettingsScreen() {
           <SettingsRow
             label={t("privacyPolicy")}
             icon="shield-checkmark-outline"
-            onPress={() =>
-              Linking.openURL("https://appigeek.github.io/blind-box-closet/privacy.html")
-            }
+            onPress={() => Linking.openURL(PRIVACY_URL)}
+          />
+
+          <SettingsRow
+            label={t("support")}
+            icon="help-buoy-outline"
+            onPress={() => Linking.openURL(SUPPORT_URL)}
           />
 
           <SettingsRow
@@ -182,6 +191,13 @@ export function SettingsScreen() {
           />
         </View>
 
+        <View style={styles.about}>
+          <LogoMark size={44} />
+          <View style={styles.aboutText}>
+            <Text style={styles.aboutName}>{t("appName")}</Text>
+            {APP_VERSION ? <Text style={styles.aboutVersion}>v{APP_VERSION}</Text> : null}
+          </View>
+        </View>
         <Text style={styles.disclaimer}>{t("independentFan")}</Text>
       </ScrollView>
     </Screen>
@@ -229,10 +245,19 @@ const styles = StyleSheet.create({
   },
   rowIconDanger: { backgroundColor: "rgba(217,96,96,0.12)" },
   rowText: { flex: 1, ...type.bodyStrong, color: colors.text },
+  about: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 12,
+    marginTop: space.xxl,
+  },
+  aboutText: { flex: 1 },
+  aboutName: { ...type.bodyStrong, color: colors.text },
+  aboutVersion: { ...type.caption, color: colors.textDim },
   disclaimer: {
     ...type.micro,
     color: colors.textDim,
-    marginTop: space.xxl,
+    marginTop: space.md,
     lineHeight: 18,
   },
 });

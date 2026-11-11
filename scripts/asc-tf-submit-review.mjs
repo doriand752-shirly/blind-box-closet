@@ -108,7 +108,7 @@ if (!(locs.j.data || []).length) {
         locale: "fr-FR",
         description:
           "Blind Box Closet — suivi de collection Smiski. App indépendante, non affiliée à Dreams Inc.",
-        feedbackEmail: "dorian172@outlook.com",
+        feedbackEmail: "doriandood.pro@gmail.com",
         privacyPolicyUrl: "https://appigeek.github.io/blind-box-closet/privacy.html",
       },
       relationships: { app: { data: { type: "apps", id: APP_ID } } },
@@ -126,8 +126,8 @@ if (reviewDetails.j.data?.id) {
       id: reviewDetails.j.data.id,
       attributes: {
         contactFirstName: "Dorian",
-        contactLastName: "David",
-        contactEmail: "dorian172@outlook.com",
+        contactLastName: "Dood",
+        contactEmail: "doriandood.pro@gmail.com",
         contactPhone: "+33600000000",
         notes:
           "Sign in with Apple is optional. Use Continuer sans compte. Independent collector app, not affiliated with Dreams Inc.",

@@ -83,7 +83,7 @@ def main():
     run_sql(
         client,
         "UPDATE users SET is_admin = true WHERE "
-        "lower(coalesce(email,'')) = 'dorian172@outlook.com' "
+        "lower(coalesce(email,'')) = 'doriandood.pro@gmail.com' "
         "OR lower(coalesce(display_name,'')) LIKE '%%dorian%%';",
     )
 

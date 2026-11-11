@@ -47,6 +47,7 @@ export type TranslationKey =
   | "signInApple"
   | "changeLanguage"
   | "privacyPolicy"
+  | "support"
   | "signOut"
   | "leaveGuest"
   | "deleteAccount"

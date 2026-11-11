@@ -59,7 +59,7 @@ export async function verifyAppToken(token: string) {
 }
 
 const ADMIN_EMAILS = (
-  process.env.ADMIN_EMAILS || "dorian172@outlook.com,doriand752@outlook.com"
+  process.env.ADMIN_EMAILS || "doriandood.pro@gmail.com"
 )
   .split(",")
   .map((e: string) => e.trim().toLowerCase())

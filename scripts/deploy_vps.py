@@ -83,7 +83,7 @@ DATABASE_URL=postgres://bbc:bbc@127.0.0.1:5433/blindboxcloset
 JWT_SECRET=bbc-{os.urandom(16).hex()}
 APPLE_CLIENT_ID=com.blindboxcloset.app
 APPLE_AUTH_OPTIONAL=1
-ADMIN_EMAILS=dorian172@outlook.com
+ADMIN_EMAILS=doriandood.pro@gmail.com
 PUBLIC_BASE_URL=http://{HOST}:8787
 MEDIA_ROOT={REMOTE}/media
 """

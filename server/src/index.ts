@@ -65,7 +65,7 @@ async function main() {
       if (process.env.APPLE_AUTH_OPTIONAL === "1" && identityToken.startsWith("dev:")) {
         apple = {
           sub: identityToken.slice(4),
-          email: email || "dorian172@outlook.com",
+          email: email || "doriandood.pro@gmail.com",
         };
       } else {
         request.log.error(err);

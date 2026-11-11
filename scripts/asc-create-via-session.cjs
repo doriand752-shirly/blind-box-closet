@@ -1,22 +1,19 @@
 /**
  * Create Blind Box Closet in ASC using cached Apple session cookies.
+ * Cookie folders under ~/.app-store/auth/ are discovered automatically
+ * (no hardcoded contact emails in this script).
  */
 const fs = require("fs");
 const path = require("path");
-const { App, Platform, Auth, Token } = require("@expo/apple-utils");
+const { App, Platform, Auth } = require("@expo/apple-utils");
 
 const BUNDLE_ID = "com.blindboxcloset.app";
 const APP_NAME = "Blind Box Closet";
 const TEAM_ID = "2QKC854C2J";
+const AUTH_ROOT = path.join(process.env.USERPROFILE, ".app-store", "auth");
 
 async function restore(username) {
-  const cookiePath = path.join(
-    process.env.USERPROFILE,
-    ".app-store",
-    "auth",
-    username,
-    "cookie",
-  );
+  const cookiePath = path.join(AUTH_ROOT, username, "cookie");
   if (!fs.existsSync(cookiePath)) return null;
   const cookies = JSON.parse(fs.readFileSync(cookiePath, "utf8"));
   console.log("Trying restore for", username);
@@ -27,9 +24,16 @@ async function restore(username) {
 }
 
 async function main() {
-  let auth =
-    (await restore("dorian172@icloud.com")) ||
-    (await restore("dorian172@outlook.com"));
+  const candidates = fs
+    .readdirSync(AUTH_ROOT, { withFileTypes: true })
+    .filter((d) => d.isDirectory() && d.name.includes("@"))
+    .map((d) => d.name);
+
+  let auth = null;
+  for (const username of candidates) {
+    auth = await restore(username);
+    if (auth) break;
+  }
 
   if (!auth) {
     throw new Error(
@@ -37,16 +41,12 @@ async function main() {
     );
   }
 
-  console.log("Auth keys", Object.keys(auth));
   console.log(
     "Provider",
     auth.session?.provider?.name || auth.session?.provider?.providerId,
   );
 
-  // AuthState typically has .context as RequestContext
   const context = auth.context || auth;
-  console.log("Context keys", Object.keys(context));
-
   let app = await App.findAsync(context, { bundleId: BUNDLE_ID });
   if (!app) {
     console.log("Creating app…");

@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
+import { LogoMark } from "../components/LogoMark";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { LOCALE_LABELS, LOCALES, type Locale } from "../i18n";
 import { useLocale } from "../i18n/LocaleContext";
-import { colors, fonts, radius, space, type } from "../theme";
+import { brand, colors, fonts, radius, space, type } from "../theme";
 
 export function LanguageScreen() {
   const insets = useSafeAreaInsets();
@@ -14,6 +15,7 @@ export function LanguageScreen() {
 
   return (
     <View style={[styles.root, { paddingTop: insets.top + 24, paddingBottom: insets.bottom + 20 }]}>
+      <LogoMark size={76} style={styles.logo} />
       <Text style={styles.kicker}>{t("appNameUpper")}</Text>
       <Text style={styles.title}>{t("languageTitle")}</Text>
       <Text style={styles.subtitle}>{t("languageSubtitle")}</Text>
@@ -51,6 +53,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.bg,
     paddingHorizontal: space.xl,
   },
+  logo: { marginBottom: space.xl },
   kicker: {
     ...type.micro,
     letterSpacing: 1.4,
@@ -84,7 +87,7 @@ const styles = StyleSheet.create({
   },
   rowOn: {
     borderColor: colors.progressActive,
-    backgroundColor: "#F3F7EC",
+    backgroundColor: brand.sageWash,
   },
   rowLabel: {
     fontFamily: fonts.bold,

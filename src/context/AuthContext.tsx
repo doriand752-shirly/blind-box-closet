@@ -118,8 +118,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const signInDev = useCallback(async () => {
     const res = await api.appleAuth({
       identityToken: `dev:dorian-local-${Platform.OS}`,
-      email: "dorian172@outlook.com",
-      fullName: "Dorian David",
+      email: "doriandood.pro@gmail.com",
+      fullName: "Dorian Dood",
     });
     await persistSession({ token: res.token, user: res.user, guest: false });
   }, [persistSession]);

@@ -9,10 +9,11 @@ import {
 import { LinearGradient } from "expo-linear-gradient";
 import * as AppleAuthentication from "expo-apple-authentication";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { LogoMark } from "../components/LogoMark";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useAuth } from "../context/AuthContext";
 import { useLocale } from "../i18n/LocaleContext";
-import { colors, fonts, radius, space, type } from "../theme";
+import { brand, colors, fonts, radius, space, type } from "../theme";
 
 export function AuthScreen() {
   const { signInWithApple, signInDev, continueAsGuest } = useAuth();
@@ -37,11 +38,12 @@ export function AuthScreen() {
 
   return (
     <LinearGradient
-      colors={["#F7F3EC", "#E8F0D8", "#FBF8F2"]}
+      colors={[colors.bg, brand.sageWash, colors.bgElevated]}
       locations={[0, 0.55, 1]}
       style={[styles.root, { paddingTop: insets.top + 24, paddingBottom: insets.bottom + 20 }]}
     >
       <View style={styles.hero}>
+        <LogoMark size={96} style={styles.logo} />
         <Text style={styles.brand}>{t("appName")}</Text>
         <Text style={styles.tagline}>{t("authTagline")}</Text>
       </View>
@@ -89,7 +91,8 @@ export function AuthScreen() {
 
 const styles = StyleSheet.create({
   root: { flex: 1, paddingHorizontal: space.xxl, justifyContent: "space-between" },
-  hero: { marginTop: 48 },
+  hero: { marginTop: 40 },
+  logo: { marginBottom: space.xl },
   brand: {
     ...type.hero,
     fontSize: 42,
