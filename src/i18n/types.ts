@@ -58,6 +58,11 @@ export type TranslationKey =
   | "redoBrandsBody"
   | "redoBrandsDone"
   | "independentFan"
-  | "connectionError";
+  | "connectionError"
+  | "exportCollection"
+  | "importCollection"
+  | "exportOk"
+  | "importOk"
+  | "importFail";
 
 export type Dictionary = Record<TranslationKey, string>;

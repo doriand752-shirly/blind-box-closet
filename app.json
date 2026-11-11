@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.blindboxcloset.app",
-      "buildNumber": "14",
+      "buildNumber": "15",
       "appleTeamId": "2QKC854C2J",
       "usesAppleSignIn": true,
       "infoPlist": {
@@ -64,7 +64,9 @@
             "deploymentTarget": "16.4"
           }
         }
-      ]
+      ],
+      "expo-sharing",
+      "expo-document-picker"
     ],
     "extra": {
       "apiUrl": "http://85.17.145.134:8787",

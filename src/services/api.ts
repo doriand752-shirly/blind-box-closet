@@ -173,6 +173,17 @@ export const api = {
   deleteFigure: (token: string, id: string) =>
     request<{ ok: boolean }>(`/admin/figures/${id}`, { method: "DELETE", token }),
 
+  adminMedia: (token: string, params?: { kind?: string; q?: string }) => {
+    const q = new URLSearchParams();
+    if (params?.kind) q.set("kind", params.kind);
+    if (params?.q) q.set("q", params.q);
+    const qs = q.toString();
+    return request<{ media: { name: string; url: string }[] }>(
+      `/admin/media${qs ? `?${qs}` : ""}`,
+      { token },
+    );
+  },
+
   upload: async (token: string, uri: string, kind: "figures" | "series" | "brands" = "figures") => {
     const form = new FormData();
     const name = uri.split("/").pop() || "upload.jpg";

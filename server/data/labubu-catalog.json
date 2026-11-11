@@ -4,7 +4,8 @@
     "name": "Labubu",
     "name_ja": "ラブブ",
     "accent_color": "#E4D8F2",
-    "status": "live"
+    "status": "live",
+    "hero_image_url": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-chestnut-cocoa.jpg"
   },
   "series": [
     {
@@ -86,7 +87,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-chestnut-cocoa.jpg"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-chestnut-cocoa.jpg"
     },
     {
       "slug": "have-a-seat",
@@ -167,7 +169,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-duoduo.jpg"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-baba.jpg"
     },
     {
       "slug": "fall-in-wild",
@@ -248,7 +251,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-secret-camper.jpg"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-bucket-hat.jpg"
     },
     {
       "slug": "big-into-energy",
@@ -329,7 +333,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-id.jpg"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-happiness.jpg"
     }
   ]
 }

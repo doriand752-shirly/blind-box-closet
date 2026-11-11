@@ -9,6 +9,10 @@ import { useAuth } from "../context/AuthContext";
 import { LOCALE_LABELS, LOCALES, type Locale } from "../i18n";
 import { useLocale } from "../i18n/LocaleContext";
 import { setOnboardingDone } from "../services/brandPrefs";
+import {
+  exportCollectionFile,
+  importCollectionFile,
+} from "../services/collectionTransfer";
 import { colors, fonts, radius, space, type } from "../theme";
 
 function SettingsRow({
@@ -114,6 +118,28 @@ export function SettingsScreen() {
                 },
               ]);
             }}
+          />
+
+          <SettingsRow
+            label={t("exportCollection")}
+            icon="share-outline"
+            onPress={() =>
+              exportCollectionFile()
+                .then(() => Alert.alert(t("ok"), t("exportOk")))
+                .catch((e) => Alert.alert(t("connectionError"), e?.message || t("importFail")))
+            }
+          />
+
+          <SettingsRow
+            label={t("importCollection")}
+            icon="download-outline"
+            onPress={() =>
+              importCollectionFile()
+                .then((r) => {
+                  if (r.count > 0) Alert.alert(t("ok"), t("importOk", { count: r.count }));
+                })
+                .catch((e) => Alert.alert(t("importFail"), e?.message || t("importFail")))
+            }
           />
 
           <SettingsRow

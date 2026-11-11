@@ -69,11 +69,26 @@ export function CollectionsScreen() {
             brand.figure_count ||
             0;
           const owned = checklist.figures.filter((f) => ownedIds.has(f.id)).length;
-          const cover =
-            brand.hero_image_url ||
-            checklist.series[0]?.cover_image_url ||
-            checklist.figures.find((f) => f.image_url)?.image_url ||
+          const seriesCover =
+            checklist.series.find(
+              (s) =>
+                s.cover_image_url &&
+                !s.cover_image_url.includes("smiski-unknown") &&
+                !s.cover_image_url.includes("placeholder") &&
+                /\/media\/series\//.test(s.cover_image_url),
+            )?.cover_image_url ||
+            checklist.series.find(
+              (s) =>
+                s.cover_image_url &&
+                !s.cover_image_url.includes("smiski-unknown") &&
+                !s.cover_image_url.includes("placeholder"),
+            )?.cover_image_url ||
             null;
+          const cover =
+            (brand.hero_image_url &&
+            !brand.hero_image_url.includes("smiski-unknown")
+              ? brand.hero_image_url
+              : null) || seriesCover;
           progress.push({ brand, owned, total, cover });
         }
 

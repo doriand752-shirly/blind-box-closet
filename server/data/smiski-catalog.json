@@ -4,7 +4,8 @@
     "name": "Smiski",
     "name_ja": "スミスキー",
     "accent_color": "#D8F0C8",
-    "status": "live"
+    "status": "live",
+    "hero_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-1.png"
   },
   "series": [
     {
@@ -126,7 +127,8 @@
           "sort_order": 11,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-rudolph.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-1.png"
     },
     {
       "slug": "series-2",
@@ -217,7 +219,8 @@
           "sort_order": 8,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-snowman.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-2.png"
     },
     {
       "slug": "series-3",
@@ -298,7 +301,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-the-thinker.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-3.png"
     },
     {
       "slug": "series-4",
@@ -379,7 +383,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-twin-angels.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-series-4.png"
     },
     {
       "slug": "bath",
@@ -460,7 +465,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-water-droplet.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bath.png"
     },
     {
       "slug": "toilet",
@@ -541,7 +547,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-water-fountain.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-toilet.png"
     },
     {
       "slug": "living",
@@ -622,7 +629,8 @@
           "sort_order": 7,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-living.png"
     },
     {
       "slug": "bed",
@@ -703,7 +711,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-crescent-moon.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bed.png"
     },
     {
       "slug": "yoga",
@@ -784,7 +793,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-twin-hearts.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-yoga.png"
     },
     {
       "slug": "cheer",
@@ -865,7 +875,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-trophy-angel.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-cheer.png"
     },
     {
       "slug": "museum",
@@ -946,7 +957,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-king-tut.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-museum.png"
     },
     {
       "slug": "work",
@@ -1027,7 +1039,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-lucky-cat.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-work.png"
     },
     {
       "slug": "dressing",
@@ -1108,7 +1121,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-costume-bunny.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-dressing.png"
     },
     {
       "slug": "exercising",
@@ -1189,7 +1203,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-flexing.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-exercising.png"
     },
     {
       "slug": "moving",
@@ -1270,7 +1285,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-teddy.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-moving.png"
     },
     {
       "slug": "hippers",
@@ -1351,7 +1367,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-headphones.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-hippers.jpg"
     },
     {
       "slug": "sunday",
@@ -1432,7 +1449,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-dog-walk.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-sunday.png"
     },
     {
       "slug": "birthday",
@@ -1513,7 +1531,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-candle.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-birthday.png"
     },
     {
       "slug": "construction",
@@ -1594,7 +1613,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-traffic-cones.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-construction.png"
     },
     {
       "slug": "strap-accessory-1",
@@ -1675,7 +1695,8 @@
           "sort_order": 7,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-1.png"
     },
     {
       "slug": "strap-accessory-2",
@@ -1756,7 +1777,8 @@
           "sort_order": 7,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-2.png"
     },
     {
       "slug": "strap-accessory-3",
@@ -1837,7 +1859,8 @@
           "sort_order": 7,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-3.png"
     },
     {
       "slug": "strap-accessory-4",
@@ -1918,7 +1941,8 @@
           "sort_order": 7,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-4.png"
     },
     {
       "slug": "bath-ball",
@@ -1999,7 +2023,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-mermaid.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bath-ball.png"
     },
     {
       "slug": "bath-ball-2",
@@ -2080,7 +2105,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-mermaid.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bath-ball-2.png"
     },
     {
       "slug": "hanging-christmas",
@@ -2161,7 +2187,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-reindeer.jpg"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-hanging-christmas.jpg"
     },
     {
       "slug": "key-chain",
@@ -2232,7 +2259,8 @@
           "sort_order": 6,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-little-keychain.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-key-chain.png"
     },
     {
       "slug": "toothbrush-stand",
@@ -2303,7 +2331,8 @@
           "sort_order": 6,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-little-hold.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-toothbrush-stand.png"
     },
     {
       "slug": "zipperbite",
@@ -2374,7 +2403,8 @@
           "sort_order": 6,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-little-zipper.jpg"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-zipperbite.png"
     },
     {
       "slug": "zipperbite-2",
@@ -2445,7 +2475,8 @@
           "sort_order": 6,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-zipperbite-2.png"
     },
     {
       "slug": "touch-light",
@@ -2516,7 +2547,8 @@
           "sort_order": 6,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-looking-back-light.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-touch-light.png"
     },
     {
       "slug": "touch-light-2",
@@ -2587,7 +2619,8 @@
           "sort_order": 6,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-touch-light-2.png"
     },
     {
       "slug": "sensor-light",
@@ -2638,7 +2671,8 @@
           "sort_order": 4,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-little-sensor.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-sensor-light.png"
     },
     {
       "slug": "plush",
@@ -2689,7 +2723,8 @@
           "sort_order": 4,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-lounging-plush.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-plush.png"
     },
     {
       "slug": "plush-key-chain",
@@ -2740,7 +2775,8 @@
           "sort_order": 4,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-little-plush-keychain.jpg"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-plush-key-chain.png"
     },
     {
       "slug": "embroidery-sticker",
@@ -2811,7 +2847,8 @@
           "sort_order": 6,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-looking-back-sticker.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-embroidery-sticker.png"
     },
     {
       "slug": "embroidery-sticker-2",
@@ -2882,7 +2919,8 @@
           "sort_order": 6,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-embroidery-sticker-2.png"
     },
     {
       "slug": "rainbomb",
@@ -2953,7 +2991,8 @@
           "sort_order": 6,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-little-rain.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-rainbomb.png"
     },
     {
       "slug": "bobbing-head",
@@ -3024,7 +3063,8 @@
           "sort_order": 6,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-hiding.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-bobbing-head.png"
     },
     {
       "slug": "ringcolle",
@@ -3095,7 +3135,8 @@
           "sort_order": 6,
           "image_source": null
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-ringcolle.png"
     },
     {
       "slug": "cushion-pouch",
@@ -3136,7 +3177,8 @@
           "sort_order": 3,
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-cushion-pouch-little-pouch.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-cushion-pouch.png"
     }
   ]
 }

@@ -4,7 +4,8 @@
     "name": "Sonny Angel",
     "name_ja": "ソニーエンジェル",
     "accent_color": "#F6D5DE",
-    "status": "live"
+    "status": "live",
+    "hero_image_url": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-cat.png"
   },
   "series": [
     {
@@ -86,7 +87,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-robby.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-cat.png"
     },
     {
       "slug": "animal-series-version-2",
@@ -167,7 +169,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-kappa.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-duck.png"
     },
     {
       "slug": "vegetable-series",
@@ -248,7 +251,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-corn.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-carrot.png"
     },
     {
       "slug": "fruit-series",
@@ -329,7 +333,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-dragon-fruit.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-dragon-fruit.png"
     },
     {
       "slug": "marine-series",
@@ -410,7 +415,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/sonny-marine-series-whale.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/sonny-marine-series-clownfish.png"
     },
     {
       "slug": "flower-series",
@@ -491,7 +497,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/sonny-flower-series-hydrangea.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/sonny-flower-series-cactus.png"
     },
     {
       "slug": "birthday-gift-series",
@@ -572,7 +579,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-secret-cake.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-blueberry-cake.png"
     },
     {
       "slug": "sweets-series",
@@ -653,7 +661,8 @@
           "sort_order": 7,
           "image_source": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-konpeito.png"
         }
-      ]
+      ],
+      "cover_image_url": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-cream-puff.png"
     }
   ]
 }

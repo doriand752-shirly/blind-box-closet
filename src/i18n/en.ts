@@ -63,4 +63,9 @@ export const en: Dictionary = {
   independentFan:
     "Blind Box Closet is an independent fan app, not affiliated with Dreams Inc. / Smiski.",
   connectionError: "Couldn’t connect",
+  exportCollection: "Export my collection",
+  importCollection: "Import a collection",
+  exportOk: "File ready to share.",
+  importOk: "{count} figures imported.",
+  importFail: "Invalid file.",
 };

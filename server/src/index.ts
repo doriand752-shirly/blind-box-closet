@@ -545,6 +545,44 @@ async function main() {
     },
   );
 
+  app.get<{
+    Querystring: { kind?: string; q?: string };
+  }>("/admin/media", async (request, reply) => {
+    try {
+      await requireAdmin(request);
+      const kind = ["figures", "series", "brands"].includes(request.query.kind || "")
+        ? (request.query.kind as string)
+        : "figures";
+      const dir = path.join(MEDIA_ROOT, kind);
+      fs.mkdirSync(dir, { recursive: true });
+      const q = (request.query.q || "").toLowerCase();
+      const files = fs
+        .readdirSync(dir)
+        .filter((f) => /\.(png|jpe?g|webp|gif)$/i.test(f))
+        .filter((f) => !q || f.toLowerCase().includes(q))
+        .sort()
+        .slice(0, 400)
+        .map((name) => ({
+          name,
+          url: mediaUrl(`${kind}/${name}`),
+        }));
+      // also include root media files (legacy flat figures)
+      if (kind === "figures") {
+        const rootFiles = fs
+          .readdirSync(MEDIA_ROOT)
+          .filter((f) => /\.(png|jpe?g|webp|gif)$/i.test(f))
+          .filter((f) => !q || f.toLowerCase().includes(q))
+          .slice(0, 400)
+          .map((name) => ({ name, url: mediaUrl(name) }));
+        const seen = new Set(files.map((f) => f.url));
+        for (const f of rootFiles) if (!seen.has(f.url)) files.push(f);
+      }
+      return { media: files.slice(0, 500) };
+    } catch (e: any) {
+      return reply.code(e.statusCode || 400).send({ error: e.message });
+    }
+  });
+
   app.post("/admin/upload", async (request, reply) => {
     try {
       await requireAdmin(request);
