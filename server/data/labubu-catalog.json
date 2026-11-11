@@ -24,7 +24,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-soymilk.jpg"
         },
         {
           "name_en": "Lychee Berry",
@@ -34,7 +34,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-lychee-berry.jpg"
         },
         {
           "name_en": "Green Grape",
@@ -44,7 +44,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-green-grape.jpg"
         },
         {
           "name_en": "Sea Salt Coconut",
@@ -54,7 +54,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-sea-salt-coconut.jpg"
         },
         {
           "name_en": "Sesame Bean",
@@ -64,7 +64,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-sesame-bean.jpg"
         },
         {
           "name_en": "Toffee",
@@ -74,7 +74,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-toffee.jpg"
         },
         {
           "name_en": "Chestnut Cocoa",
@@ -84,7 +84,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-exciting-macaron-chestnut-cocoa.jpg"
         }
       ]
     },
@@ -105,7 +105,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-sisi.jpg"
         },
         {
           "name_en": "Dada",
@@ -115,7 +115,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-dada.jpg"
         },
         {
           "name_en": "Ququ",
@@ -125,7 +125,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-ququ.jpg"
         },
         {
           "name_en": "Zizi",
@@ -135,7 +135,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-zizi.jpg"
         },
         {
           "name_en": "Baba",
@@ -145,7 +145,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-baba.jpg"
         },
         {
           "name_en": "Hehe",
@@ -155,7 +155,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-hehe.jpg"
         },
         {
           "name_en": "Duoduo",
@@ -165,7 +165,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-have-a-seat-duoduo.jpg"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-trailblazer.jpg"
         },
         {
           "name_en": "Camper",
@@ -196,7 +196,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-camper.jpg"
         },
         {
           "name_en": "Daisy",
@@ -206,7 +206,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-daisy.jpg"
         },
         {
           "name_en": "Overalls",
@@ -216,7 +216,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-overalls.jpg"
         },
         {
           "name_en": "Bucket Hat",
@@ -226,7 +226,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-bucket-hat.jpg"
         },
         {
           "name_en": "Wildflower",
@@ -236,7 +236,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-wildflower.jpg"
         },
         {
           "name_en": "Secret Camper",
@@ -246,7 +246,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-fall-in-wild-secret-camper.jpg"
         }
       ]
     },
@@ -267,7 +267,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-love.jpg"
         },
         {
           "name_en": "Happiness",
@@ -277,7 +277,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-happiness.jpg"
         },
         {
           "name_en": "Loyalty",
@@ -287,7 +287,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-loyalty.jpg"
         },
         {
           "name_en": "Serenity",
@@ -297,7 +297,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-serenity.jpg"
         },
         {
           "name_en": "Hope",
@@ -307,7 +307,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-hope.jpg"
         },
         {
           "name_en": "Luck",
@@ -317,7 +317,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-luck.jpg"
         },
         {
           "name_en": "ID",
@@ -327,7 +327,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/labubu-big-into-energy-id.jpg"
         }
       ]
     }

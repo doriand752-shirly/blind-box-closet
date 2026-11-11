@@ -12,6 +12,7 @@ import {
   Nunito_800ExtraBold,
 } from "@expo-google-fonts/nunito";
 import { AuthProvider } from "./src/context/AuthContext";
+import { LocaleProvider } from "./src/i18n/LocaleContext";
 import { RootNavigator } from "./src/navigation/RootNavigator";
 import { colors } from "./src/theme";
 
@@ -42,10 +43,12 @@ export default function App() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <SafeAreaProvider>
-        <AuthProvider>
-          <StatusBar style="dark" />
-          <RootNavigator />
-        </AuthProvider>
+        <LocaleProvider>
+          <AuthProvider>
+            <StatusBar style="dark" />
+            <RootNavigator />
+          </AuthProvider>
+        </LocaleProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>
   );

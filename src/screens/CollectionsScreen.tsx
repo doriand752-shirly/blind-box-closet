@@ -14,6 +14,7 @@ import { EmptyState } from "../components/ui/EmptyState";
 import { Screen } from "../components/ui/Screen";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useCollectionApi } from "../hooks/useCollectionApi";
+import { useLocale } from "../i18n/LocaleContext";
 import { api } from "../services/api";
 import {
   getFavoriteBrands,
@@ -31,6 +32,7 @@ type BrandProgress = {
 
 export function CollectionsScreen() {
   const navigation = useNavigation<any>();
+  const { t } = useLocale();
   const { loadCollection } = useCollectionApi();
   const [rows, setRows] = useState<BrandProgress[]>([]);
   const [loading, setLoading] = useState(true);
@@ -86,13 +88,13 @@ export function CollectionsScreen() {
 
         setRows(progress);
       } catch (e: any) {
-        setError(e?.message || "Impossible de charger la collection");
+        setError(e?.message || t("loadErrorSubtitle"));
       } finally {
         setLoading(false);
         setRefreshing(false);
       }
     },
-    [loadCollection],
+    [loadCollection, t],
   );
 
   useFocusEffect(
@@ -116,7 +118,7 @@ export function CollectionsScreen() {
         }
       >
         <View style={styles.headerRow}>
-          <Text style={styles.title}>Collections</Text>
+          <Text style={styles.title}>{t("collections")}</Text>
           <SoftPressable
             onPress={() => navigation.getParent()?.navigate("SettingsTab")}
             hitSlop={10}
@@ -126,16 +128,14 @@ export function CollectionsScreen() {
             <Ionicons name="settings-outline" size={20} color={colors.text} />
           </SoftPressable>
         </View>
-        <Text style={styles.subtitle}>
-          Tes marques en un coup d’œil — Main only, Extras à l’intérieur.
-        </Text>
+        <Text style={styles.subtitle}>{t("collectionsSubtitle")}</Text>
 
         {loading && !rows.length ? (
           <ActivityIndicator color={colors.progressActive} style={{ marginTop: 48 }} />
         ) : error && !rows.length ? (
           <EmptyState
             icon="cloud-offline-outline"
-            title="Chargement impossible"
+            title={t("loadError")}
             subtitle={error}
           />
         ) : (
@@ -150,6 +150,7 @@ export function CollectionsScreen() {
                 total={total}
                 coverUrl={cover}
                 comingSoon={soon}
+                comingSoonLabel={t("comingSoon")}
                 onPress={() =>
                   navigation.navigate("BrandCollection", { brandSlug: brand.slug })
                 }

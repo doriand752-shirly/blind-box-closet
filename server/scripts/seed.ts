@@ -165,7 +165,7 @@ async function seedCatalog(catalog: Catalog, fallbackUrl: string) {
   );
 }
 
-async function seedComingSoon(fallbackUrl: string) {
+async function seedComingSoon() {
   const comingPath = path.join(DATA_DIR, "coming-soon-brands.json");
   if (!fs.existsSync(comingPath)) return;
   const data: ComingSoonFile = JSON.parse(fs.readFileSync(comingPath, "utf8"));
@@ -177,13 +177,14 @@ async function seedComingSoon(fallbackUrl: string) {
          name = EXCLUDED.name,
          name_ja = EXCLUDED.name_ja,
          accent_color = COALESCE(EXCLUDED.accent_color, brands.accent_color),
+         hero_image_url = NULL,
          status = EXCLUDED.status`,
       [
         b.slug,
         b.name,
         b.name_ja || null,
         b.accent_color || null,
-        fallbackUrl,
+        null,
         b.status || "coming_soon",
       ],
     );
@@ -213,7 +214,7 @@ async function main() {
     await seedCatalog(catalog, fallbackUrl);
   }
 
-  await seedComingSoon(fallbackUrl);
+  await seedComingSoon();
   await pool.end();
 }
 

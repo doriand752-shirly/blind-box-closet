@@ -10,6 +10,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
 import { BrandSelectCard } from "../components/BrandSelectCard";
 import { SoftPressable } from "../components/ui/SoftPressable";
+import { useLocale } from "../i18n/LocaleContext";
 import { api } from "../services/api";
 import {
   COMING_SOON_SLUGS,
@@ -17,7 +18,7 @@ import {
   setFavoriteBrands,
   setOnboardingDone,
 } from "../services/brandPrefs";
-import { colors, fonts, radius, space, type } from "../theme";
+import { colors, fonts, space, type } from "../theme";
 import type { Brand } from "../types/models";
 
 type Props = {
@@ -28,6 +29,7 @@ const PICKABLE = new Set<string>(LIVE_BRAND_SLUGS);
 
 export function OnboardingScreen({ onDone }: Props) {
   const insets = useSafeAreaInsets();
+  const { t } = useLocale();
   const [step, setStep] = useState(0);
   const [brands, setBrands] = useState<Brand[]>([]);
   const [selected, setSelected] = useState<string[]>(["smiski"]);
@@ -97,9 +99,9 @@ export function OnboardingScreen({ onDone }: Props) {
   return (
     <View style={[styles.root, { paddingTop: insets.top + 12, paddingBottom: insets.bottom + 12 }]}>
       <View style={styles.top}>
-        <Text style={styles.kicker}>BLIND BOX TRACKER</Text>
+        <Text style={styles.kicker}>{t("appNameUpper")}</Text>
         <SoftPressable onPress={skip} hitSlop={8}>
-          <Text style={styles.skip}>Skip</Text>
+          <Text style={styles.skip}>{t("skip")}</Text>
         </SoftPressable>
       </View>
 
@@ -111,8 +113,8 @@ export function OnboardingScreen({ onDone }: Props) {
 
       {step === 0 ? (
         <>
-          <Text style={styles.headline}>Make room for your favourites.</Text>
-          <Text style={styles.prompt}>What do you collect?</Text>
+          <Text style={styles.headline}>{t("onboardingHeadline1")}</Text>
+          <Text style={styles.prompt}>{t("onboardingPrompt")}</Text>
           {loading ? (
             <ActivityIndicator color={colors.progressActive} style={{ marginTop: 40 }} />
           ) : (
@@ -127,6 +129,7 @@ export function OnboardingScreen({ onDone }: Props) {
                   coverUrl={b.hero_image_url}
                   selected={selected.includes(b.slug)}
                   disabled={!PICKABLE.has(b.slug)}
+                  comingSoonLabel={t("comingSoon")}
                   onPress={() => toggle(b.slug)}
                 />
               ))}
@@ -137,33 +140,21 @@ export function OnboardingScreen({ onDone }: Props) {
 
       {step === 1 ? (
         <View style={styles.mid}>
-          <Text style={styles.headline}>Add a few you own.</Text>
-          <Text style={styles.body}>
-            Ouvre chaque marque depuis Home, bascule Main / Extras, puis coche tes
-            figurines. Tu pourras tout compléter plus tard.
-          </Text>
-          <View style={styles.tipCard}>
-            <Ionicons name="checkmark-circle" size={22} color={colors.progressActive} />
-            <Text style={styles.tipText}>
-              Les compteurs Home comptent les séries Main uniquement — plus clair.
-            </Text>
-          </View>
+          <Text style={styles.headline}>{t("onboardingHeadline2")}</Text>
+          <Text style={styles.body}>{t("onboardingBody2")}</Text>
         </View>
       ) : null}
 
       {step === 2 ? (
         <View style={styles.mid}>
-          <Text style={styles.headline}>You’re set.</Text>
-          <Text style={styles.body}>
-            {selected.length} collection{selected.length > 1 ? "s" : ""} en avant sur
-            Home. Smiski d’abord, Sonny Angel & Labubu prêts — d’autres arrivent.
-          </Text>
+          <Text style={styles.headline}>{t("onboardingHeadline3")}</Text>
+          <Text style={styles.body}>{t("onboardingBody3")}</Text>
         </View>
       ) : null}
 
       <View style={styles.footer}>
         <Text style={styles.count}>
-          {selected.length} collection{selected.length > 1 ? "s" : ""} selected
+          {t("collectionsSelected", { count: selected.length })}
         </Text>
         <View style={styles.footerRow}>
           {step > 0 ? (
@@ -182,14 +173,12 @@ export function OnboardingScreen({ onDone }: Props) {
             }}
           >
             <Text style={styles.continueText}>
-              {step < 2 ? "Continue" : "Start collecting"}
+              {step < 2 ? t("continue") : t("startCollecting")}
             </Text>
             <Ionicons name="arrow-forward" size={18} color={colors.white} />
           </SoftPressable>
         </View>
-        <Text style={styles.hint}>
-          Pick at least one. Your favourites appear first on Home.
-        </Text>
+        <Text style={styles.hint}>{t("pickAtLeastOne")}</Text>
       </View>
     </View>
   );
@@ -246,16 +235,6 @@ const styles = StyleSheet.create({
   },
   mid: { flex: 1, paddingTop: space.md },
   body: { ...type.body, color: colors.textMuted, marginBottom: space.xl },
-  tipCard: {
-    flexDirection: "row",
-    gap: 12,
-    backgroundColor: colors.bgCard,
-    borderRadius: radius.xl,
-    padding: space.lg,
-    borderWidth: 1,
-    borderColor: colors.border,
-  },
-  tipText: { ...type.body, color: colors.text, flex: 1 },
   footer: { paddingTop: space.md },
   count: {
     ...type.caption,

@@ -8,6 +8,7 @@ import type { Figure } from "../types/models";
 
 type Props = {
   figure: Figure;
+  brandSlug?: string;
   ownedQty?: number;
   wishlist?: boolean;
   tradeQty?: number;
@@ -18,6 +19,7 @@ type Props = {
 
 export function ChecklistFigureCard({
   figure,
+  brandSlug,
   ownedQty = 0,
   wishlist = false,
   tradeQty = 0,
@@ -58,7 +60,11 @@ export function ChecklistFigureCard({
           {owned ? <Text style={styles.checkMark}>✓</Text> : null}
         </SoftPressable>
 
-        <FigureImage uri={figure.image_url} style={styles.image} />
+        <FigureImage
+          uri={figure.image_url}
+          brandSlug={brandSlug ?? figure.brand_slug}
+          style={styles.image}
+        />
       </View>
       <Text style={styles.name} numberOfLines={2}>
         {figure.name_en}

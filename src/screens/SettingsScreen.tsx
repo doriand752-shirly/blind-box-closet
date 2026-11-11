@@ -6,7 +6,8 @@ import { Ionicons } from "@expo/vector-icons";
 import { Screen } from "../components/ui/Screen";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useAuth } from "../context/AuthContext";
-import { API_URL } from "../services/api";
+import { LOCALE_LABELS, LOCALES, type Locale } from "../i18n";
+import { useLocale } from "../i18n/LocaleContext";
 import { setOnboardingDone } from "../services/brandPrefs";
 import { colors, fonts, radius, space, type } from "../theme";
 
@@ -34,30 +35,45 @@ function SettingsRow({
 
 export function SettingsScreen() {
   const { user, isGuest, signOut, deleteAccount, continueAsGuest, signInWithApple } = useAuth();
+  const { t, setLocale } = useLocale();
   const navigation = useNavigation<any>();
+
+  const pickLanguage = () => {
+    Alert.alert(
+      t("changeLanguage"),
+      undefined,
+      [
+        ...LOCALES.map((code: Locale) => ({
+          text: LOCALE_LABELS[code],
+          onPress: () => {
+            void setLocale(code);
+          },
+        })),
+        { text: t("cancel"), style: "cancel" as const },
+      ],
+    );
+  };
 
   return (
     <Screen padded>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-        <Text style={styles.title}>Réglages</Text>
+        <Text style={styles.title}>{t("settings")}</Text>
 
         <View style={styles.card}>
-          <Text style={styles.label}>Compte</Text>
+          <Text style={styles.label}>{t("account")}</Text>
           <Text style={styles.value}>
-            {isGuest ? "Mode local" : user?.display_name || "Collector"}
+            {isGuest ? t("guest") : user?.display_name || "Collector"}
           </Text>
           <Text style={styles.meta}>
-            {isGuest
-              ? "Collection stockée sur cet appareil"
-              : user?.email || user?.apple_sub}
+            {isGuest ? t("guestMeta") : user?.email || user?.apple_sub}
           </Text>
-          {user?.is_admin ? <Text style={styles.admin}>Admin</Text> : null}
+          {user?.is_admin ? <Text style={styles.admin}>{t("admin")}</Text> : null}
         </View>
 
         <View style={styles.group}>
           {user?.is_admin ? (
             <SettingsRow
-              label="Interface admin"
+              label={t("adminUi")}
               icon="construct-outline"
               onPress={() => navigation.navigate("Admin")}
             />
@@ -65,12 +81,12 @@ export function SettingsScreen() {
 
           {isGuest ? (
             <SettingsRow
-              label="Se connecter avec Apple"
+              label={t("signInApple")}
               icon="logo-apple"
               onPress={() =>
                 signInWithApple().catch((e) => {
                   if (e?.code !== "ERR_REQUEST_CANCELED") {
-                    Alert.alert("Connexion", e?.message || "Impossible de se connecter");
+                    Alert.alert(t("connectionError"), e?.message || t("connectionError"));
                   }
                 })
               }
@@ -78,28 +94,30 @@ export function SettingsScreen() {
           ) : null}
 
           <SettingsRow
-            label="Refaire le choix des marques"
+            label={t("changeLanguage")}
+            icon="language-outline"
+            onPress={pickLanguage}
+          />
+
+          <SettingsRow
+            label={t("redoBrands")}
             icon="heart-outline"
             onPress={() => {
-              Alert.alert(
-                "Onboarding",
-                "Au prochain lancement de l’app, tu pourras rechoisir tes collections.",
-                [
-                  { text: "Annuler", style: "cancel" },
-                  {
-                    text: "OK",
-                    onPress: () =>
-                      setOnboardingDone(false).then(() =>
-                        Alert.alert("C’est noté", "Ferme puis rouvre l’app."),
-                      ),
-                  },
-                ],
-              );
+              Alert.alert(t("redoBrands"), t("redoBrandsBody"), [
+                { text: t("cancel"), style: "cancel" },
+                {
+                  text: t("ok"),
+                  onPress: () =>
+                    setOnboardingDone(false).then(() =>
+                      Alert.alert(t("ok"), t("redoBrandsDone")),
+                    ),
+                },
+              ]);
             }}
           />
 
           <SettingsRow
-            label="Politique de confidentialité"
+            label={t("privacyPolicy")}
             icon="shield-checkmark-outline"
             onPress={() =>
               Linking.openURL("https://appigeek.github.io/blind-box-closet/privacy.html")
@@ -107,13 +125,7 @@ export function SettingsScreen() {
           />
 
           <SettingsRow
-            label="Statut API"
-            icon="pulse-outline"
-            onPress={() => Linking.openURL(API_URL + "/health")}
-          />
-
-          <SettingsRow
-            label={isGuest ? "Quitter le mode local" : "Se déconnecter"}
+            label={isGuest ? t("leaveGuest") : t("signOut")}
             icon="log-out-outline"
             onPress={() => signOut()}
           />
@@ -123,36 +135,28 @@ export function SettingsScreen() {
           <SettingsRow
             danger
             icon="trash-outline"
-            label={isGuest ? "Effacer ma collection locale" : "Supprimer mon compte"}
+            label={t("deleteAccount")}
             onPress={() =>
-              Alert.alert(
-                isGuest ? "Effacer la collection locale ?" : "Supprimer le compte ?",
-                isGuest
-                  ? "Tes figurines marquées sur cet appareil seront perdues."
-                  : "Ta collection sera effacée.",
-                [
-                  { text: "Annuler", style: "cancel" },
-                  {
-                    text: "Supprimer",
-                    style: "destructive",
-                    onPress: async () => {
-                      if (isGuest) {
-                        await AsyncStorage.removeItem("bbc_local_collection");
-                        await continueAsGuest();
-                      } else {
-                        await deleteAccount();
-                      }
-                    },
+              Alert.alert(t("deleteAccount"), t("deleteAccountConfirm"), [
+                { text: t("cancel"), style: "cancel" },
+                {
+                  text: t("deleteAccount"),
+                  style: "destructive",
+                  onPress: async () => {
+                    if (isGuest) {
+                      await AsyncStorage.removeItem("bbc_local_collection");
+                      await continueAsGuest();
+                    } else {
+                      await deleteAccount();
+                    }
                   },
-                ],
-              )
+                },
+              ])
             }
           />
         </View>
 
-        <Text style={styles.disclaimer}>
-          Blind Box Closet est une app collector indépendante, non affiliée à Dreams Inc. / Smiski.
-        </Text>
+        <Text style={styles.disclaimer}>{t("independentFan")}</Text>
       </ScrollView>
     </Screen>
   );

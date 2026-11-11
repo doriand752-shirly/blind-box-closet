@@ -52,7 +52,11 @@ function FigureEditSheetInner({
     <View style={[styles.sheet, { paddingBottom: Math.max(insets.bottom, 20) + 8 }]}>
       <View style={styles.handle} />
       <View style={styles.header}>
-        <FigureImage uri={figure.image_url} style={styles.thumb} />
+        <FigureImage
+          uri={figure.image_url}
+          brandSlug={figure.brand_slug}
+          style={styles.thumb}
+        />
         <View style={{ flex: 1 }}>
           <Text style={styles.name}>{figure.name_en}</Text>
           <Text style={styles.series}>{seriesName || figure.series_name}</Text>

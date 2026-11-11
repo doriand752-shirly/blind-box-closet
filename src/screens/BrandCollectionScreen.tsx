@@ -27,6 +27,7 @@ import { SearchField } from "../components/ui/SearchField";
 import { SegmentedControl } from "../components/ui/SegmentedControl";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useCollectionApi } from "../hooks/useCollectionApi";
+import { useLocale } from "../i18n/LocaleContext";
 import { api } from "../services/api";
 import { colors, fonts, getBrandTheme, radius, space, type } from "../theme";
 import { seriesCategoryLabel } from "../utils/productForm";
@@ -69,6 +70,7 @@ function chunkFigures(figures: Figure[], size = 3): FigureRow[] {
 
 export function BrandCollectionScreen() {
   const navigation = useNavigation<any>();
+  const { t } = useLocale();
   const route = useRoute<RouteProp<Record<string, { brandSlug?: string }>, string>>();
   const brandSlug = route.params?.brandSlug || "smiski";
   const theme = getBrandTheme(brandSlug);
@@ -252,24 +254,24 @@ export function BrandCollectionScreen() {
           value={bucket}
           onChange={setBucket}
           options={[
-            { key: "main", label: "Main" },
-            { key: "extras", label: "Extras" },
+            { key: "main", label: t("main") },
+            { key: "extras", label: t("extras") },
           ]}
         />
         <SegmentedControl
           value={filter}
           onChange={setFilter}
           options={[
-            { key: "all", label: "Tous" },
-            { key: "owned", label: "Possédés" },
-            { key: "trade", label: "Échange" },
-            { key: "wishlist", label: "Wishlist" },
+            { key: "all", label: t("all") },
+            { key: "owned", label: t("owned") },
+            { key: "trade", label: t("trade") },
+            { key: "wishlist", label: t("wishlist") },
           ]}
         />
         <SearchField
           value={q}
           onChangeText={setQ}
-          placeholder="Search collection…"
+          placeholder={t("searchCollection")}
         />
       </View>
 
@@ -282,11 +284,9 @@ export function BrandCollectionScreen() {
         ListEmptyComponent={
           <EmptyState
             icon="search-outline"
-            title={bucket === "extras" ? "Pas d’extras" : "Rien ici"}
+            title={bucket === "extras" ? t("emptyExtras") : t("emptyTitle")}
             subtitle={
-              bucket === "extras"
-                ? "Cette marque n’a pas encore d’accessoires listés."
-                : "Essaie un autre filtre ou une autre recherche."
+              bucket === "extras" ? t("emptyExtrasSubtitle") : t("emptySubtitle")
             }
           />
         }
@@ -337,6 +337,7 @@ export function BrandCollectionScreen() {
               <ChecklistFigureCard
                 key={fig.id}
                 figure={fig}
+                brandSlug={brandSlug}
                 ownedQty={entryMap[fig.id]?.owned_qty || 0}
                 wishlist={!!entryMap[fig.id]?.wishlist}
                 tradeQty={entryMap[fig.id]?.trade_qty || 0}

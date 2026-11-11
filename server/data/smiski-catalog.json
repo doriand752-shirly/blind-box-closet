@@ -24,7 +24,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_01.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-hugging-knees.png"
         },
         {
           "name_en": "Sitting",
@@ -34,7 +34,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_02.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-sitting.png"
         },
         {
           "name_en": "Looking Back",
@@ -44,7 +44,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_03.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-looking-back.png"
         },
         {
           "name_en": "Lounging",
@@ -54,7 +54,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_04.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-lounging.png"
         },
         {
           "name_en": "Hiding",
@@ -64,7 +64,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_05.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-hiding.png"
         },
         {
           "name_en": "Peeking",
@@ -74,7 +74,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_06.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-peeking.png"
         },
         {
           "name_en": "The Scream",
@@ -84,7 +84,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-the-scream.png"
         },
         {
           "name_en": "Little Smiski Lifting",
@@ -94,7 +94,7 @@
           "is_bonus": true,
           "is_duo": false,
           "sort_order": 8,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_secret.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-lifting.png"
         },
         {
           "name_en": "Little Smiski Peeking",
@@ -104,7 +104,7 @@
           "is_bonus": true,
           "is_duo": false,
           "sort_order": 9,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s1_blindbox.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-peeking.png"
         },
         {
           "name_en": "Little Smiski Hugging",
@@ -114,7 +114,7 @@
           "is_bonus": true,
           "is_duo": false,
           "sort_order": 10,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/series1_img.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-little-smiski-hugging.png"
         },
         {
           "name_en": "Rudolph",
@@ -124,7 +124,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 11,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/series1_img.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-1-rudolph.png"
         }
       ]
     },
@@ -145,7 +145,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_01.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-kneeling.png"
         },
         {
           "name_en": "Climbing",
@@ -155,7 +155,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_02.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-climbing.png"
         },
         {
           "name_en": "Daydreaming",
@@ -165,7 +165,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_03.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-daydreaming.png"
         },
         {
           "name_en": "Pushing",
@@ -175,7 +175,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_04.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-pushing.png"
         },
         {
           "name_en": "Peeking",
@@ -185,7 +185,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_05.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-peeking.png"
         },
         {
           "name_en": "Listening",
@@ -195,7 +195,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_06.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-listening.png"
         },
         {
           "name_en": "Birth of Venus",
@@ -205,7 +205,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-birth-of-venus.png"
         },
         {
           "name_en": "Snowman",
@@ -215,7 +215,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 8,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/s2_secret.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-2-snowman.png"
         }
       ]
     },
@@ -236,7 +236,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-bridge.png"
         },
         {
           "name_en": "Peeking",
@@ -246,7 +246,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-peeking.png"
         },
         {
           "name_en": "Climbing",
@@ -256,7 +256,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-climbing.png"
         },
         {
           "name_en": "Little",
@@ -266,7 +266,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-little.png"
         },
         {
           "name_en": "Hiding",
@@ -276,7 +276,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-hiding.png"
         },
         {
           "name_en": "Handstand",
@@ -286,7 +286,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-handstand.png"
         },
         {
           "name_en": "The Thinker",
@@ -296,7 +296,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-3-the-thinker.png"
         }
       ]
     },
@@ -317,7 +317,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-sneaking.png"
         },
         {
           "name_en": "Scared",
@@ -327,7 +327,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-scared.png"
         },
         {
           "name_en": "Relaxing",
@@ -337,7 +337,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-relaxing.png"
         },
         {
           "name_en": "Lazy",
@@ -347,7 +347,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-lazy.png"
         },
         {
           "name_en": "Stuck",
@@ -357,7 +357,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-stuck.png"
         },
         {
           "name_en": "Defeated",
@@ -367,7 +367,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-defeated.png"
         },
         {
           "name_en": "Twin Angels",
@@ -377,7 +377,7 @@
           "is_bonus": false,
           "is_duo": true,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-series-4-twin-angels.png"
         }
       ]
     },
@@ -398,7 +398,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-shampooing.png"
         },
         {
           "name_en": "Not Looking",
@@ -408,7 +408,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-not-looking.png"
         },
         {
           "name_en": "Scrubbing",
@@ -418,7 +418,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-scrubbing.png"
         },
         {
           "name_en": "With Duck",
@@ -428,7 +428,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-with-duck.png"
         },
         {
           "name_en": "Dazed",
@@ -438,7 +438,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-dazed.png"
         },
         {
           "name_en": "Looking",
@@ -448,7 +448,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-looking.png"
         },
         {
           "name_en": "Water Droplet",
@@ -458,7 +458,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-water-droplet.png"
         }
       ]
     },
@@ -479,7 +479,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-peek-a-boo.png"
         },
         {
           "name_en": "Little (Smelly)",
@@ -489,7 +489,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-little-smelly.png"
         },
         {
           "name_en": "Squatting",
@@ -499,7 +499,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-squatting.png"
         },
         {
           "name_en": "Helping Out",
@@ -509,7 +509,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-helping-out.png"
         },
         {
           "name_en": "Resting",
@@ -519,7 +519,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-resting.png"
         },
         {
           "name_en": "Holding In",
@@ -529,7 +529,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-holding-in.png"
         },
         {
           "name_en": "Water Fountain",
@@ -539,7 +539,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toilet-water-fountain.png"
         }
       ]
     },
@@ -560,7 +560,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-daydreaming.png"
         },
         {
           "name_en": "Playing",
@@ -641,7 +641,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-before-rest.png"
         },
         {
           "name_en": "Sleepy",
@@ -651,7 +651,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-sleepy.png"
         },
         {
           "name_en": "Co-Sleeping",
@@ -661,7 +661,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-co-sleeping.png"
         },
         {
           "name_en": "Reading",
@@ -671,7 +671,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-reading.png"
         },
         {
           "name_en": "At Sleep",
@@ -681,7 +681,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-at-sleep.png"
         },
         {
           "name_en": "Fussing",
@@ -691,7 +691,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-fussing.png"
         },
         {
           "name_en": "Crescent Moon",
@@ -701,7 +701,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bed-crescent-moon.png"
         }
       ]
     },
@@ -722,7 +722,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-lotus-pose.png"
         },
         {
           "name_en": "Twist Pose",
@@ -732,7 +732,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-twist-pose.png"
         },
         {
           "name_en": "Shoulderstand Pose",
@@ -742,7 +742,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-shoulderstand-pose.png"
         },
         {
           "name_en": "Triangle Pose",
@@ -752,7 +752,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-triangle-pose.png"
         },
         {
           "name_en": "Tree Pose",
@@ -762,7 +762,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-tree-pose.png"
         },
         {
           "name_en": "Ship Pose",
@@ -772,7 +772,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-ship-pose.png"
         },
         {
           "name_en": "Twin Hearts",
@@ -782,7 +782,7 @@
           "is_bonus": false,
           "is_duo": true,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-yoga-twin-hearts.png"
         }
       ]
     },
@@ -803,7 +803,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-marching.png"
         },
         {
           "name_en": "On Drums",
@@ -813,7 +813,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-on-drums.png"
         },
         {
           "name_en": "On Your Side",
@@ -823,7 +823,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-on-your-side.png"
         },
         {
           "name_en": "Dancing",
@@ -833,7 +833,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-dancing.png"
         },
         {
           "name_en": "Little Smiski Cheerleading",
@@ -843,7 +843,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-little-smiski-cheerleading.png"
         },
         {
           "name_en": "Cheering",
@@ -853,7 +853,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-cheering.png"
         },
         {
           "name_en": "Trophy Angel",
@@ -863,7 +863,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cheer-trophy-angel.png"
         }
       ]
     },
@@ -884,7 +884,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-the-source.png"
         },
         {
           "name_en": "Fuzin & Raijin",
@@ -894,7 +894,7 @@
           "is_bonus": false,
           "is_duo": true,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-fuzin-raijin.png"
         },
         {
           "name_en": "Bacchus",
@@ -904,7 +904,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-bacchus.png"
         },
         {
           "name_en": "Velázquez",
@@ -914,7 +914,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-vel-zquez.png"
         },
         {
           "name_en": "Dali",
@@ -924,7 +924,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-dali.png"
         },
         {
           "name_en": "Pearl Earring",
@@ -934,7 +934,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-pearl-earring.png"
         },
         {
           "name_en": "King Tut",
@@ -944,7 +944,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-museum-king-tut.png"
         }
       ]
     },
@@ -965,7 +965,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_01.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-approving.png"
         },
         {
           "name_en": "Researching",
@@ -975,7 +975,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_02.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-researching.png"
         },
         {
           "name_en": "Presenting",
@@ -985,7 +985,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_03.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-presenting.png"
         },
         {
           "name_en": "Good Idea",
@@ -995,7 +995,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_04.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-good-idea.png"
         },
         {
           "name_en": "On the Road",
@@ -1005,7 +1005,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_05.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-on-the-road.png"
         },
         {
           "name_en": "Little SMISKI Group Think",
@@ -1015,7 +1015,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": "https://smiski.com/wp-content/uploads/2022/02/img_work_products_06.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-little-smiski-group-think.png"
         },
         {
           "name_en": "Lucky Cat",
@@ -1025,7 +1025,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-work-lucky-cat.png"
         }
       ]
     },
@@ -1046,7 +1046,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-underpants.png"
         },
         {
           "name_en": "Struggling",
@@ -1056,7 +1056,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-struggling.png"
         },
         {
           "name_en": "Loose Pants",
@@ -1066,7 +1066,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-loose-pants.png"
         },
         {
           "name_en": "Putting On Socks",
@@ -1076,7 +1076,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-putting-on-socks.png"
         },
         {
           "name_en": "Sweater",
@@ -1086,7 +1086,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-sweater.png"
         },
         {
           "name_en": "Tight Pants",
@@ -1096,7 +1096,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-tight-pants.png"
         },
         {
           "name_en": "Costume Bunny",
@@ -1106,7 +1106,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-dressing-costume-bunny.png"
         }
       ]
     },
@@ -1127,7 +1127,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-doing-crunches.png"
         },
         {
           "name_en": "Aerobics",
@@ -1137,7 +1137,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-aerobics.png"
         },
         {
           "name_en": "Little SMISKI Balance",
@@ -1147,7 +1147,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-little-smiski-balance.png"
         },
         {
           "name_en": "Dumbbell",
@@ -1157,7 +1157,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-dumbbell.png"
         },
         {
           "name_en": "Hoop",
@@ -1167,7 +1167,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-hoop.png"
         },
         {
           "name_en": "Stretch",
@@ -1177,7 +1177,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-stretch.png"
         },
         {
           "name_en": "Flexing",
@@ -1187,7 +1187,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-exercising-flexing.png"
         }
       ]
     },
@@ -1208,7 +1208,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-carrying-ladder.png"
         },
         {
           "name_en": "Balancing Boxes",
@@ -1218,7 +1218,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-balancing-boxes.png"
         },
         {
           "name_en": "Decorating",
@@ -1228,7 +1228,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-decorating.png"
         },
         {
           "name_en": "Little SMISKI Teamwork",
@@ -1238,7 +1238,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-little-smiski-teamwork.png"
         },
         {
           "name_en": "Green Thumb SMISKI",
@@ -1248,7 +1248,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-green-thumb-smiski.png"
         },
         {
           "name_en": "Falling Down",
@@ -1258,7 +1258,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-falling-down.png"
         },
         {
           "name_en": "Teddy",
@@ -1268,7 +1268,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-moving-teddy.png"
         }
       ]
     },
@@ -1289,7 +1289,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-on-his-smartphone.png"
         },
         {
           "name_en": "Trying to Climb",
@@ -1299,7 +1299,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-trying-to-climb.png"
         },
         {
           "name_en": "Looking Out",
@@ -1309,7 +1309,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-looking-out.png"
         },
         {
           "name_en": "Sticking",
@@ -1319,7 +1319,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-sticking.png"
         },
         {
           "name_en": "Dozing",
@@ -1329,7 +1329,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-dozing.png"
         },
         {
           "name_en": "Upside Down",
@@ -1339,7 +1339,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-upside-down.png"
         },
         {
           "name_en": "Headphones",
@@ -1349,7 +1349,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-headphones.png"
         }
       ]
     },
@@ -1370,7 +1370,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-blowing-bubbles.png"
         },
         {
           "name_en": "Paper Airplane",
@@ -1380,7 +1380,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-paper-airplane.png"
         },
         {
           "name_en": "Sunbathing",
@@ -1390,7 +1390,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-sunbathing.png"
         },
         {
           "name_en": "Sing-Along",
@@ -1400,7 +1400,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-sing-along.png"
         },
         {
           "name_en": "Skateboarding",
@@ -1410,7 +1410,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-skateboarding.png"
         },
         {
           "name_en": "Gardening",
@@ -1420,7 +1420,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-gardening.png"
         },
         {
           "name_en": "Dog Walk",
@@ -1430,7 +1430,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sunday-dog-walk.png"
         }
       ]
     },
@@ -1451,7 +1451,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-giving-a-bouquet.png"
         },
         {
           "name_en": "Wrapped Up",
@@ -1461,7 +1461,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-wrapped-up.png"
         },
         {
           "name_en": "Popping Confetti",
@@ -1471,7 +1471,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-popping-confetti.png"
         },
         {
           "name_en": "Birthday Message",
@@ -1481,7 +1481,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-birthday-message.png"
         },
         {
           "name_en": "Little SMISKI Decorating",
@@ -1491,7 +1491,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-little-smiski-decorating.png"
         },
         {
           "name_en": "Tasting",
@@ -1501,7 +1501,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-tasting.png"
         },
         {
           "name_en": "Candle",
@@ -1511,7 +1511,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-birthday-candle.png"
         }
       ]
     },
@@ -1532,7 +1532,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": "https://smiski.com/wp-content/uploads/2016/03/icon01-1.png"
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-digging-a-hole.png"
         },
         {
           "name_en": "Crushing Rock",
@@ -1542,7 +1542,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-crushing-rock.png"
         },
         {
           "name_en": "Tightening Bolt",
@@ -1552,7 +1552,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-tightening-bolt.png"
         },
         {
           "name_en": "Measuring",
@@ -1562,7 +1562,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-measuring.png"
         },
         {
           "name_en": "Directing Traffic",
@@ -1572,7 +1572,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-directing-traffic.png"
         },
         {
           "name_en": "Loosening Bolt",
@@ -1582,7 +1582,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-loosening-bolt.png"
         },
         {
           "name_en": "Traffic Cones",
@@ -1592,7 +1592,7 @@
           "is_bonus": false,
           "is_duo": true,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-construction-traffic-cones.png"
         }
       ]
     },
@@ -1937,7 +1937,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-afraid-of-water.png"
         },
         {
           "name_en": "Little Smiski Like Sea Otter",
@@ -1947,7 +1947,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-like-sea-otter.png"
         },
         {
           "name_en": "Little Smiski Hesitating",
@@ -1957,7 +1957,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-hesitating.png"
         },
         {
           "name_en": "Little Smiski Swimming",
@@ -1967,7 +1967,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-swimming.png"
         },
         {
           "name_en": "Little Smiski Having Swim Ring",
@@ -1977,7 +1977,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-having-swim-ring.png"
         },
         {
           "name_en": "Little Smiski Curled Up",
@@ -1987,7 +1987,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-little-smiski-curled-up.png"
         },
         {
           "name_en": "Mermaid",
@@ -1997,7 +1997,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-mermaid.png"
         }
       ]
     },
@@ -2018,7 +2018,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-diving-from-tub-edge.png"
         },
         {
           "name_en": "Rubber Duck Ride",
@@ -2028,7 +2028,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-rubber-duck-ride.png"
         },
         {
           "name_en": "Big Pool",
@@ -2038,7 +2038,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-big-pool.png"
         },
         {
           "name_en": "Washing Body",
@@ -2048,7 +2048,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-washing-body.png"
         },
         {
           "name_en": "Banzai",
@@ -2058,7 +2058,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-banzai.png"
         },
         {
           "name_en": "Towel on Head",
@@ -2068,7 +2068,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-towel-on-head.png"
         },
         {
           "name_en": "Mermaid",
@@ -2078,7 +2078,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bath-ball-2-mermaid.png"
         }
       ]
     },
@@ -2099,7 +2099,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-santa-claus.jpg"
         },
         {
           "name_en": "Present",
@@ -2109,7 +2109,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-present.jpg"
         },
         {
           "name_en": "Snowman",
@@ -2119,7 +2119,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-snowman.jpg"
         },
         {
           "name_en": "Candy Cane",
@@ -2129,7 +2129,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-candy-cane.jpg"
         },
         {
           "name_en": "Stocking",
@@ -2139,7 +2139,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-stocking.jpg"
         },
         {
           "name_en": "Star",
@@ -2149,7 +2149,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-star.jpg"
         },
         {
           "name_en": "Reindeer",
@@ -2159,7 +2159,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-reindeer.jpg"
         }
       ]
     },
@@ -2180,7 +2180,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-holding-key.jpg"
         },
         {
           "name_en": "Sitting Keychain",
@@ -2190,7 +2190,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-sitting-keychain.jpg"
         },
         {
           "name_en": "Hanging Keychain",
@@ -2200,7 +2200,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-hanging-keychain.jpg"
         },
         {
           "name_en": "Peeking Keychain",
@@ -2210,7 +2210,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-peeking-keychain.jpg"
         },
         {
           "name_en": "Lounging Keychain",
@@ -2220,7 +2220,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-lounging-keychain.jpg"
         },
         {
           "name_en": "Little Keychain",
@@ -2230,7 +2230,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-key-chain-little-keychain.png"
         }
       ]
     },
@@ -2251,7 +2251,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-standing-hold.png"
         },
         {
           "name_en": "Leaning Hold",
@@ -2261,7 +2261,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-leaning-hold.jpg"
         },
         {
           "name_en": "Sitting Hold",
@@ -2271,7 +2271,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-sitting-hold.png"
         },
         {
           "name_en": "Peeking Hold",
@@ -2281,7 +2281,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-peeking-hold.png"
         },
         {
           "name_en": "Hugging Hold",
@@ -2291,7 +2291,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-hugging-hold.png"
         },
         {
           "name_en": "Little Hold",
@@ -2301,7 +2301,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-toothbrush-stand-little-hold.png"
         }
       ]
     },
@@ -2322,7 +2322,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-biting-zipper.jpg"
         },
         {
           "name_en": "Peeking Zipper",
@@ -2332,7 +2332,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-peeking-zipper.jpg"
         },
         {
           "name_en": "Hanging Zipper",
@@ -2342,7 +2342,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-hanging-zipper.jpg"
         },
         {
           "name_en": "Climbing Zipper",
@@ -2352,7 +2352,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-climbing-zipper.jpg"
         },
         {
           "name_en": "Sitting Zipper",
@@ -2362,7 +2362,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-sitting-zipper.jpg"
         },
         {
           "name_en": "Little Zipper",
@@ -2372,7 +2372,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-little-zipper.jpg"
         }
       ]
     },
@@ -2464,7 +2464,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-sitting-light.png"
         },
         {
           "name_en": "Peeking Light",
@@ -2474,7 +2474,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-peeking-light.png"
         },
         {
           "name_en": "Hugging Knees Light",
@@ -2484,7 +2484,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-hugging-knees-light.png"
         },
         {
           "name_en": "Lounging Light",
@@ -2494,7 +2494,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-lounging-light.png"
         },
         {
           "name_en": "Hiding Light",
@@ -2504,7 +2504,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-hiding-light.png"
         },
         {
           "name_en": "Looking Back Light",
@@ -2514,7 +2514,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-looking-back-light.png"
         }
       ]
     },
@@ -2606,7 +2606,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-corner-sensor.png"
         },
         {
           "name_en": "Wall Sensor",
@@ -2616,7 +2616,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-wall-sensor.jpg"
         },
         {
           "name_en": "Shelf Sensor",
@@ -2626,7 +2626,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-shelf-sensor.png"
         },
         {
           "name_en": "Little Sensor",
@@ -2636,7 +2636,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-little-sensor.png"
         }
       ]
     },
@@ -2657,7 +2657,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-sitting-plush.png"
         },
         {
           "name_en": "Hugging Knees Plush",
@@ -2667,7 +2667,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-hugging-knees-plush.png"
         },
         {
           "name_en": "Peeking Plush",
@@ -2677,7 +2677,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-peeking-plush.png"
         },
         {
           "name_en": "Lounging Plush",
@@ -2687,7 +2687,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-lounging-plush.png"
         }
       ]
     },
@@ -2708,7 +2708,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-sitting-plush-keychain.jpg"
         },
         {
           "name_en": "Hugging Plush Keychain",
@@ -2718,7 +2718,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-hugging-plush-keychain.jpg"
         },
         {
           "name_en": "Peeking Plush Keychain",
@@ -2728,7 +2728,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-peeking-plush-keychain.jpg"
         },
         {
           "name_en": "Little Plush Keychain",
@@ -2738,7 +2738,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-plush-key-chain-little-plush-keychain.jpg"
         }
       ]
     },
@@ -2759,7 +2759,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-hugging-knees-sticker.png"
         },
         {
           "name_en": "Sitting Sticker",
@@ -2769,7 +2769,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-sitting-sticker.png"
         },
         {
           "name_en": "Peeking Sticker",
@@ -2779,7 +2779,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-peeking-sticker.png"
         },
         {
           "name_en": "Hiding Sticker",
@@ -2789,7 +2789,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-hiding-sticker.png"
         },
         {
           "name_en": "Lounging Sticker",
@@ -2799,7 +2799,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-lounging-sticker.png"
         },
         {
           "name_en": "Looking Back Sticker",
@@ -2809,7 +2809,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-looking-back-sticker.png"
         }
       ]
     },
@@ -2901,7 +2901,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-umbrella.png"
         },
         {
           "name_en": "Splashing",
@@ -2911,7 +2911,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-splashing.png"
         },
         {
           "name_en": "Puddle Jump",
@@ -2921,7 +2921,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-puddle-jump.png"
         },
         {
           "name_en": "Rain Coat",
@@ -2931,7 +2931,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-rain-coat.png"
         },
         {
           "name_en": "Holding Boots",
@@ -2941,7 +2941,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-holding-boots.png"
         },
         {
           "name_en": "Little Rain",
@@ -2951,7 +2951,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-rainbomb-little-rain.png"
         }
       ]
     },
@@ -2972,7 +2972,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-sitting.png"
         },
         {
           "name_en": "Bobbing Peeking",
@@ -2982,7 +2982,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-peeking.png"
         },
         {
           "name_en": "Bobbing Hugging Knees",
@@ -2992,7 +2992,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-hugging-knees.png"
         },
         {
           "name_en": "Bobbing Looking Back",
@@ -3002,7 +3002,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-looking-back.png"
         },
         {
           "name_en": "Bobbing Lounging",
@@ -3012,7 +3012,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-lounging.png"
         },
         {
           "name_en": "Bobbing Hiding",
@@ -3022,7 +3022,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-bobbing-head-bobbing-hiding.png"
         }
       ]
     },
@@ -3114,7 +3114,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cushion-pouch-round-pouch.png"
         },
         {
           "name_en": "Square Pouch",
@@ -3124,7 +3124,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cushion-pouch-square-pouch.png"
         },
         {
           "name_en": "Little Pouch",
@@ -3134,7 +3134,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-cushion-pouch-little-pouch.png"
         }
       ]
     }

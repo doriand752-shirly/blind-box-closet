@@ -10,6 +10,7 @@ type Props = {
   selected: boolean;
   disabled?: boolean;
   coverUrl?: string | null;
+  comingSoonLabel?: string;
   onPress: () => void;
 };
 
@@ -18,6 +19,7 @@ export function BrandSelectCard({
   selected,
   disabled,
   coverUrl,
+  comingSoonLabel = "Coming soon",
   onPress,
 }: Props) {
   const theme = getBrandTheme(slug);
@@ -30,7 +32,7 @@ export function BrandSelectCard({
       scaleTo={0.97}
     >
       <View style={[styles.top, { backgroundColor: theme.card }]}>
-        <FigureImage uri={coverUrl} style={styles.hero} contentFit="contain" />
+        <FigureImage uri={coverUrl} brandSlug={slug} style={styles.hero} contentFit="contain" />
       </View>
       <View style={styles.bottom}>
         <Text style={styles.name} numberOfLines={1}>
@@ -44,7 +46,7 @@ export function BrandSelectCard({
       </View>
       {disabled ? (
         <View style={styles.badge}>
-          <Text style={styles.badgeText}>Bientôt</Text>
+          <Text style={styles.badgeText}>{comingSoonLabel}</Text>
         </View>
       ) : null}
     </SoftPressable>

@@ -13,6 +13,7 @@ type Props = {
   total: number;
   coverUrl?: string | null;
   comingSoon?: boolean;
+  comingSoonLabel?: string;
   onPress?: () => void;
 };
 
@@ -23,6 +24,7 @@ export function BrandHeroCard({
   total,
   coverUrl,
   comingSoon,
+  comingSoonLabel = "Coming soon",
   onPress,
 }: Props) {
   const theme = getBrandTheme(slug);
@@ -45,7 +47,7 @@ export function BrandHeroCard({
         <View style={styles.left}>
           <Text style={styles.brand}>{label}</Text>
           {comingSoon ? (
-            <Text style={styles.soon}>Bientôt</Text>
+            <Text style={styles.soon}>{comingSoonLabel}</Text>
           ) : (
             <>
               <ProgressBar
@@ -61,7 +63,7 @@ export function BrandHeroCard({
             </>
           )}
         </View>
-        <FigureImage uri={coverUrl} style={styles.hero} contentFit="contain" />
+        <FigureImage uri={coverUrl} brandSlug={slug} style={styles.hero} contentFit="contain" />
       </LinearGradient>
     </SoftPressable>
   );

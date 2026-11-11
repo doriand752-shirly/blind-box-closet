@@ -6,8 +6,10 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useAuth } from "../context/AuthContext";
+import { useLocale } from "../i18n/LocaleContext";
 import { isOnboardingDone } from "../services/brandPrefs";
 import { colors, fonts } from "../theme";
+import { LanguageScreen } from "../screens/LanguageScreen";
 import { AuthScreen } from "../screens/AuthScreen";
 import { OnboardingScreen } from "../screens/OnboardingScreen";
 import { CollectionsScreen } from "../screens/CollectionsScreen";
@@ -57,6 +59,7 @@ function CollectionsStack() {
 }
 
 function SettingsStack() {
+  const { t } = useLocale();
   return (
     <Stack.Navigator
       screenOptions={{
@@ -72,13 +75,14 @@ function SettingsStack() {
         component={SettingsScreen}
         options={{ headerShown: false }}
       />
-      <Stack.Screen name="Admin" component={AdminScreen} options={{ title: "Admin" }} />
+      <Stack.Screen name="Admin" component={AdminScreen} options={{ title: t("admin") }} />
     </Stack.Navigator>
   );
 }
 
 function MainTabs() {
   const insets = useSafeAreaInsets();
+  const { t } = useLocale();
 
   return (
     <Tab.Navigator
@@ -119,12 +123,12 @@ function MainTabs() {
       <Tab.Screen
         name="CollectionsTab"
         component={CollectionsStack}
-        options={{ title: "Home" }}
+        options={{ title: t("home") }}
       />
       <Tab.Screen
         name="SettingsTab"
         component={SettingsStack}
-        options={{ title: "Réglages" }}
+        options={{ title: t("settings") }}
       />
     </Tab.Navigator>
   );
@@ -132,6 +136,7 @@ function MainTabs() {
 
 export function RootNavigator() {
   const { user, loading } = useAuth();
+  const { locale, ready } = useLocale();
   const [onboardingChecked, setOnboardingChecked] = useState(false);
   const [needsOnboarding, setNeedsOnboarding] = useState(false);
 
@@ -155,7 +160,7 @@ export function RootNavigator() {
     };
   }, [user]);
 
-  if (loading || (user && !onboardingChecked)) {
+  if (!ready || loading || (user && !onboardingChecked)) {
     return (
       <View style={styles.boot}>
         <ActivityIndicator color={colors.progressActive} />
@@ -166,7 +171,9 @@ export function RootNavigator() {
   return (
     <NavigationContainer theme={navTheme}>
       <RootStack.Navigator screenOptions={{ headerShown: false, animation: "fade" }}>
-        {!user ? (
+        {!locale ? (
+          <RootStack.Screen name="Language" component={LanguageScreen} />
+        ) : !user ? (
           <RootStack.Screen name="Auth" component={AuthScreen} />
         ) : needsOnboarding ? (
           <RootStack.Screen name="Onboarding">

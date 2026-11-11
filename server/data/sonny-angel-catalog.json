@@ -24,7 +24,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-rabbit.png"
         },
         {
           "name_en": "Dog",
@@ -34,7 +34,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-dog.jpg"
         },
         {
           "name_en": "Cat",
@@ -44,7 +44,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-cat.png"
         },
         {
           "name_en": "Elephant",
@@ -54,7 +54,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-elephant.png"
         },
         {
           "name_en": "Panda",
@@ -64,7 +64,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-panda.png"
         },
         {
           "name_en": "Sloth",
@@ -74,7 +74,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-sloth.png"
         },
         {
           "name_en": "Robby",
@@ -84,7 +84,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-1-robby.png"
         }
       ]
     },
@@ -105,7 +105,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-mouse.png"
         },
         {
           "name_en": "Lesser Panda",
@@ -115,7 +115,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-lesser-panda.png"
         },
         {
           "name_en": "Hedgehog",
@@ -125,7 +125,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-hedgehog.png"
         },
         {
           "name_en": "Sheep",
@@ -135,7 +135,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-sheep.png"
         },
         {
           "name_en": "Duck",
@@ -145,7 +145,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-duck.png"
         },
         {
           "name_en": "Skunk",
@@ -155,7 +155,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-skunk.png"
         },
         {
           "name_en": "Kappa",
@@ -165,7 +165,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-animal-series-version-2-kappa.png"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-carrot.png"
         },
         {
           "name_en": "Tomato",
@@ -196,7 +196,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-tomato.png"
         },
         {
           "name_en": "Garlic",
@@ -206,7 +206,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-garlic.png"
         },
         {
           "name_en": "Zucchini",
@@ -216,7 +216,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-zucchini.png"
         },
         {
           "name_en": "Onion",
@@ -226,7 +226,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-onion.png"
         },
         {
           "name_en": "Radish",
@@ -236,7 +236,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-radish.png"
         },
         {
           "name_en": "Corn",
@@ -246,7 +246,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-vegetable-series-corn.png"
         }
       ]
     },
@@ -267,7 +267,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-raspberry.png"
         },
         {
           "name_en": "Peach",
@@ -277,7 +277,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-peach.png"
         },
         {
           "name_en": "Orange",
@@ -287,7 +287,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-orange.png"
         },
         {
           "name_en": "Pear",
@@ -297,7 +297,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-pear.png"
         },
         {
           "name_en": "Strawberry",
@@ -307,7 +307,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-strawberry.png"
         },
         {
           "name_en": "Grape",
@@ -317,7 +317,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-grape.png"
         },
         {
           "name_en": "Dragon Fruit",
@@ -327,7 +327,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-fruit-series-dragon-fruit.png"
         }
       ]
     },
@@ -348,7 +348,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-marine-series-shark.png"
         },
         {
           "name_en": "Jellyfish",
@@ -358,7 +358,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-marine-series-jellyfish.png"
         },
         {
           "name_en": "Dolphin",
@@ -368,7 +368,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-marine-series-dolphin.png"
         },
         {
           "name_en": "Seal",
@@ -378,7 +378,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-marine-series-seal.png"
         },
         {
           "name_en": "Clownfish",
@@ -388,7 +388,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-marine-series-clownfish.png"
         },
         {
           "name_en": "Seahorse",
@@ -398,7 +398,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-marine-series-seahorse.png"
         },
         {
           "name_en": "Whale",
@@ -408,7 +408,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-marine-series-whale.png"
         }
       ]
     },
@@ -429,7 +429,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-flower-series-rose.png"
         },
         {
           "name_en": "Cherry Blossom",
@@ -439,7 +439,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-flower-series-cherry-blossom.png"
         },
         {
           "name_en": "Poppy",
@@ -449,7 +449,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-flower-series-poppy.png"
         },
         {
           "name_en": "Sunflower",
@@ -459,7 +459,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-flower-series-sunflower.png"
         },
         {
           "name_en": "Cactus",
@@ -469,7 +469,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-flower-series-cactus.png"
         },
         {
           "name_en": "Lily Bell",
@@ -479,7 +479,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-flower-series-lily-bell.png"
         },
         {
           "name_en": "Hydrangea",
@@ -489,7 +489,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-flower-series-hydrangea.png"
         }
       ]
     },
@@ -510,7 +510,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-blueberry-cake.png"
         },
         {
           "name_en": "Lemon Cake",
@@ -520,7 +520,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-lemon-cake.png"
         },
         {
           "name_en": "Mint Cake",
@@ -530,7 +530,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-mint-cake.png"
         },
         {
           "name_en": "Raspberry Cake",
@@ -540,7 +540,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-raspberry-cake.png"
         },
         {
           "name_en": "Chocolate Cake",
@@ -550,7 +550,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-chocolate-cake.png"
         },
         {
           "name_en": "Strawberry Shortcake",
@@ -560,7 +560,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-strawberry-shortcake.png"
         },
         {
           "name_en": "Secret Cake",
@@ -570,7 +570,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-birthday-gift-series-secret-cake.png"
         }
       ]
     },
@@ -591,7 +591,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-cream-puff.png"
         },
         {
           "name_en": "Cupcake",
@@ -601,7 +601,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-cupcake.png"
         },
         {
           "name_en": "Fruit Tart",
@@ -611,7 +611,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-fruit-tart.png"
         },
         {
           "name_en": "Ice Cream",
@@ -621,7 +621,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-ice-cream.png"
         },
         {
           "name_en": "Jelly Beans",
@@ -631,7 +631,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-jelly-beans.png"
         },
         {
           "name_en": "Pancake",
@@ -641,7 +641,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-pancake.png"
         },
         {
           "name_en": "Konpeito",
@@ -651,7 +651,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/sonny-sweets-series-konpeito.png"
         }
       ]
     }

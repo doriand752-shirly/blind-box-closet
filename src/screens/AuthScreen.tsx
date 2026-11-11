@@ -11,10 +11,12 @@ import * as AppleAuthentication from "expo-apple-authentication";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useAuth } from "../context/AuthContext";
+import { useLocale } from "../i18n/LocaleContext";
 import { colors, fonts, radius, space, type } from "../theme";
 
 export function AuthScreen() {
   const { signInWithApple, signInDev, continueAsGuest } = useAuth();
+  const { t } = useLocale();
   const insets = useSafeAreaInsets();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -26,7 +28,7 @@ export function AuthScreen() {
       await fn();
     } catch (e: any) {
       if (e?.code !== "ERR_REQUEST_CANCELED") {
-        setError(e?.message || "Connexion impossible");
+        setError(e?.message || t("connectionError"));
       }
     } finally {
       setBusy(false);
@@ -40,10 +42,8 @@ export function AuthScreen() {
       style={[styles.root, { paddingTop: insets.top + 24, paddingBottom: insets.bottom + 20 }]}
     >
       <View style={styles.hero}>
-        <Text style={styles.brand}>Blind Box Closet</Text>
-        <Text style={styles.tagline}>
-          Suis Smiski, Sonny Angel, Labubu et plus — Main, Extras, wishlist et échanges.
-        </Text>
+        <Text style={styles.brand}>{t("appName")}</Text>
+        <Text style={styles.tagline}>{t("authTagline")}</Text>
       </View>
 
       <View style={styles.actions}>
@@ -52,7 +52,7 @@ export function AuthScreen() {
           onPress={() => run(continueAsGuest)}
           disabled={busy}
         >
-          <Text style={styles.primaryText}>Continuer sans compte</Text>
+          <Text style={styles.primaryText}>{t("continueGuest")}</Text>
         </SoftPressable>
 
         {Platform.OS === "ios" ? (
@@ -64,7 +64,7 @@ export function AuthScreen() {
               style={[styles.apple, busy && styles.disabled]}
               onPress={() => run(signInWithApple)}
             />
-            <Text style={styles.optionalHint}>Optionnel — sync multi-appareils</Text>
+            <Text style={styles.optionalHint}>{t("appleOptional")}</Text>
           </View>
         ) : null}
 
@@ -74,7 +74,7 @@ export function AuthScreen() {
             onPress={() => run(signInDev)}
             disabled={busy}
           >
-            <Text style={styles.devText}>Continuer (dev / admin)</Text>
+            <Text style={styles.devText}>{t("continueDev")}</Text>
           </SoftPressable>
         ) : null}
 
@@ -82,9 +82,7 @@ export function AuthScreen() {
         {error ? <Text style={styles.error}>{error}</Text> : null}
       </View>
 
-      <Text style={styles.disclaimer}>
-        App collector indépendante, non affiliée à Dreams Inc.
-      </Text>
+      <Text style={styles.disclaimer}>{t("independentFan")}</Text>
     </LinearGradient>
   );
 }
