@@ -63,6 +63,26 @@ export type TranslationKey =
   | "importCollection"
   | "exportOk"
   | "importOk"
-  | "importFail";
+  | "importFail"
+  | "adminOnly"
+  | "adminSubtitle"
+  | "adminBrand"
+  | "adminNewSeries"
+  | "adminSeriesName"
+  | "adminCreateSeries"
+  | "adminSeries"
+  | "adminFigures"
+  | "adminNewFigure"
+  | "adminAddFigure"
+  | "adminServerImage"
+  | "adminRename"
+  | "adminEdit"
+  | "adminSaveText"
+  | "adminServerMedia"
+  | "adminFilter"
+  | "adminClose"
+  | "adminNameRequired"
+  | "adminMediaError"
+  | "error";
 
 export type Dictionary = Record<TranslationKey, string>;

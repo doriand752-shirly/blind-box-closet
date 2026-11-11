@@ -15,6 +15,7 @@ import { Image } from "expo-image";
 import { useFocusEffect } from "@react-navigation/native";
 import { SoftPressable } from "../components/ui/SoftPressable";
 import { useAuth } from "../context/AuthContext";
+import { useLocale } from "../i18n/LocaleContext";
 import { api } from "../services/api";
 import { colors, fonts, radius, space, type } from "../theme";
 import type { Brand, Figure, Series } from "../types/models";
@@ -30,6 +31,7 @@ function slugify(input: string) {
 
 export function AdminScreen() {
   const { token, user } = useAuth();
+  const { t } = useLocale();
   const [brands, setBrands] = useState<Brand[]>([]);
   const [brandSlug, setBrandSlug] = useState("smiski");
   const [series, setSeries] = useState<Series[]>([]);
@@ -79,7 +81,7 @@ export function AdminScreen() {
     return (
       <View style={styles.center}>
         <Text style={styles.title}>Admin</Text>
-        <Text style={styles.meta}>Accès réservé à Dorian.</Text>
+        <Text style={styles.meta}>{t("adminOnly")}</Text>
       </View>
     );
   }
@@ -93,7 +95,7 @@ export function AdminScreen() {
       await load();
       setMessage("OK");
     } catch (e: any) {
-      setMessage(e.message || "Erreur");
+      setMessage(e.message || t("error"));
     } finally {
       setBusy(false);
     }
@@ -109,7 +111,7 @@ export function AdminScreen() {
       setMedia(res.media);
       setMediaOpen(true);
     } catch (e: any) {
-      Alert.alert("Media", e.message || "Impossible de charger les médias");
+      Alert.alert(t("adminServerMedia"), e.message || t("adminMediaError"));
     } finally {
       setBusy(false);
     }
@@ -133,11 +135,11 @@ export function AdminScreen() {
   return (
     <ScrollView style={styles.root} contentContainerStyle={styles.content}>
       <Text style={styles.title}>Admin</Text>
-      <Text style={styles.meta}>Images serveur · textes · nouvelles séries</Text>
+      <Text style={styles.meta}>{t("adminSubtitle")}</Text>
       {message ? <Text style={styles.msg}>{message}</Text> : null}
       {busy ? <ActivityIndicator color={colors.mintDeep} style={{ marginVertical: 8 }} /> : null}
 
-      <Text style={styles.section}>Marque</Text>
+      <Text style={styles.section}>{t("adminBrand")}</Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginBottom: 12 }}>
         {brands.map((b) => (
           <SoftPressable
@@ -153,10 +155,10 @@ export function AdminScreen() {
         ))}
       </ScrollView>
 
-      <Text style={styles.section}>Nouvelle série</Text>
+      <Text style={styles.section}>{t("adminNewSeries")}</Text>
       <TextInput
         style={styles.input}
-        placeholder="Nom de la série"
+        placeholder={t("adminSeriesName")}
         placeholderTextColor={colors.textDim}
         value={newSeriesName}
         onChangeText={setNewSeriesName}
@@ -165,7 +167,7 @@ export function AdminScreen() {
         style={styles.btn}
         onPress={() =>
           run(async () => {
-            if (!brand || !newSeriesName.trim()) throw new Error("Nom requis");
+            if (!brand || !newSeriesName.trim()) throw new Error(t("adminNameRequired"));
             await api.createSeries(token!, {
               brand_id: brand.id,
               slug: slugify(newSeriesName),
@@ -177,10 +179,10 @@ export function AdminScreen() {
           })
         }
       >
-        <Text style={styles.btnText}>Créer la série</Text>
+        <Text style={styles.btnText}>{t("adminCreateSeries")}</Text>
       </SoftPressable>
 
-      <Text style={styles.section}>Séries</Text>
+      <Text style={styles.section}>{t("adminSeries")}</Text>
       {series.map((s) => (
         <SoftPressable
           key={s.id}
@@ -194,10 +196,10 @@ export function AdminScreen() {
 
       {selectedSeriesId ? (
         <>
-          <Text style={styles.section}>Figurines</Text>
+          <Text style={styles.section}>{t("adminFigures")}</Text>
           <TextInput
             style={styles.input}
-            placeholder="Nouvelle figurine"
+            placeholder={t("adminNewFigure")}
             placeholderTextColor={colors.textDim}
             value={newFigureName}
             onChangeText={setNewFigureName}
@@ -206,7 +208,7 @@ export function AdminScreen() {
             style={styles.btn}
             onPress={() =>
               run(async () => {
-                if (!newFigureName.trim()) throw new Error("Nom requis");
+                if (!newFigureName.trim()) throw new Error(t("adminNameRequired"));
                 await api.createFigure(token!, {
                   series_id: selectedSeriesId,
                   name_en: newFigureName.trim(),
@@ -216,7 +218,7 @@ export function AdminScreen() {
               })
             }
           >
-            <Text style={styles.btnText}>Ajouter figurine</Text>
+            <Text style={styles.btnText}>{t("adminAddFigure")}</Text>
           </SoftPressable>
 
           {seriesFigures.map((f) => (
@@ -226,7 +228,7 @@ export function AdminScreen() {
                 <Text style={styles.seriesName}>{f.name_en}</Text>
                 <View style={styles.rowActions}>
                   <Pressable onPress={() => openMediaPicker(f)}>
-                    <Text style={styles.link}>Image serveur</Text>
+                    <Text style={styles.link}>{t("adminServerImage")}</Text>
                   </Pressable>
                   <Pressable
                     onPress={() => {
@@ -234,7 +236,7 @@ export function AdminScreen() {
                       setEditName(f.name_en);
                     }}
                   >
-                    <Text style={styles.link}>Renommer</Text>
+                    <Text style={styles.link}>{t("adminRename")}</Text>
                   </Pressable>
                 </View>
               </View>
@@ -243,7 +245,7 @@ export function AdminScreen() {
 
           {selectedFigure ? (
             <View style={styles.editBox}>
-              <Text style={styles.section}>Éditer : {selectedFigure.name_en}</Text>
+              <Text style={styles.section}>{t("adminEdit", { name: selectedFigure.name_en })}</Text>
               <TextInput
                 style={styles.input}
                 value={editName}
@@ -251,7 +253,7 @@ export function AdminScreen() {
                 placeholderTextColor={colors.textDim}
               />
               <SoftPressable style={styles.btn} onPress={saveFigureName}>
-                <Text style={styles.btnText}>Enregistrer le texte</Text>
+                <Text style={styles.btnText}>{t("adminSaveText")}</Text>
               </SoftPressable>
             </View>
           ) : null}
@@ -260,10 +262,10 @@ export function AdminScreen() {
 
       <Modal visible={mediaOpen} animationType="slide" onRequestClose={() => setMediaOpen(false)}>
         <View style={styles.modal}>
-          <Text style={styles.title}>Médias serveur</Text>
+          <Text style={styles.title}>{t("adminServerMedia")}</Text>
           <TextInput
             style={styles.input}
-            placeholder="Filtrer…"
+            placeholder={t("adminFilter")}
             placeholderTextColor={colors.textDim}
             value={mediaQuery}
             onChangeText={setMediaQuery}
@@ -285,7 +287,7 @@ export function AdminScreen() {
             )}
           />
           <SoftPressable style={styles.btn} onPress={() => setMediaOpen(false)}>
-            <Text style={styles.btnText}>Fermer</Text>
+            <Text style={styles.btnText}>{t("adminClose")}</Text>
           </SoftPressable>
         </View>
       </Modal>
