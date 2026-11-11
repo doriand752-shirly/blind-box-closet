@@ -577,7 +577,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-playing.webp"
         },
         {
           "name_en": "Hiding",
@@ -587,7 +587,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-hiding.webp"
         },
         {
           "name_en": "Nap Time",
@@ -597,7 +597,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-naptime.webp"
         },
         {
           "name_en": "Thinking",
@@ -607,7 +607,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-thinking.webp"
         },
         {
           "name_en": "Lifting",
@@ -617,7 +617,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-lifting.webp"
         },
         {
           "name_en": "Sunflower",
@@ -627,7 +627,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-living-sunflower.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-living.png"
@@ -1368,7 +1368,7 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-hippers-headphones.png"
         }
       ],
-      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-hippers.jpg"
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-hippers.png"
     },
     {
       "slug": "sunday",
@@ -1633,7 +1633,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-huggingknees.webp"
         },
         {
           "name_en": "Sitting",
@@ -1643,7 +1643,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-sitting.webp"
         },
         {
           "name_en": "Looking Back",
@@ -1653,7 +1653,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-lookingback.webp"
         },
         {
           "name_en": "Lounging",
@@ -1663,7 +1663,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-lounging.webp"
         },
         {
           "name_en": "Hiding",
@@ -1673,7 +1673,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-hiding.webp"
         },
         {
           "name_en": "Peeking",
@@ -1683,7 +1683,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-peeking.webp"
         },
         {
           "name_en": "Mini The Scream",
@@ -1693,7 +1693,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-1-minithescream.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-1.png"
@@ -1715,7 +1715,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-kneeling.webp"
         },
         {
           "name_en": "Climbing",
@@ -1725,7 +1725,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-climbing.webp"
         },
         {
           "name_en": "Daydreaming",
@@ -1735,7 +1735,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-daydreaming.webp"
         },
         {
           "name_en": "Pushing",
@@ -1745,7 +1745,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-pushing.webp"
         },
         {
           "name_en": "Peeking",
@@ -1755,7 +1755,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-peeking.webp"
         },
         {
           "name_en": "Listening",
@@ -1765,7 +1765,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-listening.webp"
         },
         {
           "name_en": "Mini Birth of Venus",
@@ -1775,7 +1775,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-2-minibirthofvenus.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-2.png"
@@ -1797,7 +1797,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-bridge.webp"
         },
         {
           "name_en": "Peeking",
@@ -1807,7 +1807,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-peeking.webp"
         },
         {
           "name_en": "Climbing",
@@ -1817,7 +1817,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-climbing.webp"
         },
         {
           "name_en": "Little",
@@ -1827,7 +1827,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-little.webp"
         },
         {
           "name_en": "Hiding",
@@ -1837,7 +1837,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-hiding.webp"
         },
         {
           "name_en": "Handstand",
@@ -1847,7 +1847,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-handstand.webp"
         },
         {
           "name_en": "Mini The Thinker",
@@ -1857,7 +1857,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-3-minithethinker.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-3.png"
@@ -1879,7 +1879,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-sneaking.webp"
         },
         {
           "name_en": "Scared",
@@ -1889,7 +1889,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-scared.webp"
         },
         {
           "name_en": "Relaxing",
@@ -1899,7 +1899,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-relaxing.webp"
         },
         {
           "name_en": "Lazy",
@@ -1909,7 +1909,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-lazy.webp"
         },
         {
           "name_en": "Stuck",
@@ -1919,7 +1919,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-stuck.webp"
         },
         {
           "name_en": "Defeated",
@@ -1929,7 +1929,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 6,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-defeated.webp"
         },
         {
           "name_en": "Mini Twin Angels",
@@ -1939,7 +1939,7 @@
           "is_bonus": false,
           "is_duo": true,
           "sort_order": 7,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-strap-accessory-4-minitwinangels.webp"
         }
       ],
       "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-strap-accessory-4.png"
@@ -2188,7 +2188,7 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-hanging-christmas-reindeer.jpg"
         }
       ],
-      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-hanging-christmas.jpg"
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-hanging-christmas.png"
     },
     {
       "slug": "key-chain",
@@ -2416,24 +2416,24 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Pulling Zipper",
+          "name_en": "Lotus Pose",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-2-lotuspose.webp"
         },
         {
-          "name_en": "Stuck on Zipper",
+          "name_en": "Falling Down",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-zipperbite-2-fallingdown.webp"
         },
         {
           "name_en": "Riding Zipper",
@@ -2560,14 +2560,14 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Kneeling Light",
+          "name_en": "Lounging Light",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-touch-light-2-loungingtouchlight.webp"
         },
         {
           "name_en": "Climbing Light",
@@ -2672,7 +2672,7 @@
           "image_source": "http://85.17.145.134:8787/media/figures/smiski-sensor-light-little-sensor.png"
         }
       ],
-      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-sensor-light.png"
+      "cover_image_url": "http://85.17.145.134:8787/media/series/cover-smiski-sensor-light.jpg"
     },
     {
       "slug": "plush",
@@ -2860,37 +2860,37 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Kneeling Sticker",
+          "name_en": "Peeking Sticker",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-2-peeking.webp"
         },
         {
-          "name_en": "Climbing Sticker",
+          "name_en": "Pushing Sticker",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-2-pushing.webp"
         },
         {
-          "name_en": "Daydreaming Sticker",
+          "name_en": "Little Sticker",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-embroidery-sticker-2-little.webp"
         },
         {
-          "name_en": "Pushing Sticker",
+          "name_en": "Daydreaming Sticker",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
@@ -3076,14 +3076,14 @@
       "official_url": "https://smiski.com/e/products/",
       "figures": [
         {
-          "name_en": "Sitting Ring",
+          "name_en": "Relaxing Ring",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 1,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-relaxing.webp"
         },
         {
           "name_en": "Peeking Ring",
@@ -3093,7 +3093,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 2,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-peekingring.webp"
         },
         {
           "name_en": "Hugging Knees Ring",
@@ -3103,7 +3103,7 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 3,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-huggingkneesring.webp"
         },
         {
           "name_en": "Lounging Ring",
@@ -3113,17 +3113,17 @@
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 4,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-loungingring.webp"
         },
         {
-          "name_en": "Hiding Ring",
+          "name_en": "Little Ring",
           "name_ja": null,
           "is_secret": false,
           "is_limited": false,
           "is_bonus": false,
           "is_duo": false,
           "sort_order": 5,
-          "image_source": null
+          "image_source": "http://85.17.145.134:8787/media/figures/smiski-ringcolle-little.webp"
         },
         {
           "name_en": "Looking Back Ring",

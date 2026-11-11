@@ -20,6 +20,7 @@ import { Ionicons } from "@expo/vector-icons";
 import * as Haptics from "expo-haptics";
 import { ChecklistFigureCard } from "../components/ChecklistFigureCard";
 import { FigureEditSheet } from "../components/FigureEditSheet";
+import { FigureImage } from "../components/FigureImage";
 import { EmptyState } from "../components/ui/EmptyState";
 import { ProgressBar } from "../components/ui/ProgressBar";
 import { Screen } from "../components/ui/Screen";
@@ -308,6 +309,14 @@ export function BrandCollectionScreen() {
               }}
             >
               <View style={[styles.accent, { backgroundColor: theme.bar }]} />
+              {section.series.cover_image_url ? (
+                <FigureImage
+                  uri={section.series.cover_image_url}
+                  brandSlug={brandSlug}
+                  style={styles.seriesIcon}
+                  contentFit="contain"
+                />
+              ) : null}
               <View style={{ flex: 1 }}>
                 <Text style={styles.seriesName}>{section.series.name_en}</Text>
                 <Text style={styles.seriesLabel}>
@@ -425,6 +434,12 @@ const styles = StyleSheet.create({
     top: 0,
     bottom: 0,
     width: 4,
+  },
+  seriesIcon: {
+    width: 52,
+    height: 52,
+    borderRadius: 14,
+    backgroundColor: colors.figureTile,
   },
   seriesName: { ...type.subtitle, fontSize: 18, color: colors.text },
   seriesLabel: { ...type.micro, color: colors.textDim, marginTop: 2, marginBottom: 8 },
