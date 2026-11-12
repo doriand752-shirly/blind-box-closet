@@ -15,8 +15,6 @@ import type { User } from "../types/models";
 
 const TOKEN_KEY = "bbc_token";
 const GUEST_KEY = "bbc_guest";
-/** Apple's stable user id (credential.user) — kept across local sign-out for refresh. */
-const APPLE_USER_KEY = "bbc_apple_user";
 
 const GUEST_USER: User = {
   id: "guest",
@@ -26,20 +24,10 @@ const GUEST_USER: User = {
   is_admin: false,
 };
 
-/** Map native Apple auth errors to a short user-facing message (FR default). */
+/** Empty string when the user dismissed the Apple sheet. */
 export function appleAuthErrorMessage(e: unknown, fallback = "Connexion impossible"): string {
   const err = e as { code?: string; message?: string } | null;
-  const code = err?.code || "";
-  if (code === "ERR_REQUEST_CANCELED") return "";
-  if (
-    code === "ERR_REQUEST_UNKNOWN" ||
-    code === "ERR_REQUEST_FAILED" ||
-    /authorization attempt failed/i.test(err?.message || "")
-  ) {
-    return (
-      "Connexion Apple indisponible pour le moment. Utilise e-mail / mot de passe, ou continue sans compte."
-    );
-  }
+  if (err?.code === "ERR_REQUEST_CANCELED") return "";
   return err?.message || fallback;
 }
 
@@ -117,10 +105,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     await persistSession({ token: null, user: GUEST_USER, guest: true });
   }, [persistSession]);
 
-  const clearAppleUser = useCallback(async () => {
-    await SecureStore.deleteItemAsync(APPLE_USER_KEY);
-  }, []);
-
   const signInWithApple = useCallback(async () => {
     if (Platform.OS !== "ios") {
       throw new Error("Sign in with Apple is only available on iOS");
@@ -130,31 +114,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       throw new Error("Sign in with Apple n’est pas disponible sur cet appareil.");
     }
 
-    // Always use a fresh interactive sign-in. refreshAsync after account deletion
-    // often fails with ERR_REQUEST_UNKNOWN and can block reconnection.
-    await clearAppleUser();
-
-    let credential: AppleAuthentication.AppleAuthenticationCredential;
-    try {
-      credential = await AppleAuthentication.signInAsync({
-        requestedScopes: [
-          AppleAuthentication.AppleAuthenticationScope.FULL_NAME,
-          AppleAuthentication.AppleAuthenticationScope.EMAIL,
-        ],
-      });
-    } catch (first) {
-      // Apple backend quirk (akd -6003 / "Sign Up Not Completed"): a second
-      // attempt without scopes sometimes succeeds after capability re-registration.
-      const code = (first as { code?: string } | null)?.code;
-      if (code !== "ERR_REQUEST_UNKNOWN" && code !== "ERR_REQUEST_FAILED") {
-        throw first;
-      }
-      credential = await AppleAuthentication.signInAsync({});
-    }
-
-    if (!credential.identityToken) throw new Error("No identity token from Apple");
-    if (credential.user) {
-      await SecureStore.setItemAsync(APPLE_USER_KEY, credential.user);
+    const credential = await AppleAuthentication.signInAsync({
+      requestedScopes: [
+        AppleAuthentication.AppleAuthenticationScope.FULL_NAME,
+        AppleAuthentication.AppleAuthenticationScope.EMAIL,
+      ],
+    });
+    if (!credential.identityToken) {
+      throw new Error("Apple n’a pas renvoyé de jeton.");
     }
 
     const fullName = [credential.fullName?.givenName, credential.fullName?.familyName]
@@ -166,24 +133,22 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       fullName: fullName || null,
     });
     await persistSession({ token: res.token, user: res.user, guest: false });
-  }, [clearAppleUser, persistSession]);
+  }, [persistSession]);
 
   const signInWithEmail = useCallback(
     async (email: string, password: string) => {
       const res = await api.login({ email, password });
-      await clearAppleUser();
       await persistSession({ token: res.token, user: res.user, guest: false });
     },
-    [clearAppleUser, persistSession],
+    [persistSession],
   );
 
   const registerWithEmail = useCallback(
     async (email: string, password: string) => {
       const res = await api.register({ email, password });
-      await clearAppleUser();
       await persistSession({ token: res.token, user: res.user, guest: false });
     },
-    [clearAppleUser, persistSession],
+    [persistSession],
   );
 
   const signInDev = useCallback(async () => {
@@ -196,9 +161,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [persistSession]);
 
   const signOut = useCallback(async () => {
-    await clearAppleUser();
     await persistSession({ token: null, user: null, guest: false });
-  }, [clearAppleUser, persistSession]);
+  }, [persistSession]);
 
   const deleteAccount = useCallback(async () => {
     if (token && !isGuest) {
@@ -208,9 +172,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         // Account may already be gone — still clear local session.
       }
     }
-    await clearAppleUser();
     await persistSession({ token: null, user: null, guest: false });
-  }, [clearAppleUser, persistSession, token, isGuest]);
+  }, [persistSession, token, isGuest]);
 
   const value = useMemo(
     () => ({
