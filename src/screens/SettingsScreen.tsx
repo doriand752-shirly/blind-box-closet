@@ -1,13 +1,12 @@
 import React from "react";
 import { Alert, Linking, ScrollView, StyleSheet, Text, View } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
 import Constants from "expo-constants";
 import { LogoMark } from "../components/LogoMark";
 import { Screen } from "../components/ui/Screen";
 import { SoftPressable } from "../components/ui/SoftPressable";
-import { appleAuthErrorMessage, useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/AuthContext";
 import { LOCALE_LABELS, LOCALES, type Locale } from "../i18n";
 import { useLocale } from "../i18n/LocaleContext";
 import { setOnboardingDone } from "../services/brandPrefs";
@@ -43,9 +42,8 @@ function SettingsRow({
 }
 
 export function SettingsScreen() {
-  const { user, isGuest, signOut, deleteAccount, continueAsGuest, signInWithApple } = useAuth();
+  const { clearLocalData } = useAuth();
   const { t, setLocale } = useLocale();
-  const navigation = useNavigation<any>();
 
   const pickLanguage = () => {
     Alert.alert(
@@ -70,46 +68,11 @@ export function SettingsScreen() {
 
         <View style={styles.card}>
           <Text style={styles.label}>{t("account")}</Text>
-          <Text style={styles.value}>
-            {isGuest ? t("guest") : user?.display_name || "Collector"}
-          </Text>
-          <Text style={styles.meta}>
-            {isGuest ? t("guestMeta") : user?.email || user?.apple_sub}
-          </Text>
-          {user?.is_admin ? <Text style={styles.admin}>{t("admin")}</Text> : null}
+          <Text style={styles.value}>{t("guest")}</Text>
+          <Text style={styles.meta}>{t("guestMeta")}</Text>
         </View>
 
         <View style={styles.group}>
-          {user?.is_admin ? (
-            <SettingsRow
-              label={t("adminUi")}
-              icon="construct-outline"
-              onPress={() => navigation.navigate("Admin")}
-            />
-          ) : null}
-
-          {isGuest ? (
-            <>
-              <SettingsRow
-                label={t("createAccount")}
-                icon="mail-outline"
-                onPress={() => {
-                  void signOut();
-                }}
-              />
-              <SettingsRow
-                label={t("signInApple")}
-                icon="logo-apple"
-                onPress={() =>
-                  signInWithApple().catch((e) => {
-                    const msg = appleAuthErrorMessage(e, t("connectionError"));
-                    if (msg) Alert.alert(t("connectionError"), msg);
-                  })
-                }
-              />
-            </>
-          ) : null}
-
           <SettingsRow
             label={t("changeLanguage")}
             icon="language-outline"
@@ -166,32 +129,22 @@ export function SettingsScreen() {
             icon="help-buoy-outline"
             onPress={() => Linking.openURL(SUPPORT_URL)}
           />
-
-          <SettingsRow
-            label={isGuest ? t("leaveGuest") : t("signOut")}
-            icon="log-out-outline"
-            onPress={() => signOut()}
-          />
         </View>
 
         <View style={[styles.group, { marginTop: space.lg }]}>
           <SettingsRow
             danger
             icon="trash-outline"
-            label={t("deleteAccount")}
+            label={t("clearLocalData")}
             onPress={() =>
-              Alert.alert(t("deleteAccount"), t("deleteAccountConfirm"), [
+              Alert.alert(t("clearLocalData"), t("clearLocalDataConfirm"), [
                 { text: t("cancel"), style: "cancel" },
                 {
-                  text: t("deleteAccount"),
+                  text: t("clearLocalData"),
                   style: "destructive",
                   onPress: async () => {
-                    if (isGuest) {
-                      await AsyncStorage.removeItem("bbc_local_collection");
-                      await continueAsGuest();
-                    } else {
-                      await deleteAccount();
-                    }
+                    await AsyncStorage.removeItem("bbc_local_collection");
+                    await clearLocalData();
                   },
                 },
               ])
@@ -226,7 +179,6 @@ const styles = StyleSheet.create({
   label: { ...type.micro, color: colors.textMuted, textTransform: "uppercase", letterSpacing: 0.8 },
   value: { ...type.subtitle, color: colors.text, marginTop: 6 },
   meta: { ...type.caption, color: colors.textDim, marginTop: 4 },
-  admin: { color: colors.mintDeep, marginTop: 10, fontFamily: fonts.bold },
   group: {
     backgroundColor: colors.bgCard,
     borderRadius: radius.xl,

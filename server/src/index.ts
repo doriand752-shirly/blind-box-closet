@@ -7,15 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
 import { migrate, query } from "./db";
-import {
-  loginEmailUser,
-  registerEmailUser,
-  requireAdmin,
-  requireUser,
-  signAppToken,
-  upsertAppleUser,
-  verifyAppleIdentityToken,
-} from "./auth";
+import { requireAdmin, requireUser } from "./auth";
 
 const PORT = Number(process.env.PORT || 8787);
 const HOST = process.env.HOST || "0.0.0.0";
@@ -47,83 +39,16 @@ async function main() {
 
   app.get("/health", async () => ({ ok: true, service: "blind-box-closet" }));
 
-  app.post<{
-    Body: {
-      identityToken: string;
-      nonce?: string | null;
-      email?: string | null;
-      fullName?: string | null;
-    };
-  }>("/auth/apple", async (request, reply) => {
-    const { identityToken, nonce, email, fullName } = request.body || {};
-    if (!identityToken) {
-      return reply.code(400).send({ error: "identityToken required" });
-    }
-
-    let apple;
-    try {
-      apple = await verifyAppleIdentityToken(identityToken, nonce);
-    } catch (err) {
-      // Dev fallback: allow mock tokens when APPLE_AUTH_OPTIONAL=1
-      if (process.env.APPLE_AUTH_OPTIONAL === "1" && identityToken.startsWith("dev:")) {
-        apple = {
-          sub: identityToken.slice(4),
-          email: email || "doriandood.pro@gmail.com",
-        };
-      } else {
-        request.log.error(err);
-        return reply.code(401).send({ error: "Invalid Apple identity token" });
-      }
-    }
-
-    const user = await upsertAppleUser({
-      appleSub: apple.sub,
-      email: apple.email || email || null,
-      displayName: fullName || null,
-    });
-    const token = await signAppToken(user);
-    return { token, user };
-  });
-
-  app.post<{
-    Body: { email?: string; password?: string; displayName?: string | null };
-  }>("/auth/register", async (request, reply) => {
-    const { email, password, displayName } = request.body || {};
-    if (!email || !password) {
-      return reply.code(400).send({ error: "email and password required" });
-    }
-    try {
-      const user = await registerEmailUser({
-        email,
-        password,
-        displayName: displayName || null,
-      });
-      const token = await signAppToken(user);
-      return { token, user };
-    } catch (e: any) {
-      return reply
-        .code(e.statusCode || 500)
-        .send({ error: e.message || "Registration failed" });
-    }
-  });
-
-  app.post<{
-    Body: { email?: string; password?: string };
-  }>("/auth/login", async (request, reply) => {
-    const { email, password } = request.body || {};
-    if (!email || !password) {
-      return reply.code(400).send({ error: "email and password required" });
-    }
-    try {
-      const user = await loginEmailUser({ email, password });
-      const token = await signAppToken(user);
-      return { token, user };
-    } catch (e: any) {
-      return reply
-        .code(e.statusCode || 500)
-        .send({ error: e.message || "Login failed" });
-    }
-  });
+  // Account creation disabled for App Store review: collection is on-device only.
+  app.post("/auth/apple", async (_request, reply) =>
+    reply.code(410).send({ error: "Account creation disabled" }),
+  );
+  app.post("/auth/register", async (_request, reply) =>
+    reply.code(410).send({ error: "Account creation disabled" }),
+  );
+  app.post("/auth/login", async (_request, reply) =>
+    reply.code(410).send({ error: "Account creation disabled" }),
+  );
 
   app.get("/me", async (request, reply) => {
     try {
@@ -134,15 +59,9 @@ async function main() {
     }
   });
 
-  app.delete("/me", async (request, reply) => {
-    try {
-      const user = await requireUser(request);
-      await query(`DELETE FROM users WHERE id = $1`, [user.id]);
-      return { ok: true };
-    } catch (e: any) {
-      return reply.code(e.statusCode || 401).send({ error: e.message });
-    }
-  });
+  app.delete("/me", async (_request, reply) =>
+    reply.code(410).send({ error: "Account deletion disabled" }),
+  );
 
   app.get("/catalog/brands", async () => {
     const result = await query(

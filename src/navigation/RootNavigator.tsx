@@ -15,7 +15,6 @@ import { OnboardingScreen } from "../screens/OnboardingScreen";
 import { CollectionsScreen } from "../screens/CollectionsScreen";
 import { BrandCollectionScreen } from "../screens/BrandCollectionScreen";
 import { SettingsScreen } from "../screens/SettingsScreen";
-import { AdminScreen } from "../screens/AdminScreen";
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -75,7 +74,6 @@ function SettingsStack() {
         component={SettingsScreen}
         options={{ headerShown: false }}
       />
-      <Stack.Screen name="Admin" component={AdminScreen} options={{ title: t("admin") }} />
     </Stack.Navigator>
   );
 }

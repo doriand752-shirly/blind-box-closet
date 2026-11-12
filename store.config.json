@@ -6,9 +6,9 @@
         "title": "Blind Box Closet",
         "subtitle": "Garde tes Blind Boxes sur toi",
         "promotionalText": "Coche ce que tu as, note tes doublons et garde ta wishlist. Smiski, Sonny Angel, Labubu et plus.",
-        "description": "Blind Box Closet t’aide à suivre ta collection de figurines blind box, série par série.\n\nCoche ce que tu as, note les doublons à échanger et garde ta wishlist sous la main. L’app fonctionne sans compte : ta collection reste sur ton appareil. La connexion avec Apple est facultative et sert seulement à synchroniser.\n\nFONCTIONNALITÉS\n• Plusieurs collections : Smiski, Sonny Angel, Labubu (d’autres arrivent)\n• Séries rangées en Main et Extras\n• Progression claire par série et sur l’accueil\n• Possédé, quantité, wishlist et échanges\n• Recherche et filtres\n• Export et import de ta collection\n• Français, anglais et espagnol\n• Mode invité ou Sign in with Apple\n\nBlind Box Closet est une application indépendante, non affiliée à Dreams Inc., Pop Mart ni aux autres marques citées. Les noms de marques et de produits appartiennent à leurs propriétaires respectifs.",
+        "description": "Blind Box Closet t’aide à suivre ta collection de figurines blind box, série par série.\n\nCoche ce que tu as, note les doublons à échanger et garde ta wishlist sous la main. L’app fonctionne sans compte : ta collection reste uniquement sur ton appareil.\n\nFONCTIONNALITÉS\n• Plusieurs collections : Smiski, Sonny Angel, Labubu (d’autres arrivent)\n• Séries rangées en Main et Extras\n• Progression claire par série et sur l’accueil\n• Possédé, quantité, wishlist et échanges\n• Recherche et filtres\n• Export et import de ta collection\n• Français, anglais et espagnol\n• 100 % local — aucun compte requis\n\nBlind Box Closet est une application indépendante, non affiliée à Dreams Inc., Pop Mart ni aux autres marques citées. Les noms de marques et de produits appartiennent à leurs propriétaires respectifs.",
         "keywords": "blind box,collection,figurine,checklist,wishlist,smiski,sonny angel,labubu,tracker",
-        "whatsNew": "Première version publique de Blind Box Closet.\n\n• Logo et identité visuelle\n• Catalogue multi-marques (Smiski, Sonny Angel, Labubu)\n• Checklist Main / Extras, wishlist et échanges\n• Export / import de collection\n• Français, anglais, espagnol",
+        "whatsNew": "Version sans compte : collection 100 % locale sur l’appareil.\n\n• Plus de connexion Apple ni de création de compte\n• Catalogue multi-marques\n• Checklist Main / Extras, wishlist et échanges\n• Export / import de collection",
         "marketingUrl": "https://doriand752-shirly.github.io/blindboxcloset/",
         "supportUrl": "https://doriand752-shirly.github.io/blindboxcloset/support.html",
         "privacyPolicyUrl": "https://doriand752-shirly.github.io/blindboxcloset/privacy.html"
@@ -16,7 +16,7 @@
       "en-US": {
         "title": "Blind Box Closet",
         "subtitle": "Your blind boxes, shelved",
-        "description": "Blind Box Closet helps you track your blind box figure collection, series by series.\n\nTick what you own, note duplicates to trade and keep a wishlist. The app works without an account: your collection stays on your device. Sign in with Apple is optional and only used to sync.\n\nFEATURES\n• Multiple collections: Smiski, Sonny Angel, Labubu (more coming)\n• Series organised into Main and Extras\n• Clear progress per series and on the home screen\n• Owned, quantity, wishlist and trades\n• Search and filters\n• Export and import your collection\n• French, English and Spanish\n• Guest mode or Sign in with Apple\n\nBlind Box Closet is an independent app, not affiliated with Dreams Inc., Pop Mart or any other brand mentioned. Brand and product names belong to their respective owners.",
+        "description": "Blind Box Closet helps you track your blind box figure collection, series by series.\n\nTick what you own, note duplicates to trade and keep a wishlist. The app works without an account: your collection stays on your device only.\n\nFEATURES\n• Multiple collections: Smiski, Sonny Angel, Labubu (more coming)\n• Series organised into Main and Extras\n• Clear progress per series and on the home screen\n• Owned, quantity, wishlist and trades\n• Search and filters\n• Export and import your collection\n• French, English and Spanish\n• Fully local — no account required\n\nBlind Box Closet is an independent app, not affiliated with Dreams Inc., Pop Mart or any other brand mentioned. Brand and product names belong to their respective owners.",
         "keywords": "blind box,collection,figure,checklist,wishlist,smiski,sonny angel,labubu,tracker",
         "marketingUrl": "https://doriand752-shirly.github.io/blindboxcloset/",
         "supportUrl": "https://doriand752-shirly.github.io/blindboxcloset/support.html",
@@ -32,7 +32,7 @@
       "lastName": "Dood",
       "email": "doriandood.pro@gmail.com",
       "phone": "+33600000000",
-      "notes": "Guideline 2.1: screen recording attached. Account demo: Auth screen → Create account (email/password) → Settings → Delete account → recreate. Guest mode works without account. Sign in with Apple is optional (sync). Contact: doriandood.pro@gmail.com"
+      "notes": "Guideline 2.1: NO account / Sign in with Apple. The app is fully local. Demo: launch → Start collecting → pick brands → open a brand checklist → tick figures → Settings → export/import or clear local data. Collection never leaves the device. Catalogue images come from a read-only HTTP API. Contact: doriandood.pro@gmail.com"
     }
   }
 }

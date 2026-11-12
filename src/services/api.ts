@@ -6,7 +6,6 @@ import type {
   Figure,
   Series,
   SeriesProgress,
-  User,
 } from "../types/models";
 
 const extra = Constants.expoConfig?.extra as { apiUrl?: string } | undefined;
@@ -48,38 +47,6 @@ async function request<T>(path: string, opts: RequestOptions = {}): Promise<T> {
 
 export const api = {
   health: () => request<{ ok: boolean }>("/health"),
-
-  appleAuth: (payload: {
-    identityToken: string;
-    nonce?: string | null;
-    email?: string | null;
-    fullName?: string | null;
-  }) =>
-    request<{ token: string; user: User }>("/auth/apple", {
-      method: "POST",
-      body: payload,
-    }),
-
-  register: (payload: {
-    email: string;
-    password: string;
-    displayName?: string | null;
-  }) =>
-    request<{ token: string; user: User }>("/auth/register", {
-      method: "POST",
-      body: payload,
-    }),
-
-  login: (payload: { email: string; password: string }) =>
-    request<{ token: string; user: User }>("/auth/login", {
-      method: "POST",
-      body: payload,
-    }),
-
-  me: (token: string) => request<{ user: User }>("/me", { token }),
-
-  deleteMe: (token: string) =>
-    request<{ ok: boolean }>("/me", { method: "DELETE", token }),
 
   brands: () => request<{ brands: Brand[] }>("/catalog/brands"),
 
