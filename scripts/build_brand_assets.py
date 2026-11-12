@@ -1,7 +1,6 @@
-"""Build the app icon, splash and Android adaptive assets from the Closet logo.
+"""Build the app icon, splash and Android adaptive assets from the logo.
 
-Source: assets/brand/closet-icon-source.jpg (two wall shelves with hexagonal
-blind boxes, full-bleed square on a warm cream wall).
+Source: assets/brand/logo.png (the only brand mark).
 
 Run from the repo root: python scripts/build_brand_assets.py
 """
@@ -14,12 +13,11 @@ from PIL import Image, ImageDraw, ImageFilter
 ROOT = Path(__file__).resolve().parents[1]
 BRAND = ROOT / "assets" / "brand"
 ASSETS = ROOT / "assets"
-SOURCE = BRAND / "closet-icon-source.jpg"
+SOURCE = BRAND / "logo.png"
 
 SIZE = 1024
-# Wall colour of the artwork, used behind the Android adaptive foreground.
-# Keep in sync with android.adaptiveIcon.backgroundColor in app.json.
-WALL = (243, 231, 215)
+# Cream of the logo. Keep in sync with splash and adaptiveIcon in app.json.
+WALL = (246, 239, 225)
 
 
 def report(path: Path) -> None:
@@ -45,12 +43,6 @@ def build_icon(art: Image.Image) -> None:
     """iOS / Expo icon: full bleed, opaque (iOS applies its own corner mask)."""
     art.save(ASSETS / "icon.png", "PNG", optimize=True)
     report(ASSETS / "icon.png")
-    art.save(BRAND / "logo-1024.png", "PNG", optimize=True)
-    report(BRAND / "logo-1024.png")
-    # In-app mark (LogoMark component): square, corners rounded by the component.
-    mark = art.resize((384, 384), Image.Resampling.LANCZOS)
-    mark.save(BRAND / "logo-mark.png", "PNG", optimize=True)
-    report(BRAND / "logo-mark.png")
 
 
 def build_splash(art: Image.Image) -> None:

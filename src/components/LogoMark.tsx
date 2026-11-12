@@ -3,14 +3,14 @@ import { StyleSheet, View, type StyleProp, type ViewStyle } from "react-native";
 import { Image } from "expo-image";
 import { brand } from "../theme";
 
-const LOGO = require("../../assets/brand/logo-mark.png");
+const LOGO = require("../../assets/brand/logo.png");
 
 type Props = {
   size?: number;
   style?: StyleProp<ViewStyle>;
 };
 
-/** The app logo as a rounded tile: flat sage hexagon with a question mark. */
+/** The app logo as a rounded tile. */
 export function LogoMark({ size = 72, style }: Props) {
   return (
     <View

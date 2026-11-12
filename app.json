@@ -10,12 +10,12 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#F7F3EC"
+      "backgroundColor": "#F6EFE1"
     },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.blindboxcloset.app",
-      "buildNumber": "25",
+      "buildNumber": "26",
       "appleTeamId": "2QKC854C2J",
       "infoPlist": {
         "CFBundleDevelopmentRegion": "fr",
@@ -39,7 +39,7 @@
       "package": "com.blindboxcloset.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundColor": "#F3E7D7"
+        "backgroundColor": "#F6EFE1"
       }
     },
     "web": {

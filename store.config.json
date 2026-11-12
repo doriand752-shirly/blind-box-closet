@@ -32,7 +32,7 @@
       "lastName": "Dood",
       "email": "doriandood.pro@gmail.com",
       "phone": "+33600000000",
-      "notes": "Guideline 2.1: NO account / Sign in with Apple. The app is fully local. Demo: launch → Start collecting → pick brands → open a brand checklist → tick figures → Settings → export/import or clear local data. Collection never leaves the device. Catalogue images come from a read-only HTTP API. Contact: doriandood.pro@gmail.com"
+      "notes": "Guideline 2.1: NO account and NO Sign in with Apple. Fully local collection on device. Screen recording attached in Resolution Center. Demo: launch → Start collecting → pick brands → open brand checklist → tick figures → Settings (export/import or clear local data). Read-only catalogue API only. Contact: doriandood.pro@gmail.com"
     }
   }
 }
