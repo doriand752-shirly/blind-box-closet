@@ -50,18 +50,19 @@ async function main() {
   app.post<{
     Body: {
       identityToken: string;
+      nonce?: string | null;
       email?: string | null;
       fullName?: string | null;
     };
   }>("/auth/apple", async (request, reply) => {
-    const { identityToken, email, fullName } = request.body || {};
+    const { identityToken, nonce, email, fullName } = request.body || {};
     if (!identityToken) {
       return reply.code(400).send({ error: "identityToken required" });
     }
 
     let apple;
     try {
-      apple = await verifyAppleIdentityToken(identityToken);
+      apple = await verifyAppleIdentityToken(identityToken, nonce);
     } catch (err) {
       // Dev fallback: allow mock tokens when APPLE_AUTH_OPTIONAL=1
       if (process.env.APPLE_AUTH_OPTIONAL === "1" && identityToken.startsWith("dev:")) {

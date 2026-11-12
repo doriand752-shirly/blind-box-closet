@@ -51,6 +51,7 @@ export const api = {
 
   appleAuth: (payload: {
     identityToken: string;
+    nonce?: string | null;
     email?: string | null;
     fullName?: string | null;
   }) =>

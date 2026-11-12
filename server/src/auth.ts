@@ -1,4 +1,4 @@
-import { randomBytes, scrypt as scryptCb, timingSafeEqual } from "node:crypto";
+import { createHash, randomBytes, scrypt as scryptCb, timingSafeEqual } from "node:crypto";
 import { promisify } from "node:util";
 import { createRemoteJWKSet, jwtVerify, SignJWT } from "jose";
 import type { FastifyRequest } from "fastify";
@@ -54,7 +54,10 @@ function getJwtSecret() {
   return new TextEncoder().encode(secret);
 }
 
-export async function verifyAppleIdentityToken(identityToken: string) {
+export async function verifyAppleIdentityToken(
+  identityToken: string,
+  rawNonce?: string | null,
+) {
   const audience =
     process.env.APPLE_CLIENT_ID || "com.blindboxcloset.app";
   const { payload } = await jwtVerify(identityToken, appleJwks, {
@@ -62,6 +65,12 @@ export async function verifyAppleIdentityToken(identityToken: string) {
     audience,
   });
   if (!payload.sub) throw new Error("Missing Apple subject");
+  if (rawNonce) {
+    const expected = createHash("sha256").update(rawNonce).digest("hex");
+    if (payload.nonce !== expected) {
+      throw new Error("Apple nonce mismatch");
+    }
+  }
   return {
     sub: payload.sub,
     email: typeof payload.email === "string" ? payload.email : null,

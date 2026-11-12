@@ -7,6 +7,7 @@ import React, {
   useState,
 } from "react";
 import * as AppleAuthentication from "expo-apple-authentication";
+import * as Crypto from "expo-crypto";
 import * as SecureStore from "expo-secure-store";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Platform } from "react-native";
@@ -114,11 +115,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       throw new Error("Sign in with Apple n’est pas disponible sur cet appareil.");
     }
 
+    // Same flow as Appy Geek: Apple receives the SHA-256 nonce, the server checks the raw one.
+    const rawNonce = Array.from(Crypto.getRandomBytes(16), (b) =>
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"[b % 62],
+    ).join("");
+    const hashedNonce = await Crypto.digestStringAsync(
+      Crypto.CryptoDigestAlgorithm.SHA256,
+      rawNonce,
+    );
     const credential = await AppleAuthentication.signInAsync({
       requestedScopes: [
         AppleAuthentication.AppleAuthenticationScope.FULL_NAME,
         AppleAuthentication.AppleAuthenticationScope.EMAIL,
       ],
+      nonce: hashedNonce,
     });
     if (!credential.identityToken) {
       throw new Error("Apple n’a pas renvoyé de jeton.");
@@ -129,6 +139,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       .join(" ");
     const res = await api.appleAuth({
       identityToken: credential.identityToken,
+      nonce: rawNonce,
       email: credential.email,
       fullName: fullName || null,
     });
