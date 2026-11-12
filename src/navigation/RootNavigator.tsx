@@ -58,7 +58,6 @@ function CollectionsStack() {
 }
 
 function SettingsStack() {
-  const { t } = useLocale();
   return (
     <Stack.Navigator
       screenOptions={{
