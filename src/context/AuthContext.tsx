@@ -134,12 +134,23 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     // often fails with ERR_REQUEST_UNKNOWN and can block reconnection.
     await clearAppleUser();
 
-    const credential = await AppleAuthentication.signInAsync({
-      requestedScopes: [
-        AppleAuthentication.AppleAuthenticationScope.FULL_NAME,
-        AppleAuthentication.AppleAuthenticationScope.EMAIL,
-      ],
-    });
+    let credential: AppleAuthentication.AppleAuthenticationCredential;
+    try {
+      credential = await AppleAuthentication.signInAsync({
+        requestedScopes: [
+          AppleAuthentication.AppleAuthenticationScope.FULL_NAME,
+          AppleAuthentication.AppleAuthenticationScope.EMAIL,
+        ],
+      });
+    } catch (first) {
+      // Apple backend quirk (akd -6003 / "Sign Up Not Completed"): a second
+      // attempt without scopes sometimes succeeds after capability re-registration.
+      const code = (first as { code?: string } | null)?.code;
+      if (code !== "ERR_REQUEST_UNKNOWN" && code !== "ERR_REQUEST_FAILED") {
+        throw first;
+      }
+      credential = await AppleAuthentication.signInAsync({});
+    }
 
     if (!credential.identityToken) throw new Error("No identity token from Apple");
     if (credential.user) {

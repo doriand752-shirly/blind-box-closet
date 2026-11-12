@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.blindboxcloset.app",
-      "buildNumber": "21",
+      "buildNumber": "22",
       "appleTeamId": "2QKC854C2J",
       "usesAppleSignIn": true,
       "entitlements": {
