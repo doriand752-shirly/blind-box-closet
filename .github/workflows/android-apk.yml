@@ -38,13 +38,45 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Accept Android licenses + install SDK packages
+      - name: Install Android SDK packages (API 37)
         run: |
           set -euo pipefail
-          SDKMANAGER=$(ls -d "$ANDROID_HOME"/cmdline-tools/*/bin/sdkmanager | head -n1)
+          SDKMANAGER=$(ls -d "$ANDROID_HOME"/cmdline-tools/*/bin/sdkmanager | tail -n1)
           echo "Using $SDKMANAGER"
           yes | "$SDKMANAGER" --licenses >/dev/null || true
-          "$SDKMANAGER" "platform-tools" "platforms;android-36" "build-tools;36.0.0" "ndk;27.1.12297006"
+          "$SDKMANAGER" --install "cmdline-tools;latest" || true
+          SDKMANAGER=$(ls -d "$ANDROID_HOME"/cmdline-tools/*/bin/sdkmanager | tail -n1)
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --list_installed || true
+          set +e
+          "$SDKMANAGER" "platform-tools" "platforms;android-36" "platforms;android-37" "build-tools;36.0.0" "build-tools;37.0.0" "ndk;27.1.12297006"
+          STATUS=$?
+          set -e
+          if [ ! -f "$ANDROID_HOME/platforms/android-37/android.jar" ]; then
+            echo "sdkmanager missed android-37 — installing platform zip manually"
+            mkdir -p "$ANDROID_HOME/platforms"
+            for Z in platform-37.2_r02.zip platform-37.1_r01.zip platform-37.0_r02.zip; do
+              echo "try $Z"
+              if curl -L --fail -o /tmp/platform-37.zip "https://dl.google.com/android/repository/$Z"; then
+                break
+              fi
+            done
+            rm -rf /tmp/platform-37
+            mkdir -p /tmp/platform-37
+            unzip -q /tmp/platform-37.zip -d /tmp/platform-37
+            SRC=$(find /tmp/platform-37 -type f -name "android.jar" | head -n1 | xargs dirname)
+            test -n "$SRC"
+            rm -rf "$ANDROID_HOME/platforms/android-37"
+            mkdir -p "$ANDROID_HOME/platforms/android-37"
+            cp -a "$SRC"/. "$ANDROID_HOME/platforms/android-37/"
+          fi
+          test -f "$ANDROID_HOME/platforms/android-37/android.jar"
+          # build-tools 37 if missing
+          if [ ! -d "$ANDROID_HOME/build-tools/37.0.0" ] && [ ! -d "$ANDROID_HOME/build-tools/36.0.0" ]; then
+            "$SDKMANAGER" "build-tools;36.0.0"
+          fi
+          ls -la "$ANDROID_HOME/platforms"
+          echo "sdkmanager exit was $STATUS (ok if platform present)"
 
       - name: Install JS deps
         run: npm ci
