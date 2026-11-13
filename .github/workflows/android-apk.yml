@@ -1,0 +1,62 @@
+name: Android APK
+
+# Free GitHub Actions build — no EAS. Produces a sideloadable release APK.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: android-apk-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: prebuild + assembleRelease
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      EXPO_NO_DOCTOR: "1"
+      CI: "1"
+      EXPO_PUBLIC_API_URL: http://85.17.145.134:8787
+      NODE_ENV: production
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install JS deps
+        run: npm ci
+        env:
+          NODE_ENV: development
+
+      - name: Expo prebuild
+        run: npx expo prebuild --platform android --clean
+
+      - name: Assemble release APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlindBoxCloset-android
+          path: android/app/build/outputs/apk/release/*.apk
+          if-no-files-found: error
+          retention-days: 14

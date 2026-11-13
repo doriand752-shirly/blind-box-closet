@@ -20,3 +20,8 @@ server/.env
 artifacts/
 
 .cache/
+
+.gradle-home/
+android-build.log
+*.apk
+!store/**/*.apk

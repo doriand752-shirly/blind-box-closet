@@ -37,6 +37,7 @@
     },
     "android": {
       "package": "com.blindboxcloset.app",
+      "versionCode": 26,
       "adaptiveIcon": {
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundColor": "#F6EFE1"
@@ -60,6 +61,9 @@
         {
           "ios": {
             "deploymentTarget": "16.4"
+          },
+          "android": {
+            "usesCleartextTraffic": true
           }
         }
       ],

@@ -17,6 +17,16 @@
         "simulator": false
       }
     },
+    "apk": {
+      "distribution": "internal",
+      "env": {
+        "NODE_ENV": "production",
+        "EXPO_PUBLIC_API_URL": "http://85.17.145.134:8787"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
     "ios_simulator": {
       "distribution": "internal",
       "ios": {
