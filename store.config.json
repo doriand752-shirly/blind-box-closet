@@ -18,6 +18,7 @@
         "subtitle": "Your blind boxes, shelved",
         "description": "Blind Box Closet helps you track your blind box figure collection, series by series.\n\nTick what you own, note duplicates to trade and keep a wishlist. Stay as a guest (local collection) or create an account to sync and view friends’ collections.\n\nFEATURES\n• Multiple collections: Smiski, Hirono, Skullpanda, Dimoo, Mofusand, Animal Bakery and more\n• Series organised into Main and Extras\n• Clear progress per series and on the home screen\n• Choose which collections appear on Home\n• Owned, quantity, wishlist and trades\n• Optional account (username + email) and friends\n• Export and import your collection\n• French, English and Spanish\n\nBlind Box Closet is an independent app, not affiliated with Dreams Inc., Pop Mart or any other brand mentioned. Brand and product names belong to their respective owners.",
         "keywords": "blind box,collection,figure,checklist,wishlist,smiski,hirono,skullpanda,dimoo,tracker",
+        "whatsNew": "• Home counters for Main + Extras\n• Choose which collections appear on Home\n• Optional accounts (username, email, password)\n• Friends: requests, accept, read-only collections\n• New catalogue brands",
         "marketingUrl": "https://doriand752-shirly.github.io/blindboxcloset/",
         "supportUrl": "https://doriand752-shirly.github.io/blindboxcloset/support.html",
         "privacyPolicyUrl": "https://doriand752-shirly.github.io/blindboxcloset/privacy.html"

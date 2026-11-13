@@ -127,7 +127,8 @@ async function ensureVersionLocale(locale, info) {
     supportUrl: info.supportUrl || SUPPORT,
   };
   if (info.promotionalText) attrs.promotionalText = info.promotionalText;
-  // whatsNew is only editable after the first public release.
+  // Required for updates after the first public release.
+  if (info.whatsNew) attrs.whatsNew = info.whatsNew;
   const patch = await asc("PATCH", `/v1/appStoreVersionLocalizations/${loc.id}`, {
     data: { type: "appStoreVersionLocalizations", id: loc.id, attributes: attrs },
   });
@@ -146,9 +147,8 @@ const infos = await must("appInfos", await asc("GET", `/v1/apps/${APP_ID}/appInf
 const appInfo = infos.data[0];
 const APP_INFO_ID = appInfo.id;
 
-await must(
-  "categories",
-  await asc("PATCH", `/v1/appInfos/${APP_INFO_ID}`, {
+{
+  const catRes = await asc("PATCH", `/v1/appInfos/${APP_INFO_ID}`, {
     data: {
       type: "appInfos",
       id: APP_INFO_ID,
@@ -157,9 +157,17 @@ await must(
         secondaryCategory: { data: { type: "appCategories", id: cfg.apple.categories.secondary } },
       },
     },
-  }),
-);
-log("categories", `${cfg.apple.categories.primary} / ${cfg.apple.categories.secondary}`);
+  });
+  if (catRes.ok) {
+    log("categories", `${cfg.apple.categories.primary} / ${cfg.apple.categories.secondary}`);
+  } else {
+    console.log(
+      "! categories skipped",
+      catRes.status,
+      errorText(catRes.j).split("\n")[0] || "",
+    );
+  }
+}
 
 async function ensureAppInfoLocale(locale, name, subtitle) {
   const locs = await must(
@@ -180,16 +188,21 @@ async function ensureAppInfoLocale(locale, name, subtitle) {
     );
     loc = created.data;
   } else {
-    await must(
-      `patch appInfo loc ${locale}`,
-      await asc("PATCH", `/v1/appInfoLocalizations/${loc.id}`, {
-        data: {
-          type: "appInfoLocalizations",
-          id: loc.id,
-          attributes: { name, subtitle, privacyPolicyUrl: PRIVACY },
-        },
-      }),
-    );
+    const patch = await asc("PATCH", `/v1/appInfoLocalizations/${loc.id}`, {
+      data: {
+        type: "appInfoLocalizations",
+        id: loc.id,
+        attributes: { name, subtitle, privacyPolicyUrl: PRIVACY },
+      },
+    });
+    if (!patch.ok) {
+      console.log(
+        `! appInfo ${locale} skipped`,
+        patch.status,
+        errorText(patch.j).split("\n")[0] || "",
+      );
+      return loc;
+    }
   }
   log(`appInfo ${locale}`, `${name} — ${subtitle}`);
   return loc;
@@ -204,9 +217,8 @@ const age = await must(
   await asc("GET", `/v1/appInfos/${APP_INFO_ID}/ageRatingDeclaration`),
 );
 const ageId = age.data.id;
-await must(
-  "age patch",
-  await asc("PATCH", `/v1/ageRatingDeclarations/${ageId}`, {
+{
+  const agePatch = await asc("PATCH", `/v1/ageRatingDeclarations/${ageId}`, {
     data: {
       type: "ageRatingDeclarations",
       id: ageId,
@@ -237,22 +249,33 @@ await must(
         socialMediaAgeRestricted: false,
       },
     },
-  }),
-);
-log("age rating", "4+");
+  });
+  if (agePatch.ok) log("age rating", "4+");
+  else
+    console.log(
+      "! age rating skipped",
+      agePatch.status,
+      errorText(agePatch.j).split("\n")[0] || "",
+    );
+}
 
 // --- Content rights + review contact -----------------------------------------
-await must(
-  "content rights",
-  await asc("PATCH", `/v1/apps/${APP_ID}`, {
+{
+  const rights = await asc("PATCH", `/v1/apps/${APP_ID}`, {
     data: {
       type: "apps",
       id: APP_ID,
       attributes: { contentRightsDeclaration: "USES_THIRD_PARTY_CONTENT" },
     },
-  }),
-);
-log("content rights", "USES_THIRD_PARTY_CONTENT");
+  });
+  if (rights.ok) log("content rights", "USES_THIRD_PARTY_CONTENT");
+  else
+    console.log(
+      "! content rights skipped",
+      rights.status,
+      errorText(rights.j).split("\n")[0] || "",
+    );
+}
 
 const review = cfg.apple.review;
 const existingReview = await asc("GET", `/v1/appStoreVersions/${VERSION_ID}/appStoreReviewDetail`);
