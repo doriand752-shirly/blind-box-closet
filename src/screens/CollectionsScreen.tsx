@@ -71,16 +71,20 @@ export function CollectionsScreen() {
         const live = brandsRes.brands.filter(
           (b) => (b.status || "live") === "live",
         );
-        const soon = brandsRes.brands.filter((b) => b.status === "coming_soon");
-        const orderedLive = sortBrandsByFavorites(live, favorites);
+        const favSet = new Set(favorites);
+        const selectedLive = live.filter((b) => favSet.has(b.slug));
+        const orderedLive = sortBrandsByFavorites(
+          selectedLive.length ? selectedLive : live,
+          favorites,
+        );
 
         const progress: BrandProgress[] = [];
         for (const brand of orderedLive) {
-          const checklist = await api.brandChecklist(brand.slug, "main");
+          const checklist = await api.brandChecklist(brand.slug, "all");
           const total =
-            brand.main_figure_count ||
-            checklist.figures.length ||
             brand.figure_count ||
+            checklist.figures.length ||
+            brand.main_figure_count ||
             0;
           const owned = checklist.figures.filter((f) => ownedIds.has(f.id)).length;
           const seriesCover =
@@ -104,15 +108,6 @@ export function CollectionsScreen() {
               ? brand.hero_image_url
               : null) || seriesCover;
           progress.push({ brand, owned, total, cover });
-        }
-
-        for (const brand of soon) {
-          progress.push({
-            brand,
-            owned: 0,
-            total: 0,
-            cover: brand.hero_image_url || null,
-          });
         }
 
         setRows(progress);

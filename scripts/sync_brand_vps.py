@@ -16,7 +16,17 @@ import paramiko
 ROOT = Path(__file__).resolve().parents[1]
 LOCAL = ROOT / "server" / "media" / "figures"
 REMOTE = "/opt/blind-box-closet"
-PREFIX = {"smiski": "smiski", "sonny-angel": "sonny", "labubu": "labubu"}
+PREFIX = {
+    "smiski": "smiski",
+    "sonny-angel": "sonny",
+    "labubu": "labubu",
+    "hirono": "hirono",
+    "skullpanda": "skullpanda",
+    "chiikawa": "chiikawa",
+    "dimoo": "dimoo",
+    "mofusand": "mofusand",
+    "animal-bakery": "animalbakery",
+}
 HOST = os.environ.get("VPS_IP", "85.17.145.134")
 PASSWORD = os.environ.get("VPS_PASSWORD")
 if not PASSWORD:
@@ -75,9 +85,13 @@ def main():
     # 2. catalogs + seed script
     for rel in [
         "server/scripts/seed.ts",
+        "server/data/coming-soon-brands.json",
         *[f"server/data/{b}-catalog.json" for b in brands],
     ]:
-        sftp.put(str(ROOT / rel), f"{REMOTE}/{rel}")
+        local = ROOT / rel
+        if not local.exists():
+            raise FileNotFoundError(rel)
+        sftp.put(str(local), f"{REMOTE}/{rel}")
 
     # 3. strict reseed for these brands only
     strict = ",".join(brands)

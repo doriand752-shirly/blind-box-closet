@@ -18,7 +18,7 @@ const doSubmit = args.has("--submit");
 const buildArgIdx = process.argv.indexOf("--build");
 const wantedBuild = buildArgIdx >= 0 ? process.argv[buildArgIdx + 1] : null;
 
-const VERSION_STRING = "1.1.4";
+const VERSION_STRING = "1.1.5";
 const COPYRIGHT = "2026 Dorian Dood";
 const PRIVACY = "https://doriand752-shirly.github.io/blindboxcloset/privacy.html";
 const MARKETING = "https://doriand752-shirly.github.io/blindboxcloset/";
@@ -268,7 +268,9 @@ if (existingReview.j.data?.id) {
           contactLastName: review.lastName,
           contactEmail: review.email,
           contactPhone: review.phone,
-          demoAccountRequired: false,
+          demoAccountRequired: true,
+          demoAccountName: review.demoAccountName || "review@blindboxcloset.app",
+          demoAccountPassword: review.demoAccountPassword || "ReviewBBC115!",
           notes: review.notes,
         },
       },
@@ -285,7 +287,9 @@ if (existingReview.j.data?.id) {
           contactLastName: review.lastName,
           contactEmail: review.email,
           contactPhone: review.phone,
-          demoAccountRequired: false,
+          demoAccountRequired: true,
+          demoAccountName: review.demoAccountName || "review@blindboxcloset.app",
+          demoAccountPassword: review.demoAccountPassword || "ReviewBBC115!",
           notes: review.notes,
         },
         relationships: { appStoreVersion: { data: { type: "appStoreVersions", id: VERSION_ID } } },

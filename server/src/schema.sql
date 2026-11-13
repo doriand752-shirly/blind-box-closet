@@ -53,6 +53,7 @@ CREATE TABLE IF NOT EXISTS users (
   apple_sub TEXT NOT NULL UNIQUE,
   email TEXT,
   display_name TEXT,
+  username TEXT,
   password_hash TEXT,
   is_admin BOOLEAN NOT NULL DEFAULT false,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
@@ -60,18 +61,40 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 ALTER TABLE users ADD COLUMN IF NOT EXISTS password_hash TEXT;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS username TEXT;
 CREATE UNIQUE INDEX IF NOT EXISTS users_email_password_idx
   ON users (lower(email))
   WHERE email IS NOT NULL AND password_hash IS NOT NULL;
+CREATE UNIQUE INDEX IF NOT EXISTS users_username_idx
+  ON users (lower(username))
+  WHERE username IS NOT NULL;
 
 CREATE TABLE IF NOT EXISTS user_figures (
   user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
   figure_id UUID NOT NULL REFERENCES figures(id) ON DELETE CASCADE,
   owned_qty INT NOT NULL DEFAULT 0,
   wishlist BOOLEAN NOT NULL DEFAULT false,
+  trade_qty INT NOT NULL DEFAULT 0,
   notes TEXT,
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   PRIMARY KEY (user_id, figure_id)
 );
 
+ALTER TABLE user_figures ADD COLUMN IF NOT EXISTS trade_qty INT NOT NULL DEFAULT 0;
+
 CREATE INDEX IF NOT EXISTS user_figures_user_idx ON user_figures(user_id);
+
+CREATE TABLE IF NOT EXISTS friendships (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  requester_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  addressee_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  status TEXT NOT NULL DEFAULT 'pending',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  UNIQUE (requester_id, addressee_id),
+  CHECK (requester_id <> addressee_id),
+  CHECK (status IN ('pending', 'accepted', 'rejected'))
+);
+
+CREATE INDEX IF NOT EXISTS friendships_requester_idx ON friendships(requester_id);
+CREATE INDEX IF NOT EXISTS friendships_addressee_idx ON friendships(addressee_id);

@@ -85,6 +85,7 @@ export async function localCollectionBundle(): Promise<{
       figure_id: entry.figure_id,
       owned_qty: entry.owned_qty,
       wishlist: entry.wishlist,
+      trade_qty: entry.trade_qty,
       notes: entry.notes,
       name_en: f.name_en,
       name_ja: f.name_ja,

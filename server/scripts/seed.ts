@@ -51,8 +51,11 @@ type ComingSoonFile = {
 const DATA_DIR = path.join(__dirname, "..", "data");
 const CATALOG_FILES = [
   "smiski-catalog.json",
-  "sonny-angel-catalog.json",
-  "labubu-catalog.json",
+  "hirono-catalog.json",
+  "skullpanda-catalog.json",
+  "dimoo-catalog.json",
+  "mofusand-catalog.json",
+  "animal-bakery-catalog.json",
 ];
 
 /** Brands whose DB content must mirror the catalog file exactly (extra series/figures deleted, images overwritten). */
@@ -221,8 +224,8 @@ async function seedComingSoon() {
          name = EXCLUDED.name,
          name_ja = EXCLUDED.name_ja,
          accent_color = COALESCE(EXCLUDED.accent_color, brands.accent_color),
-         hero_image_url = NULL,
-         status = EXCLUDED.status`,
+         hero_image_url = CASE WHEN brands.status = 'live' THEN brands.hero_image_url ELSE NULL END,
+         status = CASE WHEN brands.status = 'live' THEN brands.status ELSE EXCLUDED.status END`,
       [
         b.slug,
         b.name,

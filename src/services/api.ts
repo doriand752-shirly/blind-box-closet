@@ -4,8 +4,11 @@ import type {
   CollectionItem,
   CollectionStats,
   Figure,
+  Friendship,
+  FriendUser,
   Series,
   SeriesProgress,
+  User,
 } from "../types/models";
 
 const extra = Constants.expoConfig?.extra as { apiUrl?: string } | undefined;
@@ -47,6 +50,25 @@ async function request<T>(path: string, opts: RequestOptions = {}): Promise<T> {
 
 export const api = {
   health: () => request<{ ok: boolean }>("/health"),
+
+  register: (body: {
+    email: string;
+    password: string;
+    username: string;
+    displayName?: string;
+  }) =>
+    request<{ token: string; user: User }>("/auth/register", {
+      method: "POST",
+      body,
+    }),
+
+  login: (body: { email: string; password: string }) =>
+    request<{ token: string; user: User }>("/auth/login", {
+      method: "POST",
+      body,
+    }),
+
+  me: (token: string) => request<{ user: User }>("/me", { token }),
 
   brands: () => request<{ brands: Brand[] }>("/catalog/brands"),
 
@@ -90,6 +112,7 @@ export const api = {
       figureId: string;
       owned_qty?: number;
       wishlist?: boolean;
+      trade_qty?: number;
       notes?: string | null;
     },
   ) =>
@@ -98,6 +121,41 @@ export const api = {
       token,
       body,
     }),
+
+  friends: (token: string) =>
+    request<{ friends: Friendship[] }>("/friends", { token }),
+
+  friendRequest: (token: string, username: string) =>
+    request<{ friendship: unknown; user?: FriendUser; autoAccepted?: boolean }>(
+      "/friends/request",
+      { method: "POST", token, body: { username } },
+    ),
+
+  acceptFriend: (token: string, friendshipId: string) =>
+    request<{ friendship: unknown }>(`/friends/${friendshipId}/accept`, {
+      method: "POST",
+      token,
+      body: {},
+    }),
+
+  rejectFriend: (token: string, friendshipId: string) =>
+    request<{ friendship: unknown }>(`/friends/${friendshipId}/reject`, {
+      method: "POST",
+      token,
+      body: {},
+    }),
+
+  removeFriend: (token: string, friendshipId: string) =>
+    request<{ ok: boolean }>(`/friends/${friendshipId}`, {
+      method: "DELETE",
+      token,
+    }),
+
+  friendCollection: (token: string, friendUserId: string) =>
+    request<{ user: FriendUser; items: CollectionItem[] }>(
+      `/friends/${friendUserId}/collection`,
+      { token },
+    ),
 
   createBrand: (
     token: string,

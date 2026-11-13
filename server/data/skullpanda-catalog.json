@@ -1,0 +1,2885 @@
+{
+  "brand": {
+    "slug": "skullpanda",
+    "name": "Skullpanda",
+    "name_ja": null,
+    "accent_color": "#E2D8F0",
+    "status": "live",
+    "hero_image_url": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-joy.webp"
+  },
+  "series": [
+    {
+      "slug": "the-sound",
+      "name_en": "The Sound",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 1,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Joy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-joy.webp"
+        },
+        {
+          "name_en": "The Anger",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-anger.webp"
+        },
+        {
+          "name_en": "The Serenity",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-serenity.webp"
+        },
+        {
+          "name_en": "The Pensiveness",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-pensiveness.webp"
+        },
+        {
+          "name_en": "The Trust",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-trust.webp"
+        },
+        {
+          "name_en": "The Disgust",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-disgust.webp"
+        },
+        {
+          "name_en": "The Ecstasy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-ecstasy.webp"
+        },
+        {
+          "name_en": "The Grief",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-grief.webp"
+        },
+        {
+          "name_en": "The Admiration",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-admiration.webp"
+        },
+        {
+          "name_en": "The Terror",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-terror.webp"
+        },
+        {
+          "name_en": "The Vigilance",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-vigilance.webp"
+        },
+        {
+          "name_en": "The Awe",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-awe.webp"
+        },
+        {
+          "name_en": "The Equilibrium",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-sound-the-equilibrium.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-ink-plum-blossom",
+      "name_en": "The Ink Plum Blossom",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 2,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Forest",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-forest.webp"
+        },
+        {
+          "name_en": "The Moss",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-moss.webp"
+        },
+        {
+          "name_en": "The Bamboo",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-bamboo.webp"
+        },
+        {
+          "name_en": "The Snow",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-snow.webp"
+        },
+        {
+          "name_en": "The Wind",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-wind.webp"
+        },
+        {
+          "name_en": "The Bridge",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-bridge.webp"
+        },
+        {
+          "name_en": "The Moon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-moon.webp"
+        },
+        {
+          "name_en": "The Root",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-root.webp"
+        },
+        {
+          "name_en": "The Valley",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-valley.webp"
+        },
+        {
+          "name_en": "The Spring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-spring.webp"
+        },
+        {
+          "name_en": "The Scene",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-scene.webp"
+        },
+        {
+          "name_en": "The Courtyard",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-courtyard.webp"
+        },
+        {
+          "name_en": "The Plum Blossom",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-ink-plum-blossom-the-plum-blossom.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-warmth",
+      "name_en": "The Warmth",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 3,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Raining Day",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-the-raining-day.webp"
+        },
+        {
+          "name_en": "The Encounter",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-the-encounter.webp"
+        },
+        {
+          "name_en": "The Day Off",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-the-day-off.webp"
+        },
+        {
+          "name_en": "Enjoy Oneself",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-enjoy-oneself.webp"
+        },
+        {
+          "name_en": "Mind With the Wind",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-mind-with-the-wind.webp"
+        },
+        {
+          "name_en": "Doodling",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-doodling.webp"
+        },
+        {
+          "name_en": "Wandering",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-wandering.webp"
+        },
+        {
+          "name_en": "Recall the Past",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-recall-the-past.webp"
+        },
+        {
+          "name_en": "Chirping",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-chirping.webp"
+        },
+        {
+          "name_en": "Loosening",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-loosening.webp"
+        },
+        {
+          "name_en": "Taste From the Memory",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-taste-from-the-memory.webp"
+        },
+        {
+          "name_en": "The Scent",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-the-scent.webp"
+        },
+        {
+          "name_en": "The Warmth",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-warmth-the-warmth.webp"
+        }
+      ]
+    },
+    {
+      "slug": "tell-me-what-you-want",
+      "name_en": "Tell Me What You Want",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 4,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Still on the Job",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-still-on-the-job.webp"
+        },
+        {
+          "name_en": "Fun Ride",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-fun-ride.webp"
+        },
+        {
+          "name_en": "Baking Best Wishes",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-baking-best-wishes.webp"
+        },
+        {
+          "name_en": "Getting Dressed",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-getting-dressed.webp"
+        },
+        {
+          "name_en": "Sweetest Rebel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-sweetest-rebel.webp"
+        },
+        {
+          "name_en": "Let it Snow",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-let-it-snow.webp"
+        },
+        {
+          "name_en": "Jingle All the Way (Green)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-jingle-all-the-way-green.webp"
+        },
+        {
+          "name_en": "On Schedule",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-on-schedule.webp"
+        },
+        {
+          "name_en": "Home Alone",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-home-alone.webp"
+        },
+        {
+          "name_en": "Jingle All the Way (Red)",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-jingle-all-the-way-red.webp"
+        },
+        {
+          "name_en": "As I Wish",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-tell-me-what-you-want-as-i-wish.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-paradox",
+      "name_en": "The Paradox",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 5,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Out of the Mud",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-out-of-the-mud.webp"
+        },
+        {
+          "name_en": "Spin a Cocoon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-spin-a-cocoon.webp"
+        },
+        {
+          "name_en": "Diving In",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-diving-in.webp"
+        },
+        {
+          "name_en": "The Hold",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-the-hold.webp"
+        },
+        {
+          "name_en": "The External Echoes",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-the-external-echoes.webp"
+        },
+        {
+          "name_en": "The Asymmetrical Balance",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-the-asymmetrical-balance.webp"
+        },
+        {
+          "name_en": "The Jewel Cage",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-the-jewel-cage.webp"
+        },
+        {
+          "name_en": "Being a Butterfly",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-being-a-butterfly.webp"
+        },
+        {
+          "name_en": "Flying High",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-flying-high.webp"
+        },
+        {
+          "name_en": "The Bond",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-the-bond.webp"
+        },
+        {
+          "name_en": "The Internal Dialogue",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-the-internal-dialogue.webp"
+        },
+        {
+          "name_en": "The Cyclical Path",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-the-cyclical-path.webp"
+        },
+        {
+          "name_en": "The Key",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-paradox-the-key.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-mirage",
+      "name_en": "The Mirage",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 6,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Puppetry",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-puppetry.webp"
+        },
+        {
+          "name_en": "The Carousel Lantern",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-carousel-lantern.webp"
+        },
+        {
+          "name_en": "The Skeleton Fantasy Show",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-skeleton-fantasy-show.webp"
+        },
+        {
+          "name_en": "The Hill Censer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-hill-censer.webp"
+        },
+        {
+          "name_en": "The Frame",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-frame.webp"
+        },
+        {
+          "name_en": "The Pricket",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-pricket.webp"
+        },
+        {
+          "name_en": "The Konghou",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-konghou.webp"
+        },
+        {
+          "name_en": "The Pan Flute",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-pan-flute.webp"
+        },
+        {
+          "name_en": "The Ghanta",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-ghanta.webp"
+        },
+        {
+          "name_en": "The Butterfly Dream",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mirage-the-butterfly-dream.webp"
+        }
+      ]
+    },
+    {
+      "slug": "image-of-reality",
+      "name_en": "Image of Reality",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 7,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Timelapse",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-timelapse.webp"
+        },
+        {
+          "name_en": "The Paradox",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-paradox.webp"
+        },
+        {
+          "name_en": "The Pivot",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-pivot.webp"
+        },
+        {
+          "name_en": "The Merchant",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-merchant.webp"
+        },
+        {
+          "name_en": "The Soar",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-soar.webp"
+        },
+        {
+          "name_en": "The Constraint",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-constraint.webp"
+        },
+        {
+          "name_en": "The Duality (White)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-duality-white.webp"
+        },
+        {
+          "name_en": "The Duality (Black)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-duality-black.webp"
+        },
+        {
+          "name_en": "The Philosophy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-philosophy.webp"
+        },
+        {
+          "name_en": "The Imagination",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-imagination.webp"
+        },
+        {
+          "name_en": "The Disguise",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-disguise.webp"
+        },
+        {
+          "name_en": "The Antigravity",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-antigravity.webp"
+        },
+        {
+          "name_en": "The Onlooker",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-image-of-reality-the-onlooker.webp"
+        }
+      ]
+    },
+    {
+      "slug": "everyday-wonderland",
+      "name_en": "Everyday Wonderland",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 8,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Bold",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-bold.webp"
+        },
+        {
+          "name_en": "The Anxious",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-anxious.webp"
+        },
+        {
+          "name_en": "The Preachy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-preachy.webp"
+        },
+        {
+          "name_en": "The Sophisticated",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-sophisticated.webp"
+        },
+        {
+          "name_en": "The Sleepless",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-sleepless.webp"
+        },
+        {
+          "name_en": "The Fidgety",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-fidgety.webp"
+        },
+        {
+          "name_en": "The Fatuous",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-fatuous.webp"
+        },
+        {
+          "name_en": "The Petulant",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-petulant.webp"
+        },
+        {
+          "name_en": "The Timid",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-timid.webp"
+        },
+        {
+          "name_en": "The Obedient",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-obedient.webp"
+        },
+        {
+          "name_en": "The Cold-hearted",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-cold-hearted.webp"
+        },
+        {
+          "name_en": "The Lethargic",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-the-lethargic.webp"
+        },
+        {
+          "name_en": "Thing in Itself",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-everyday-wonderland-thing-in-itself.webp"
+        }
+      ]
+    },
+    {
+      "slug": "laid-back-tomorrow",
+      "name_en": "Laid Back Tomorrow",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 9,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Full of Sweetness",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-full-of-sweetness.webp"
+        },
+        {
+          "name_en": "Easy Off-roading",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-easy-off-roading.webp"
+        },
+        {
+          "name_en": "Catch the Moment",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-catch-the-moment.webp"
+        },
+        {
+          "name_en": "Hasty Trail",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-hasty-trail.webp"
+        },
+        {
+          "name_en": "Rushing Out",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-rushing-out.webp"
+        },
+        {
+          "name_en": "Dispatch Surprise",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-dispatch-surprise.webp"
+        },
+        {
+          "name_en": "Fantasy Route",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-fantasy-route.webp"
+        },
+        {
+          "name_en": "Blue Water Shortcut",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-blue-water-shortcut.webp"
+        },
+        {
+          "name_en": "Out in the Street",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-out-in-the-street.webp"
+        },
+        {
+          "name_en": "Coffee Express",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-laid-back-tomorrow-coffee-express.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-mare-of-animals",
+      "name_en": "The Mare of Animals",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 10,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Fox",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-fox.webp"
+        },
+        {
+          "name_en": "The Penguin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-penguin.webp"
+        },
+        {
+          "name_en": "The Unicorn",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-unicorn.webp"
+        },
+        {
+          "name_en": "The Rat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-rat.webp"
+        },
+        {
+          "name_en": "The Blue Morpho",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-blue-morpho.webp"
+        },
+        {
+          "name_en": "The Passenger Pigeon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-passenger-pigeon.webp"
+        },
+        {
+          "name_en": "The Rabbit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-rabbit.webp"
+        },
+        {
+          "name_en": "The Polar Bear",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-polar-bear.webp"
+        },
+        {
+          "name_en": "The Halobios",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-halobios.webp"
+        },
+        {
+          "name_en": "The Feline",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-feline.webp"
+        },
+        {
+          "name_en": "The Elephant",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-elephant.webp"
+        },
+        {
+          "name_en": "The Moth",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-moth.webp"
+        },
+        {
+          "name_en": "The Dream Eater",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-mare-of-animals-the-dream-eater.webp"
+        }
+      ]
+    },
+    {
+      "slug": "city-of-night",
+      "name_en": "City of Night",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 11,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Naughty Bodyguard",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-naughty-bodyguard.webp"
+        },
+        {
+          "name_en": "Pet Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-pet-cat.webp"
+        },
+        {
+          "name_en": "The Princess",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-the-princess.webp"
+        },
+        {
+          "name_en": "DJ Player",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-dj-player.webp"
+        },
+        {
+          "name_en": "Law Executor",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-law-executor.webp"
+        },
+        {
+          "name_en": "Traveller",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-traveller.webp"
+        },
+        {
+          "name_en": "Meditator",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-meditator.webp"
+        },
+        {
+          "name_en": "Puppet Singer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-puppet-singer.webp"
+        },
+        {
+          "name_en": "Ardent Youth",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-ardent-youth.webp"
+        },
+        {
+          "name_en": "Dancer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-dancer.webp"
+        },
+        {
+          "name_en": "Heart Seeker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-heart-seeker.webp"
+        },
+        {
+          "name_en": "Scroll Delivery",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-scroll-delivery.webp"
+        },
+        {
+          "name_en": "Guardian of Night",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-city-of-night-guardian-of-night.webp"
+        }
+      ]
+    },
+    {
+      "slug": "candy-monster-town",
+      "name_en": "Candy Monster Town",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 12,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Sugar Rabbit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-sugar-rabbit.webp"
+        },
+        {
+          "name_en": "Fairy Godmother",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-fairy-godmother.webp"
+        },
+        {
+          "name_en": "Strawberry Clown",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-strawberry-clown.webp"
+        },
+        {
+          "name_en": "Milk Ghost",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-milk-ghost.webp"
+        },
+        {
+          "name_en": "Bubble Ghost",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-bubble-ghost.webp"
+        },
+        {
+          "name_en": "Chicken Hunter",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-chicken-hunter.webp"
+        },
+        {
+          "name_en": "Gummy Bear Baby",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-gummy-bear-baby.webp"
+        },
+        {
+          "name_en": "Octopus Monster",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-octopus-monster.webp"
+        },
+        {
+          "name_en": "Elf",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-elf.webp"
+        },
+        {
+          "name_en": "Marshmallow Unicorn",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-marshmallow-unicorn.webp"
+        },
+        {
+          "name_en": "Candy Thief",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-candy-thief.webp"
+        },
+        {
+          "name_en": "Cookie Racoon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-cookie-racoon.webp"
+        },
+        {
+          "name_en": "Adorkable Magician",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-candy-monster-town-adorkable-magician.webp"
+        }
+      ]
+    },
+    {
+      "slug": "hypepanda",
+      "name_en": "Hypepanda",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 13,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Vintage Boy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-vintage-boy.webp"
+        },
+        {
+          "name_en": "Skater Boy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-skater-boy.webp"
+        },
+        {
+          "name_en": "Mix & Match Style",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-mix-match-style.webp"
+        },
+        {
+          "name_en": "Elegant Girl",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-elegant-girl.webp"
+        },
+        {
+          "name_en": "Idol Trainee",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-idol-trainee.webp"
+        },
+        {
+          "name_en": "Hip Pop Singer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-hip-pop-singer.webp"
+        },
+        {
+          "name_en": "Dancer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-dancer.webp"
+        },
+        {
+          "name_en": "Milk Baby",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-milk-baby.webp"
+        },
+        {
+          "name_en": "Milk Tea Girl",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-milk-tea-girl.webp"
+        },
+        {
+          "name_en": "Fashion Icon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-fashion-icon.webp"
+        },
+        {
+          "name_en": "Rapper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-rapper.webp"
+        },
+        {
+          "name_en": "Pink Girl",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-pink-girl.webp"
+        },
+        {
+          "name_en": "Stylist",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-hypepanda-stylist.webp"
+        }
+      ]
+    },
+    {
+      "slug": "action-cut",
+      "name_en": "Action! Cut!",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 14,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Grumpy Maintenance",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-grumpy-maintenance.webp"
+        },
+        {
+          "name_en": "Stunt Man",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-stunt-man.webp"
+        },
+        {
+          "name_en": "Afternoon Beauty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-afternoon-beauty.webp"
+        },
+        {
+          "name_en": "Stand-in",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-stand-in.webp"
+        },
+        {
+          "name_en": "Craft Service",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-craft-service.webp"
+        },
+        {
+          "name_en": "Gluttonous Security",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-gluttonous-security.webp"
+        },
+        {
+          "name_en": "Fashionable Clapper-Loader",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-fashionable-clapper-loader.webp"
+        },
+        {
+          "name_en": "Rising Star",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-rising-star.webp"
+        },
+        {
+          "name_en": "Comedian",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-comedian.webp"
+        },
+        {
+          "name_en": "Musty Extra Actor",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-musty-extra-actor.webp"
+        },
+        {
+          "name_en": "Resting Leading Lady",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-resting-leading-lady.webp"
+        },
+        {
+          "name_en": "Leading Man",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-leading-man.webp"
+        },
+        {
+          "name_en": "Cool Director",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-action-cut-cool-director.webp"
+        }
+      ]
+    },
+    {
+      "slug": "ancient-castle",
+      "name_en": "Ancient Castle",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 15,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Phantom",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-phantom.webp"
+        },
+        {
+          "name_en": "Chamberlain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-chamberlain.webp"
+        },
+        {
+          "name_en": "Bell-ringer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-bell-ringer.webp"
+        },
+        {
+          "name_en": "Bloody Rose",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-bloody-rose.webp"
+        },
+        {
+          "name_en": "Nurse",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-nurse.webp"
+        },
+        {
+          "name_en": "Baby Zombie",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-baby-zombie.webp"
+        },
+        {
+          "name_en": "Fake Evil",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-fake-evil.webp"
+        },
+        {
+          "name_en": "Fake Angel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-fake-angel.webp"
+        },
+        {
+          "name_en": "Boring Explorer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-boring-explorer.webp"
+        },
+        {
+          "name_en": "Gargoyle",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-gargoyle.webp"
+        },
+        {
+          "name_en": "Vampire",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-vampire.webp"
+        },
+        {
+          "name_en": "Skeleton",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-skeleton.webp"
+        },
+        {
+          "name_en": "Bloody Knight",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-ancient-castle-bloody-knight.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-addams-family",
+      "name_en": "The Addams Family",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 16,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Quiet Wednesday",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-quiet-wednesday.webp"
+        },
+        {
+          "name_en": "Parker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-parker.webp"
+        },
+        {
+          "name_en": "Pugsley",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-pugsley.webp"
+        },
+        {
+          "name_en": "Uncle Fester",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-uncle-fester.webp"
+        },
+        {
+          "name_en": "Gomez",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-gomez.webp"
+        },
+        {
+          "name_en": "Scarlet Morticia",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-scarlet-morticia.webp"
+        },
+        {
+          "name_en": "Great Auntie Sloom",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-great-auntie-sloom.webp"
+        },
+        {
+          "name_en": "Dark Night Morticia",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-dark-night-morticia.webp"
+        },
+        {
+          "name_en": "Grandma",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-grandma.webp"
+        },
+        {
+          "name_en": "Lurch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-lurch.webp"
+        },
+        {
+          "name_en": "Kitty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-kitty.webp"
+        },
+        {
+          "name_en": "IT",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-it.webp"
+        },
+        {
+          "name_en": "Deadpan Wednesday",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-addams-family-deadpan-wednesday.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-feast-begins",
+      "name_en": "The Feast Begins",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 17,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Dinner Knife",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-dinner-knife.webp"
+        },
+        {
+          "name_en": "The Silver Fork",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-silver-fork.webp"
+        },
+        {
+          "name_en": "The Caddy Spoon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-caddy-spoon.webp"
+        },
+        {
+          "name_en": "The Spoon Warmer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-spoon-warmer.webp"
+        },
+        {
+          "name_en": "The Napkin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-napkin.webp"
+        },
+        {
+          "name_en": "The Silver Claret Jug",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-silver-claret-jug.webp"
+        },
+        {
+          "name_en": "The Sugar Tongs",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-sugar-tongs.webp"
+        },
+        {
+          "name_en": "The Crumb Scoop",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-crumb-scoop.webp"
+        },
+        {
+          "name_en": "The Aspic Server",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-aspic-server.webp"
+        },
+        {
+          "name_en": "The Knife Rest",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-knife-rest.webp"
+        },
+        {
+          "name_en": "The Egg Cup",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-egg-cup.webp"
+        },
+        {
+          "name_en": "The Grape Scissors",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-the-grape-scissors.webp"
+        },
+        {
+          "name_en": "Fine Dining",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-the-feast-begins-fine-dining.webp"
+        }
+      ]
+    },
+    {
+      "slug": "petals-in-four-acts",
+      "name_en": "Petals in Four Acts",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 18,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The Fairy's Trick",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-fairys-trick.webp"
+        },
+        {
+          "name_en": "The Invitation of Light",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-invitation-of-light.webp"
+        },
+        {
+          "name_en": "The Withered Innocence",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-withered-innocence.webp"
+        },
+        {
+          "name_en": "The Decay Awaited",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-decay-awaited.webp"
+        },
+        {
+          "name_en": "The Budding Fable",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-budding-fable.webp"
+        },
+        {
+          "name_en": "The Vow",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-vow.webp"
+        },
+        {
+          "name_en": "The Submerged Wreath",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-submerged-wreath.webp"
+        },
+        {
+          "name_en": "The Crown in Ashes",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-crown-in-ashes.webp"
+        },
+        {
+          "name_en": "The Fatal Entwining",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-fatal-entwining.webp"
+        },
+        {
+          "name_en": "The Burning Gloom",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-burning-gloom.webp"
+        },
+        {
+          "name_en": "The Elegiac Witness",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-elegiac-witness.webp"
+        },
+        {
+          "name_en": "The Threefold Requiem",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-the-threefold-requiem.webp"
+        },
+        {
+          "name_en": "Chronos' Gardener",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-petals-in-four-acts-chronos-gardener.webp"
+        }
+      ]
+    },
+    {
+      "slug": "you-found-me-plush-doll-pendant",
+      "name_en": "You Found Me! Plush Doll Pendant",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 19,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Sandman",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-sandman.webp"
+        },
+        {
+          "name_en": "Chomp",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-chomp.webp"
+        },
+        {
+          "name_en": "Ghostie",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-ghostie.webp"
+        },
+        {
+          "name_en": "Cerberus",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-cerberus.webp"
+        },
+        {
+          "name_en": "Pranky Peanut",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-pranky-peanut.webp"
+        },
+        {
+          "name_en": "Moldy Muffin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-moldy-muffin.webp"
+        },
+        {
+          "name_en": "Sneaky Chestnut",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-sneaky-chestnut.webp"
+        },
+        {
+          "name_en": "Ratty Bear",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-ratty-bear.webp"
+        },
+        {
+          "name_en": "Darkness",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-darkness.webp"
+        },
+        {
+          "name_en": "Buddy Doggie",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-you-found-me-plush-doll-pendant-buddy-doggie.webp"
+        }
+      ]
+    },
+    {
+      "slug": "l-impressionnisme-plush-doll",
+      "name_en": "L'impressionnisme Plush Doll",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 20,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Teakwood",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-teakwood.webp"
+        },
+        {
+          "name_en": "Blossom",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-blossom.webp"
+        },
+        {
+          "name_en": "Pond",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-pond.webp"
+        },
+        {
+          "name_en": "Lightning",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-lightning.webp"
+        },
+        {
+          "name_en": "Windflower",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-windflower.webp"
+        },
+        {
+          "name_en": "Dawn",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-dawn.webp"
+        },
+        {
+          "name_en": "Mist",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-mist.webp"
+        },
+        {
+          "name_en": "Dew",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-dew.webp"
+        },
+        {
+          "name_en": "Amber",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-amber.webp"
+        },
+        {
+          "name_en": "In the Garden",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-l-impressionnisme-plush-doll-in-the-garden.webp"
+        }
+      ]
+    },
+    {
+      "slug": "winter-symphony-plush",
+      "name_en": "Winter Symphony Plush",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 21,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Rock On",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-winter-symphony-plush-rock-on.webp"
+        },
+        {
+          "name_en": "Rhapsody",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-winter-symphony-plush-rhapsody.webp"
+        },
+        {
+          "name_en": "Partita",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-winter-symphony-plush-partita.webp"
+        },
+        {
+          "name_en": "Wanderer's Tune",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-winter-symphony-plush-wanderers-tune.webp"
+        },
+        {
+          "name_en": "Ode to Cocoa",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-winter-symphony-plush-ode-to-cocoa.webp"
+        },
+        {
+          "name_en": "Song of Snow",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-winter-symphony-plush-song-of-snow.webp"
+        },
+        {
+          "name_en": "Symphony of Wishes",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-winter-symphony-plush-symphony-of-wishes.webp"
+        }
+      ]
+    },
+    {
+      "slug": "lazy-panda-plush-doll-pendant",
+      "name_en": "Lazy Panda Plush Doll Pendant",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 22,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Lazy Panda",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-lazy-panda-plush-doll-pendant-lazy-panda.webp"
+        }
+      ]
+    },
+    {
+      "slug": "my-little-pony-plush-doll-pendant",
+      "name_en": "My Little Pony Plush Doll Pendant",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 23,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Rainbow Dash",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-my-little-pony-plush-doll-pendant-rainbow-dash.webp"
+        },
+        {
+          "name_en": "Pinkie Pie",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-my-little-pony-plush-doll-pendant-pinkie-pie.webp"
+        },
+        {
+          "name_en": "Twilight Sparkle",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-my-little-pony-plush-doll-pendant-twilight-sparkle.webp"
+        },
+        {
+          "name_en": "Fluttershy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-my-little-pony-plush-doll-pendant-fluttershy.webp"
+        },
+        {
+          "name_en": "Applejack",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-my-little-pony-plush-doll-pendant-applejack.webp"
+        },
+        {
+          "name_en": "Rarity",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-my-little-pony-plush-doll-pendant-rarity.webp"
+        },
+        {
+          "name_en": "Sunset Shimmer",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-my-little-pony-plush-doll-pendant-sunset-shimmer.webp"
+        },
+        {
+          "name_en": "Queen Chrysalis",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/skullpanda-my-little-pony-plush-doll-pendant-queen-chrysalis.webp"
+        }
+      ]
+    }
+  ]
+}

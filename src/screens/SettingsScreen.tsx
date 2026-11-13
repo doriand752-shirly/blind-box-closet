@@ -1,6 +1,7 @@
 import React from "react";
 import { Alert, Linking, ScrollView, StyleSheet, Text, View } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
 import Constants from "expo-constants";
 import { LogoMark } from "../components/LogoMark";
@@ -9,13 +10,12 @@ import { SoftPressable } from "../components/ui/SoftPressable";
 import { useAuth } from "../context/AuthContext";
 import { LOCALE_LABELS, LOCALES, type Locale } from "../i18n";
 import { useLocale } from "../i18n/LocaleContext";
-import { setOnboardingDone } from "../services/brandPrefs";
 import {
   exportCollectionFile,
   importCollectionFile,
 } from "../services/collectionTransfer";
 import { PRIVACY_URL, SUPPORT_URL } from "../services/links";
-import { colors, fonts, radius, space, type } from "../theme";
+import { colors, radius, space, type } from "../theme";
 
 const APP_VERSION = Constants.expoConfig?.version ?? null;
 
@@ -42,7 +42,8 @@ function SettingsRow({
 }
 
 export function SettingsScreen() {
-  const { clearLocalData } = useAuth();
+  const navigation = useNavigation<any>();
+  const { clearLocalData, user, isGuest, signOut } = useAuth();
   const { t, setLocale } = useLocale();
 
   const pickLanguage = () => {
@@ -68,8 +69,12 @@ export function SettingsScreen() {
 
         <View style={styles.card}>
           <Text style={styles.label}>{t("account")}</Text>
-          <Text style={styles.value}>{t("guest")}</Text>
-          <Text style={styles.meta}>{t("guestMeta")}</Text>
+          <Text style={styles.value}>
+            {isGuest
+              ? t("guest")
+              : user?.username || user?.display_name || user?.email || t("account")}
+          </Text>
+          <Text style={styles.meta}>{isGuest ? t("guestMeta") : t("accountMeta")}</Text>
         </View>
 
         <View style={styles.group}>
@@ -80,20 +85,9 @@ export function SettingsScreen() {
           />
 
           <SettingsRow
-            label={t("redoBrands")}
+            label={t("manageCollections")}
             icon="heart-outline"
-            onPress={() => {
-              Alert.alert(t("redoBrands"), t("redoBrandsBody"), [
-                { text: t("cancel"), style: "cancel" },
-                {
-                  text: t("ok"),
-                  onPress: () =>
-                    setOnboardingDone(false).then(() =>
-                      Alert.alert(t("ok"), t("redoBrandsDone")),
-                    ),
-                },
-              ]);
-            }}
+            onPress={() => navigation.navigate("ManageCollections")}
           />
 
           <SettingsRow
@@ -132,6 +126,20 @@ export function SettingsScreen() {
         </View>
 
         <View style={[styles.group, { marginTop: space.lg }]}>
+          {isGuest ? (
+            <SettingsRow
+              icon="person-add-outline"
+              label={t("createAccount")}
+              onPress={() => void signOut()}
+            />
+          ) : (
+            <SettingsRow
+              danger
+              icon="log-out-outline"
+              label={t("signOut")}
+              onPress={() => void signOut()}
+            />
+          )}
           <SettingsRow
             danger
             icon="trash-outline"

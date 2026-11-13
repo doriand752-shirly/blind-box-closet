@@ -3,7 +3,22 @@ export type User = {
   apple_sub: string;
   email: string | null;
   display_name: string | null;
+  username?: string | null;
   is_admin: boolean;
+};
+
+export type FriendUser = {
+  id: string;
+  username: string | null;
+  display_name: string | null;
+};
+
+export type Friendship = {
+  id: string;
+  status: "pending" | "accepted" | "rejected" | string;
+  created_at: string;
+  direction: "incoming" | "outgoing" | string;
+  user: FriendUser;
 };
 
 export type Brand = {
@@ -55,10 +70,11 @@ export type Figure = {
 };
 
 export type CollectionItem = {
-  user_id: string;
+  user_id?: string;
   figure_id: string;
   owned_qty: number;
   wishlist: boolean;
+  trade_qty?: number;
   notes: string | null;
   name_en: string;
   name_ja: string | null;
@@ -71,6 +87,7 @@ export type CollectionItem = {
   series_name: string;
   series_slug: string;
   brand_name: string;
+  brand_slug?: string;
 };
 
 export type CollectionStats = {

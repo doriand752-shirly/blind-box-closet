@@ -1,0 +1,1838 @@
+{
+  "brand": {
+    "slug": "hirono",
+    "name": "Hirono",
+    "name_ja": null,
+    "accent_color": "#D5EDEB",
+    "status": "live",
+    "hero_image_url": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-vagrancy.webp"
+  },
+  "series": [
+    {
+      "slug": "the-other-one",
+      "name_en": "The Other One",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 1,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Vagrancy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-vagrancy.webp"
+        },
+        {
+          "name_en": "Cuckoo",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-cuckoo.webp"
+        },
+        {
+          "name_en": "The Ghost",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-the-ghost.webp"
+        },
+        {
+          "name_en": "Nowhere Safe",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-nowhere-safe.webp"
+        },
+        {
+          "name_en": "Raving",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-raving.webp"
+        },
+        {
+          "name_en": "Being Alive",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-being-alive.webp"
+        },
+        {
+          "name_en": "The Monster",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-the-monster.webp"
+        },
+        {
+          "name_en": "Amnesia",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-amnesia.webp"
+        },
+        {
+          "name_en": "The Crow",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-the-crow.webp"
+        },
+        {
+          "name_en": "The Fox",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-the-fox.webp"
+        },
+        {
+          "name_en": "Staring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-staring.webp"
+        },
+        {
+          "name_en": "Marionette",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-marionette.webp"
+        },
+        {
+          "name_en": "Dreaming",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-the-other-one-dreaming.webp"
+        }
+      ]
+    },
+    {
+      "slug": "little-mischief",
+      "name_en": "Little Mischief",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 2,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Ragpicker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-ragpicker.webp"
+        },
+        {
+          "name_en": "Destroyer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-destroyer.webp"
+        },
+        {
+          "name_en": "Robot",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-robot.webp"
+        },
+        {
+          "name_en": "Boiling Frog",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-boiling-frog.webp"
+        },
+        {
+          "name_en": "Float",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-float.webp"
+        },
+        {
+          "name_en": "The Aviator",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-the-aviator.webp"
+        },
+        {
+          "name_en": "Birdman",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-birdman.webp"
+        },
+        {
+          "name_en": "Loose Fish",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-loose-fish.webp"
+        },
+        {
+          "name_en": "Pretender",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-pretender.webp"
+        },
+        {
+          "name_en": "Persona",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-persona.webp"
+        },
+        {
+          "name_en": "Manacle",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-manacle.webp"
+        },
+        {
+          "name_en": "Protector",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-protector.webp"
+        },
+        {
+          "name_en": "Unknown Journey",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-little-mischief-unknown-journey.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mime",
+      "name_en": "Mime",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 3,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Guardian",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-guardian.webp"
+        },
+        {
+          "name_en": "Blind",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-blind.webp"
+        },
+        {
+          "name_en": "Seeker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-seeker.webp"
+        },
+        {
+          "name_en": "Devilry",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-devilry.webp"
+        },
+        {
+          "name_en": "Drifter",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-drifter.webp"
+        },
+        {
+          "name_en": "Fool",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-fool.webp"
+        },
+        {
+          "name_en": "Unspoken",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-unspoken.webp"
+        },
+        {
+          "name_en": "Patience",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-patience.webp"
+        },
+        {
+          "name_en": "Prison",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-prison.webp"
+        },
+        {
+          "name_en": "Destroy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-destroy.webp"
+        },
+        {
+          "name_en": "Poem",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-poem.webp"
+        },
+        {
+          "name_en": "Secrecy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-secrecy.webp"
+        },
+        {
+          "name_en": "Silent",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-mime-silent.webp"
+        }
+      ]
+    },
+    {
+      "slug": "reshape",
+      "name_en": "Reshape",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 4,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Drowning",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-drowning.webp"
+        },
+        {
+          "name_en": "Fading",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-fading.webp"
+        },
+        {
+          "name_en": "Costume",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-costume.webp"
+        },
+        {
+          "name_en": "Voyage",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-voyage.webp"
+        },
+        {
+          "name_en": "Burst",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-burst.webp"
+        },
+        {
+          "name_en": "Paradise Lost",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-paradise-lost.webp"
+        },
+        {
+          "name_en": "Parasite",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-parasite.webp"
+        },
+        {
+          "name_en": "Healing",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-healing.webp"
+        },
+        {
+          "name_en": "Wood Carving",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-wood-carving.webp"
+        },
+        {
+          "name_en": "Puppet",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-reshape-puppet.webp"
+        }
+      ]
+    },
+    {
+      "slug": "city-of-mercy",
+      "name_en": "City of Mercy",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 5,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Comfortably Numb",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-city-of-mercy-comfortably-numb.webp"
+        },
+        {
+          "name_en": "Echo",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-city-of-mercy-echo.webp"
+        },
+        {
+          "name_en": "Fallen Angel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-city-of-mercy-fallen-angel.webp"
+        },
+        {
+          "name_en": "Healer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-city-of-mercy-healer.webp"
+        },
+        {
+          "name_en": "Insight",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-city-of-mercy-insight.webp"
+        },
+        {
+          "name_en": "The Other",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-city-of-mercy-the-other.webp"
+        },
+        {
+          "name_en": "Belonging",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-city-of-mercy-belonging.webp"
+        }
+      ]
+    },
+    {
+      "slug": "shelter",
+      "name_en": "Shelter",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 6,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Candleholder",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-candleholder.webp"
+        },
+        {
+          "name_en": "Mantel Clock",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-mantel-clock.webp"
+        },
+        {
+          "name_en": "Poet",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-poet.webp"
+        },
+        {
+          "name_en": "Traffic Cone",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-traffic-cone.webp"
+        },
+        {
+          "name_en": "Fort",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-fort.webp"
+        },
+        {
+          "name_en": "Circus",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-circus.webp"
+        },
+        {
+          "name_en": "Cabin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-cabin.webp"
+        },
+        {
+          "name_en": "Birdy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-birdy.webp"
+        },
+        {
+          "name_en": "Alien",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-alien.webp"
+        },
+        {
+          "name_en": "Warrior",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-warrior.webp"
+        },
+        {
+          "name_en": "Sunny Doll",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-sunny-doll.webp"
+        },
+        {
+          "name_en": "Bird Cage",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-bird-cage.webp"
+        },
+        {
+          "name_en": "Stuffed Bear",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-shelter-stuffed-bear.webp"
+        }
+      ]
+    },
+    {
+      "slug": "x-le-petit-prince",
+      "name_en": "Hirono x Le Petit Prince",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 7,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "The King",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-king.webp"
+        },
+        {
+          "name_en": "The Conceited Man",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-conceited-man.webp"
+        },
+        {
+          "name_en": "The Tippler",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-tippler.webp"
+        },
+        {
+          "name_en": "The Businessman",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-businessman.webp"
+        },
+        {
+          "name_en": "The Lamplighter",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-lamplighter.webp"
+        },
+        {
+          "name_en": "The Geographer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-geographer.webp"
+        },
+        {
+          "name_en": "The Switchman",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-switchman.webp"
+        },
+        {
+          "name_en": "The Fox",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-fox.webp"
+        },
+        {
+          "name_en": "The Rose",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-rose.webp"
+        },
+        {
+          "name_en": "The Snake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-snake.webp"
+        },
+        {
+          "name_en": "The Little Prince",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-little-prince.webp"
+        },
+        {
+          "name_en": "The Merchant",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-merchant.webp"
+        },
+        {
+          "name_en": "The Pilot",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-pilot.webp"
+        },
+        {
+          "name_en": "The Little Prince – Special Edition",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 14,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-le-petit-prince-the-little-prince-special-edition.webp"
+        }
+      ]
+    },
+    {
+      "slug": "x-clot",
+      "name_en": "Hirono x CLOT",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 8,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Yin-yang",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-clot-yin-yang.webp"
+        },
+        {
+          "name_en": "Kung Fu",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-clot-kung-fu.webp"
+        },
+        {
+          "name_en": "Alienegra",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-clot-alienegra.webp"
+        },
+        {
+          "name_en": "Chinese",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-clot-chinese.webp"
+        },
+        {
+          "name_en": "Terracotta Army",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-clot-terracotta-army.webp"
+        },
+        {
+          "name_en": "Silk Royale",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-clot-silk-royale.webp"
+        },
+        {
+          "name_en": "Ning Ning",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-clot-ning-ning.webp"
+        }
+      ]
+    },
+    {
+      "slug": "x-harry-potter",
+      "name_en": "Hirono x Harry Potter",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 9,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Albus Dumbledore",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-albus-dumbledore.webp"
+        },
+        {
+          "name_en": "Rubeus Hagrid",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-rubeus-hagrid.webp"
+        },
+        {
+          "name_en": "Harry Potter and The Sorting Hat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-harry-potter-and-the-sorting-hat.webp"
+        },
+        {
+          "name_en": "Draco Malfoy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-draco-malfoy.webp"
+        },
+        {
+          "name_en": "Severus Snape",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-severus-snape.webp"
+        },
+        {
+          "name_en": "Dobby",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-dobby.webp"
+        },
+        {
+          "name_en": "Sirius Black",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-sirius-black.webp"
+        },
+        {
+          "name_en": "Harry Potter and Quidditch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-harry-potter-and-quidditch.webp"
+        },
+        {
+          "name_en": "Ron Weasley",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-ron-weasley.webp"
+        },
+        {
+          "name_en": "Luna Lovegood",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-luna-lovegood.webp"
+        },
+        {
+          "name_en": "Harry Potter and Hedwig",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-harry-potter-and-hedwig.webp"
+        },
+        {
+          "name_en": "Lord Voldemort",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-lord-voldemort.webp"
+        },
+        {
+          "name_en": "Mandrake",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-mandrake.webp"
+        },
+        {
+          "name_en": "Harry Potter-Special Edition",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 14,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-x-harry-potter-harry-potter-special-edition.webp"
+        }
+      ]
+    },
+    {
+      "slug": "echo",
+      "name_en": "Echo",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 10,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Hiding Behind You",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-hiding-behind-you.webp"
+        },
+        {
+          "name_en": "Daydreaming",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-daydreaming.webp"
+        },
+        {
+          "name_en": "Journey in the Rain",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-journey-in-the-rain.webp"
+        },
+        {
+          "name_en": "Get Lucky",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-get-lucky.webp"
+        },
+        {
+          "name_en": "Back Off",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-back-off.webp"
+        },
+        {
+          "name_en": "Breakout Plan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-breakout-plan.webp"
+        },
+        {
+          "name_en": "Pieces of Memory",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-pieces-of-memory.webp"
+        },
+        {
+          "name_en": "Soul Connection",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-soul-connection.webp"
+        },
+        {
+          "name_en": "Staying Up",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-staying-up.webp"
+        },
+        {
+          "name_en": "Knight",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-knight.webp"
+        },
+        {
+          "name_en": "Eaten",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-eaten.webp"
+        },
+        {
+          "name_en": "Caught You",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-caught-you.webp"
+        },
+        {
+          "name_en": "Never Growing Up",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-echo-never-growing-up.webp"
+        }
+      ]
+    },
+    {
+      "slug": "monsters-carnival",
+      "name_en": "Monsters' Carnival",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 11,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Grim Reaper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-monsters-carnival-grim-reaper.webp"
+        },
+        {
+          "name_en": "Killer Bunny",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-monsters-carnival-killer-bunny.webp"
+        },
+        {
+          "name_en": "Doctor Beak",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-monsters-carnival-doctor-beak.webp"
+        },
+        {
+          "name_en": "Vampire",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-monsters-carnival-vampire.webp"
+        },
+        {
+          "name_en": "Creepy Clown",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-monsters-carnival-creepy-clown.webp"
+        },
+        {
+          "name_en": "Zombie",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-monsters-carnival-zombie.webp"
+        },
+        {
+          "name_en": "The Disembodied",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-monsters-carnival-the-disembodied.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "tamed-wildgrass",
+      "name_en": "Tamed Wildgrass",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 12,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Sisyphean Work",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-sisyphean-work.webp"
+        },
+        {
+          "name_en": "Caged Bird",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-caged-bird.webp"
+        },
+        {
+          "name_en": "Full-time",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-full-time.webp"
+        },
+        {
+          "name_en": "Camping",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-camping.webp"
+        },
+        {
+          "name_en": "Self-Anchored",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-self-anchored.webp"
+        },
+        {
+          "name_en": "Boiling Frog",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-boiling-frog.webp"
+        },
+        {
+          "name_en": "City Escape",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-city-escape.webp"
+        },
+        {
+          "name_en": "Fated",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-fated.webp"
+        },
+        {
+          "name_en": "Digital Bind",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-digital-bind.webp"
+        },
+        {
+          "name_en": "Live Under Receipts",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-live-under-receipts.webp"
+        },
+        {
+          "name_en": "Overload",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-overload.webp"
+        },
+        {
+          "name_en": "Canned Dreams",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-canned-dreams.webp"
+        },
+        {
+          "name_en": "Boundary",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-tamed-wildgrass-boundary.webp"
+        }
+      ]
+    },
+    {
+      "slug": "road-journal-mini-bag",
+      "name_en": "Road Journal Mini Bag",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 13,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Into Fogwild",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-mini-bag-into-fogwild.webp"
+        },
+        {
+          "name_en": "Lost in the Night",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-mini-bag-lost-in-the-night.webp"
+        },
+        {
+          "name_en": "Frostfall Hour",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-mini-bag-frostfall-hour.webp"
+        },
+        {
+          "name_en": "Grey Gravel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-mini-bag-grey-gravel.webp"
+        },
+        {
+          "name_en": "City Dust Afloat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-mini-bag-city-dust-afloat.webp"
+        },
+        {
+          "name_en": "Woven Woods",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-mini-bag-woven-woods.webp"
+        },
+        {
+          "name_en": "Highway Imprint",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-mini-bag-highway-imprint.webp"
+        }
+      ]
+    },
+    {
+      "slug": "road-journal-fridge-magnet",
+      "name_en": "Road Journal Fridge Magnet",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 14,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Into Fogwild",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-fridge-magnet-into-fogwild.webp"
+        },
+        {
+          "name_en": "Lost in the Night",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-fridge-magnet-lost-in-the-night.webp"
+        },
+        {
+          "name_en": "Frostfall Hour",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-fridge-magnet-frostfall-hour.webp"
+        },
+        {
+          "name_en": "Grey Gravel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-fridge-magnet-grey-gravel.webp"
+        },
+        {
+          "name_en": "City Dust Afloat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-fridge-magnet-city-dust-afloat.webp"
+        },
+        {
+          "name_en": "Woven Woods",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-fridge-magnet-woven-woods.webp"
+        },
+        {
+          "name_en": "Highway Imprint",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-fridge-magnet-highway-imprint.webp"
+        }
+      ]
+    },
+    {
+      "slug": "road-journal-phone-lanyard",
+      "name_en": "Road Journal Phone Lanyard",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 15,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Into Fogwild",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-phone-lanyard-into-fogwild.webp"
+        },
+        {
+          "name_en": "Frostfall Hour",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-phone-lanyard-frostfall-hour.webp"
+        },
+        {
+          "name_en": "Lost in the Night",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-phone-lanyard-lost-in-the-night.webp"
+        },
+        {
+          "name_en": "Grey Gravel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-phone-lanyard-grey-gravel.webp"
+        },
+        {
+          "name_en": "City Dust Afloat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-phone-lanyard-city-dust-afloat.webp"
+        },
+        {
+          "name_en": "Woven Woods",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-phone-lanyard-woven-woods.webp"
+        },
+        {
+          "name_en": "Highway Imprint",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-phone-lanyard-highway-imprint.webp"
+        }
+      ]
+    },
+    {
+      "slug": "road-journal-plush-doll-pendant",
+      "name_en": "Road Journal Plush Doll Pendant",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 16,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "City Dust Afloat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-plush-doll-pendant-city-dust-afloat.webp"
+        },
+        {
+          "name_en": "Grey Gravel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-plush-doll-pendant-grey-gravel.webp"
+        },
+        {
+          "name_en": "Woven Woods",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-plush-doll-pendant-woven-woods.webp"
+        },
+        {
+          "name_en": "Lost in the Night",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-plush-doll-pendant-lost-in-the-night.webp"
+        },
+        {
+          "name_en": "Into Fogwild",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-plush-doll-pendant-into-fogwild.webp"
+        },
+        {
+          "name_en": "Frostfall Hour",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-plush-doll-pendant-frostfall-hour.webp"
+        },
+        {
+          "name_en": "Highway Imprint",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/hirono-road-journal-plush-doll-pendant-highway-imprint.webp"
+        }
+      ]
+    }
+  ]
+}

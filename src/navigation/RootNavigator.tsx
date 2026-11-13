@@ -15,6 +15,9 @@ import { OnboardingScreen } from "../screens/OnboardingScreen";
 import { CollectionsScreen } from "../screens/CollectionsScreen";
 import { BrandCollectionScreen } from "../screens/BrandCollectionScreen";
 import { SettingsScreen } from "../screens/SettingsScreen";
+import { ManageCollectionsScreen } from "../screens/ManageCollectionsScreen";
+import { FriendsScreen } from "../screens/FriendsScreen";
+import { FriendCollectionScreen } from "../screens/FriendCollectionScreen";
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -73,6 +76,36 @@ function SettingsStack() {
         component={SettingsScreen}
         options={{ headerShown: false }}
       />
+      <Stack.Screen
+        name="ManageCollections"
+        component={ManageCollectionsScreen}
+        options={{ headerShown: false }}
+      />
+    </Stack.Navigator>
+  );
+}
+
+function FriendsStack() {
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: { backgroundColor: colors.bg },
+        headerTintColor: colors.text,
+        headerShadowVisible: false,
+        contentStyle: { backgroundColor: colors.bg },
+        animation: "slide_from_right",
+      }}
+    >
+      <Stack.Screen
+        name="FriendsHome"
+        component={FriendsScreen}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="FriendCollection"
+        component={FriendCollectionScreen}
+        options={{ headerShown: false }}
+      />
     </Stack.Navigator>
   );
 }
@@ -111,6 +144,7 @@ function MainTabs() {
         tabBarIcon: ({ color, size, focused }) => {
           const map: Record<string, keyof typeof Ionicons.glyphMap> = {
             CollectionsTab: focused ? "home" : "home-outline",
+            FriendsTab: focused ? "people" : "people-outline",
             SettingsTab: focused ? "settings" : "settings-outline",
           };
           return <Ionicons name={map[route.name] || "ellipse"} size={size} color={color} />;
@@ -121,6 +155,11 @@ function MainTabs() {
         name="CollectionsTab"
         component={CollectionsStack}
         options={{ title: t("home") }}
+      />
+      <Tab.Screen
+        name="FriendsTab"
+        component={FriendsStack}
+        options={{ title: t("friends") }}
       />
       <Tab.Screen
         name="SettingsTab"

@@ -3,8 +3,15 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 const FAVORITES_KEY = "bbc_favorite_brands";
 const ONBOARDING_KEY = "bbc_onboarding_done";
 
-export const LIVE_BRAND_SLUGS = ["smiski", "sonny-angel", "labubu"] as const;
-export const COMING_SOON_SLUGS = ["chiikawa", "hirono", "skullpanda"] as const;
+export const LIVE_BRAND_SLUGS = [
+  "smiski",
+  "hirono",
+  "skullpanda",
+  "dimoo",
+  "mofusand",
+  "animal-bakery",
+] as const;
+export const COMING_SOON_SLUGS = [] as const;
 
 export async function getFavoriteBrands(): Promise<string[]> {
   const raw = await AsyncStorage.getItem(FAVORITES_KEY);

@@ -11,6 +11,7 @@ export type AuthUser = {
   apple_sub: string;
   email: string | null;
   display_name: string | null;
+  username: string | null;
   is_admin: boolean;
 };
 
@@ -42,6 +43,14 @@ export function normalizeEmail(raw: string) {
 
 export function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+export function normalizeUsername(raw: string) {
+  return raw.trim().toLowerCase();
+}
+
+export function isValidUsername(username: string) {
+  return /^[a-z0-9_]{3,20}$/.test(username);
 }
 
 const APPLE_ISSUER = "https://appleid.apple.com";
@@ -81,6 +90,7 @@ export async function signAppToken(user: AuthUser) {
   return new SignJWT({
     sub: user.id,
     apple_sub: user.apple_sub,
+    username: user.username,
     is_admin: user.is_admin,
   })
     .setProtectedHeader({ alg: "HS256" })
@@ -108,11 +118,13 @@ const ADMIN_EMAILS = (
   .map((e: string) => e.trim().toLowerCase())
   .filter(Boolean);
 
-/** Optional extra allow-list by Apple subject (stable even with a private relay email). */
 const ADMIN_APPLE_SUBS = (process.env.ADMIN_APPLE_SUBS || "")
   .split(",")
   .map((e: string) => e.trim())
   .filter(Boolean);
+
+const USER_SELECT =
+  "id, apple_sub, email, display_name, username, is_admin";
 
 export async function upsertAppleUser(input: {
   appleSub: string;
@@ -120,13 +132,12 @@ export async function upsertAppleUser(input: {
   displayName?: string | null;
 }) {
   const email = input.email?.toLowerCase() || null;
-  // Admin = Dorian only, matched on the verified Apple email / subject (never on a spoofable display name).
   const shouldAdmin =
     (email ? ADMIN_EMAILS.includes(email) : false) ||
     ADMIN_APPLE_SUBS.includes(input.appleSub);
 
   const existing = await query<AuthUser>(
-    `SELECT id, apple_sub, email, display_name, is_admin FROM users WHERE apple_sub = $1`,
+    `SELECT ${USER_SELECT} FROM users WHERE apple_sub = $1`,
     [input.appleSub],
   );
 
@@ -140,7 +151,7 @@ export async function upsertAppleUser(input: {
            is_admin = $4,
            updated_at = now()
        WHERE id = $1
-       RETURNING id, apple_sub, email, display_name, is_admin`,
+       RETURNING ${USER_SELECT}`,
       [row.id, email, input.displayName || null, isAdmin],
     );
     return updated.rows[0];
@@ -149,7 +160,7 @@ export async function upsertAppleUser(input: {
   const inserted = await query<AuthUser>(
     `INSERT INTO users (apple_sub, email, display_name, is_admin)
      VALUES ($1, $2, $3, $4)
-     RETURNING id, apple_sub, email, display_name, is_admin`,
+     RETURNING ${USER_SELECT}`,
     [input.appleSub, email, input.displayName || null, shouldAdmin],
   );
   return inserted.rows[0];
@@ -158,11 +169,19 @@ export async function upsertAppleUser(input: {
 export async function registerEmailUser(input: {
   email: string;
   password: string;
+  username: string;
   displayName?: string | null;
 }) {
   const email = normalizeEmail(input.email);
+  const username = normalizeUsername(input.username);
   if (!isValidEmail(email)) {
     throw Object.assign(new Error("Invalid email"), { statusCode: 400 });
+  }
+  if (!isValidUsername(username)) {
+    throw Object.assign(
+      new Error("Username must be 3–20 chars: a-z, 0-9, underscore"),
+      { statusCode: 400 },
+    );
   }
   if (input.password.length < 8) {
     throw Object.assign(new Error("Password must be at least 8 characters"), {
@@ -172,10 +191,10 @@ export async function registerEmailUser(input: {
 
   const appleSub = emailAppleSub(email);
   const existing = await query<AuthUserRow>(
-    `SELECT id, apple_sub, email, display_name, is_admin, password_hash
+    `SELECT ${USER_SELECT}, password_hash
      FROM users
-     WHERE apple_sub = $1 OR lower(email) = $2`,
-    [appleSub, email],
+     WHERE apple_sub = $1 OR lower(email) = $2 OR lower(username) = $3`,
+    [appleSub, email, username],
   );
   if (existing.rows[0]) {
     throw Object.assign(new Error("Account already exists"), { statusCode: 409 });
@@ -184,13 +203,13 @@ export async function registerEmailUser(input: {
   const passwordHash = await hashPassword(input.password);
   const shouldAdmin = ADMIN_EMAILS.includes(email);
   const displayName =
-    input.displayName?.trim() || email.split("@")[0] || "Collector";
+    input.displayName?.trim() || username || email.split("@")[0] || "Collector";
 
   const inserted = await query<AuthUser>(
-    `INSERT INTO users (apple_sub, email, display_name, password_hash, is_admin)
-     VALUES ($1, $2, $3, $4, $5)
-     RETURNING id, apple_sub, email, display_name, is_admin`,
-    [appleSub, email, displayName, passwordHash, shouldAdmin],
+    `INSERT INTO users (apple_sub, email, display_name, username, password_hash, is_admin)
+     VALUES ($1, $2, $3, $4, $5, $6)
+     RETURNING ${USER_SELECT}`,
+    [appleSub, email, displayName, username, passwordHash, shouldAdmin],
   );
   return inserted.rows[0];
 }
@@ -208,7 +227,7 @@ export async function loginEmailUser(input: {
 
   const appleSub = emailAppleSub(email);
   const found = await query<AuthUserRow>(
-    `SELECT id, apple_sub, email, display_name, is_admin, password_hash
+    `SELECT ${USER_SELECT}, password_hash
      FROM users
      WHERE (apple_sub = $1 OR lower(email) = $2)
        AND password_hash IS NOT NULL
@@ -236,7 +255,7 @@ export async function loginEmailUser(input: {
     const updated = await query<AuthUser>(
       `UPDATE users SET is_admin = true, updated_at = now()
        WHERE id = $1
-       RETURNING id, apple_sub, email, display_name, is_admin`,
+       RETURNING ${USER_SELECT}`,
       [row.id],
     );
     return updated.rows[0];
@@ -247,6 +266,7 @@ export async function loginEmailUser(input: {
     apple_sub: row.apple_sub,
     email: row.email,
     display_name: row.display_name,
+    username: row.username,
     is_admin: row.is_admin,
   };
 }
@@ -259,7 +279,7 @@ export async function requireUser(request: FastifyRequest): Promise<AuthUser> {
   const token = header.slice(7);
   const decoded = await verifyAppToken(token);
   const result = await query<AuthUser>(
-    `SELECT id, apple_sub, email, display_name, is_admin FROM users WHERE id = $1`,
+    `SELECT ${USER_SELECT} FROM users WHERE id = $1`,
     [decoded.id],
   );
   if (!result.rows[0]) {

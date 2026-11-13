@@ -7,7 +7,13 @@ import fs from "node:fs";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
 import { migrate, query } from "./db";
-import { requireAdmin, requireUser } from "./auth";
+import {
+  loginEmailUser,
+  registerEmailUser,
+  requireAdmin,
+  requireUser,
+  signAppToken,
+} from "./auth";
 
 const PORT = Number(process.env.PORT || 8787);
 const HOST = process.env.HOST || "0.0.0.0";
@@ -39,16 +45,53 @@ async function main() {
 
   app.get("/health", async () => ({ ok: true, service: "blind-box-closet" }));
 
-  // Account creation disabled for App Store review: collection is on-device only.
   app.post("/auth/apple", async (_request, reply) =>
-    reply.code(410).send({ error: "Account creation disabled" }),
+    reply.code(410).send({ error: "Sign in with Apple is not available" }),
   );
-  app.post("/auth/register", async (_request, reply) =>
-    reply.code(410).send({ error: "Account creation disabled" }),
-  );
-  app.post("/auth/login", async (_request, reply) =>
-    reply.code(410).send({ error: "Account creation disabled" }),
-  );
+
+  app.post<{
+    Body: {
+      email?: string;
+      password?: string;
+      username?: string;
+      displayName?: string | null;
+    };
+  }>("/auth/register", async (request, reply) => {
+    try {
+      const { email, password, username, displayName } = request.body || {};
+      if (!email || !password || !username) {
+        return reply
+          .code(400)
+          .send({ error: "email, username and password required" });
+      }
+      const user = await registerEmailUser({
+        email,
+        password,
+        username,
+        displayName,
+      });
+      const token = await signAppToken(user);
+      return { token, user };
+    } catch (e: any) {
+      return reply.code(e.statusCode || 400).send({ error: e.message });
+    }
+  });
+
+  app.post<{
+    Body: { email?: string; password?: string };
+  }>("/auth/login", async (request, reply) => {
+    try {
+      const { email, password } = request.body || {};
+      if (!email || !password) {
+        return reply.code(400).send({ error: "email and password required" });
+      }
+      const user = await loginEmailUser({ email, password });
+      const token = await signAppToken(user);
+      return { token, user };
+    } catch (e: any) {
+      return reply.code(e.statusCode || 401).send({ error: e.message });
+    }
+  });
 
   app.get("/me", async (request, reply) => {
     try {
@@ -59,9 +102,15 @@ async function main() {
     }
   });
 
-  app.delete("/me", async (_request, reply) =>
-    reply.code(410).send({ error: "Account deletion disabled" }),
-  );
+  app.delete("/me", async (request, reply) => {
+    try {
+      const user = await requireUser(request);
+      await query(`DELETE FROM users WHERE id = $1`, [user.id]);
+      return { ok: true };
+    } catch (e: any) {
+      return reply.code(e.statusCode || 401).send({ error: e.message });
+    }
+  });
 
   app.get("/catalog/brands", async () => {
     const result = await query(
@@ -222,7 +271,8 @@ async function main() {
          JOIN figures f ON f.id = uf.figure_id
          JOIN series s ON s.id = f.series_id
          JOIN brands b ON b.id = s.brand_id
-         WHERE uf.user_id = $1 AND (uf.owned_qty > 0 OR uf.wishlist = true)
+         WHERE uf.user_id = $1
+           AND (uf.owned_qty > 0 OR uf.wishlist = true OR uf.trade_qty > 0)
          ORDER BY b.name, s.sort_order, f.sort_order`,
         [user.id],
       );
@@ -268,16 +318,22 @@ async function main() {
       figureId: string;
       owned_qty?: number;
       wishlist?: boolean;
+      trade_qty?: number;
       notes?: string | null;
     };
   }>("/me/collection", async (request, reply) => {
     try {
       const user = await requireUser(request);
-      const { figureId, owned_qty = 0, wishlist = false, notes = null } =
-        request.body || {};
+      const {
+        figureId,
+        owned_qty = 0,
+        wishlist = false,
+        trade_qty = 0,
+        notes = null,
+      } = request.body || {};
       if (!figureId) return reply.code(400).send({ error: "figureId required" });
 
-      if (owned_qty <= 0 && !wishlist && !notes) {
+      if (owned_qty <= 0 && !wishlist && trade_qty <= 0 && !notes) {
         await query(
           `DELETE FROM user_figures WHERE user_id = $1 AND figure_id = $2`,
           [user.id, figureId],
@@ -286,21 +342,269 @@ async function main() {
       }
 
       const result = await query(
-        `INSERT INTO user_figures (user_id, figure_id, owned_qty, wishlist, notes, updated_at)
-         VALUES ($1, $2, $3, $4, $5, now())
+        `INSERT INTO user_figures (user_id, figure_id, owned_qty, wishlist, trade_qty, notes, updated_at)
+         VALUES ($1, $2, $3, $4, $5, $6, now())
          ON CONFLICT (user_id, figure_id) DO UPDATE SET
            owned_qty = EXCLUDED.owned_qty,
            wishlist = EXCLUDED.wishlist,
+           trade_qty = EXCLUDED.trade_qty,
            notes = EXCLUDED.notes,
            updated_at = now()
          RETURNING *`,
-        [user.id, figureId, Math.max(0, owned_qty), wishlist, notes],
+        [
+          user.id,
+          figureId,
+          Math.max(0, owned_qty),
+          wishlist,
+          Math.max(0, trade_qty),
+          notes,
+        ],
       );
       return { item: result.rows[0] };
     } catch (e: any) {
       return reply.code(e.statusCode || 401).send({ error: e.message });
     }
   });
+
+  // ---- Friends ----
+  app.get("/friends", async (request, reply) => {
+    try {
+      const user = await requireUser(request);
+      const result = await query<{
+        id: string;
+        status: string;
+        created_at: string;
+        friend_id: string;
+        username: string | null;
+        display_name: string | null;
+        direction: string;
+      }>(
+        `SELECT f.id, f.status, f.created_at,
+                CASE WHEN f.requester_id = $1 THEN f.addressee_id ELSE f.requester_id END AS friend_id,
+                u.username, u.display_name,
+                CASE WHEN f.requester_id = $1 THEN 'outgoing' ELSE 'incoming' END AS direction
+         FROM friendships f
+         JOIN users u ON u.id = CASE
+           WHEN f.requester_id = $1 THEN f.addressee_id
+           ELSE f.requester_id
+         END
+         WHERE f.requester_id = $1 OR f.addressee_id = $1
+         ORDER BY
+           CASE f.status WHEN 'pending' THEN 0 WHEN 'accepted' THEN 1 ELSE 2 END,
+           f.created_at DESC`,
+        [user.id],
+      );
+      return {
+        friends: result.rows.map((row) => ({
+          id: row.id,
+          status: row.status,
+          created_at: row.created_at,
+          direction: row.direction,
+          user: {
+            id: row.friend_id,
+            username: row.username,
+            display_name: row.display_name,
+          },
+        })),
+      };
+    } catch (e: any) {
+      return reply.code(e.statusCode || 401).send({ error: e.message });
+    }
+  });
+
+  app.post<{
+    Body: { username?: string };
+  }>("/friends/request", async (request, reply) => {
+    try {
+      const user = await requireUser(request);
+      const username = (request.body?.username || "").trim().toLowerCase();
+      if (!username) {
+        return reply.code(400).send({ error: "username required" });
+      }
+      if (user.username && user.username.toLowerCase() === username) {
+        return reply.code(400).send({ error: "Cannot friend yourself" });
+      }
+      const target = await query<{
+        id: string;
+        username: string | null;
+        display_name: string | null;
+      }>(
+        `SELECT id, username, display_name FROM users WHERE lower(username) = $1`,
+        [username],
+      );
+      if (!target.rows[0]) {
+        return reply.code(404).send({ error: "User not found" });
+      }
+      const other = target.rows[0];
+      const existing = await query(
+        `SELECT id, status, requester_id, addressee_id FROM friendships
+         WHERE (requester_id = $1 AND addressee_id = $2)
+            OR (requester_id = $2 AND addressee_id = $1)
+         LIMIT 1`,
+        [user.id, other.id],
+      );
+      if (existing.rows[0]) {
+        const row = existing.rows[0] as {
+          id: string;
+          status: string;
+          requester_id: string;
+          addressee_id: string;
+        };
+        if (row.status === "accepted") {
+          return reply.code(409).send({ error: "Already friends" });
+        }
+        if (row.status === "pending") {
+          if (row.addressee_id === user.id) {
+            const accepted = await query(
+              `UPDATE friendships SET status = 'accepted', updated_at = now()
+               WHERE id = $1 RETURNING *`,
+              [row.id],
+            );
+            return { friendship: accepted.rows[0], autoAccepted: true };
+          }
+          return reply.code(409).send({ error: "Request already pending" });
+        }
+        const revived = await query(
+          `UPDATE friendships
+           SET requester_id = $2, addressee_id = $3, status = 'pending', updated_at = now()
+           WHERE id = $1
+           RETURNING *`,
+          [row.id, user.id, other.id],
+        );
+        return { friendship: revived.rows[0] };
+      }
+      const inserted = await query(
+        `INSERT INTO friendships (requester_id, addressee_id, status)
+         VALUES ($1, $2, 'pending')
+         RETURNING *`,
+        [user.id, other.id],
+      );
+      return {
+        friendship: inserted.rows[0],
+        user: {
+          id: other.id,
+          username: other.username,
+          display_name: other.display_name,
+        },
+      };
+    } catch (e: any) {
+      return reply.code(e.statusCode || 400).send({ error: e.message });
+    }
+  });
+
+  app.post<{ Params: { id: string } }>(
+    "/friends/:id/accept",
+    async (request, reply) => {
+      try {
+        const user = await requireUser(request);
+        const result = await query(
+          `UPDATE friendships
+           SET status = 'accepted', updated_at = now()
+           WHERE id = $1 AND addressee_id = $2 AND status = 'pending'
+           RETURNING *`,
+          [request.params.id, user.id],
+        );
+        if (!result.rows[0]) {
+          return reply.code(404).send({ error: "Request not found" });
+        }
+        return { friendship: result.rows[0] };
+      } catch (e: any) {
+        return reply.code(e.statusCode || 401).send({ error: e.message });
+      }
+    },
+  );
+
+  app.post<{ Params: { id: string } }>(
+    "/friends/:id/reject",
+    async (request, reply) => {
+      try {
+        const user = await requireUser(request);
+        const result = await query(
+          `UPDATE friendships
+           SET status = 'rejected', updated_at = now()
+           WHERE id = $1 AND addressee_id = $2 AND status = 'pending'
+           RETURNING *`,
+          [request.params.id, user.id],
+        );
+        if (!result.rows[0]) {
+          return reply.code(404).send({ error: "Request not found" });
+        }
+        return { friendship: result.rows[0] };
+      } catch (e: any) {
+        return reply.code(e.statusCode || 401).send({ error: e.message });
+      }
+    },
+  );
+
+  app.delete<{ Params: { id: string } }>(
+    "/friends/:id",
+    async (request, reply) => {
+      try {
+        const user = await requireUser(request);
+        const result = await query(
+          `DELETE FROM friendships
+           WHERE id = $1 AND (requester_id = $2 OR addressee_id = $2)
+           RETURNING id`,
+          [request.params.id, user.id],
+        );
+        if (!result.rows[0]) {
+          return reply.code(404).send({ error: "Friendship not found" });
+        }
+        return { ok: true };
+      } catch (e: any) {
+        return reply.code(e.statusCode || 401).send({ error: e.message });
+      }
+    },
+  );
+
+  app.get<{ Params: { id: string } }>(
+    "/friends/:id/collection",
+    async (request, reply) => {
+      try {
+        const user = await requireUser(request);
+        const friendId = request.params.id;
+        const link = await query(
+          `SELECT id FROM friendships
+           WHERE status = 'accepted'
+             AND ((requester_id = $1 AND addressee_id = $2)
+               OR (requester_id = $2 AND addressee_id = $1))
+           LIMIT 1`,
+          [user.id, friendId],
+        );
+        if (!link.rows[0]) {
+          return reply.code(403).send({ error: "Not friends" });
+        }
+        const friend = await query<{
+          id: string;
+          username: string | null;
+          display_name: string | null;
+        }>(
+          `SELECT id, username, display_name FROM users WHERE id = $1`,
+          [friendId],
+        );
+        if (!friend.rows[0]) {
+          return reply.code(404).send({ error: "User not found" });
+        }
+        const items = await query(
+          `SELECT uf.figure_id, uf.owned_qty, uf.wishlist, uf.trade_qty,
+                  f.name_en, f.name_ja, f.image_url, f.is_secret, f.is_limited,
+                  f.is_bonus, f.is_duo, s.id AS series_id, s.name_en AS series_name,
+                  s.slug AS series_slug, b.name AS brand_name, b.slug AS brand_slug
+           FROM user_figures uf
+           JOIN figures f ON f.id = uf.figure_id
+           JOIN series s ON s.id = f.series_id
+           JOIN brands b ON b.id = s.brand_id
+           WHERE uf.user_id = $1
+             AND (uf.owned_qty > 0 OR uf.wishlist = true OR uf.trade_qty > 0)
+           ORDER BY b.name, s.sort_order, f.sort_order`,
+          [friendId],
+        );
+        return { user: friend.rows[0], items: items.rows };
+      } catch (e: any) {
+        return reply.code(e.statusCode || 401).send({ error: e.message });
+      }
+    },
+  );
 
   // ---- Admin ----
   app.post<{

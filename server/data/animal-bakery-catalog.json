@@ -1,0 +1,235 @@
+{
+  "brand": {
+    "slug": "animal-bakery",
+    "name": "Animal Bakery",
+    "name_ja": null,
+    "accent_color": "#F0D9C8",
+    "status": "live",
+    "hero_image_url": "http://85.17.145.134:8787/media/figures/animalbakery-series-1-panda.webp"
+  },
+  "series": [
+    {
+      "slug": "series-1",
+      "name_en": "Animal Bakery Series 1",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 1,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Panda",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-1-panda.webp"
+        },
+        {
+          "name_en": "Sheep",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-1-sheep.webp"
+        },
+        {
+          "name_en": "Elephant",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-1-elephant.webp"
+        },
+        {
+          "name_en": "Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-1-cat.webp"
+        },
+        {
+          "name_en": "Dog",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-1-dog.webp"
+        },
+        {
+          "name_en": "Rabbit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-1-rabbit.webp"
+        },
+        {
+          "name_en": "Secret Panda",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-1-secret-panda.webp"
+        }
+      ]
+    },
+    {
+      "slug": "series-2",
+      "name_en": "Animal Bakery Series 2 (Regular Designs)",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 2,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Crocodile",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-2-crocodile.webp"
+        },
+        {
+          "name_en": "Lion",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-2-lion.webp"
+        },
+        {
+          "name_en": "Rhinoceros",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-2-rhinoceros.webp"
+        },
+        {
+          "name_en": "Seal",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-2-seal.webp"
+        },
+        {
+          "name_en": "Penguin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-2-penguin.webp"
+        },
+        {
+          "name_en": "Squirrel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-2-squirrel.webp"
+        }
+      ]
+    },
+    {
+      "slug": "series-3",
+      "name_en": "Animal Bakery Series 3 (Regular Designs)",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 3,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Camel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-3-camel.webp"
+        },
+        {
+          "name_en": "Lobster",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-3-lobster.webp"
+        },
+        {
+          "name_en": "Gorilla",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-3-gorilla.webp"
+        },
+        {
+          "name_en": "Shark",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-3-shark.webp"
+        },
+        {
+          "name_en": "Chicken",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-3-chicken.webp"
+        },
+        {
+          "name_en": "Cow",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/animalbakery-series-3-cow.webp"
+        }
+      ]
+    }
+  ]
+}

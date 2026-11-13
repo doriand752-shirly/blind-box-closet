@@ -1,0 +1,1885 @@
+{
+  "brand": {
+    "slug": "dimoo",
+    "name": "Dimoo",
+    "name_ja": "ディムー",
+    "accent_color": "#D8E8F0",
+    "status": "live",
+    "hero_image_url": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-falling-into-flowers.webp"
+  },
+  "series": [
+    {
+      "slug": "moments-in-bloom",
+      "name_en": "Moments in Bloom",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 1,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Falling into Flowers",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-falling-into-flowers.webp"
+        },
+        {
+          "name_en": "Hugging Spring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-hugging-spring.webp"
+        },
+        {
+          "name_en": "It Lives in My Boot!",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-it-lives-in-my-boot.webp"
+        },
+        {
+          "name_en": "Caught by Spring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-caught-by-spring.webp"
+        },
+        {
+          "name_en": "Catching Spring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-catching-spring.webp"
+        },
+        {
+          "name_en": "A Breath of Blossoms",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-a-breath-of-blossoms.webp"
+        },
+        {
+          "name_en": "Take Me to Spring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-take-me-to-spring.webp"
+        },
+        {
+          "name_en": "Flying Through Spring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-flying-through-spring.webp"
+        },
+        {
+          "name_en": "Spring’s Trumpet",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-springs-trumpet.webp"
+        },
+        {
+          "name_en": "Packed with Spring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-packed-with-spring.webp"
+        },
+        {
+          "name_en": "Spring Recoil",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-spring-recoil.webp"
+        },
+        {
+          "name_en": "Spring Overhead",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-spring-overhead.webp"
+        },
+        {
+          "name_en": "Light Up Spring",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-moments-in-bloom-light-up-spring.webp"
+        }
+      ]
+    },
+    {
+      "slug": "world-x-pixar",
+      "name_en": "DIMOO WORLD × PIXAR",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 2,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Dimoo As Woody",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-woody.webp"
+        },
+        {
+          "name_en": "Dimoo As Buzz Lightyear",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-buzz-lightyear.webp"
+        },
+        {
+          "name_en": "Dimoo As Alien",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-alien.webp"
+        },
+        {
+          "name_en": "Dimoo As Remy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-remy.webp"
+        },
+        {
+          "name_en": "Dimoo As Red Panda Mei",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-red-panda-mei.webp"
+        },
+        {
+          "name_en": "Dimoo As Miguel Rivera",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-miguel-rivera.webp"
+        },
+        {
+          "name_en": "Dimoo As Dash Parr",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-dash-parr.webp"
+        },
+        {
+          "name_en": "Dimoo As WALL·E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-wall-e.webp"
+        },
+        {
+          "name_en": "Dimoo As Sulley",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-sulley.webp"
+        },
+        {
+          "name_en": "Dimoo As Russell",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-russell.webp"
+        },
+        {
+          "name_en": "Dimoo As Lotso",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-lotso.webp"
+        },
+        {
+          "name_en": "Dimoo As Hamm",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-as-hamm.webp"
+        },
+        {
+          "name_en": "Dimoo in Space Crane",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-pixar-dimoo-in-space-crane.webp"
+        }
+      ]
+    },
+    {
+      "slug": "shapes-in-nature",
+      "name_en": "DIMOO Shapes in Nature",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 3,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Touching",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-touching.webp"
+        },
+        {
+          "name_en": "Hearing",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-hearing.webp"
+        },
+        {
+          "name_en": "Seeing",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-seeing.webp"
+        },
+        {
+          "name_en": "Weathered Rock",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-weathered-rock.webp"
+        },
+        {
+          "name_en": "The Raindrop",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-the-raindrop.webp"
+        },
+        {
+          "name_en": "Melting Ice",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-melting-ice.webp"
+        },
+        {
+          "name_en": "Parting Clouds",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-parting-clouds.webp"
+        },
+        {
+          "name_en": "Withering Flowers",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-withering-flowers.webp"
+        },
+        {
+          "name_en": "Cloud Whisper",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-cloud-whisper.webp"
+        },
+        {
+          "name_en": "Fallen Leaves",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-fallen-leaves.webp"
+        },
+        {
+          "name_en": "Rising Wind",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-rising-wind.webp"
+        },
+        {
+          "name_en": "Newborn Soul",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-newborn-soul.webp"
+        },
+        {
+          "name_en": "Upward Growth",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-shapes-in-nature-upward-growth.webp"
+        }
+      ]
+    },
+    {
+      "slug": "weaving-wonders",
+      "name_en": "DIMOO Weaving Wonders",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 4,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Dreams of Courage",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-dreams-of-courage.webp"
+        },
+        {
+          "name_en": "Bear Guardian",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-bear-guardian.webp"
+        },
+        {
+          "name_en": "Dreams of Sailing",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-dreams-of-sailing.webp"
+        },
+        {
+          "name_en": "Moonlight Explorer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-moonlight-explorer.webp"
+        },
+        {
+          "name_en": "Wishful Dreaming",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-wishful-dreaming.webp"
+        },
+        {
+          "name_en": "Dreams of Painting",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-dreams-of-painting.webp"
+        },
+        {
+          "name_en": "Drawing Spring",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-drawing-spring.webp"
+        },
+        {
+          "name_en": "Dreams of a Garden",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-dreams-of-a-garden.webp"
+        },
+        {
+          "name_en": "Floating Gardener",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-floating-gardener.webp"
+        },
+        {
+          "name_en": "Star Catcher",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-star-catcher.webp"
+        },
+        {
+          "name_en": "Dream with a Butterfly",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-dream-with-a-butterfly.webp"
+        },
+        {
+          "name_en": "Butterfly Wizard",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-butterfly-wizard.webp"
+        },
+        {
+          "name_en": "Dreams of Good Fortune",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-dreams-of-good-fortune.webp"
+        },
+        {
+          "name_en": "Fortune Cat",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 14,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-weaving-wonders-fortune-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "animal-kingdom",
+      "name_en": "DIMOO Animal Kingdom",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 5,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Sleepy Koala",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-sleepy-koala.webp"
+        },
+        {
+          "name_en": "Tigers Learn to Walk",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-tigers-learn-to-walk.webp"
+        },
+        {
+          "name_en": "Red Panda With Apple",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-red-panda-with-apple.webp"
+        },
+        {
+          "name_en": "Crocodile Cleaner",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-crocodile-cleaner.webp"
+        },
+        {
+          "name_en": "Penguin Tango",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-penguin-tango.webp"
+        },
+        {
+          "name_en": "Foodie Giraffe",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-foodie-giraffe.webp"
+        },
+        {
+          "name_en": "Baby Elephant Bubble",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-baby-elephant-bubble.webp"
+        },
+        {
+          "name_en": "Bear Dad",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-bear-dad.webp"
+        },
+        {
+          "name_en": "Taichi Panda",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-taichi-panda.webp"
+        },
+        {
+          "name_en": "Warm Polar Bear",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-warm-polar-bear.webp"
+        },
+        {
+          "name_en": "Sleeping Bunny",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-sleeping-bunny.webp"
+        },
+        {
+          "name_en": "Duckling Leader",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-duckling-leader.webp"
+        },
+        {
+          "name_en": "Monkey Catches the Moon",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-animal-kingdom-monkey-catches-the-moon.webp"
+        }
+      ]
+    },
+    {
+      "slug": "memories-we-hold",
+      "name_en": "DIMOO Memories We Hold",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 6,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "First Swim",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-first-swim.webp"
+        },
+        {
+          "name_en": "Blooms from the Mud",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-blooms-from-the-mud.webp"
+        },
+        {
+          "name_en": "Rainbow After Storm",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-rainbow-after-storm.webp"
+        },
+        {
+          "name_en": "Bad Morning",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-bad-morning.webp"
+        },
+        {
+          "name_en": "Summer on the Grass",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-summer-on-the-grass.webp"
+        },
+        {
+          "name_en": "Cosmic Dream",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-cosmic-dream.webp"
+        },
+        {
+          "name_en": "The Goodbye I Cannot Say",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-the-goodbye-i-cannot-say.webp"
+        },
+        {
+          "name_en": "Snowfield Swing",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-snowfield-swing.webp"
+        },
+        {
+          "name_en": "The Hourglass",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-the-hourglass.webp"
+        },
+        {
+          "name_en": "Kiteland",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-kiteland.webp"
+        },
+        {
+          "name_en": "Purring Thread",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-purring-thread.webp"
+        },
+        {
+          "name_en": "Path of Whispering Lilies",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-path-of-whispering-lilies.webp"
+        },
+        {
+          "name_en": "In Your Arms",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-memories-we-hold-in-your-arms.webp"
+        }
+      ]
+    },
+    {
+      "slug": "the-missing-day",
+      "name_en": "DIMOO The Missing Day",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 7,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "A Story Only I Can Tell",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-a-story-only-i-can-tell.webp"
+        },
+        {
+          "name_en": "Melt Into Me",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-melt-into-me.webp"
+        },
+        {
+          "name_en": "Dancing on Clouds",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-dancing-on-clouds.webp"
+        },
+        {
+          "name_en": "A Call Between Worlds",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-a-call-between-worlds.webp"
+        },
+        {
+          "name_en": "My Pillow Beats",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-my-pillow-beats.webp"
+        },
+        {
+          "name_en": "Unlocking Time",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-unlocking-time.webp"
+        },
+        {
+          "name_en": "Puppy Sock",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-puppy-sock.webp"
+        },
+        {
+          "name_en": "Blooming Button",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-blooming-button.webp"
+        },
+        {
+          "name_en": "Air My Soul in the Sun",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-air-my-soul-in-the-sun.webp"
+        },
+        {
+          "name_en": "Quacky Stroll",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-quacky-stroll.webp"
+        },
+        {
+          "name_en": "Soul Trails",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-soul-trails.webp"
+        },
+        {
+          "name_en": "Soaking in a Dream",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-soaking-in-a-dream.webp"
+        },
+        {
+          "name_en": "Where Days Don’t Count",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-the-missing-day-where-days-dont-count.webp"
+        }
+      ]
+    },
+    {
+      "slug": "jurassic-world",
+      "name_en": "DIMOO Jurassic World",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 8,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Brachiosaurus Feeder",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-brachiosaurus-feeder.webp"
+        },
+        {
+          "name_en": "Pterosaur Paraglider",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-pterosaur-paraglider.webp"
+        },
+        {
+          "name_en": "Jurassic History",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-jurassic-history.webp"
+        },
+        {
+          "name_en": "Jurassic Guide",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-jurassic-guide.webp"
+        },
+        {
+          "name_en": "Dinosaur Egg Researcher",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-dinosaur-egg-researcher.webp"
+        },
+        {
+          "name_en": "Baby Dinosaur Knight",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-baby-dinosaur-knight.webp"
+        },
+        {
+          "name_en": "Park Sightseeing Bus",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-park-sightseeing-bus.webp"
+        },
+        {
+          "name_en": "Dinosaur Trainer",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-dinosaur-trainer.webp"
+        },
+        {
+          "name_en": "Spherical Tour Bus",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-spherical-tour-bus.webp"
+        },
+        {
+          "name_en": "The Birth of a Baby Dinosaur",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-the-birth-of-a-baby-dinosaur.webp"
+        },
+        {
+          "name_en": "Hug a Dinosaur",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-hug-a-dinosaur.webp"
+        },
+        {
+          "name_en": "Growth Recorder",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-growth-recorder.webp"
+        },
+        {
+          "name_en": "Ow Ow",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-jurassic-world-ow-ow.webp"
+        }
+      ]
+    },
+    {
+      "slug": "stories-in-the-cup",
+      "name_en": "DIMOO Stories in the Cup",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 9,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Spring Brings Springtime",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-spring-brings-springtime.webp"
+        },
+        {
+          "name_en": "Sachet Lotus",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-sachet-lotus.webp"
+        },
+        {
+          "name_en": "Rooftop Guardian Creatures",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-rooftop-guardian-creatures.webp"
+        },
+        {
+          "name_en": "Snow and Wintersweet",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-snow-and-wintersweet.webp"
+        },
+        {
+          "name_en": "Propitious Jades",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-propitious-jades.webp"
+        },
+        {
+          "name_en": "Black and White Game",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-black-and-white-game.webp"
+        },
+        {
+          "name_en": "Auspicious Animal Seal",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-auspicious-animal-seal.webp"
+        },
+        {
+          "name_en": "River Scroll",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-river-scroll.webp"
+        },
+        {
+          "name_en": "Sandalwood Incense Burner",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-sandalwood-incense-burner.webp"
+        },
+        {
+          "name_en": "Exhale Like an Orchid",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-exhale-like-an-orchid.webp"
+        },
+        {
+          "name_en": "Ink Bamboo Painting",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-ink-bamboo-painting.webp"
+        },
+        {
+          "name_en": "Porcelain Blossoms",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-porcelain-blossoms.webp"
+        },
+        {
+          "name_en": "Drunkenness",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-stories-in-the-cup-drunkenness.webp"
+        }
+      ]
+    },
+    {
+      "slug": "world-x-disney",
+      "name_en": "DIMOO WORLD × DISNEY",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 10,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Minnie’s Balloon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-minnies-balloon.webp"
+        },
+        {
+          "name_en": "Mickey TV Show",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-mickey-tv-show.webp"
+        },
+        {
+          "name_en": "Three Nephews",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-three-nephews.webp"
+        },
+        {
+          "name_en": "Daisy’s Gift",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-daisys-gift.webp"
+        },
+        {
+          "name_en": "Donald Duck’s Singing",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-donald-ducks-singing.webp"
+        },
+        {
+          "name_en": "Donald Duck Popcorn",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-donald-duck-popcorn.webp"
+        },
+        {
+          "name_en": "Scrooge’s Bathtub",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-scrooges-bathtub.webp"
+        },
+        {
+          "name_en": "Chip and Dale",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-chip-and-dale.webp"
+        },
+        {
+          "name_en": "Goofy’s Prank",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-goofys-prank.webp"
+        },
+        {
+          "name_en": "Chip and Dale’s Dream",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-chip-and-dales-dream.webp"
+        },
+        {
+          "name_en": "Classic Mickey",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-classic-mickey.webp"
+        },
+        {
+          "name_en": "Pluto’s House",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-plutos-house.webp"
+        },
+        {
+          "name_en": "The Captain of Steamboat Willie",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-world-x-disney-the-captain-of-steamboat-willie.webp"
+        }
+      ]
+    },
+    {
+      "slug": "by-your-side",
+      "name_en": "DIMOO By Your Side",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 11,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Calm Down",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-calm-down.webp"
+        },
+        {
+          "name_en": "Don’t Overthink",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-dont-overthink.webp"
+        },
+        {
+          "name_en": "Cheer Up",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-cheer-up.webp"
+        },
+        {
+          "name_en": "Candy for You",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-candy-for-you.webp"
+        },
+        {
+          "name_en": "Light Up",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-light-up.webp"
+        },
+        {
+          "name_en": "Embrace Emotions",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-embrace-emotions.webp"
+        },
+        {
+          "name_en": "Peace of Mind",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-peace-of-mind.webp"
+        },
+        {
+          "name_en": "Meditation",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-meditation.webp"
+        },
+        {
+          "name_en": "Pleasure",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-pleasure.webp"
+        },
+        {
+          "name_en": "Startled",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-startled.webp"
+        },
+        {
+          "name_en": "Shielded",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-shielded.webp"
+        },
+        {
+          "name_en": "Don’t Be Afraid",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-dont-be-afraid.webp"
+        },
+        {
+          "name_en": "Imaginary Encounter",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-imaginary-encounter.webp"
+        },
+        {
+          "name_en": "Imaginary Adventure",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 14,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-by-your-side-imaginary-adventure.webp"
+        }
+      ]
+    },
+    {
+      "slug": "no-ones-gonna-sleep-tonight",
+      "name_en": "DIMOO No One’s Gonna Sleep Tonight",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 12,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Yeti",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-yeti.webp"
+        },
+        {
+          "name_en": "Cerberus",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-cerberus.webp"
+        },
+        {
+          "name_en": "Fox Spirit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-fox-spirit.webp"
+        },
+        {
+          "name_en": "Scare Box",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-scare-box.webp"
+        },
+        {
+          "name_en": "Deer Monster",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-deer-monster.webp"
+        },
+        {
+          "name_en": "Ghost",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-ghost.webp"
+        },
+        {
+          "name_en": "Little Devil",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-little-devil.webp"
+        },
+        {
+          "name_en": "Shadow Sailor",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-shadow-sailor.webp"
+        },
+        {
+          "name_en": "Mummy",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-mummy.webp"
+        },
+        {
+          "name_en": "Unicorn",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-unicorn.webp"
+        },
+        {
+          "name_en": "Ghost Catcher",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-ghost-catcher.webp"
+        },
+        {
+          "name_en": "Scarecrow",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-scarecrow.webp"
+        },
+        {
+          "name_en": "Mystic Magic",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-no-ones-gonna-sleep-tonight-mystic-magic.webp"
+        }
+      ]
+    },
+    {
+      "slug": "retro",
+      "name_en": "DIMOO Retro",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 13,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Angel",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-angel.webp"
+        },
+        {
+          "name_en": "Devil",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-devil.webp"
+        },
+        {
+          "name_en": "Magician",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-magician.webp"
+        },
+        {
+          "name_en": "Flamingo",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-flamingo.webp"
+        },
+        {
+          "name_en": "Elk",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-elk.webp"
+        },
+        {
+          "name_en": "Rocky Overlord",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-rocky-overlord.webp"
+        },
+        {
+          "name_en": "Rocky King",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-rocky-king.webp"
+        },
+        {
+          "name_en": "Pajamas Rabbit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-pajamas-rabbit.webp"
+        },
+        {
+          "name_en": "Joker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-joker.webp"
+        },
+        {
+          "name_en": "Little Green Dragon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-little-green-dragon.webp"
+        },
+        {
+          "name_en": "Snowball",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-snowball.webp"
+        },
+        {
+          "name_en": "Snowy Owl",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-snowy-owl.webp"
+        },
+        {
+          "name_en": "Daytime (Secret Edition A)",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-daytime-secret-edition-a.webp"
+        },
+        {
+          "name_en": "Dark Night (Secret Edition B)",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 14,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-dark-night-secret-edition-b.webp"
+        },
+        {
+          "name_en": "Dreamworld (Super Secret Edition)",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 15,
+          "image_source": "http://85.17.145.134:8787/media/figures/dimoo-retro-dreamworld-super-secret-edition.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3725 @@
+{
+  "brand": {
+    "slug": "mofusand",
+    "name": "Mofusand",
+    "name_ja": "もふもふにゃん",
+    "accent_color": "#F5E6C8",
+    "status": "live",
+    "hero_image_url": "http://85.17.145.134:8787/media/figures/mofusand-fruit-nyan-figure-pineapple-cat.webp"
+  },
+  "series": [
+    {
+      "slug": "fruit-nyan-figure",
+      "name_en": "Fruit Cats Figure",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 1,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Pineapple Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-fruit-nyan-figure-pineapple-cat.webp"
+        },
+        {
+          "name_en": "Pear Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-fruit-nyan-figure-pear-cat.webp"
+        },
+        {
+          "name_en": "Strawberry Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-fruit-nyan-figure-strawberry-cat.webp"
+        },
+        {
+          "name_en": "Banana Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-fruit-nyan-figure-banana-cat.webp"
+        },
+        {
+          "name_en": "Watermelon Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-fruit-nyan-figure-watermelon-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "nyanpants-figure",
+      "name_en": "Nyanpants! Figure",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 2,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Rabbit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanpants-figure-rabbit.webp"
+        },
+        {
+          "name_en": "Bear",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanpants-figure-bear.webp"
+        },
+        {
+          "name_en": "Koala",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanpants-figure-koala.webp"
+        },
+        {
+          "name_en": "Red Panda",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanpants-figure-red-panda.webp"
+        },
+        {
+          "name_en": "Fox",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanpants-figure-fox.webp"
+        }
+      ]
+    },
+    {
+      "slug": "maritozzo-mascot",
+      "name_en": "Maritozzo Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 3,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Tabby Cat Bread",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-maritozzo-mascot-tabby-cat-bread.webp"
+        },
+        {
+          "name_en": "White Cat Strawberry",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-maritozzo-mascot-white-cat-strawberry.webp"
+        },
+        {
+          "name_en": "Ginger Cat Orange",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-maritozzo-mascot-ginger-cat-orange.webp"
+        },
+        {
+          "name_en": "Bicolor Cat Strawberry",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-maritozzo-mascot-bicolor-cat-strawberry.webp"
+        },
+        {
+          "name_en": "Gray Cat Chocolate",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-maritozzo-mascot-gray-cat-chocolate.webp"
+        }
+      ]
+    },
+    {
+      "slug": "shrimp-cat-figure-keychain",
+      "name_en": "Shrimp Cat Figure Keychain",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 4,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Tabby Cat Wearing a Tempura Shrimp Hood",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-shrimp-cat-figure-keychain-tabby-cat-wearing-a-tempura-shrimp-hood.webp"
+        },
+        {
+          "name_en": "Ginger Cat Wearing a Tempura Shrimp Hood",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-shrimp-cat-figure-keychain-ginger-cat-wearing-a-tempura-shrimp-hood.webp"
+        },
+        {
+          "name_en": "Cat in a Tempura Shrimp Costume",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-shrimp-cat-figure-keychain-cat-in-a-tempura-shrimp-costume.webp"
+        },
+        {
+          "name_en": "Cat Relaxing in a Shrimp",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-shrimp-cat-figure-keychain-cat-relaxing-in-a-shrimp.webp"
+        },
+        {
+          "name_en": "Cat Hugging a Tempura Shrimp",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-shrimp-cat-figure-keychain-cat-hugging-a-tempura-shrimp.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sanrio-narikiri-figure",
+      "name_en": "Sanrio Dress-up Figure",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 5,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Cinnamoroll",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-cinnamoroll.webp"
+        },
+        {
+          "name_en": "Kuromi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-kuromi.webp"
+        },
+        {
+          "name_en": "My Melody",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-my-melody.webp"
+        },
+        {
+          "name_en": "Pompompurin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-pompompurin.webp"
+        },
+        {
+          "name_en": "Hello Kitty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-hello-kitty.webp"
+        },
+        {
+          "name_en": "Hangyodon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-hangyodon.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sanrio-narikiri-figure-2",
+      "name_en": "Sanrio Dress-up Figure 2",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 6,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Hangyodon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-2-hangyodon.webp"
+        },
+        {
+          "name_en": "My Melody",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-2-my-melody.webp"
+        },
+        {
+          "name_en": "Hello Kitty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-2-hello-kitty.webp"
+        },
+        {
+          "name_en": "Kuromi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-2-kuromi.webp"
+        },
+        {
+          "name_en": "Ahiru no Pekkle",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-2-ahiru-no-pekkle.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sanrio-narikiri-figure-3",
+      "name_en": "Sanrio Dress-up Figure 3",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 7,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Pochacco",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-3-pochacco.webp"
+        },
+        {
+          "name_en": "Keroppi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-3-keroppi.webp"
+        },
+        {
+          "name_en": "Cinnamoroll",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-3-cinnamoroll.webp"
+        },
+        {
+          "name_en": "Pompompurin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-3-pompompurin.webp"
+        },
+        {
+          "name_en": "KIRIMIchan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-narikiri-figure-3-kirimichan.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sanrio-soda-acrylic-keyholder",
+      "name_en": "Sanrio Soda Acrylic Keyholder",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 8,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "My Melody",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-soda-acrylic-keyholder-my-melody.webp"
+        },
+        {
+          "name_en": "Kuromi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-soda-acrylic-keyholder-kuromi.webp"
+        },
+        {
+          "name_en": "Hello Kitty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-soda-acrylic-keyholder-hello-kitty.webp"
+        },
+        {
+          "name_en": "Cinnamoroll",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-soda-acrylic-keyholder-cinnamoroll.webp"
+        },
+        {
+          "name_en": "Pompompurin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-soda-acrylic-keyholder-pompompurin.webp"
+        },
+        {
+          "name_en": "Hangyodon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-soda-acrylic-keyholder-hangyodon.webp"
+        }
+      ]
+    },
+    {
+      "slug": "rubber-magnet",
+      "name_en": "Rubber Magnet",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 9,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shiro",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-rubber-magnet-shiro.webp"
+        },
+        {
+          "name_en": "Usagi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-rubber-magnet-usagi.webp"
+        },
+        {
+          "name_en": "Kuma",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-rubber-magnet-kuma.webp"
+        },
+        {
+          "name_en": "Pan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-rubber-magnet-pan.webp"
+        },
+        {
+          "name_en": "Chashiro",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-rubber-magnet-chashiro.webp"
+        },
+        {
+          "name_en": "Kappa",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-rubber-magnet-kappa.webp"
+        }
+      ]
+    },
+    {
+      "slug": "narabundesu",
+      "name_en": "Narabundesu",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 10,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Pink Bunny Suit Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-pink-bunny-suit-cat.webp"
+        },
+        {
+          "name_en": "Blue Bunny Suit Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-blue-bunny-suit-cat.webp"
+        },
+        {
+          "name_en": "Green Bunny Suit Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-green-bunny-suit-cat.webp"
+        },
+        {
+          "name_en": "Lavender Bunny Suit Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-lavender-bunny-suit-cat.webp"
+        },
+        {
+          "name_en": "Cream Bunny Suit Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-cream-bunny-suit-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "nyanko-soda",
+      "name_en": "Nyanko Soda",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 11,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Blue Soda Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanko-soda-blue-soda-cat.webp"
+        },
+        {
+          "name_en": "Yellow Soda Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanko-soda-yellow-soda-cat.webp"
+        },
+        {
+          "name_en": "Green Soda Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanko-soda-green-soda-cat.webp"
+        },
+        {
+          "name_en": "Pink Soda Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanko-soda-pink-soda-cat.webp"
+        },
+        {
+          "name_en": "Purple Soda Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nyanko-soda-purple-soda-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "acrylic-keyholder",
+      "name_en": "Acrylic Keyholder",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 12,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Fruit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-fruit.webp"
+        },
+        {
+          "name_en": "Pizza",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-pizza.webp"
+        },
+        {
+          "name_en": "Hotcake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-hotcake.webp"
+        },
+        {
+          "name_en": "Crepe",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-crepe.webp"
+        },
+        {
+          "name_en": "Ice Cream",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-ice-cream.webp"
+        },
+        {
+          "name_en": "Parfait",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-parfait.webp"
+        }
+      ]
+    },
+    {
+      "slug": "acrylic-keyholder-2",
+      "name_en": "Acrylic Keyholder 2",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 13,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Peach",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-2-peach.webp"
+        },
+        {
+          "name_en": "Cupcake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-2-cupcake.webp"
+        },
+        {
+          "name_en": "Donut",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-2-donut.webp"
+        },
+        {
+          "name_en": "Strawberry",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-2-strawberry.webp"
+        },
+        {
+          "name_en": "Pastry Chef",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-2-pastry-chef.webp"
+        },
+        {
+          "name_en": "Cake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-2-cake.webp"
+        }
+      ]
+    },
+    {
+      "slug": "acrylic-keyholder-3",
+      "name_en": "Acrylic Keyholder 3",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 14,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Donut",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-3-donut.webp"
+        },
+        {
+          "name_en": "Shortcake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-3-shortcake.webp"
+        },
+        {
+          "name_en": "Cupcake",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-3-cupcake.webp"
+        },
+        {
+          "name_en": "Cookie",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-3-cookie.webp"
+        },
+        {
+          "name_en": "Macaron",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-3-macaron.webp"
+        },
+        {
+          "name_en": "Ice Cream",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-keyholder-3-ice-cream.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sanrio-flower-dome-keyholder",
+      "name_en": "Sanrio Flower Dome Keyholder",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 15,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "My Melody",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flower-dome-keyholder-my-melody.webp"
+        },
+        {
+          "name_en": "Kuromi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flower-dome-keyholder-kuromi.webp"
+        },
+        {
+          "name_en": "Hello Kitty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flower-dome-keyholder-hello-kitty.webp"
+        },
+        {
+          "name_en": "Cinnamoroll",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flower-dome-keyholder-cinnamoroll.webp"
+        },
+        {
+          "name_en": "Pompompurin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flower-dome-keyholder-pompompurin.webp"
+        },
+        {
+          "name_en": "Hangyodon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flower-dome-keyholder-hangyodon.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sanrio-fruit-keyholder",
+      "name_en": "Sanrio Fruit Keyholder",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 16,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Hangyodon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-fruit-keyholder-hangyodon.webp"
+        },
+        {
+          "name_en": "My Melody",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-fruit-keyholder-my-melody.webp"
+        },
+        {
+          "name_en": "Hello Kitty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-fruit-keyholder-hello-kitty.webp"
+        },
+        {
+          "name_en": "Kuromi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-fruit-keyholder-kuromi.webp"
+        },
+        {
+          "name_en": "Ahiru no Pekkle",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-fruit-keyholder-ahiru-no-pekkle.webp"
+        }
+      ]
+    },
+    {
+      "slug": "suberidai-slide-cats",
+      "name_en": "Slide Cats",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 17,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Ginger-and-White Cat with Green Slide",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-suberidai-slide-cats-ginger-and-white-cat-with-green-slide.webp"
+        },
+        {
+          "name_en": "White Cat with Pink Slide",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-suberidai-slide-cats-white-cat-with-pink-slide.webp"
+        },
+        {
+          "name_en": "Cream Cat with Yellow Slide",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-suberidai-slide-cats-cream-cat-with-yellow-slide.webp"
+        },
+        {
+          "name_en": "Gray-and-White Cat with Blue Slide",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-suberidai-slide-cats-gray-and-white-cat-with-blue-slide.webp"
+        }
+      ]
+    },
+    {
+      "slug": "ebinyan-figure",
+      "name_en": "Ebi-nyan Figure",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 18,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Fried Shrimp Tabby-and-White",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-figure-fried-shrimp-tabby-and-white.webp"
+        },
+        {
+          "name_en": "Fried Shrimp Cream",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-figure-fried-shrimp-cream.webp"
+        },
+        {
+          "name_en": "Peeled Shrimp Ginger-and-White",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-figure-peeled-shrimp-ginger-and-white.webp"
+        },
+        {
+          "name_en": "Fried Shrimp Gray-and-White",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-figure-fried-shrimp-gray-and-white.webp"
+        },
+        {
+          "name_en": "Fried Shrimp Ginger-and-White",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-figure-fried-shrimp-ginger-and-white.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sitting-marine-cats",
+      "name_en": "Sitting Marine Life Cats",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 19,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Whale Shark Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sitting-marine-cats-whale-shark-cat.webp"
+        },
+        {
+          "name_en": "Squid Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sitting-marine-cats-squid-cat.webp"
+        },
+        {
+          "name_en": "Penguin Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sitting-marine-cats-penguin-cat.webp"
+        },
+        {
+          "name_en": "Moray Eel Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sitting-marine-cats-moray-eel-cat.webp"
+        },
+        {
+          "name_en": "Otter Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sitting-marine-cats-otter-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mogitate-nyan-watch",
+      "name_en": "Mogitate Nyan Watch",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 20,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Pineapple Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mogitate-nyan-watch-pineapple-cat-watch.webp"
+        },
+        {
+          "name_en": "Melon Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mogitate-nyan-watch-melon-cat-watch.webp"
+        },
+        {
+          "name_en": "Apple Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mogitate-nyan-watch-apple-cat-watch.webp"
+        },
+        {
+          "name_en": "Banana Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mogitate-nyan-watch-banana-cat-watch.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sea-creature-nyan-watch",
+      "name_en": "Sea Creature Nyan Watch",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 21,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shark Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sea-creature-nyan-watch-shark-cat-watch.webp"
+        },
+        {
+          "name_en": "Whale Shark Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sea-creature-nyan-watch-whale-shark-cat-watch.webp"
+        },
+        {
+          "name_en": "Octopus Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sea-creature-nyan-watch-octopus-cat-watch.webp"
+        },
+        {
+          "name_en": "Eel Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sea-creature-nyan-watch-eel-cat-watch.webp"
+        },
+        {
+          "name_en": "Clownfish Cat Watch",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sea-creature-nyan-watch-clownfish-cat-watch.webp"
+        }
+      ]
+    },
+    {
+      "slug": "ebinyan-bikkura-tamago",
+      "name_en": "Ebi-nyan Bath Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 22,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shrimp Fry Suit Tabby-and-White",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-bikkura-tamago-shrimp-fry-suit-tabby-and-white.webp"
+        },
+        {
+          "name_en": "Shrimp Fry Pants Gray-and-White",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-bikkura-tamago-shrimp-fry-pants-gray-and-white.webp"
+        },
+        {
+          "name_en": "Shrimp Fry Hat Cream Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-bikkura-tamago-shrimp-fry-hat-cream-cat.webp"
+        },
+        {
+          "name_en": "Shrimp Fry Pants Tabby-and-White",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ebinyan-bikkura-tamago-shrimp-fry-pants-tabby-and-white.webp"
+        }
+      ]
+    },
+    {
+      "slug": "animal-magnet",
+      "name_en": "Animal Magnet",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 23,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Rabbit Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-animal-magnet-rabbit-cat.webp"
+        },
+        {
+          "name_en": "Bee Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-animal-magnet-bee-cat.webp"
+        },
+        {
+          "name_en": "Sheep Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-animal-magnet-sheep-cat.webp"
+        },
+        {
+          "name_en": "Bear Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-animal-magnet-bear-cat.webp"
+        },
+        {
+          "name_en": "Panda Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-animal-magnet-panda-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "hachi-nyan-swing",
+      "name_en": "Hachi-nyan Swing",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 24,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Resting Bee Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hachi-nyan-swing-resting-bee-cat.webp"
+        },
+        {
+          "name_en": "Strawberry Bee Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hachi-nyan-swing-strawberry-bee-cat.webp"
+        },
+        {
+          "name_en": "Lemon Bee Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hachi-nyan-swing-lemon-bee-cat.webp"
+        },
+        {
+          "name_en": "Honey Pot Bee Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hachi-nyan-swing-honey-pot-bee-cat.webp"
+        },
+        {
+          "name_en": "Flying Bee Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hachi-nyan-swing-flying-bee-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "donut-nyan-mascot",
+      "name_en": "Donut-nyan Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 25,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Donut Nyan A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-donut-nyan-mascot-donut-nyan-a.webp"
+        },
+        {
+          "name_en": "Donut Nyan B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-donut-nyan-mascot-donut-nyan-b.webp"
+        },
+        {
+          "name_en": "Donut Nyan C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-donut-nyan-mascot-donut-nyan-c.webp"
+        },
+        {
+          "name_en": "Donut Nyan D",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-donut-nyan-mascot-donut-nyan-d.webp"
+        },
+        {
+          "name_en": "Donut Nyan E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-donut-nyan-mascot-donut-nyan-e.webp"
+        }
+      ]
+    },
+    {
+      "slug": "cupcake-nyan-mascot",
+      "name_en": "Cupcake-nyan Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 26,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Cupcake Nyan A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-cupcake-nyan-mascot-cupcake-nyan-a.webp"
+        },
+        {
+          "name_en": "Cupcake Nyan B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-cupcake-nyan-mascot-cupcake-nyan-b.webp"
+        },
+        {
+          "name_en": "Cupcake Nyan C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-cupcake-nyan-mascot-cupcake-nyan-c.webp"
+        },
+        {
+          "name_en": "Cupcake Nyan D",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-cupcake-nyan-mascot-cupcake-nyan-d.webp"
+        },
+        {
+          "name_en": "Cupcake Nyan E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-cupcake-nyan-mascot-cupcake-nyan-e.webp"
+        }
+      ]
+    },
+    {
+      "slug": "takoyaki-nyan-mascot",
+      "name_en": "Takoyaki Nyan Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 27,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Takoyaki Nyan A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-takoyaki-nyan-mascot-takoyaki-nyan-a.webp"
+        },
+        {
+          "name_en": "Takoyaki Nyan B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-takoyaki-nyan-mascot-takoyaki-nyan-b.webp"
+        },
+        {
+          "name_en": "Takoyaki Nyan C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-takoyaki-nyan-mascot-takoyaki-nyan-c.webp"
+        },
+        {
+          "name_en": "Takoyaki Nyan D",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-takoyaki-nyan-mascot-takoyaki-nyan-d.webp"
+        },
+        {
+          "name_en": "Takoyaki Nyan E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-takoyaki-nyan-mascot-takoyaki-nyan-e.webp"
+        }
+      ]
+    },
+    {
+      "slug": "light-mascot",
+      "name_en": "Light Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 28,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shark Cat Light Mascot",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-light-mascot-shark-cat-light-mascot.webp"
+        },
+        {
+          "name_en": "Flapjack Octopus Cat Light Mascot",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-light-mascot-flapjack-octopus-cat-light-mascot.webp"
+        },
+        {
+          "name_en": "Orca Cat Light Mascot",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-light-mascot-orca-cat-light-mascot.webp"
+        },
+        {
+          "name_en": "Whale Shark Cat Light Mascot",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-light-mascot-whale-shark-cat-light-mascot.webp"
+        }
+      ]
+    },
+    {
+      "slug": "nakayoshi-cherry-swing",
+      "name_en": "Nakayoshi Cherry Swing",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 29,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Cherry Nyan A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nakayoshi-cherry-swing-cherry-nyan-a.webp"
+        },
+        {
+          "name_en": "Cherry Nyan B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nakayoshi-cherry-swing-cherry-nyan-b.webp"
+        },
+        {
+          "name_en": "Cherry Nyan C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nakayoshi-cherry-swing-cherry-nyan-c.webp"
+        },
+        {
+          "name_en": "Cherry Nyan D",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nakayoshi-cherry-swing-cherry-nyan-d.webp"
+        },
+        {
+          "name_en": "Cherry Nyan E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-nakayoshi-cherry-swing-cherry-nyan-e.webp"
+        }
+      ]
+    },
+    {
+      "slug": "narabundesu-3",
+      "name_en": "Narabundesu 3",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 30,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Dandelion Flower Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-3-dandelion-flower-cat.webp"
+        },
+        {
+          "name_en": "Horsetail Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-3-horsetail-cat.webp"
+        },
+        {
+          "name_en": "Daisy Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-3-daisy-cat.webp"
+        },
+        {
+          "name_en": "Dandelion Puff Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-3-dandelion-puff-cat.webp"
+        },
+        {
+          "name_en": "Four-leaf Clover Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-3-four-leaf-clover-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "ichigo-chocolate-nyan-mascot",
+      "name_en": "Strawberry Chocolate Nyan Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 31,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Strawberry Chocolate Nyan A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ichigo-chocolate-nyan-mascot-strawberry-chocolate-nyan-a.webp"
+        },
+        {
+          "name_en": "Strawberry Chocolate Nyan B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ichigo-chocolate-nyan-mascot-strawberry-chocolate-nyan-b.webp"
+        },
+        {
+          "name_en": "Strawberry Chocolate Nyan C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ichigo-chocolate-nyan-mascot-strawberry-chocolate-nyan-c.webp"
+        },
+        {
+          "name_en": "Strawberry Chocolate Nyan D",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ichigo-chocolate-nyan-mascot-strawberry-chocolate-nyan-d.webp"
+        },
+        {
+          "name_en": "Strawberry Chocolate Nyan E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-ichigo-chocolate-nyan-mascot-strawberry-chocolate-nyan-e.webp"
+        }
+      ]
+    },
+    {
+      "slug": "yurayura-nyanko-figure",
+      "name_en": "Yurayura Nyanko Figure",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 32,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Bear Spring Rider Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-yurayura-nyanko-figure-bear-spring-rider-cat.webp"
+        },
+        {
+          "name_en": "Koala Spring Rider Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-yurayura-nyanko-figure-koala-spring-rider-cat.webp"
+        },
+        {
+          "name_en": "Elephant Spring Rider Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-yurayura-nyanko-figure-elephant-spring-rider-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "capselium",
+      "name_en": "Capselium",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 33,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Bee Cat Capselium",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capselium-bee-cat-capselium.webp"
+        },
+        {
+          "name_en": "Rabbit Cat Capselium",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capselium-rabbit-cat-capselium.webp"
+        },
+        {
+          "name_en": "Shark Cat Capselium",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capselium-shark-cat-capselium.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mejirushi-accessories-3",
+      "name_en": "Mejirushi Accessories 3",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 34,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Apple Cat Marker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-3-apple-cat-marker.webp"
+        },
+        {
+          "name_en": "Lemon Cat Marker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-3-lemon-cat-marker.webp"
+        },
+        {
+          "name_en": "Watermelon Cat Marker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-3-watermelon-cat-marker.webp"
+        },
+        {
+          "name_en": "Dragon Fruit Cat Marker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-3-dragon-fruit-cat-marker.webp"
+        },
+        {
+          "name_en": "La France Pear Cat Marker",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-3-la-france-pear-cat-marker.webp"
+        }
+      ]
+    },
+    {
+      "slug": "flocked-hair-clip",
+      "name_en": "Flocked Hair Clip",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 35,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Sheep Cat Hair Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flocked-hair-clip-sheep-cat-hair-clip.webp"
+        },
+        {
+          "name_en": "Koala Cat Hair Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flocked-hair-clip-koala-cat-hair-clip.webp"
+        },
+        {
+          "name_en": "Wolf Cat Hair Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flocked-hair-clip-wolf-cat-hair-clip.webp"
+        },
+        {
+          "name_en": "Fox Cat Hair Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flocked-hair-clip-fox-cat-hair-clip.webp"
+        },
+        {
+          "name_en": "Red Panda Cat Hair Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flocked-hair-clip-red-panda-cat-hair-clip.webp"
+        },
+        {
+          "name_en": "Panda Cat Hair Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flocked-hair-clip-panda-cat-hair-clip.webp"
+        }
+      ]
+    },
+    {
+      "slug": "onedari-nyan-mascot",
+      "name_en": "Onedari Nyan Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 36,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Cat Food Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-onedari-nyan-mascot-cat-food-nyan.webp"
+        },
+        {
+          "name_en": "Shrimp Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-onedari-nyan-mascot-shrimp-nyan.webp"
+        },
+        {
+          "name_en": "Bag Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-onedari-nyan-mascot-bag-nyan.webp"
+        },
+        {
+          "name_en": "Mouse Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-onedari-nyan-mascot-mouse-nyan.webp"
+        },
+        {
+          "name_en": "Food Bowl Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-onedari-nyan-mascot-food-bowl-nyan.webp"
+        }
+      ]
+    },
+    {
+      "slug": "pitacot",
+      "name_en": "PitaCot",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 37,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "PitaCot 01",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-01.webp"
+        },
+        {
+          "name_en": "PitaCot 02",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-02.webp"
+        },
+        {
+          "name_en": "PitaCot 03",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-03.webp"
+        },
+        {
+          "name_en": "PitaCot 04",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-04.webp"
+        },
+        {
+          "name_en": "PitaCot 05",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-05.webp"
+        },
+        {
+          "name_en": "PitaCot 06",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-06.webp"
+        },
+        {
+          "name_en": "PitaCot 07",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-07.webp"
+        },
+        {
+          "name_en": "PitaCot 08",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-08.webp"
+        },
+        {
+          "name_en": "PitaCot 09",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-09.webp"
+        },
+        {
+          "name_en": "PitaCot 10",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-10.webp"
+        },
+        {
+          "name_en": "PitaCot 11",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-11.webp"
+        },
+        {
+          "name_en": "PitaCot 12",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-12.webp"
+        },
+        {
+          "name_en": "PitaCot 13",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-13.webp"
+        },
+        {
+          "name_en": "PitaCot 14",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 14,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-pitacot-pitacot-14.webp"
+        }
+      ]
+    },
+    {
+      "slug": "character-magnets",
+      "name_en": "Character Magnets",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 38,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Character Magnet 01",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-01.webp"
+        },
+        {
+          "name_en": "Character Magnet 02",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-02.webp"
+        },
+        {
+          "name_en": "Character Magnet 03",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-03.webp"
+        },
+        {
+          "name_en": "Character Magnet 04",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-04.webp"
+        },
+        {
+          "name_en": "Character Magnet 05",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-05.webp"
+        },
+        {
+          "name_en": "Character Magnet 06",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-06.webp"
+        },
+        {
+          "name_en": "Character Magnet 07",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-07.webp"
+        },
+        {
+          "name_en": "Character Magnet 08",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-08.webp"
+        },
+        {
+          "name_en": "Character Magnet 09",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-09.webp"
+        },
+        {
+          "name_en": "Character Magnet 10",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-10.webp"
+        },
+        {
+          "name_en": "Character Magnet 11",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-11.webp"
+        },
+        {
+          "name_en": "Character Magnet 12",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-12.webp"
+        },
+        {
+          "name_en": "Character Magnet 13",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 13,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-13.webp"
+        },
+        {
+          "name_en": "Character Magnet 14",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 14,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-14.webp"
+        },
+        {
+          "name_en": "Character Magnet 15",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 15,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-15.webp"
+        },
+        {
+          "name_en": "Character Magnet 16",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 16,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-16.webp"
+        },
+        {
+          "name_en": "Character Magnet 17",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 17,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-17.webp"
+        },
+        {
+          "name_en": "Character Magnet 18",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 18,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-18.webp"
+        },
+        {
+          "name_en": "Character Magnet 19",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 19,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-19.webp"
+        },
+        {
+          "name_en": "Character Magnet 20",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 20,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-character-magnets-character-magnet-20.webp"
+        }
+      ]
+    },
+    {
+      "slug": "hair-comb-charm",
+      "name_en": "Hair Comb Charm",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 39,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Donut Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hair-comb-charm-donut-nyan.webp"
+        },
+        {
+          "name_en": "Cupcake Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hair-comb-charm-cupcake-nyan.webp"
+        },
+        {
+          "name_en": "Ice Cream Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hair-comb-charm-ice-cream-nyan.webp"
+        },
+        {
+          "name_en": "Macaron Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hair-comb-charm-macaron-nyan.webp"
+        },
+        {
+          "name_en": "Parfait Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hair-comb-charm-parfait-nyan.webp"
+        }
+      ]
+    },
+    {
+      "slug": "bakery-mejirushi",
+      "name_en": "Bakery Mejirushi Accessories",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 40,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Melon Bread Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-bakery-mejirushi-melon-bread-cat.webp"
+        },
+        {
+          "name_en": "Crab Bread Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-bakery-mejirushi-crab-bread-cat.webp"
+        },
+        {
+          "name_en": "Croissant Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-bakery-mejirushi-croissant-cat.webp"
+        },
+        {
+          "name_en": "Cornet Bread Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-bakery-mejirushi-cornet-bread-cat.webp"
+        },
+        {
+          "name_en": "Cat-shaped Bread Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-bakery-mejirushi-cat-shaped-bread-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "narabundesu-2",
+      "name_en": "Narabundesu 2",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 41,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Rabbit Outfit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-2-rabbit-outfit.webp"
+        },
+        {
+          "name_en": "Bear Outfit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-2-bear-outfit.webp"
+        },
+        {
+          "name_en": "Koala Outfit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-2-koala-outfit.webp"
+        },
+        {
+          "name_en": "Panda Outfit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-2-panda-outfit.webp"
+        },
+        {
+          "name_en": "Red Panda Outfit",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-narabundesu-2-red-panda-outfit.webp"
+        }
+      ]
+    },
+    {
+      "slug": "acrylic-clip-2",
+      "name_en": "Acrylic Clip 2",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 42,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Design A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-2-design-a.webp"
+        },
+        {
+          "name_en": "Design B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-2-design-b.webp"
+        },
+        {
+          "name_en": "Design C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-2-design-c.webp"
+        },
+        {
+          "name_en": "Design D",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-2-design-d.webp"
+        },
+        {
+          "name_en": "Design E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-2-design-e.webp"
+        },
+        {
+          "name_en": "Design F",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-2-design-f.webp"
+        },
+        {
+          "name_en": "Design G",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-2-design-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "plush-clip",
+      "name_en": "Plush Clip",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 43,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Rabbit Costume",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-plush-clip-rabbit-costume.webp"
+        },
+        {
+          "name_en": "Sheep Costume",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-plush-clip-sheep-costume.webp"
+        },
+        {
+          "name_en": "Bear Costume",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-plush-clip-bear-costume.webp"
+        },
+        {
+          "name_en": "Fox Costume",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-plush-clip-fox-costume.webp"
+        },
+        {
+          "name_en": "Panda Costume",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-plush-clip-panda-costume.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sanrio-special-rubber-mascot",
+      "name_en": "Sanrio Special Rubber Mascot",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 44,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Mofusand × Hello Kitty",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-hello-kitty.webp"
+        },
+        {
+          "name_en": "Mofusand × Koro Koro Kuririn",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-koro-koro-kuririn.webp"
+        },
+        {
+          "name_en": "Mofusand × Badtz-Maru",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-badtz-maru.webp"
+        },
+        {
+          "name_en": "Mofusand × Tuxedosam",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-tuxedosam.webp"
+        },
+        {
+          "name_en": "Mofusand × Cinnamoroll",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-cinnamoroll.webp"
+        },
+        {
+          "name_en": "Mofusand × Kerokerokeroppi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-kerokerokeroppi.webp"
+        },
+        {
+          "name_en": "Mofusand × Hangyodon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-hangyodon.webp"
+        },
+        {
+          "name_en": "Mofusand × Pekkle",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-pekkle.webp"
+        },
+        {
+          "name_en": "Mofusand × Pochacco",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-pochacco.webp"
+        },
+        {
+          "name_en": "Mofusand × Pompompurin",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-special-rubber-mascot-mofusand-pompompurin.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sanrio-flat-mejirushi",
+      "name_en": "Sanrio Flat Mejirushi Accessories",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 45,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Mofusand × Pekkle",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flat-mejirushi-mofusand-pekkle.webp"
+        },
+        {
+          "name_en": "Mofusand × Hangyodon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flat-mejirushi-mofusand-hangyodon.webp"
+        },
+        {
+          "name_en": "Mofusand × Badtz-Maru",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flat-mejirushi-mofusand-badtz-maru.webp"
+        },
+        {
+          "name_en": "Mofusand × Pochacco",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flat-mejirushi-mofusand-pochacco.webp"
+        },
+        {
+          "name_en": "Mofusand × Kerokerokeroppi",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flat-mejirushi-mofusand-kerokerokeroppi.webp"
+        },
+        {
+          "name_en": "Mofusand × Tuxedosam",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-sanrio-flat-mejirushi-mofusand-tuxedosam.webp"
+        }
+      ]
+    },
+    {
+      "slug": "embroidery-charm",
+      "name_en": "Embroidery Charm",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 46,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Design A (Ball Chain)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-a-ball-chain.webp"
+        },
+        {
+          "name_en": "Design A (Lobster Clasp)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-a-lobster-clasp.webp"
+        },
+        {
+          "name_en": "Design B (Ball Chain)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-b-ball-chain.webp"
+        },
+        {
+          "name_en": "Design B (Lobster Clasp)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-b-lobster-clasp.webp"
+        },
+        {
+          "name_en": "Design C (Ball Chain)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-c-ball-chain.webp"
+        },
+        {
+          "name_en": "Design C (Lobster Clasp)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-c-lobster-clasp.webp"
+        },
+        {
+          "name_en": "Design D (Ball Chain)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-d-ball-chain.webp"
+        },
+        {
+          "name_en": "Design D (Lobster Clasp)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 8,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-d-lobster-clasp.webp"
+        },
+        {
+          "name_en": "Design E (Ball Chain)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 9,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-e-ball-chain.webp"
+        },
+        {
+          "name_en": "Design E (Lobster Clasp)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 10,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-e-lobster-clasp.webp"
+        },
+        {
+          "name_en": "Design F (Ball Chain)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 11,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-f-ball-chain.webp"
+        },
+        {
+          "name_en": "Design F (Lobster Clasp)",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 12,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-embroidery-charm-design-f-lobster-clasp.webp"
+        }
+      ]
+    },
+    {
+      "slug": "capsule-hair-clip",
+      "name_en": "Capsule Hair Clip",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 47,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shark Clip A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capsule-hair-clip-shark-clip-a.webp"
+        },
+        {
+          "name_en": "Shark Clip B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capsule-hair-clip-shark-clip-b.webp"
+        },
+        {
+          "name_en": "Shark Clip C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capsule-hair-clip-shark-clip-c.webp"
+        },
+        {
+          "name_en": "Octopus Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capsule-hair-clip-octopus-clip.webp"
+        },
+        {
+          "name_en": "Pufferfish Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capsule-hair-clip-pufferfish-clip.webp"
+        },
+        {
+          "name_en": "Crab Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capsule-hair-clip-crab-clip.webp"
+        },
+        {
+          "name_en": "Penguin Clip",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-capsule-hair-clip-penguin-clip.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mejirushi-accessories-2",
+      "name_en": "Mejirushi Accessories 2",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 48,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shark Cat A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-2-shark-cat-a.webp"
+        },
+        {
+          "name_en": "Shark Cat B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-2-shark-cat-b.webp"
+        },
+        {
+          "name_en": "Whale Shark Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-2-whale-shark-cat.webp"
+        },
+        {
+          "name_en": "Penguin Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-2-penguin-cat.webp"
+        },
+        {
+          "name_en": "Flapjack Octopus Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-2-flapjack-octopus-cat.webp"
+        },
+        {
+          "name_en": "Squid Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-2-squid-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mejirushi-accessories",
+      "name_en": "Mejirushi Accessories",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 49,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Frog Nyan A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-frog-nyan-a.webp"
+        },
+        {
+          "name_en": "Frog Nyan B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-frog-nyan-b.webp"
+        },
+        {
+          "name_en": "Raincoat Nyan A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-raincoat-nyan-a.webp"
+        },
+        {
+          "name_en": "Raincoat Nyan B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-raincoat-nyan-b.webp"
+        },
+        {
+          "name_en": "Rabbit Nyan",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mejirushi-accessories-rabbit-nyan.webp"
+        }
+      ]
+    },
+    {
+      "slug": "acrylic-clip",
+      "name_en": "Acrylic Clip",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 50,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Design A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-design-a.webp"
+        },
+        {
+          "name_en": "Design B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-design-b.webp"
+        },
+        {
+          "name_en": "Design C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-design-c.webp"
+        },
+        {
+          "name_en": "Design D",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-design-d.webp"
+        },
+        {
+          "name_en": "Design E",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-design-e.webp"
+        },
+        {
+          "name_en": "Design F",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-design-f.webp"
+        },
+        {
+          "name_en": "Design G",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-acrylic-clip-design-g.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mirror-charm",
+      "name_en": "Mirror Charm",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 51,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Apple",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mirror-charm-apple.webp"
+        },
+        {
+          "name_en": "Cherries",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mirror-charm-cherries.webp"
+        },
+        {
+          "name_en": "Pineapple",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mirror-charm-pineapple.webp"
+        },
+        {
+          "name_en": "Melon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mirror-charm-melon.webp"
+        },
+        {
+          "name_en": "Banana",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mirror-charm-banana.webp"
+        },
+        {
+          "name_en": "Watermelon",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-mirror-charm-watermelon.webp"
+        }
+      ]
+    },
+    {
+      "slug": "flat-mejirushi",
+      "name_en": "Flat Mejirushi Accessories",
+      "name_ja": null,
+      "product_form": "blind_box_mini",
+      "sort_order": 52,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shark Cat A",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flat-mejirushi-shark-cat-a.webp"
+        },
+        {
+          "name_en": "Shark Cat B",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flat-mejirushi-shark-cat-b.webp"
+        },
+        {
+          "name_en": "Shark Cat C",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flat-mejirushi-shark-cat-c.webp"
+        },
+        {
+          "name_en": "Squid Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flat-mejirushi-squid-cat.webp"
+        },
+        {
+          "name_en": "Octopus Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flat-mejirushi-octopus-cat.webp"
+        },
+        {
+          "name_en": "Orca Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-flat-mejirushi-orca-cat.webp"
+        }
+      ]
+    },
+    {
+      "slug": "hippers-mofusand",
+      "name_en": "HIPPERS mofusand",
+      "name_ja": null,
+      "product_form": "other",
+      "sort_order": 53,
+      "release_year": null,
+      "official_url": null,
+      "figures": [
+        {
+          "name_en": "Shark Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 1,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hippers-mofusand-shark-cat.webp"
+        },
+        {
+          "name_en": "Orca Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 2,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hippers-mofusand-orca-cat.webp"
+        },
+        {
+          "name_en": "Flapjack Octopus Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 3,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hippers-mofusand-flapjack-octopus-cat.webp"
+        },
+        {
+          "name_en": "Squid Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 4,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hippers-mofusand-squid-cat.webp"
+        },
+        {
+          "name_en": "Sawshark Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 5,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hippers-mofusand-sawshark-cat.webp"
+        },
+        {
+          "name_en": "Garden Eel Cat",
+          "name_ja": null,
+          "is_secret": false,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 6,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hippers-mofusand-garden-eel-cat.webp"
+        },
+        {
+          "name_en": "Crab Cat",
+          "name_ja": null,
+          "is_secret": true,
+          "is_limited": false,
+          "is_bonus": false,
+          "is_duo": false,
+          "sort_order": 7,
+          "image_source": "http://85.17.145.134:8787/media/figures/mofusand-hippers-mofusand-crab-cat.webp"
+        }
+      ]
+    }
+  ]
+}

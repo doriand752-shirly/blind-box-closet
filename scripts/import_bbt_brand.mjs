@@ -2,8 +2,9 @@
  * Build a brand catalog (sonny-angel / labubu) from the crawled Blind Box Tracker cache
  * and download every figure image locally (matched by name — images come with the figure card).
  *
- * Usage: node scripts/import_bbt_brand.mjs sonny-angel|labubu
- * Requires: node scripts/bbt_crawl.mjs sonny_angels | pop_mart  (creates .cache/bbt/*.json)
+ * Usage: node scripts/import_bbt_brand.mjs <brand>
+ * Brands: sonny-angel|labubu|hirono|skullpanda|chiikawa|dimoo|mofusand|animal-bakery
+ * Requires matching bbt_crawl cache under .cache/bbt/
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -36,6 +37,66 @@ const CONFIGS = {
       if (/pin for love|hanging cards|large vinyl plush/i.test(s.title)) return s.title.match(/pin/i) ? "accessory" : "plush";
       return s.bucket === "extras" ? "other" : "blind_box_mini";
     },
+  },
+  hirono: {
+    cache: "hironos",
+    catalog: "server/data/hirono-catalog.json",
+    stripPrefix: "hirono-",
+    prefix: "hirono",
+    pick: () => true,
+    form: (s) => {
+      if (/plush|pendant|bag|magnet|lanyard/i.test(s.title)) return "other";
+      return s.bucket === "extras" ? "other" : "blind_box_mini";
+    },
+  },
+  skullpanda: {
+    cache: "skull_pandas",
+    catalog: "server/data/skullpanda-catalog.json",
+    stripPrefix: "skull-pandas-",
+    prefix: "skullpanda",
+    pick: () => true,
+    form: (s) => {
+      if (/plush|pendant/i.test(s.title)) return "other";
+      return s.bucket === "extras" ? "other" : "blind_box_mini";
+    },
+  },
+  chiikawa: {
+    cache: "chiikawa",
+    catalog: "server/data/chiikawa-catalog.json",
+    stripPrefix: "chiikawa-", // BBT: chiikawa-aquarium-figure-mascot
+    prefix: "chiikawa",
+    pick: () => true,
+    form: (s) => {
+      if (/plush|mascot|magnet|keyholder|bracelet|sofubi/i.test(s.title)) return "other";
+      return s.bucket === "extras" ? "other" : "blind_box_mini";
+    },
+  },
+  dimoo: {
+    cache: "dimoo",
+    catalog: "server/data/dimoo-catalog.json",
+    stripPrefix: "dimoo-",
+    prefix: "dimoo",
+    pick: () => true,
+    form: (s) => (s.bucket === "extras" ? "other" : "blind_box_mini"),
+  },
+  mofusand: {
+    cache: "mofusand",
+    catalog: "server/data/mofusand-catalog.json",
+    stripPrefix: "mofusand-",
+    prefix: "mofusand",
+    pick: () => true,
+    form: (s) => {
+      if (/hippers|mascot|magnet|keyholder|charm|clip|watch/i.test(s.title)) return "other";
+      return s.bucket === "extras" ? "other" : "blind_box_mini";
+    },
+  },
+  "animal-bakery": {
+    cache: "animal_bakery",
+    catalog: "server/data/animal-bakery-catalog.json",
+    stripPrefix: "animal-bakery-",
+    prefix: "animalbakery",
+    pick: () => true,
+    form: (s) => (s.bucket === "extras" ? "other" : "blind_box_mini"),
   },
 };
 
@@ -73,12 +134,26 @@ async function download(url, dest) {
 async function main() {
   const key = process.argv[2];
   const cfg = CONFIGS[key];
-  if (!cfg) throw new Error("usage: import_bbt_brand.mjs sonny-angel|labubu");
+  if (!cfg) throw new Error("usage: import_bbt_brand.mjs <brand-slug>");
   const cache = JSON.parse(
     fs.readFileSync(path.join(ROOT, ".cache/bbt", `${cfg.cache}.json`), "utf8"),
   );
   const catPath = path.join(ROOT, cfg.catalog);
-  const old = JSON.parse(fs.readFileSync(catPath, "utf8"));
+  const brandMeta = {
+    "sonny-angel": { slug: "sonny-angel", name: "Sonny Angel", name_ja: "ソニーエンジェル", accent_color: "#F7E3C8", status: "live" },
+    labubu: { slug: "labubu", name: "Labubu", name_ja: "ラブブ", accent_color: "#E4D8F2", status: "live" },
+    hirono: { slug: "hirono", name: "Hirono", name_ja: null, accent_color: "#D5EDEB", status: "live" },
+    skullpanda: { slug: "skullpanda", name: "Skullpanda", name_ja: null, accent_color: "#E2D8F0", status: "live" },
+    chiikawa: { slug: "chiikawa", name: "Chiikawa", name_ja: "ちいかわ", accent_color: "#D5E8F6", status: "live" },
+    dimoo: { slug: "dimoo", name: "Dimoo", name_ja: "ディムー", accent_color: "#D8E8F0", status: "live" },
+    mofusand: { slug: "mofusand", name: "Mofusand", name_ja: "もふもふにゃん", accent_color: "#F5E6C8", status: "live" },
+    "animal-bakery": { slug: "animal-bakery", name: "Animal Bakery", name_ja: null, accent_color: "#F0D9C8", status: "live" },
+  };
+  const old = fs.existsSync(catPath)
+    ? JSON.parse(fs.readFileSync(catPath, "utf8"))
+    : { brand: brandMeta[key], series: [] };
+  if (!old.brand) old.brand = brandMeta[key];
+  old.brand = { ...brandMeta[key], ...old.brand, status: "live" };
   fs.mkdirSync(MEDIA, { recursive: true });
 
   const keep = new Set();
